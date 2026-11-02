@@ -1,0 +1,42 @@
+{
+  "date": "2026-11-02",
+  "acceptancePolicy": "source-english-technical",
+  "requested": 50,
+  "englishReady": 50,
+  "approved": 50,
+  "productionImported": 50,
+  "publishedIngredientCount": 119,
+  "publicCoversVerified": 50,
+  "quantityProjectionsVerified": 800,
+  "offlineCatalogMatchesProduction": true,
+  "productionProject": "mlrerdrnwuudjsnjodkp",
+  "evidence": "artifacts/recipe-media-fix/api-verification.json",
+  "realCooking": "not performed; user waived prerequisite",
+  "independentHumanReview": "not performed; user waived prerequisite",
+  "appStatusBadges": false,
+  "verificationStillRunning": [],
+  "verification": {
+    "javascriptTestsPassed": 19,
+    "nativeTestsPassed": 60,
+    "nativeBuild": "passed",
+    "browserLiveSearchDetailsOffline": "passed",
+    "nativeSimulatorVisibleRecipeCount": 50,
+    "sourceAndCoverChecksums": "passed",
+    "rollbackRehearsal": [
+      50,
+      6,
+      50
+    ],
+    "securityAdvisors": 0,
+    "nativeSimulatorVisualReview": "Passed: recipe list and tomato detail food images; 10 ingredient icons and wok, cutting board, spatula equipment icons observed after unlock. Existing session preserved."
+  },
+  "activeBatch": "classic-50-media-2026-11-02",
+  "media": {
+    "foodPhotos": 50,
+    "generatedUsing": "image_gen",
+    "uploadedAndSHA256Verified": 50,
+    "equipmentTypesWithIcons": 20,
+    "canonicalIngredientsWithIcons": 119,
+    "sourceAndOfflineBundleIncluded": true
+  }
+}

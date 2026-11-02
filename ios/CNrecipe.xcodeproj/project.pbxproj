@@ -1,0 +1,53 @@
+// !$*UTF8*$!
+{archiveVersion=1;classes={};objectVersion=56;objects={
+A01={isa=PBXProject;buildConfigurationList=A02;compatibilityVersion="Xcode 14.0";developmentRegion=en;mainGroup=A03;targets=(A04,T01,U01);};
+A03={isa=PBXGroup;children=(U02,U03,UT01,N00,N01,N02,N03,N04,N05,N06,R01,R02,A05,A06,A16,A20,T02,T03);sourceTree="<group>";};
+A05={isa=PBXFileReference;lastKnownFileType=sourcecode.swift;path=CNrecipe/App.swift;sourceTree="<group>";};
+A06={isa=PBXFileReference;explicitFileType=wrapper.application;path=CNrecipe.app;sourceTree=BUILT_PRODUCTS_DIR;};
+A16={isa=PBXFileReference;lastKnownFileType=folder;path=CNrecipe/Web;sourceTree="<group>";};
+A04={isa=PBXNativeTarget;buildConfigurationList=A07;buildPhases=(A08,A09);buildRules=();dependencies=();name=CNrecipe;productName=CNrecipe;productReference=A06;productType="com.apple.product-type.application";};
+A08={isa=PBXSourcesBuildPhase;buildActionMask=2147483647;files=(A12,BN00,BN01,BN02,BN03,BN04,BN05,BN06);runOnlyForDeploymentPostprocessing=0;};
+A09={isa=PBXResourcesBuildPhase;buildActionMask=2147483647;files=(A21,BR01,BR02);runOnlyForDeploymentPostprocessing=0;};
+A12={isa=PBXBuildFile;fileRef=A05;}; A13={isa=PBXBuildFile;fileRef=A16;};
+A02={isa=XCConfigurationList;buildConfigurations=(A14,A18);defaultConfigurationIsVisible=0;defaultConfigurationName=Release;};
+A07={isa=XCConfigurationList;buildConfigurations=(A15,A19);defaultConfigurationIsVisible=0;defaultConfigurationName=Release;};
+A14={isa=XCBuildConfiguration;name=Debug;buildSettings={SWIFT_ACTIVE_COMPILATION_CONDITIONS=DEBUG;SDKROOT=iphoneos;IPHONEOS_DEPLOYMENT_TARGET=17.0;SWIFT_VERSION=5.0;ALWAYS_SEARCH_USER_PATHS=NO;};};
+A18={isa=XCBuildConfiguration;name=Release;buildSettings={SDKROOT=iphoneos;IPHONEOS_DEPLOYMENT_TARGET=17.0;SWIFT_VERSION=5.0;ALWAYS_SEARCH_USER_PATHS=NO;};};
+A15={isa=XCBuildConfiguration;name=Debug;buildSettings={"CODE_SIGN_ENTITLEMENTS[sdk=iphonesimulator*]"=CNrecipe/Simulator.entitlements;PRODUCT_BUNDLE_IDENTIFIER=com.cnrecipe.app;INFOPLIST_KEY_CFBundleDisplayName=PotSteam;PRODUCT_NAME="$(TARGET_NAME)";GENERATE_INFOPLIST_FILE=YES;INFOPLIST_KEY_UILaunchScreen_Generation=YES;INFOPLIST_KEY_UIApplicationSceneManifest_Generation=YES;TARGETED_DEVICE_FAMILY=1;SUPPORTED_PLATFORMS="iphoneos iphonesimulator";ENABLE_TESTABILITY=YES;SWIFT_OPTIMIZATION_LEVEL="-Onone";CODE_SIGN_STYLE=Automatic;ASSETCATALOG_COMPILER_APPICON_NAME=AppIcon;MARKETING_VERSION=1.1;CURRENT_PROJECT_VERSION=1;};};
+A19={isa=XCBuildConfiguration;name=Release;buildSettings={"CODE_SIGN_ENTITLEMENTS[sdk=iphonesimulator*]"=CNrecipe/Simulator.entitlements;PRODUCT_BUNDLE_IDENTIFIER=com.cnrecipe.app;INFOPLIST_KEY_CFBundleDisplayName=PotSteam;PRODUCT_NAME="$(TARGET_NAME)";GENERATE_INFOPLIST_FILE=YES;INFOPLIST_KEY_UILaunchScreen_Generation=YES;INFOPLIST_KEY_UIApplicationSceneManifest_Generation=YES;TARGETED_DEVICE_FAMILY=1;SUPPORTED_PLATFORMS="iphoneos iphonesimulator";SWIFT_OPTIMIZATION_LEVEL="-O";CODE_SIGN_STYLE=Automatic;ASSETCATALOG_COMPILER_APPICON_NAME=AppIcon;MARKETING_VERSION=1.1;CURRENT_PROJECT_VERSION=1;};};
+T01={isa=PBXNativeTarget;buildConfigurationList=T04;buildPhases=(T05);buildRules=();dependencies=(T08);name=CNrecipeUITests;productName=CNrecipeUITests;productReference=T03;productType="com.apple.product-type.bundle.ui-testing";};
+T02={isa=PBXFileReference;lastKnownFileType=sourcecode.swift;path=UITests/FlowTests.swift;sourceTree="<group>";};
+T03={isa=PBXFileReference;explicitFileType=wrapper.cfbundle;path=CNrecipeUITests.xctest;sourceTree=BUILT_PRODUCTS_DIR;};
+T04={isa=XCConfigurationList;buildConfigurations=(T06,T09);defaultConfigurationIsVisible=0;defaultConfigurationName=Debug;};
+T05={isa=PBXSourcesBuildPhase;buildActionMask=2147483647;files=(T07,UT02);runOnlyForDeploymentPostprocessing=0;};
+T06={isa=XCBuildConfiguration;name=Debug;buildSettings={PRODUCT_BUNDLE_IDENTIFIER=com.cnrecipe.app.uitests;PRODUCT_NAME="$(TARGET_NAME)";GENERATE_INFOPLIST_FILE=YES;TEST_TARGET_NAME=CNrecipe;CODE_SIGNING_ALLOWED=NO;SWIFT_VERSION=5.0;IPHONEOS_DEPLOYMENT_TARGET=17.0;};};
+T09={isa=XCBuildConfiguration;name=Release;buildSettings={PRODUCT_BUNDLE_IDENTIFIER=com.cnrecipe.app.uitests;PRODUCT_NAME="$(TARGET_NAME)";GENERATE_INFOPLIST_FILE=YES;TEST_TARGET_NAME=CNrecipe;CODE_SIGNING_ALLOWED=NO;SWIFT_VERSION=5.0;IPHONEOS_DEPLOYMENT_TARGET=17.0;};};
+T07={isa=PBXBuildFile;fileRef=T02;};
+T08={isa=PBXTargetDependency;target=A04;};
+A20={isa=PBXFileReference;lastKnownFileType=folder.assetcatalog;path=CNrecipe/Assets.xcassets;sourceTree="<group>";}; A21={isa=PBXBuildFile;fileRef=A20;};
+N00={isa=PBXFileReference;lastKnownFileType=sourcecode.swift;path=CNrecipe/Models.swift;sourceTree="<group>";};
+BN00={isa=PBXBuildFile;fileRef=N00;};
+N01={isa=PBXFileReference;lastKnownFileType=sourcecode.swift;path=CNrecipe/Services.swift;sourceTree="<group>";};
+BN01={isa=PBXBuildFile;fileRef=N01;};
+N02={isa=PBXFileReference;lastKnownFileType=sourcecode.swift;path=CNrecipe/Store.swift;sourceTree="<group>";};
+BN02={isa=PBXBuildFile;fileRef=N02;};
+N03={isa=PBXFileReference;lastKnownFileType=sourcecode.swift;path=CNrecipe/Components.swift;sourceTree="<group>";};
+BN03={isa=PBXBuildFile;fileRef=N03;};
+N04={isa=PBXFileReference;lastKnownFileType=sourcecode.swift;path=CNrecipe/ManagementViews.swift;sourceTree="<group>";};
+BN04={isa=PBXBuildFile;fileRef=N04;};
+N05={isa=PBXFileReference;lastKnownFileType=sourcecode.swift;path=CNrecipe/CookingViews.swift;sourceTree="<group>";};
+BN05={isa=PBXBuildFile;fileRef=N05;};
+N06={isa=PBXFileReference;lastKnownFileType=sourcecode.swift;path=CNrecipe/ExploreWeb.swift;sourceTree="<group>";};
+BN06={isa=PBXBuildFile;fileRef=N06;};
+R01={isa=PBXFileReference;lastKnownFileType=folder;path=CNrecipe/Content;sourceTree="<group>";};BR01={isa=PBXBuildFile;fileRef=R01;};R02={isa=PBXFileReference;lastKnownFileType=folder;path=CNrecipe/Explore;sourceTree="<group>";};BR02={isa=PBXBuildFile;fileRef=R02;};
+UT01={isa=PBXFileReference;lastKnownFileType=sourcecode.swift;path=UITests/NativeAcceptance.swift;sourceTree="<group>";};UT02={isa=PBXBuildFile;fileRef=UT01;};
+
+U01={isa=PBXNativeTarget;buildConfigurationList=U04;buildPhases=(U05);buildRules=();dependencies=(U08);name=CNrecipeTests;productName=CNrecipeTests;productReference=U03;productType="com.apple.product-type.bundle.unit-test";};
+U02={isa=PBXFileReference;lastKnownFileType=sourcecode.swift;path=Tests/StateTests.swift;sourceTree="<group>";};
+U03={isa=PBXFileReference;explicitFileType=wrapper.cfbundle;path=CNrecipeTests.xctest;sourceTree=BUILT_PRODUCTS_DIR;};
+U04={isa=XCConfigurationList;buildConfigurations=(U06,U09);defaultConfigurationIsVisible=0;defaultConfigurationName=Debug;};
+U05={isa=PBXSourcesBuildPhase;buildActionMask=2147483647;files=(U07);runOnlyForDeploymentPostprocessing=0;};
+U06={isa=XCBuildConfiguration;name=Debug;buildSettings={PRODUCT_BUNDLE_IDENTIFIER=com.cnrecipe.app.tests;PRODUCT_NAME="$(TARGET_NAME)";GENERATE_INFOPLIST_FILE=YES;TEST_HOST="$(BUILT_PRODUCTS_DIR)/CNrecipe.app/CNrecipe";BUNDLE_LOADER="$(TEST_HOST)";CODE_SIGNING_ALLOWED=NO;SWIFT_VERSION=5.0;IPHONEOS_DEPLOYMENT_TARGET=17.0;};};
+U09={isa=XCBuildConfiguration;name=Release;buildSettings={PRODUCT_BUNDLE_IDENTIFIER=com.cnrecipe.app.tests;PRODUCT_NAME="$(TARGET_NAME)";GENERATE_INFOPLIST_FILE=YES;TEST_HOST="$(BUILT_PRODUCTS_DIR)/CNrecipe.app/CNrecipe";BUNDLE_LOADER="$(TEST_HOST)";CODE_SIGNING_ALLOWED=NO;SWIFT_VERSION=5.0;IPHONEOS_DEPLOYMENT_TARGET=17.0;};};
+U07={isa=PBXBuildFile;fileRef=U02;};U08={isa=PBXTargetDependency;target=A04;};
+};rootObject=A01;}

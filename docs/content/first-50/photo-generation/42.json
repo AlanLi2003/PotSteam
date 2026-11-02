@@ -1,0 +1,18 @@
+{
+  "n": 42,
+  "recipeId": "classic-42-xinjiang-big-plate-chicken",
+  "prompt": "Generate ONE photorealistic professional Chinese food presentation image for Xinjiang Big Plate Chicken (新疆大盘鸡). Exact dish appearance: Xinjiang big-plate chicken: bone-in chicken pieces, chunky yellow potatoes, red and green bell peppers, dried chili and cumin-spiced brown sauce served on broad flat wheat noodles. Wide shallow serving dish.. Match this recipe's actual visible ingredients; do not invent extra main ingredients. Cohesive app photography series: warm natural side lighting, pale neutral stone tabletop, off-white ceramic tableware except the specified traditional steam pot or casserole, subtle linen at an edge, 45-degree overhead camera. Landscape approximately 4:3, centered dish, generous safe margins so the food is not cropped in a wide card. Realistic home-style portion and edible cooked textures, appetizing and believable. One dish only; no people, hands, writing, text, numbers, logos, labels, branding, watermark, collage, menus or title-card design. No visible raw meat.",
+  "source": "/Users/alanli/.codex/generated_images/01a1971b-3514-7f63-b387-02bfb52056f2/exec-4504b1af-398f-44c7-8332-a74301bfbe7d.png",
+  "localSource": "assets/recipe-photos/dish-42.png",
+  "image": "ios/CNrecipe/Web/assets/classic-42-photo-v2.jpg",
+  "generator": "image_gen",
+  "kind": "AI-generated food presentation image; not an actual cooking photograph",
+  "sha256": "f610a85136ee3f04914ab7a15b34d5515e85feef8adbc146d5ded0c67485d04d",
+  "stagingJPEG": "assets/recipe-photos/dish-42.jpg",
+  "visualReview": {
+    "reviewer": "Codex visual review",
+    "result": "passed",
+    "scope": "Dish identity, visible main ingredients, food presentation and absence of text/watermarks",
+    "evidence": "artifacts/recipe-media-fix/photos-26-50.jpg"
+  }
+}

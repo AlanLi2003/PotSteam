@@ -1,0 +1,18 @@
+{
+  "n": 35,
+  "recipeId": "classic-35-west-lake-vinegar-fish",
+  "prompt": "Generate ONE photorealistic professional Chinese food presentation image for West Lake Vinegar Fish (西湖醋鱼). Exact dish appearance: West Lake vinegar fish: one whole gently poached grass carp with head and tail, covered in a restrained glossy dark amber sweet-vinegar sauce with ginger. Not deep-fried crispy fish and no bright red ketchup.. Match this recipe's actual visible ingredients; do not invent extra main ingredients. Cohesive app photography series: warm natural side lighting, pale neutral stone tabletop, off-white ceramic tableware except the specified traditional steam pot or casserole, subtle linen at an edge, 45-degree overhead camera. Landscape approximately 4:3, centered dish, generous safe margins so the food is not cropped in a wide card. Realistic home-style portion and edible cooked textures, appetizing and believable. One dish only; no people, hands, writing, text, numbers, logos, labels, branding, watermark, collage, menus or title-card design. No visible raw meat.",
+  "source": "/Users/alanli/.codex/generated_images/01a1971b-3514-7f63-b387-02bfb52056f2/exec-5126171b-5d2d-4cb8-bb2a-c99017626571.png",
+  "localSource": "assets/recipe-photos/dish-35.png",
+  "image": "ios/CNrecipe/Web/assets/classic-35-photo-v2.jpg",
+  "generator": "image_gen",
+  "kind": "AI-generated food presentation image; not an actual cooking photograph",
+  "sha256": "ae7565611a37eb2eba47e951aa5a9817939b14a3b06d8794ee26861cfb43dcb4",
+  "stagingJPEG": "assets/recipe-photos/dish-35.jpg",
+  "visualReview": {
+    "reviewer": "Codex visual review",
+    "result": "passed",
+    "scope": "Dish identity, visible main ingredients, food presentation and absence of text/watermarks",
+    "evidence": "artifacts/recipe-media-fix/photos-26-50.jpg"
+  }
+}

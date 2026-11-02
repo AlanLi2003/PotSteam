@@ -1,0 +1,38 @@
+{
+  "candidateNumber": 1,
+  "language": "en",
+  "status": "translation-draft-not-importable",
+  "name": "Tomato and Egg Stir-Fry",
+  "chineseName": "西红柿炒鸡蛋",
+  "sourceFile": "docs/content/first-50/sources/01-2130948c.md",
+  "sourceSHA256": "6ef54c60c7701866ba212e3e7cbc19a2d84c109e142824084d1f467dc701dc2f",
+  "sourceServingsRule": "One serving is intended for one person.",
+  "sourceEstimatedTotalMinutes": 15,
+  "ingredients": [
+    {"name":"Tomatoes","amountRule":"1 tomato, approximately 180 g, per serving"},
+    {"name":"Eggs","amountRule":"1.5 eggs per serving, rounded up to a whole egg"},
+    {"name":"Cooking oil","amountRule":"4 mL per egg"},
+    {"name":"Salt","amountRule":"1.5–2 g per serving; includes the salt added to the eggs"},
+    {"name":"Sugar","amountRule":"0–2 g per serving","optional":true},
+    {"name":"Chopped scallions","amountRule":"0–10 g per serving","optional":true}
+  ],
+  "steps": [
+    {"title":"Prepare the tomatoes","instruction":"Wash the tomatoes. If desired, blanch and cool them to remove the skins. Remove the stems and cut into pieces no larger than 4 cm."},
+    {"title":"Beat the eggs","instruction":"Crack the eggs into a bowl. Add 1 g of the measured salt per serving and beat until combined."},
+    {"title":"Cook and remove the eggs","instruction":"Heat the pan and add the oil. When hot, add the beaten eggs and stir-fry until set and slightly yellow. Turn off the heat and transfer the eggs to a plate. Do not wash the pan."},
+    {"title":"Cook the tomatoes","instruction":"Turn the heat back on. Add the tomatoes, press them with the spatula and stir-fry for about 20 seconds, or until softened."},
+    {"title":"Combine and season","instruction":"Return the eggs to the pan and stir to combine. Add the remaining measured salt, and the sugar and scallions if using. Stir well, turn off the heat and serve."}
+  ],
+  "translationNotes": [
+    "Translated from the pinned source; optional vinegar, ketchup, extra water and cooked-meat variations are excluded from this base version.",
+    "A language draft is not culinary validation. Source timing and heating instructions require review."
+  ],
+  "blockingQuestions": [
+    "The source provides a salt range rather than an approved fixed quantity.",
+    "Egg quantities round up; current server projection scales all quantities linearly. Resolve before generating 1–8 serving quotes.",
+    "Source does not specify heat levels or separate preparation/cooking time; verify through actual cooking rather than inventing values.",
+    "Source provides no photo authorization for this candidate and no verified finished-dish photo.",
+    "Independent editorial, rights, safety and real cooking approvals pending."
+  ],
+  "review": {"english":"drafted-by-agent-not-independently-approved","rights":"pending","culinary":"pending","safety":"pending","editorial":"pending"}
+}

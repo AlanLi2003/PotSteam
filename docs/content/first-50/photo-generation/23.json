@@ -1,0 +1,18 @@
+{
+  "n": 23,
+  "recipeId": "classic-23-yu-xiang-shredded-pork",
+  "prompt": "Generate ONE photorealistic professional Chinese food presentation image for Yu Xiang Shredded Pork (鱼香肉丝). Exact dish appearance: Yu xiang shredded pork: slender pork strips, black wood ear strips, thin bamboo shoots and carrot threads coated in a reddish-brown garlic sauce. There is no fish in this dish.. Match this recipe's actual visible ingredients; do not invent extra main ingredients. Cohesive app photography series: warm natural side lighting, pale neutral stone tabletop, off-white ceramic tableware except the specified traditional steam pot or casserole, subtle linen at an edge, 45-degree overhead camera. Landscape approximately 4:3, centered dish, generous safe margins so the food is not cropped in a wide card. Realistic home-style portion and edible cooked textures, appetizing and believable. One dish only; no people, hands, writing, text, numbers, logos, labels, branding, watermark, collage, menus or title-card design. No visible raw meat.",
+  "source": "/Users/alanli/.codex/generated_images/01a1971b-3514-7f63-b387-02bfb52056f2/exec-2ee0e8d9-491d-49ee-833b-f6e5405ddca3.png",
+  "localSource": "assets/recipe-photos/dish-23.png",
+  "image": "ios/CNrecipe/Web/assets/classic-23-photo-v2.jpg",
+  "generator": "image_gen",
+  "kind": "AI-generated food presentation image; not an actual cooking photograph",
+  "sha256": "174afed26f9b7ff64c580c853caf5daf3dbd7d035430dbf2e4fac6dca627fd46",
+  "stagingJPEG": "assets/recipe-photos/dish-23.jpg",
+  "visualReview": {
+    "reviewer": "Codex visual review",
+    "result": "passed",
+    "scope": "Dish identity, visible main ingredients, food presentation and absence of text/watermarks",
+    "evidence": "artifacts/recipe-media-fix/photos-01-25.jpg"
+  }
+}

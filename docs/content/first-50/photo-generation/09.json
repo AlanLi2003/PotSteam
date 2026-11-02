@@ -1,0 +1,18 @@
+{
+  "n": 9,
+  "recipeId": "classic-09-home-style-tofu",
+  "prompt": "Generate ONE photorealistic professional Chinese food presentation image for Home-Style Tofu (家常豆腐). Exact dish appearance: Golden fried triangular tofu slices with green bell pepper, thin carrot and bamboo shoot slices in a savory glossy brown sauce. No meat.. Match this recipe's actual visible ingredients; do not invent extra main ingredients. Cohesive app photography series: warm natural side lighting, pale neutral stone tabletop, off-white ceramic tableware except the specified traditional steam pot or casserole, subtle linen at an edge, 45-degree overhead camera. Landscape approximately 4:3, centered dish, generous safe margins so the food is not cropped in a wide card. Realistic home-style portion and edible cooked textures, appetizing and believable. One dish only; no people, hands, writing, text, numbers, logos, labels, branding, watermark, collage, menus or title-card design. No visible raw meat.",
+  "source": "/Users/alanli/.codex/generated_images/01a1971b-3514-7f63-b387-02bfb52056f2/exec-54e7005e-d8b3-413c-92f6-cad4912e5dbd.png",
+  "localSource": "assets/recipe-photos/dish-09.png",
+  "image": "ios/CNrecipe/Web/assets/classic-09-photo-v2.jpg",
+  "generator": "image_gen",
+  "kind": "AI-generated food presentation image; not an actual cooking photograph",
+  "sha256": "f0894ee2471ea48d28789a99f173a84fbacc9c22c04372e564145fb07e9da428",
+  "stagingJPEG": "assets/recipe-photos/dish-09.jpg",
+  "visualReview": {
+    "reviewer": "Codex visual review",
+    "result": "passed",
+    "scope": "Dish identity, visible main ingredients, food presentation and absence of text/watermarks",
+    "evidence": "artifacts/recipe-media-fix/photos-01-25.jpg"
+  }
+}

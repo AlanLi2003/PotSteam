@@ -1,0 +1,18 @@
+{
+  "n": 49,
+  "recipeId": "classic-49-century-egg-and-pork-congee",
+  "prompt": "Generate ONE photorealistic professional Chinese food presentation image for Century Egg and Pork Congee (皮蛋瘦肉粥). Exact dish appearance: Century egg and pork congee: silky ivory rice porridge with small translucent amber-and-dark century egg pieces, tender thin pork strips, ginger and chopped green scallion. Not black porridge and no whole chicken eggs.. Match this recipe's actual visible ingredients; do not invent extra main ingredients. Cohesive app photography series: warm natural side lighting, pale neutral stone tabletop, off-white ceramic tableware except the specified traditional steam pot or casserole, subtle linen at an edge, 45-degree overhead camera. Landscape approximately 4:3, centered dish, generous safe margins so the food is not cropped in a wide card. Realistic home-style portion and edible cooked textures, appetizing and believable. One dish only; no people, hands, writing, text, numbers, logos, labels, branding, watermark, collage, menus or title-card design. No visible raw meat.",
+  "source": "/Users/alanli/.codex/generated_images/01a1971b-3514-7f63-b387-02bfb52056f2/exec-c9761285-fd37-47d8-bf44-9949669f0a2e.png",
+  "localSource": "assets/recipe-photos/dish-49.png",
+  "image": "ios/CNrecipe/Web/assets/classic-49-photo-v2.jpg",
+  "generator": "image_gen",
+  "kind": "AI-generated food presentation image; not an actual cooking photograph",
+  "sha256": "9c7c7a0c68c6629573a948f009c774b50ac6dbe8b654d2bc56fb4bb0081b5af2",
+  "stagingJPEG": "assets/recipe-photos/dish-49.jpg",
+  "visualReview": {
+    "reviewer": "Codex visual review",
+    "result": "passed",
+    "scope": "Dish identity, visible main ingredients, food presentation and absence of text/watermarks",
+    "evidence": "artifacts/recipe-media-fix/photos-26-50.jpg"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "n": 48,
+  "recipeId": "classic-48-tomato-and-egg-noodle-soup",
+  "prompt": "Generate ONE photorealistic professional Chinese food presentation image for Tomato and Egg Noodle Soup (番茄鸡蛋面). Exact dish appearance: Tomato and egg noodle soup: long wheat noodles in a light reddish tomato broth with cooked golden egg pieces, softened tomato chunks and green scallions. Not dry fried noodles.. Match this recipe's actual visible ingredients; do not invent extra main ingredients. Cohesive app photography series: warm natural side lighting, pale neutral stone tabletop, off-white ceramic tableware except the specified traditional steam pot or casserole, subtle linen at an edge, 45-degree overhead camera. Landscape approximately 4:3, centered dish, generous safe margins so the food is not cropped in a wide card. Realistic home-style portion and edible cooked textures, appetizing and believable. One dish only; no people, hands, writing, text, numbers, logos, labels, branding, watermark, collage, menus or title-card design. No visible raw meat.",
+  "source": "/Users/alanli/.codex/generated_images/01a1971b-3514-7f63-b387-02bfb52056f2/exec-d61a1629-d37c-4787-8d6c-e8521ee2b6a3.png",
+  "localSource": "assets/recipe-photos/dish-48.png",
+  "image": "ios/CNrecipe/Web/assets/classic-48-photo-v2.jpg",
+  "generator": "image_gen",
+  "kind": "AI-generated food presentation image; not an actual cooking photograph",
+  "sha256": "43188858cb9145a2f646ba8e92e7c414d70099c7ea11357acc2b30936c6c9cde",
+  "stagingJPEG": "assets/recipe-photos/dish-48.jpg",
+  "visualReview": {
+    "reviewer": "Codex visual review",
+    "result": "passed",
+    "scope": "Dish identity, visible main ingredients, food presentation and absence of text/watermarks",
+    "evidence": "artifacts/recipe-media-fix/photos-26-50.jpg"
+  }
+}

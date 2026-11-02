@@ -1,0 +1,18 @@
+{
+  "n": 39,
+  "recipeId": "classic-39-lotus-root-and-pork-rib-soup",
+  "prompt": "Generate ONE photorealistic professional Chinese food presentation image for Lotus Root and Pork Rib Soup (莲藕排骨汤). Exact dish appearance: Lotus root and pork rib soup: thick ivory-pink lotus root rounds with their distinctive holes, small tender bone-in pork ribs, ginger and a few red goji berries in clear broth. No tomatoes.. Match this recipe's actual visible ingredients; do not invent extra main ingredients. Cohesive app photography series: warm natural side lighting, pale neutral stone tabletop, off-white ceramic tableware except the specified traditional steam pot or casserole, subtle linen at an edge, 45-degree overhead camera. Landscape approximately 4:3, centered dish, generous safe margins so the food is not cropped in a wide card. Realistic home-style portion and edible cooked textures, appetizing and believable. One dish only; no people, hands, writing, text, numbers, logos, labels, branding, watermark, collage, menus or title-card design. No visible raw meat.",
+  "source": "/Users/alanli/.codex/generated_images/01a1971b-3514-7f63-b387-02bfb52056f2/exec-37f06277-5ab8-4d90-94f0-9ede24c60d8b.png",
+  "localSource": "assets/recipe-photos/dish-39.png",
+  "image": "ios/CNrecipe/Web/assets/classic-39-photo-v2.jpg",
+  "generator": "image_gen",
+  "kind": "AI-generated food presentation image; not an actual cooking photograph",
+  "sha256": "81d4c3e6aba40a8f3ff4ade77dd3e3bc1b0af42d41333597561fed3f17d095be",
+  "stagingJPEG": "assets/recipe-photos/dish-39.jpg",
+  "visualReview": {
+    "reviewer": "Codex visual review",
+    "result": "passed",
+    "scope": "Dish identity, visible main ingredients, food presentation and absence of text/watermarks",
+    "evidence": "artifacts/recipe-media-fix/photos-26-50.jpg"
+  }
+}

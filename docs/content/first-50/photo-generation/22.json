@@ -1,0 +1,18 @@
+{
+  "n": 22,
+  "recipeId": "kung",
+  "prompt": "Generate ONE photorealistic professional Chinese food presentation image for Kung Pao Chicken (宫保鸡丁). Exact dish appearance: Kung Pao chicken: small browned chicken cubes, roasted peanuts, short scallion segments and dark dried red chilies in a glossy restrained brown glaze. No bell peppers, carrots or cashews.. Match this recipe's actual visible ingredients; do not invent extra main ingredients. Cohesive app photography series: warm natural side lighting, pale neutral stone tabletop, off-white ceramic tableware except the specified traditional steam pot or casserole, subtle linen at an edge, 45-degree overhead camera. Landscape approximately 4:3, centered dish, generous safe margins so the food is not cropped in a wide card. Realistic home-style portion and edible cooked textures, appetizing and believable. One dish only; no people, hands, writing, text, numbers, logos, labels, branding, watermark, collage, menus or title-card design. No visible raw meat.",
+  "source": "/Users/alanli/.codex/generated_images/01a1971b-3514-7f63-b387-02bfb52056f2/exec-b8749169-5c06-4907-b576-af4e947f5445.png",
+  "localSource": "assets/recipe-photos/dish-22.png",
+  "image": "ios/CNrecipe/Web/assets/classic-22-photo-v3.jpg",
+  "generator": "image_gen",
+  "kind": "AI-generated food presentation image; not an actual cooking photograph",
+  "sha256": "9e310609aa6caf2e2636bb8005d1a1f635772ee07f0efcde328b6547970fcddf",
+  "stagingJPEG": "assets/recipe-photos/dish-22.jpg",
+  "visualReview": {
+    "reviewer": "Codex visual review",
+    "result": "passed",
+    "scope": "Dish identity, visible main ingredients, food presentation and absence of text/watermarks",
+    "evidence": "artifacts/recipe-media-fix/photos-01-25.jpg"
+  }
+}

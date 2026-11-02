@@ -1,0 +1,18 @@
+{
+  "n": 7,
+  "recipeId": "classic-07-tiger-skin-peppers",
+  "prompt": "Generate ONE photorealistic professional Chinese food presentation image for Tiger-Skin Peppers (虎皮青椒). Exact dish appearance: Long green peppers split open and pan-blistered, wrinkled browned skins and a glossy dark soy-vinegar garlic glaze. No meat.. Match this recipe's actual visible ingredients; do not invent extra main ingredients. Cohesive app photography series: warm natural side lighting, pale neutral stone tabletop, off-white ceramic tableware except the specified traditional steam pot or casserole, subtle linen at an edge, 45-degree overhead camera. Landscape approximately 4:3, centered dish, generous safe margins so the food is not cropped in a wide card. Realistic home-style portion and edible cooked textures, appetizing and believable. One dish only; no people, hands, writing, text, numbers, logos, labels, branding, watermark, collage, menus or title-card design. No visible raw meat.",
+  "source": "/Users/alanli/.codex/generated_images/01a1971b-3514-7f63-b387-02bfb52056f2/exec-7a4d41b2-54df-4793-98d5-e5bef1fe2237.png",
+  "localSource": "assets/recipe-photos/dish-07.png",
+  "image": "ios/CNrecipe/Web/assets/classic-07-photo-v2.jpg",
+  "generator": "image_gen",
+  "kind": "AI-generated food presentation image; not an actual cooking photograph",
+  "sha256": "c812e66269a0b8cdfc88b17282da799887071cee3dc5ad5ec4d2f810c0ab137d",
+  "stagingJPEG": "assets/recipe-photos/dish-07.jpg",
+  "visualReview": {
+    "reviewer": "Codex visual review",
+    "result": "passed",
+    "scope": "Dish identity, visible main ingredients, food presentation and absence of text/watermarks",
+    "evidence": "artifacts/recipe-media-fix/photos-01-25.jpg"
+  }
+}

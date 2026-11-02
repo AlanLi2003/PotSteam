@@ -1,0 +1,18 @@
+{
+  "n": 20,
+  "recipeId": "classic-20-seaweed-and-egg-drop-soup",
+  "prompt": "Generate ONE photorealistic professional Chinese food presentation image for Seaweed and Egg Drop Soup (紫菜蛋花汤). Exact dish appearance: A clear light soup containing delicate golden egg ribbons, dark purple-black laver seaweed and a little green scallion. No noodles, no chicken pieces.. Match this recipe's actual visible ingredients; do not invent extra main ingredients. Cohesive app photography series: warm natural side lighting, pale neutral stone tabletop, off-white ceramic tableware except the specified traditional steam pot or casserole, subtle linen at an edge, 45-degree overhead camera. Landscape approximately 4:3, centered dish, generous safe margins so the food is not cropped in a wide card. Realistic home-style portion and edible cooked textures, appetizing and believable. One dish only; no people, hands, writing, text, numbers, logos, labels, branding, watermark, collage, menus or title-card design. No visible raw meat.",
+  "source": "/Users/alanli/.codex/generated_images/01a1971b-3514-7f63-b387-02bfb52056f2/exec-e87559a8-0736-47a5-9530-e356b45e933e.png",
+  "localSource": "assets/recipe-photos/dish-20.png",
+  "image": "ios/CNrecipe/Web/assets/classic-20-photo-v2.jpg",
+  "generator": "image_gen",
+  "kind": "AI-generated food presentation image; not an actual cooking photograph",
+  "sha256": "2bf5229dc4ee3cefc78cbf83721d2bef974fd931c12aa4c0198c4dc4cd557cc0",
+  "stagingJPEG": "assets/recipe-photos/dish-20.jpg",
+  "visualReview": {
+    "reviewer": "Codex visual review",
+    "result": "passed",
+    "scope": "Dish identity, visible main ingredients, food presentation and absence of text/watermarks",
+    "evidence": "artifacts/recipe-media-fix/photos-01-25.jpg"
+  }
+}

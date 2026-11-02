@@ -1,0 +1,440 @@
+<!doctype html>
+<html>
+<head>
+ 
+ 
+ 
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+<link rel="bookmark" href="/uploadfiles/logo/ICO.png?SUNPLnBuZw=="> 
+<link rel="shortcut icon" href="/uploadfiles/logo/ICO.png?SUNPLnBuZw==">
+
+<title>杭州党史与地方志</title>
+<meta name="keywords" content="杭州党史与地方志" />
+<meta name="description" content="杭州党史与地方志" />
+<link href="/editor/editor.css" rel="stylesheet" type="text/css"/>
+
+<script type="text/javascript" src="/Party/js/jquery-3.7.1.min.js"></script>
+<!--[if lt IE 9]>
+<script src="/Party/js/html5shiv.v3.72.min.js"></script>
+<script src="/Party/js/respond.js"></script>
+<![endif]-->
+
+<script type="text/javascript" src="/Party/js/a.whir.search.js"></script>
+<script type="text/javascript" src="/Party/js/a.whir_menu.2.0.js"></script>
+
+<script type="text/javascript" src="/Party/js/slick/slick.min.js"></script>
+<link rel="stylesheet" type="text/css" href="/Party/js/slick/slick.css" />
+<link rel="stylesheet" type="text/css" href="/Party/js/slick/slick-theme.css" />
+
+<link rel="stylesheet" type="text/css" href="/Party/css/style.css?v1.0"/>
+
+<script type="text/javascript" src="/Party/js/jquery.cookie.js"></script>
+</head>
+
+<body>
+
+ 
+ 
+<div class="header">
+    <div class="auto">       
+       <div class="welcome clearfix">
+       
+       <span>
+       <a onclick="AddFavorite(window.location,document.title)" >收藏本站</a>
+       
+       <a href='https://weibo.com/p/1001065183455736/photos' target="_blank">官方微博</a>
+       
+       </span>
+       <marquee>欢迎浏览杭州党史与地方志</marquee>
+       </div>
+       <div class="logo"><img class="guang" src="/Party/images/guang.png"><a href='/index.aspx'><img src='/uploadfiles/2021/07/20210728112536051.png' alt='logo_00000_iSpt.png' /></a></div>
+       
+       <div class="top-search">
+            <input type="text" class="text" id="TopKey" value="" >
+            <div class="btn">
+                 <a id="TopBtn" href="javascript:void(0);"></a>
+                 <a class="open-sbox" href="javascript:void(0);"></a> 
+            </div>
+       </div>
+       <div class="open-menu"><span><i></i><i></i><i></i></span></div>
+        <menu>
+           <ul class="ul clearfix" id="menu">
+              <li id="m0"><span><a href='/index.aspx'>首页</a></span></li>
+              <li id="m57"><span><a href='/CentralNews/list.aspx'>时政要闻</a></span>
+                 <div class="sub">
+                    <dl>
+                        <dt><a href='/CentralNews/list.aspx'>中央要闻</a></dt>
+                        <dt><a href='/LocalNews/list.aspx'>地方要闻</a></dt>
+                        
+                     </dl>
+                  </div>
+               </li>
+               <li id="m58"><span><a href='/WorkNews/list.aspx'>业内动态</a></span>
+                 <div class="sub">
+                    <dl>
+                        <dt><a href='/WorkNews/list.aspx'>央院工作动态</a></dt>
+                        <dt><a href='/ProvincialNews/list.aspx'>省党史动态</a></dt>
+                        <dt><a href='/CityNews/list.aspx'>杭州史志动态</a></dt>
+                        <dt><a href='/CountyNews/list.aspx'>公告和启事</a></dt>
+                        
+                     </dl>
+                  </div>
+               </li>
+               <li id="m59"><span><a href='/PartyBook/list.aspx'>党史学习</a></span>
+                 <div class="sub">
+                    <dl>
+                        <dt><a href='/PartyBook/list.aspx'>党史著作</a></dt>
+                        <dt><a href='/LiteratureBook/list.aspx'>重要文献</a></dt>
+                        <dt><a href='/PartyTopics/index.aspx'>党史专题</a></dt>
+                        <dt><a href='/Heroes/list.aspx'>英模人物</a></dt>
+                        <dt><a href='/Calendar/list.aspx'>红色日历</a></dt>
+                        <dt><a href='/shihuahangz/list.aspx'>史话杭州</a></dt>
+                        
+                     </dl>
+                  </div>
+               </li>
+               <li id="m60"><span><a href='/tiyugushi/list.aspx'>党史研究</a></span>
+                 <div class="sub">
+                    <dl>
+                        <dt><a href='/tiyugushi/list.aspx'>体育故事</a></dt>
+                        <dt><a href='/PartyNews/list.aspx'>特别推荐</a></dt>
+                        <dt><a href='/StudySenior/list.aspx'>资政研究</a></dt>
+                        <dt><a href='/OralHistory/list.aspx'>口述历史</a></dt>
+                        <dt><a href='/Journal/list.aspx'>史志期刊</a></dt>
+                        <dt><a href='/MemorialColumn/list.aspx?lcid=45'>纪念专栏</a></dt>
+                        <dt><a href='/LeadersandHangzhou/list.aspx'>领导人与杭州</a></dt>
+                        
+                     </dl>
+                  </div>
+               </li>
+               <li id="m61"><span><a href='/VideoCenter/list.aspx'>红色印记</a></span>
+                 <div class="sub">
+                    <dl>
+                        <dt><a href='/RedResources/list.aspx'>红色资源</a></dt>
+                        <dt><a href='/RedVideo/list.aspx'>红色影像</a></dt>
+                        <dt><a href='/babazhanlue/list.aspx'>“八八战略”经典故事</a></dt>
+                        
+                     </dl>
+                  </div>
+               </li>
+               <li id="m62"><span><a href='/HangzhouBook/list.aspx'>杭州年鉴</a></span>
+                 <div class="sub">
+                    <dl>
+                        
+                     </dl>
+                  </div>
+               </li>
+               <li id="m63"><span><a href='/cn/BookLibrary/list.aspx'>数字方志馆</a></span>
+                 <div class="sub">
+                    <dl>
+                        
+                     </dl>
+                  </div>
+               </li>
+               <li id="m64"><span><a href='/Functions/index.aspx'>组织机构</a></span>
+                 <div class="sub">
+                    <dl>
+                        <dt><a href='/Functions/index.aspx'>主要职能</a></dt>
+                        <dt><a href='/LeadTeam/list.aspx'>领导成员</a></dt>
+                        <dt><a href='/MechanismTeam/list.aspx'>机构设置</a></dt>
+                        <dt><a href='/UnitsTeam/list.aspx'>直属单位</a></dt>
+                        <dt><a href='/Contact/index.aspx'>联系我们</a></dt>
+                        
+                     </dl>
+                  </div>
+               </li>
+               <li id="m118"><span><a href='/Search/list.aspx'>新闻搜索</a></span>
+                 <div class="sub">
+                    <dl>
+                        
+                     </dl>
+                  </div>
+               </li>
+               
+            </ul>
+        </menu>
+    </div>
+</div>
+<script>
+
+
+  var m='63' //选中
+
+
+
+  whirmenu.main("Vertical","cn",m);
+  whirOpen.one(".open-sbox","body","search-show",".top-search");//打开搜索
+  whirsearch.search("#TopBtn","TopKey","请输入关键字","/Search/list.aspx")//搜索
+  
+    //加入收藏
+        function AddFavorite(sURL, sTitle) {
+            sURL = encodeURI(sURL); 
+        try{   
+            window.external.addFavorite(sURL, sTitle);   
+        }catch(e) {   
+            try{   
+                window.sidebar.addPanel(sTitle, sURL, "");   
+            }catch (e) {   
+                alert("加入收藏失败，请使用Ctrl+D进行添加,或手动在浏览器里进行设置.");
+            }   
+        }
+    }
+</script>
+
+
+ 
+
+
+<section id="main">
+    <div class="auto clearfix">
+
+         
+ 
+<div class="location_menu clearfix">
+    <div class="location"><a href="/index.aspx">首页</a> <a href="/cn/BookLibrary/list.aspx">数字方志馆</a> <a href="http://hzszfzg.wf.sh.cn/book/init.html#content">风雅钱塘</a> <span>特色美食</span></div>
+    <div class="menu clearfix">
+        <div class="column f24">数字方志馆</div>
+        <ul class="ul clearfix">
+            
+            <li id="menu63"><a href='/cn/BookLibrary/list.aspx'>数字方志馆</a></li>
+            
+        </ul>
+    </div>
+</div>
+<div class="sub_menu">
+    <ul class="ul clearfix">
+        
+        <li id="lcid43"><a href='/QianTang/list.aspx?lcid=43'>武林话史</a></li>
+        
+        <li id="lcid42"><a href='/QianTang/list.aspx?lcid=42'>人物春秋</a></li>
+        
+        <li id="lcid41"><a href='/QianTang/list.aspx?lcid=41'>风雅钱塘</a></li>
+        
+        <li id="lcid16"><a href='/QianTang/list.aspx?lcid=16'>湖山揽胜</a></li>
+        
+        <li id="lcid15"><a href='/QianTang/list.aspx?lcid=15'>古镇名村</a></li>
+        
+        <li id="lcid14"><a href='/QianTang/list.aspx?lcid=14'>特色街区</a></li>
+        
+        <li id="lcid13"><a href='/QianTang/list.aspx?lcid=13'>民俗风情</a></li>
+        
+        <li id="lcid12"><a href='/QianTang/list.aspx?lcid=12'>特色美食</a></li>
+        
+        <li id="lcid11"><a href='/QianTang/list.aspx?lcid=11'>古今人物</a></li>
+        
+        <li id="lcid10"><a href='/QianTang/list.aspx?lcid=10'>诗词楹联</a></li>
+        
+    </ul>
+</div>
+<script>
+$("#menu85").addClass("aon");
+$("#lcid12").addClass("aon");
+</script>
+
+
+        <!--内容开始-->
+        <div class="news_detail">
+                <div class="title mp">
+                    <h1 class="f30">西湖醋鱼</h1>
+                    <dl>
+                        <span>发布时间：2020-01-07 </span>
+                        
+                        <span class="hits">点击率:
+<script id="whirlabelhit" type="text/javascript">
+$(function(){
+            $.ajax({
+                type: "POST",
+                url: "/label/ajax/hit.aspx",
+                data: "type=0&colid=85&itemid=3836&f=Hits",
+                success: function (result) { $("#whirlabelhit").before(result)  }
+            });
+    });
+
+</script>
+</span>
+                    </dl>
+                </div>
+
+                
+
+                <div class="article"><div class=TRS_Editor><DIV class=cas_content>
+<P style="LAYOUT-GRID:  15.6pt none" align=center>　　<STRONG><FONT style="FONT-SIZE: 14pt">西湖醋鱼</FONT></STRONG></P>
+<P style="LAYOUT-GRID:  15.6pt none">　　</P>
+<P style="LAYOUT-GRID:  15.6pt none" align=center><IMG style="BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px" src="W020111123627615304149.jpg" _fcksavedurl="/wcm/app/system/read_image.jsp?FileName=U020111123627400619103.jpg" OLDSRC="W020111123627615304149.jpg" /></P>
+<P style="LAYOUT-GRID:  15.6pt none">　　</P>
+<P style="LAYOUT-GRID:  15.6pt none">　　原料：</P>
+<P style="LAYOUT-GRID:  15.6pt none">　　草鱼一条（约重700克）、姜末2.5克、白糖60克、湿淀粉50克、绍酒25毫升</P>
+<P style="LAYOUT-GRID:  15.6pt none">　　酱油75毫升、米醋&nbsp;50毫升、胡椒粉适量</P>
+<P style="LAYOUT-GRID:  15.6pt none">　　制法：</P>
+<P style="LAYOUT-GRID:  15.6pt none">　　1.将草鱼饿养一到两天，促使排泄尽草料及泥土味，使鱼肉结实，烹制前宰杀洗尽。</P>
+<P style="LAYOUT-GRID:  15.6pt none">　　2.将鱼身从尾部入刀，剖劈成雌、雄两片，斩去鱼牙，在鱼的雄片上，从离鳃盖瓣4.5厘米开始，每隔4.5厘米左右斜批一刀，共批五刀，在批第三刀时，在腰鳍后0.5厘米处切断，使鱼成两段，以便烧煮。在雄片剖面脊部厚处向腹部斜剞一长刀，不要损伤鱼皮。</P>
+<P style="LAYOUT-GRID:  15.6pt none">　　3.炒锅内放清水1000毫升，用旺火烧沸，先放雄片前半段，再将鱼尾段接在上面，然后将雄片和雌片并放，鱼头对齐，鱼皮朝上，盖上锅盖。待锅水再沸时，启盖，撇去浮沫，转动炒锅，继续用旺火烧煮约三分钟，用筷子轻轻地扎鱼的雄片颔下部，如能扎入即熟。锅内留下250毫升的汤水，放入酱油、绍酒、姜未，即将鱼捞出，放入盘中，装盘时将鱼皮朝上，把鱼的两片背脊拼成鱼尾段与雄片拼接，并沥去汤水。</P>
+<P style="LAYOUT-GRID:  15.6pt none">　　4.锅内原汤汁中，加入白糖、米醋和湿淀粉，调匀的芡汁，用手勺推搅成浓汁，浇遍鱼的全身即成。上桌随带胡椒粉。</P>
+<P style="LAYOUT-GRID:  15.6pt none">　　典故：</P>
+<P style="LAYOUT-GRID:  15.6pt none">　　“西湖醋鱼”又称"叔嫂传珍"，是杭州传统风味名菜。相传古时有宁氏兄弟，满腹文章，隐居在西子湖畔以打鱼为生。当地恶棍赵大官人见宁嫂姿色动人欲霸占，施计打死其夫。宁氏弟弟为报兄仇向官府告状，结果落得一顿棒打。宋嫂劝叔外逃，行前特意用糖、醋烧制了一条西湖里的鲲鱼为他钱行，勉励他“苦甜毋忘百姓辛酸之处”。后来小叔得了功名，在一次宴会上吃到甜中带酸的特制鱼菜，终于找到了改名陷遁的嫂嫂。于是，他就辞去了官职，重新过起捕鱼为生的渔家生活。烹制“西湖醋鱼”一般选用西湖鲲鱼作原料，烹制前饿养两天，使其排净肠内杂物，除去泥土气。烹制后鱼肉嫩美，带有蟹肉味。50年代，此菜以白堤上楼外楼菜馆蒋水根师傅烹制最为出色，曾多次为周恩来总理等中外贵宾宴请烹烧。</P>
+<P style="LAYOUT-GRID:  15.6pt none">　　特点：</P>
+<P style="LAYOUT-GRID:  15.6pt none">　　色泽红亮，肉质鲜嫩，酸甜清香，口感软嫩，带有蟹味，滋别具特色。是1956年浙江省认定的36个杭州名菜之一。</P></DIV></div></div>
+                <div class="qui-source">
+                    
+                </div>
+            </div>
+        
+
+        <div class="other_news">
+            <!-- <span class="back"><a href="/QianTang/list.aspx?lcid=12">返回列表</a></span> -->
+            <span class="back"><a id="backlist" href="/QianTang/list.aspx?page=20&lcid=12"">返回列表</a></span>
+            <span class="dot"><a href="/qiantang/info.aspx?itemid=3837&lcid=12&page=20">上一篇：生爆鳝片</a></span>
+            <span class="dot"><a href="/qiantang/info.aspx?itemid=3832&lcid=12&page=20">下一篇：鱼头浓汤</a></span>
+        </div>
+        <!--内容结束-->
+        <script>
+           
+        </script>
+    </div>
+</section> 
+ 
+ 
+<div class="bottom">
+<div class="auto">
+
+    <div class="column">
+        <ul class="ul clearfix">
+        <li id="bot57"><span class="f16"><a href='/CentralNews/list.aspx'>时政要闻</a></span>
+         <div class="sub">
+            <dl>
+                <dt><a href='/CentralNews/list.aspx'>中央要闻</a></dt>
+                <dt><a href='/LocalNews/list.aspx'>地方要闻</a></dt>
+                
+             </dl>
+          </div>
+        </li>
+        <li id="bot58"><span class="f16"><a href='/WorkNews/list.aspx'>业内动态</a></span>
+         <div class="sub">
+            <dl>
+                <dt><a href='/WorkNews/list.aspx'>央院工作动态</a></dt>
+                <dt><a href='/ProvincialNews/list.aspx'>省党史动态</a></dt>
+                <dt><a href='/CityNews/list.aspx'>杭州史志动态</a></dt>
+                <dt><a href='/CountyNews/list.aspx'>公告和启事</a></dt>
+                
+             </dl>
+          </div>
+        </li>
+        <li id="bot59"><span class="f16"><a href='/PartyBook/list.aspx'>党史学习</a></span>
+         <div class="sub">
+            <dl>
+                <dt><a href='/PartyBook/list.aspx'>党史著作</a></dt>
+                <dt><a href='/LiteratureBook/list.aspx'>重要文献</a></dt>
+                <dt><a href='/PartyTopics/index.aspx'>党史专题</a></dt>
+                <dt><a href='/Heroes/list.aspx'>英模人物</a></dt>
+                <dt><a href='/Calendar/list.aspx'>红色日历</a></dt>
+                <dt><a href='/shihuahangz/list.aspx'>史话杭州</a></dt>
+                
+             </dl>
+          </div>
+        </li>
+        <li id="bot60"><span class="f16"><a href='/tiyugushi/list.aspx'>党史研究</a></span>
+         <div class="sub">
+            <dl>
+                <dt><a href='/tiyugushi/list.aspx'>体育故事</a></dt>
+                <dt><a href='/PartyNews/list.aspx'>特别推荐</a></dt>
+                <dt><a href='/StudySenior/list.aspx'>资政研究</a></dt>
+                <dt><a href='/OralHistory/list.aspx'>口述历史</a></dt>
+                <dt><a href='/Journal/list.aspx'>史志期刊</a></dt>
+                <dt><a href='/MemorialColumn/list.aspx?lcid=45'>纪念专栏</a></dt>
+                <dt><a href='/LeadersandHangzhou/list.aspx'>领导人与杭州</a></dt>
+                
+             </dl>
+          </div>
+        </li>
+        <li id="bot61"><span class="f16"><a href='/VideoCenter/list.aspx'>红色印记</a></span>
+         <div class="sub">
+            <dl>
+                <dt><a href='/RedResources/list.aspx'>红色资源</a></dt>
+                <dt><a href='/RedVideo/list.aspx'>红色影像</a></dt>
+                <dt><a href='/babazhanlue/list.aspx'>“八八战略”经典故事</a></dt>
+                
+             </dl>
+          </div>
+        </li>
+        <li id="bot62"><span class="f16"><a href='/HangzhouBook/list.aspx'>杭州年鉴</a></span>
+         <div class="sub">
+            <dl>
+                
+             </dl>
+          </div>
+        </li>
+        <li id="bot63"><span class="f16"><a href='/cn/BookLibrary/list.aspx'>数字方志馆</a></span>
+         <div class="sub">
+            <dl>
+                
+             </dl>
+          </div>
+        </li>
+        <li id="bot64"><span class="f16"><a href='/Functions/index.aspx'>组织机构</a></span>
+         <div class="sub">
+            <dl>
+                <dt><a href='/Functions/index.aspx'>主要职能</a></dt>
+                <dt><a href='/LeadTeam/list.aspx'>领导成员</a></dt>
+                <dt><a href='/MechanismTeam/list.aspx'>机构设置</a></dt>
+                <dt><a href='/UnitsTeam/list.aspx'>直属单位</a></dt>
+                <dt><a href='/Contact/index.aspx'>联系我们</a></dt>
+                
+             </dl>
+          </div>
+        </li>
+        <li id="bot118"><span class="f16"><a href='/Search/list.aspx'>新闻搜索</a></span>
+         <div class="sub">
+            <dl>
+                
+             </dl>
+          </div>
+        </li>
+        
+        </ul>
+    </div>
+    <div class="other">
+        <div class="pic"><img src='/uploadfiles/logo/logo2.png' alt='logo3.png' /></div>
+        <div class="zb">主办单位：中共杭州市委党史研究室(杭州市人民政府地方志办公室）</div>
+        <div class="lanmu"><a href='/Contact/index.aspx'>联系我们</a><a href='/SiteMap/index.aspx'>网站地图</a><a href='/LegalNotice/index.aspx'>法律声明</a><a href='#'>飘窗维护</a><span><script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?f01a7e4591f36993fec0cba1eb16fc15";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script></span></div>
+        <div class="txt">
+        地址：浙江省杭州市江干区解放东路18号市民中心C座</br>
+        电话：(0571)- 85253295
+        </div>
+    </div>
+    <div class="copyright">
+    Copyright ©2020 中共杭州市委党史研究室(杭州市人民政府地方志办公室）版权所有  未经书面授权禁止使用
+    
+    <a href="//beian.miit.gov.cn/" target="_blank" class="ICP">浙ICP备10216193号</a>
+    
+    <span class="beian"><a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=33010302001368">浙公网安备 33010302001368号</a></span>
+    </div>
+
+</div>
+</div>
+<script src="/Party/js/common.js?v1=1"></script>
+<script>
+// 整站无图
+jQuery.each(jQuery("img"), function (i, n) {
+    jQuery(n).on("error", function () {
+        n.src = '/uploadfiles/nopic.jpg';
+    });
+    n.src = n.src;
+});
+</script>
+
+<script type=text/javascript>
+   $.cookie('News_85_3836', 'True', { expires: 7, path: '/' });
+</script>
+</body>
+</html>

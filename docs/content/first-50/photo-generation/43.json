@@ -1,0 +1,18 @@
+{
+  "n": 43,
+  "recipeId": "classic-43-three-cup-chicken",
+  "prompt": "Generate ONE photorealistic professional Chinese food presentation image for Three-Cup Chicken (三杯鸡). Exact dish appearance: Three-cup chicken: bite-size chicken thigh pieces in a glossy dark soy-rice-wine-sesame glaze, abundant whole garlic cloves, ginger slices and green basil leaves. Not breaded and no potato.. Match this recipe's actual visible ingredients; do not invent extra main ingredients. Cohesive app photography series: warm natural side lighting, pale neutral stone tabletop, off-white ceramic tableware except the specified traditional steam pot or casserole, subtle linen at an edge, 45-degree overhead camera. Landscape approximately 4:3, centered dish, generous safe margins so the food is not cropped in a wide card. Realistic home-style portion and edible cooked textures, appetizing and believable. One dish only; no people, hands, writing, text, numbers, logos, labels, branding, watermark, collage, menus or title-card design. No visible raw meat.",
+  "source": "/Users/alanli/.codex/generated_images/01a1971b-3514-7f63-b387-02bfb52056f2/exec-fcf4bb83-8bac-448e-aa52-f91d4d53e898.png",
+  "localSource": "assets/recipe-photos/dish-43.png",
+  "image": "ios/CNrecipe/Web/assets/classic-43-photo-v2.jpg",
+  "generator": "image_gen",
+  "kind": "AI-generated food presentation image; not an actual cooking photograph",
+  "sha256": "a3f80511cc18c99d9ce53ad31769ba2099ed3e77cdb9dfc830e687d6b809a6ea",
+  "stagingJPEG": "assets/recipe-photos/dish-43.jpg",
+  "visualReview": {
+    "reviewer": "Codex visual review",
+    "result": "passed",
+    "scope": "Dish identity, visible main ingredients, food presentation and absence of text/watermarks",
+    "evidence": "artifacts/recipe-media-fix/photos-26-50.jpg"
+  }
+}

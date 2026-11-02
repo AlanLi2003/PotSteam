@@ -1,0 +1,18 @@
+{
+  "n": 21,
+  "recipeId": "mapo",
+  "prompt": "Generate ONE photorealistic professional Chinese food presentation image for Mapo Tofu (麻婆豆腐). Exact dish appearance: Mapo tofu: soft ivory tofu cubes with cooked minced pork in a red chili-bean sauce, Sichuan pepper and green scallions. No peas, carrots or whole meatballs.. Match this recipe's actual visible ingredients; do not invent extra main ingredients. Cohesive app photography series: warm natural side lighting, pale neutral stone tabletop, off-white ceramic tableware except the specified traditional steam pot or casserole, subtle linen at an edge, 45-degree overhead camera. Landscape approximately 4:3, centered dish, generous safe margins so the food is not cropped in a wide card. Realistic home-style portion and edible cooked textures, appetizing and believable. One dish only; no people, hands, writing, text, numbers, logos, labels, branding, watermark, collage, menus or title-card design. No visible raw meat.",
+  "source": "/Users/alanli/.codex/generated_images/01a1971b-3514-7f63-b387-02bfb52056f2/exec-f0726ae8-c1a0-4c3d-b656-ef874141a868.png",
+  "localSource": "assets/recipe-photos/dish-21.png",
+  "image": "ios/CNrecipe/Web/assets/classic-21-photo-v3.jpg",
+  "generator": "image_gen",
+  "kind": "AI-generated food presentation image; not an actual cooking photograph",
+  "sha256": "df546e94372895f0b8ee33a1a54faf06a33c44c48483ed03a6f7c6b808e67c4f",
+  "stagingJPEG": "assets/recipe-photos/dish-21.jpg",
+  "visualReview": {
+    "reviewer": "Codex visual review",
+    "result": "passed",
+    "scope": "Dish identity, visible main ingredients, food presentation and absence of text/watermarks",
+    "evidence": "artifacts/recipe-media-fix/photos-01-25.jpg"
+  }
+}

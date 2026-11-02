@@ -1,0 +1,18 @@
+{
+  "n": 46,
+  "recipeId": "classic-46-yangzhou-fried-rice",
+  "prompt": "Generate ONE photorealistic professional Chinese food presentation image for Yangzhou Fried Rice (扬州炒饭). Exact dish appearance: Yangzhou fried rice: fluffy separate rice grains with small golden egg pieces, diced cooked ham, small shrimp, green peas, finely diced shiitake and scallions. Not brown soy-soaked rice and no pineapple.. Match this recipe's actual visible ingredients; do not invent extra main ingredients. Cohesive app photography series: warm natural side lighting, pale neutral stone tabletop, off-white ceramic tableware except the specified traditional steam pot or casserole, subtle linen at an edge, 45-degree overhead camera. Landscape approximately 4:3, centered dish, generous safe margins so the food is not cropped in a wide card. Realistic home-style portion and edible cooked textures, appetizing and believable. One dish only; no people, hands, writing, text, numbers, logos, labels, branding, watermark, collage, menus or title-card design. No visible raw meat.",
+  "source": "/Users/alanli/.codex/generated_images/01a1971b-3514-7f63-b387-02bfb52056f2/exec-524a6cbd-2b01-4698-b414-030b6840502b.png",
+  "localSource": "assets/recipe-photos/dish-46.png",
+  "image": "ios/CNrecipe/Web/assets/classic-46-photo-v2.jpg",
+  "generator": "image_gen",
+  "kind": "AI-generated food presentation image; not an actual cooking photograph",
+  "sha256": "23bd4ea279be8a9f11059ada0bb7a9b2276a25ce349b47e0d4e67f5cdc4d1db2",
+  "stagingJPEG": "assets/recipe-photos/dish-46.jpg",
+  "visualReview": {
+    "reviewer": "Codex visual review",
+    "result": "passed",
+    "scope": "Dish identity, visible main ingredients, food presentation and absence of text/watermarks",
+    "evidence": "artifacts/recipe-media-fix/photos-26-50.jpg"
+  }
+}

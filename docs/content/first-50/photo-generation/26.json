@@ -1,0 +1,18 @@
+{
+  "n": 26,
+  "recipeId": "classic-26-sichuan-boiled-pork-slices",
+  "prompt": "Generate ONE photorealistic professional Chinese food presentation image for Sichuan Boiled Pork Slices (水煮肉片). Exact dish appearance: Sichuan water-boiled pork: very thin cooked pork slices over bean sprouts in a deep serving bowl with red chili broth, chopped garlic, red chili and scallion on top. No fish.. Match this recipe's actual visible ingredients; do not invent extra main ingredients. Cohesive app photography series: warm natural side lighting, pale neutral stone tabletop, off-white ceramic tableware except the specified traditional steam pot or casserole, subtle linen at an edge, 45-degree overhead camera. Landscape approximately 4:3, centered dish, generous safe margins so the food is not cropped in a wide card. Realistic home-style portion and edible cooked textures, appetizing and believable. One dish only; no people, hands, writing, text, numbers, logos, labels, branding, watermark, collage, menus or title-card design. No visible raw meat.",
+  "source": "/Users/alanli/.codex/generated_images/01a1971b-3514-7f63-b387-02bfb52056f2/exec-acfdf2b4-1ecc-4c1b-abb1-748c7d8795f7.png",
+  "localSource": "assets/recipe-photos/dish-26.png",
+  "image": "ios/CNrecipe/Web/assets/classic-26-photo-v2.jpg",
+  "generator": "image_gen",
+  "kind": "AI-generated food presentation image; not an actual cooking photograph",
+  "sha256": "1b5c75e27f38219b88f037013cd4fd199b68d353debc6efbc8186209d8fab295",
+  "stagingJPEG": "assets/recipe-photos/dish-26.jpg",
+  "visualReview": {
+    "reviewer": "Codex visual review",
+    "result": "passed",
+    "scope": "Dish identity, visible main ingredients, food presentation and absence of text/watermarks",
+    "evidence": "artifacts/recipe-media-fix/photos-26-50.jpg"
+  }
+}

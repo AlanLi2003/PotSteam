@@ -1,0 +1,1954 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="profile" href="https://gmpg.org/xfn/11">
+<link rel="pingback" href="https://linschinesekitchen.com/xmlrpc.php">
+<link rel="preload" as="font" href="https://linschinesekitchen.com/wp-content/themes/wpzoom-cookely/fonts/cookely.ttf" type="font/ttf" crossorigin>
+<!--noptimize--><script id='fp_data_js' type="text/javascript" data-no-optimize="1" nowprocket>
+var fp_premium = false,
+FP = { 'fns' : {} },
+fp = {"loaded":[],"loading":[],"blocked_scripts":[],"waitlist":[],"actions":[],"observers":[],"tools":[],"notice":{"enabled":true,"display_notice":true,"gtag_no_cookie_mode":false,"consent_access":false,"url_passthrough":false,"ask_for_consent_again":false,"save_in_cdb":false,"save_all_consents":false,"priv_policy_update":1632495287,"blur_page":false,"scroll_lock":false,"hidden":[],"shown":[],"preselected_switches":[],"optin_switches":false,"toggle_selector":".fupi_show_cookie_notice, .fp_show_cookie_notice","mode":"optin"},"vars":{"bot_list":"none","url":"https:\/\/linschinesekitchen.com\/wp-content\/plugins\/full-picture-analytics-cookie-notice\/","is_pro":false,"uploads_url":"https:\/\/linschinesekitchen.com\/wp-content\/uploads\/","is_customizer":false,"debug":false,"intersections":"-200px 0px -200px 0px","track_current_user":true,"dblclck_time":300,"track_scroll_min":200,"track_scroll_time":5,"formsubm_trackdelay":3,"link_click_delay":false,"reset_timer_on_anchor":false,"track404":false,"redirect404_url":false,"magic_keyword":"tracking","use_mutation_observer":false,"server_method":"rest"}},
+fpdata = {"user":{"role":"Visitor","logged_in":false},"page_type":"Post","content_id":7325,"page_title":"Chinese Beef Tomato Stew Recipe","page_id":7325,"published":"2021-11-26 22:44:43","author_name":"Lin","terms":[{"name":"Soups &amp; Stews","slug":"soups-stews","parent":0,"taxonomy":"category"},{"name":"beef","slug":"beef","parent":0,"taxonomy":"post_tag"},{"name":"soup","slug":"soup","parent":0,"taxonomy":"post_tag"},{"name":"stew","slug":"stew","parent":0,"taxonomy":"post_tag"},{"name":"tomato","slug":"tomato","parent":0,"taxonomy":"post_tag"}]};fpdata.timezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
+fp.notice.vars = {};
+(function (FP) {
+'use strict';
+var d = document,
+w = window;
+FP.getUrlParamByName = name => {
+// var match = RegExp('[?&]' + name + '=([^&]*)').exec(window.location.search);
+// return match && decodeURIComponent(match[1].replace(/\+/g, ' '));
+const queryString = window.location.search,
+urlParams = new URLSearchParams(queryString);
+return urlParams.get(name);
+};
+// BROKEN LINK TRACKING + REDIRECT TO A CUSTOM 404 PAGE
+if( fp.vars.track404 && fpdata.page_type == "404" && ! FP.getUrlParamByName("broken_link_location") ){
+const location = fp.vars.redirect404_url ? new URL( fp.vars.redirect404_url ) : window.location;
+window.location = location + ( location.search ? "&" : "?" ) + "broken_link_location=" + ( document.referrer || "direct_traffic_or_unknown" ) + "&broken_link=" + window.location;
+}
+FP.setCookie = (name, value, days = 0, mins = 0, path = "/") => {
+var expires = "";
+if ( days > 0 || mins > 0 ) {
+var date = new Date();
+if (days > 0) {
+date.setTime(date.getTime() + days * 24 * 60 * 60 * 1000);
+} else {
+date.setTime(date.getTime() + mins * 60 * 1000);
+}
+expires = "; expires=" + date.toGMTString();
+};
+d.cookie = name + "=" + value + expires + "; path=" + path + "; sameSite=strict";
+};
+FP.readCookie = name => {
+var nameEQ = name + "=";
+var ca = d.cookie.split(';');
+for (var i = 0; i < ca.length; i++) {
+var c = ca[i];
+while (c.charAt(0) == ' ') {c = c.substring(1, c.length);}
+if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
+};
+return null;
+};
+FP.nl2Arr = nl => nl ? [].slice.call(nl) : false;
+FP.findID = (e, c) => {
+if ( c === null ) return null;
+if ( !e ) return false;
+c = c || document;
+return c.getElementById(e);
+};
+FP.findAll = (e, c) => {
+if ( c === null ) return [];
+if ( ! e ) return false;
+c = c || document;
+return FP.nl2Arr(c.querySelectorAll(e));
+};
+FP.loadScript = scr_id => {
+let temp_script = FP.findID( scr_id + '_temp' ),
+new_script = document.createElement('script');
+new_script.innerHTML = temp_script.innerHTML;
+temp_script.parentNode.insertBefore(new_script, temp_script.nextSibling);
+temp_script.remove();
+fp.loaded.push( scr_id );
+};
+FP.getRandomStr = ()=>{
+return ( Math.random() + 1 ).toString(36).substring(2);
+};
+FP.deleteCookie = name => { FP.setCookie(name, "", -1); };
+FP.getInner = function (vals, splitter = ".") {
+let args = Array.isArray(vals) ? vals : vals.split(splitter).map( arg => arg.trim() ),
+obj = window[args.shift()];
+for (var i = 0; i < args.length; i++) {
+var prop = args[i];
+if (! obj || ! obj.hasOwnProperty(prop)) return false;
+obj = obj[prop];
+};
+return obj;
+};
+FP.runFn = ( fn_name, args_arr ) => {
+let fn = FP.getInner( fn_name, "." );
+if ( fn ) {
+args_arr ? fn( ...args_arr ) : fn();
+} else {
+fp.waitlist[fn_name] = typeof args_arr === 'undefined' ? [] : args_arr;
+};
+};
+FP.enqueueFn = ( fn_name ) => {
+let fn = FP.getInner( fn_name, "." );
+if ( fp.waitlist[fn_name] ) fn( ...fp.waitlist[fn_name] );
+}
+FP.getScript = ( url, cb, attrs, type = 'script', fallback = false ) => {
+attrs = attrs || false;
+var s = "";
+if ( type == "img" ) {
+s = d.createElement('img');
+s.src = url;
+} else if ( type == "link" ) {
+s = d.createElement('link');
+s.href = url;
+} else {
+s = d.createElement('script')
+s.src = url;
+s.type = 'application/javascript';
+}
+s.onerror = ()=>{ 
+if ( fallback ) FP.getScript( fallback, cb, attrs, type );
+};
+if (attrs) {
+for (var key in attrs) {
+if ( key !== "/" ) s.setAttribute(key, attrs[key]);
+}
+}
+d.getElementsByTagName("head")[0].appendChild(s);
+if (cb) s.onload = cb;
+};
+FP.sendEvt = (evt_name, details_a) => {
+var details = details_a ? { 'detail' : details_a } : {},
+fp_event = new CustomEvent( evt_name, details );
+document.dispatchEvent(fp_event);
+};
+FP.prepareProduct = ( type, id, data ) => {
+if ( type !== "cart_item" ) fpdata.woo.products[id] = fpdata.woo.products[id] ? { ...fpdata.woo.products[id], ...data } : data;
+if ( type == 'single' || type == 'teaser' ) {
+// prepare products after all load
+if ( fp.vars.wooImpressTimeout ) clearTimeout( fp.vars.wooImpressTimeout );
+fp.vars.wooImpressTimeout = setTimeout( () => FP.runFn( "FP.fns.prepare_teaser_and_single" ), 200 );
+}
+};
+// CHECK FOR BOT TRAFFIC
+// -- modified version of https://stackoverflow.com/a/65563155/7702522
+// BOT CHECK (instant)
+fpdata.is_robot = (() => {
+// SMALL list
+if ( fp.vars.bot_list == "basic" ) {
+const robots = new RegExp([/bot/,/spider/,/crawl/,/APIs-Google/,/AdsBot/,/Googlebot/,/mediapartners/,/Google Favicon/,/FeedFetcher/,/Google-Read-Aloud/,/googleweblight/,/bingbot/,/yandex/,/baidu/,/duckduck/,/Yahoo Link Preview/,/ia_archiver/,/facebookexternalhit/,/pinterest\.combot/,/redditbot/,/slackbot/,/Twitterbot/,/WhatsApp/,/S[eE][mM]rushBot/].map((r) => r.source).join("|"),"i");
+return robots.test(navigator.userAgent);
+// BIG list
+} else if ( fp.vars.bot_list == "big" ) {
+const robots = new RegExp([
+/Googlebot/, /AdsBot/, /Feedfetcher-Google/, /Mediapartners-Google/, /Mediapartners/, /APIs-Google/, 
+/Google-InspectionTool/, /Storebot-Google/, /GoogleOther/, /bingbot/, /Slurp/, /wget/, /LinkedInBot/, 
+/Python-urllib/, /python-requests/, /aiohttp/, /httpx/, /libwww-perl/, /httpunit/, /Nutch/, 
+/Go-http-client/, /phpcrawl/, /msnbot/, /jyxobot/, /FAST-WebCrawler/, /FAST Enterprise Crawler/, 
+/BIGLOTRON/, /Teoma/, /convera/, /seekbot/, /Gigabot/, /Gigablast/, /exabot/, /ia_archiver/, 
+/GingerCrawler/, /webmon/, /HTTrack/, /grub\.org/, /UsineNouvelleCrawler/, /antibot/, 
+/netresearchserver/, /speedy/, /fluffy/, /findlink/, /msrbot/, /panscient/, /yacybot/, /AISearchBot/, 
+/ips-agent/, /tagoobot/, /MJ12bot/, /woriobot/, /yanga/, /buzzbot/, /mlbot/, /yandex\.combots/, 
+/purebot/, /Linguee Bot/, /CyberPatrol/, /voilabot/, /Baiduspider/, /citeseerxbot/, /spbot/, 
+/twengabot/, /postrank/, /Turnitin/, /scribdbot/, /page2rss/, /sitebot/, /linkdex/, /Adidxbot/, 
+/ezooms/, /dotbot/, /Mail\.RU_Bot/, /discobot/, /heritrix/, /findthatfile/, /europarchive\.org/, 
+/NerdByNature\.Bot/, /sistrix crawler/, /Ahrefs/, /fuelbot/, /CrunchBot/, /IndeedBot/, 
+/mappydata/, /woobot/, /ZoominfoBot/, /PrivacyAwareBot/, /Multiviewbot/, /SWIMGBot/, /Grobbot/, 
+/eright/, /Apercite/, /semanticbot/, /Aboundex/, /domaincrawler/, /wbsearchbot/, /summify/, /CCBot/, 
+/edisterbot/, /SeznamBot/, /ec2linkfinder/, /gslfbot/, /aiHitBot/, /intelium_bot/, 
+/facebookexternalhit/, /Yeti/, /RetrevoPageAnalyzer/, /lb-spider/, /Sogou/, /lssbot/, /careerbot/, 
+/wotbox/, /wocbot/, /ichiro/, /DuckDuckBot/, /lssrocketcrawler/, /drupact/, /webcompanycrawler/, 
+/acoonbot/, /openindexspider/, /gnam gnam spider/, /web-archive-net\.com\.bot/, /backlinkcrawler/, 
+/coccoc/, /integromedb/, /content crawler spider/, /toplistbot/, /it2media-domain-crawler/, 
+/ip-web-crawler\.com/, /siteexplorer\.info/, /elisabot/, /proximic/, /changedetection/, /arabot/, 
+/WeSEE:Search/, /niki-bot/, /CrystalSemanticsBot/, /rogerbot/, /360Spider/, /psbot/, 
+/InterfaxScanBot/, /CC Metadata Scaper/, /g00g1e\.net/, /GrapeshotCrawler/, /urlappendbot/, 
+/brainobot/, /fr-crawler/, /binlar/, /SimpleCrawler/, /Twitterbot/, /cXensebot/, /smtbot/, 
+/bnf\.fr_bot/, /A6-Indexer/, /ADmantX/, /Facebot/, /OrangeBot/, /memorybot/, /AdvBot/, 
+/MegaIndex/, /SemanticScholarBot/, /ltx71/, /nerdybot/, /xovibot/, /BUbiNG/, /Qwantify/, 
+/archive\.org_bot/, /Applebot/, /TweetmemeBot/, /crawler4j/, /findxbot/, /SemrushBot/, 
+/yoozBot/, /lipperhey/, /Y!J/, /Domain Re-Animator Bot/, /AddThis/, /Screaming Frog SEO Spider/, 
+/MetaURI/, /Scrapy/, /Livelapbot/, /OpenHoseBot/, /CapsuleChecker/, /collection@infegy\.com/, 
+/IstellaBot/, /DeuSu/, /betaBot/, /Cliqzbot/, /MojeekBot/, /netEstate NE Crawler/, 
+/SafeSearch microdata crawler/, /Gluten Free Crawler/, /Sonic/, /Sysomos/, /Trove/, /deadlinkchecker/, 
+/Slack-ImgProxy/, /Embedly/, /RankActiveLinkBot/, /iskanie/, /SafeDNSBot/, /SkypeUriPreview/, 
+/Veoozbot/, /Slackbot/, /redditbot/, /datagnionbot/, /Google-Adwords-Instant/, /adbeat_bot/, 
+/WhatsApp/, /contxbot/, /pinterest\.combot/, /electricmonk/, /GarlikCrawler/, /BingPreview/, 
+/vebidoobot/, /FemtosearchBot/, /Yahoo Link Preview/, /MetaJobBot/, /DomainStatsBot/, /mindUpBot/, 
+/Daum/, /Jugendschutzprogramm-Crawler/, /Xenu Link Sleuth/, /Pcore-HTTP/, /moatbot/, /KosmioBot/, 
+/pingdom/, /AppInsights/, /PhantomJS/, /Gowikibot/, /PiplBot/, /Discordbot/, /TelegramBot/, 
+/Jetslide/, /newsharecounts/, /James BOT/, /Barkrowler/, /TinEye/, /SocialRankIOBot/, 
+/trendictionbot/, /Ocarinabot/, /epicbot/, /Primalbot/, /DuckDuckGo-Favicons-Bot/, /GnowitNewsbot/, 
+/Leikibot/, /LinkArchiver/, /YaK/, /PaperLiBot/, /Digg Deeper/, /dcrawl/, /Snacktory/, /AndersPinkBot/, 
+/Fyrebot/, /EveryoneSocialBot/, /Mediatoolkitbot/, /Luminator-robots/, /ExtLinksBot/, /SurveyBot/, 
+/NING/, /okhttp/, /Nuzzel/, /omgili/, /PocketParser/, /YisouSpider/, /um-LN/, /ToutiaoSpider/, 
+/MuckRack/, /Jamie's Spider/, /AHC/, /NetcraftSurveyAgent/, /Laserlikebot/, /^Apache-HttpClient/, 
+/AppEngine-Google/, /Jetty/, /Upflow/, /Thinklab/, /Traackr\.com/, /Twurly/, /Mastodon/, /http_get/, 
+/DnyzBot/, /botify/, /007ac9 Crawler/, /BehloolBot/, /BrandVerity/, /check_http/, /BDCbot/, 
+/ZumBot/, /EZID/, /ICC-Crawler/, /ArchiveBot/, /^LCC /, /filterdb\.iss\.netcrawler/, /BLP_bbot/, 
+/BomboraBot/, /Buck/, /Companybook-Crawler/, /Genieo/, /magpie-crawler/, /MeltwaterNews/,
+/Moreover/,/newspaper/,/ScoutJet/,/sentry/,/StorygizeBot/,/UptimeRobot/,/OutclicksBot/,
+/seoscanners/,/Hatena/,/Google Web Preview/,/MauiBot/,/AlphaBot/,/SBL-BOT/,/IAS crawler/,
+/adscanner/,/Netvibes/,/acapbot/,/Baidu-YunGuanCe/,/bitlybot/,/blogmuraBot/,/Bot\.AraTurka\.com/,
+/bot-pge\.chlooe\.com/,/BoxcarBot/,/BTWebClient/,/ContextAd Bot/,/Digincore bot/,/Disqus/,/Feedly/,
+/Fetch/,/Fever/,/Flamingo_SearchEngine/,/FlipboardProxy/,/g2reader-bot/,/G2 Web Services/,/imrbot/,
+/K7MLWCBot/,/Kemvibot/,/Landau-Media-Spider/,/linkapediabot/,/vkShare/,/Siteimprove\.com/,/BLEXBot/,
+/DareBoost/,/ZuperlistBot/,/Miniflux/,/Feedspot/,/Diffbot/,/SEOkicks/,/tracemyfile/,/Nimbostratus-Bot/,
+/zgrab/,/PR-CY\.RU/,/AdsTxtCrawler/,/Datafeedwatch/,/Zabbix/,/TangibleeBot/,/google-xrawler/,/axios/,
+/Amazon CloudFront/,/Pulsepoint/,/CloudFlare-AlwaysOnline/,/Google-Structured-Data-Testing-Tool/,
+/WordupInfoSearch/,/WebDataStats/,/HttpUrlConnection/,/Seekport Crawler/,/ZoomBot/,/VelenPublicWebCrawler/,
+/MoodleBot/,/jpg-newsbot/,/outbrain/,/W3C_Validator/,/Validator\.nu/,/W3C-checklink/,/W3C-mobileOK/,
+/W3C_I18n-Checker/,/FeedValidator/,/W3C_CSS_Validator/,/W3C_Unicorn/,/Google-PhysicalWeb/,/Blackboard/,
+/ICBot/,/BazQux/,/Twingly/,/Rivva/,/Experibot/,/awesomecrawler/,/Dataprovider\.com/,/GroupHigh/,
+/theoldreader\.com/,/AnyEvent/,/Uptimebot\.org/,/Nmap Scripting Engine/,/2ip\.ru/,/Clickagy/,
+/Caliperbot/,/MBCrawler/,/online-webceo-bot/,/B2B Bot/,/AddSearchBot/,/Google Favicon/,/HubSpot/,
+/Chrome-Lighthouse/,/HeadlessChrome/,/CheckMarkNetwork/,/www\.uptime\.com/,/Streamline3Bot/,/serpstatbot/,
+/MixnodeCache/,/^curl/,/SimpleScraper/,/RSSingBot/,/Jooblebot/,/fedoraplanet/,/Friendica/,/NextCloud/,
+/Tiny Tiny RSS/,/RegionStuttgartBot/,/Bytespider/,/Datanyze/,/Google-Site-Verification/,/TrendsmapResolver/,
+/tweetedtimes/,/NTENTbot/,/Gwene/,/SimplePie/,/SearchAtlas/,/Superfeedr/,/feedbot/,/UT-Dorkbot/,/Amazonbot/,
+/SerendeputyBot/,/Eyeotabot/,/officestorebot/,/Neticle Crawler/,/SurdotlyBot/,/LinkisBot/,/AwarioSmartBot/,
+/AwarioRssBot/,/RyteBot/,/FreeWebMonitoring SiteChecker/,/AspiegelBot/,/NAVER Blog Rssbot/,/zenback bot/,
+/SentiBot/,/Domains Project/,/Pandalytics/,/VKRobot/,/bidswitchbot/,/tigerbot/,/NIXStatsbot/,/Atom Feed Robot/,
+/curebot/,/PagePeeker/,/Vigil/,/rssbot/,/startmebot/,/JobboerseBot/,/seewithkids/,/NINJA bot/,/Cutbot/,
+/BublupBot/,/BrandONbot/,/RidderBot/,/Taboolabot/,/Dubbotbot/,/FindITAnswersbot/,/infoobot/,/Refindbot/,
+/BlogTraffic\d\.\d+ Feed-Fetcher/,/SeobilityBot/,/Cincraw/,/Dragonbot/,/VoluumDSP-content-bot/,/FreshRSS/,
+/BitBot/,/^PHP-Curl-Class/,/Google-Certificates-Bridge/,/centurybot/,/Viber/,/e\.ventures Investment Crawler/,
+/evc-batch/,/PetalBot/,/virustotal/,/(^| )PTST/,/minicrawler/,/Cookiebot/,/trovitBot/,/seostar\.co/,/IonCrawl/,
+/Uptime-Kuma/,/SeekportBot/,/FreshpingBot/,/Feedbin/,/CriteoBot/,/Snap URL Preview Service/,/Better Uptime Bot/,
+/RuxitSynthetic/,/Google-Read-Aloud/,/ValveSteam/,/OdklBot/,/GPTBot/,/ChatGPT-User/,/YandexRenderResourcesBot/,
+/LightspeedSystemsCrawler/,/ev-crawler/,/BitSightBot/,/woorankreview/,/Google-Safety/,/AwarioBot/,/DataForSeoBot/,
+/Linespider/,/WellKnownBot/,/A Patent Crawler/,/StractBot/,/search\.marginalia\.nu/,/YouBot/,/Nicecrawler/,/Neevabot/,
+/BrightEdge Crawler/,/SiteCheckerBotCrawler/,/TombaPublicWebCrawler/,/CrawlyProjectCrawler/,/KomodiaBot/,/KStandBot/,
+/CISPA Webcrawler/,/MTRobot/,/hyscore\.io/,/AlexandriaOrgBot/,/2ip bot/,/Yellowbrandprotectionbot/,/SEOlizer/,
+/vuhuvBot/,/INETDEX-BOT/,/Synapse/,/t3versionsBot/,/deepnoc/,/Cocolyzebot/,/hypestat/,/ReverseEngineeringBot/,
+/sempi\.tech/,/Iframely/,/MetaInspector/,/node-fetch/,/lkxscan/,/python-opengraph/,/OpenGraphCheck/,
+/developers\.google\.com\+websnippet/,/SenutoBot/,/MaCoCu/,/NewsBlur/,/inoreader/,/NetSystemsResearch/,/PageThing/,
+/WordPress/,/PhxBot/,/ImagesiftBot/,/Expanse/,/InternetMeasurement/,/^BW/,/GeedoBot/,/Audisto Crawler/,
+/PerplexityBot/,/claudebot/,/Monsidobot/,/GroupMeBot/].map((r) => r.source).join("|"),"i");
+return robots.test(navigator.userAgent);
+} else {
+return false;
+};
+})();
+// GENERATE A RANDOM STRING FOR VARIOUS USES
+fp.random = FP.getRandomStr(7);
+// GTAG & GTM STUFF
+// First, we set the dataLayers for GA and GAds (and GTM DataLayer if it has no DL Protection enabled)
+window.dataLayer = window.dataLayer || [];
+window.gtag = function(){window.dataLayer.push(arguments);}
+// next, we set a separate GTM DataLayer if it has DL Protection enabled
+if ( fp.gtm ) {
+fp.gtm.datalayer = ! fp.gtm.datalayer || fp.gtm.datalayer == "default" ? "dataLayer" : "fupi_dataLayer";
+if ( fp.gtm.datalayer == "fupi_dataLayer" ){
+window[fp.gtm.datalayer] = window[fp.gtm.datalayer] || [];
+window.fupi_gtm_gtag = function(){window[fp.gtm.datalayer].push(arguments);} // gtag used for consents
+}
+};
+// UPDATE COOKIE DATA - fupi_cookies and fpdata.cookies
+let magic_keyw = FP.getUrlParamByName( fp.vars.magic_keyword ),
+ga4_debug = FP.getUrlParamByName("ga4_debug"),
+cookies = FP.readCookie('fp_cookie');
+cookies = cookies ? JSON.parse(cookies) : false;
+fpdata.cookies = false;
+if ( magic_keyw && magic_keyw == 'off' ){
+var updated_cookies = { 'stats' : false, 'personalisation' : false, 'marketing' : false, 'disabled' : true };
+fp.vars.track_current_user = false;
+FP.setCookie('fp_cookie', JSON.stringify(updated_cookies), 7300 );
+fpdata.cookies = updated_cookies;
+} else if ( ga4_debug ){
+if ( ga4_debug == 'on' ) {
+var updated_cookies = { 'stats' : true, 'personalisation' : true, 'marketing' : true, 'disabled' : false, 'ga4_debug' : 'on' };
+if ( cookies && cookies.pp_pub ) updated_cookies.pp_pub = cookies.pp_pub;
+if ( cookies && cookies.tools ) updated_cookies.tools = cookies.tools;
+FP.setCookie('fp_cookie', JSON.stringify(updated_cookies), 7300 );
+fpdata.cookies = updated_cookies;
+} else if ( ga4_debug == 'off' ) {
+var updated_cookies = { 'stats' : true, 'personalisation' : true, 'marketing' : true, 'disabled' : false };
+if ( cookies && cookies.pp_pub ) updated_cookies.pp_pub = cookies.pp_pub;
+if ( cookies && cookies.tools ) updated_cookies.tools = cookies.tools;
+FP.setCookie('fp_cookie', JSON.stringify(updated_cookies), 7300 );
+fpdata.cookies = updated_cookies;
+}
+} else if ( FP.getUrlParamByName("reset_cookies") || ( magic_keyw && ( magic_keyw == 'reset' || magic_keyw == 'on' ) ) ){
+FP.deleteCookie('fp_cookie');
+} else {
+var changed = false;
+if ( cookies ) {
+if ( cookies.disabled ) {
+var updated_cookies = { 'stats' : false, 'personalisation' : false, 'marketing' : false, 'disabled' : true };
+fp.vars.track_current_user = false;
+FP.setCookie('fp_cookie', JSON.stringify(updated_cookies), 7300 );
+fpdata.cookies = updated_cookies;
+} else if ( fp.notice ) {
+if ( fp.notice.ask_for_consent_again ){
+if ( fp.notice.priv_policy_update ) {
+if ( ! cookies.pp_pub || cookies.pp_pub != fp.notice.priv_policy_update ) changed = true;
+}
+if ( fp.tools ){
+if ( ! cookies.tools || ! fp.tools.every( id => cookies.tools.includes(id) ) ) changed = true;
+}
+}
+if ( changed ) {
+FP.deleteCookie('fp_cookie');
+} else {
+fpdata.cookies = cookies;
+if ( fpdata.cookies.disabled ) fp.vars.track_current_user = false;
+}
+}
+}
+}
+//
+// CONSENT BANNER 
+//
+if ( fp.vars.track_current_user && ! fp.vars.is_customizer && fp.notice.enabled && ! fpdata.cookies && fp.notice.display_notice ) {
+// BLUR BACKGROUND
+if ( fp.notice.blur_page ) {
+document.getElementsByTagName( 'html' )[0].classList.add('fupi_blur');
+}
+// LOCK PAGESCROLL
+if ( fp.notice.scroll_lock ) {
+document.getElementsByTagName( 'html' )[0].classList.add('fupi_scroll_lock');
+}
+}
+FP.updateConsents = () => {
+if ( fp.vars.debug ) console.log('[FP] Updating consents');
+// if the user made a choice in the past
+if ( fpdata.cookies ){
+fpdata.consents = {
+'can_track_stats' : fpdata.cookies.stats || false,
+'can_track_pers' : fpdata.cookies.personalisation || false,
+'can_track_market' : fpdata.cookies.marketing || false,
+};
+// if no choice was made in the past
+} else {
+// deny all if consent banner is in optin mode
+if ( fp.notice.enabled && fp.notice.mode == "optin" ) {
+fpdata.consents = {
+'can_track_stats' : false,
+'can_track_pers' : false,
+'can_track_market' : false,
+}
+// agree to all if consent banner is disabled or we are in optout or notification mode
+} else {
+fpdata.consents = {
+'can_track_stats' : true,
+'can_track_pers' : true,
+'can_track_market' : true,
+}
+}
+}
+if ( ! fp.vars.is_customizer ) {
+// Set GTAG consents
+["gtag", "fupi_gtm_gtag"].forEach( tag_name => {
+if ( tag_name == "fupi_gtm_gtag" && ! window.fupi_gtm_gtag ) return;
+// if the user made a choice in the past
+if ( fpdata.cookies ){
+window[tag_name]("consent", "default", {
+"ad_storage": "denied",
+"ad_user_data" : "denied",
+"ad_personalization" : "denied",
+"analytics_storage": "denied",
+"personalization_storage": "denied",
+"functionality_storage": "denied",
+"security_storage": "granted",
+});
+window[tag_name]("consent", "update", {
+"ad_storage": fpdata.cookies.marketing ? "granted" : "denied",
+"ad_user_data" : fpdata.cookies.marketing ? "granted" : "denied",
+"ad_personalization" : fpdata.cookies.marketing ? "granted" : "denied",
+"analytics_storage": fpdata.cookies.stats ? "granted" : "denied",
+"personalization_storage": fpdata.cookies.personalisation ? "granted" : "denied",
+"functionality_storage": fpdata.cookies.personalisation ? "granted" : "denied",
+"security_storage": "granted",
+});
+if ( fp.vars.debug ) console.log("[FP] Google consents set to user choices");
+// if no choice was made in the past
+} else {
+// deny all if consent banner is in optin mode
+if ( fp.notice.enabled && fp.notice.mode == "optin" ) {
+window[tag_name]("consent", "default", {
+"ad_storage": "denied",
+"ad_user_data" : "denied",
+"ad_personalization" : "denied",
+"analytics_storage": "denied",
+"personalization_storage": "denied",
+"functionality_storage": "denied",
+"security_storage": "granted",
+});
+if ( fp.vars.debug ) console.log("[FP] All Google consents denied");
+// agree to all if consent banner is disabled or we are in optout or notification mode
+} else {
+window[tag_name]("consent", "default", {
+"ad_storage": "granted",
+"ad_user_data" : "granted",
+"ad_personalization" : "granted",
+"analytics_storage": "granted",
+"personalization_storage": "granted",
+"functionality_storage": "granted",
+"security_storage": "granted",
+});
+if ( fp.vars.debug ) console.log("[FP] All Google consents granted");
+};
+}
+} );
+// we set URL Passthrough for standard GTAG
+if ( fp.notice.enabled && fp.notice.gtag_no_cookie_mode && fp.notice.url_passthrough && ( fp.notice.mode == "optin" || fp.notice.mode == "optout" ) ) {
+window.gtag("set", "url_passthrough", true);
+};
+}
+}
+let uses_geo = false;
+FP.postToServer = ( event_data_a, cb = false ) => {
+if ( fpdata.is_robot ) return;
+if ( fp.vars.debug ) console.log( "[FP] Posting to server", event_data_a );
+let fetch_url = fp.vars.server_method == "rest" ? "/index.php?rest_route=/fupi/v1/sender" : "/wp-admin/admin-ajax.php?action=fupi_ajax";
+if ( fp.vars.debug || event_data_a[0][0] == 'cdb') {
+fetch( fetch_url, {
+method: "POST",
+body: JSON.stringify( event_data_a ),
+credentials: 'same-origin',
+headers: {
+"Content-type": "application/json; charset=UTF-8",
+// "X-WP-Nonce": fp_nonce
+}
+})
+.then((response) => response.json())
+.then((json) => {
+if ( cb ) { 
+cb(json);
+} else {
+console.log( "[FP] Server response", json);
+}
+});
+} else {
+fetch( fetch_url, {
+method: "POST",
+credentials: 'same-origin',
+body: JSON.stringify( event_data_a ),
+headers: {
+"Content-type": "application/json; charset=UTF-8",
+// "X-WP-Nonce": fp_nonce
+}
+});
+}
+};
+if ( ! uses_geo ) {
+fpdata.country = 'unknown';
+FP.updateConsents();
+fp.ready = true;
+}
+})(FP);</script><!--/noptimize--><meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+<!-- This site is optimized with the Yoast SEO plugin v24.7 - https://yoast.com/wordpress/plugins/seo/ -->
+<title>Chinese Beef Tomato Stew Recipe - Lin&#039;s Chinese Kitchen</title>
+<meta name="description" content="This authentic Chinese recipe shows you how to make a delicious beef tomato stew that&#039;s perfect for the cold winter season." />
+<link rel="canonical" href="https://linschinesekitchen.com/authentic-chinese-beef-tomato-stew-recipe/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Chinese Beef Tomato Stew Recipe - Lin&#039;s Chinese Kitchen" />
+<meta property="og:description" content="This authentic Chinese recipe shows you how to make a delicious beef tomato stew that&#039;s perfect for the cold winter season." />
+<meta property="og:url" content="https://linschinesekitchen.com/authentic-chinese-beef-tomato-stew-recipe/" />
+<meta property="og:site_name" content="Lin&#039;s Chinese Kitchen" />
+<meta property="article:publisher" content="https://facebook.com/linschinesekitchen" />
+<meta property="article:published_time" content="2021-11-26T22:44:43+00:00" />
+<meta property="article:modified_time" content="2023-10-31T11:51:26+00:00" />
+<meta property="og:image" content="https://linschinesekitchen.com/wp-content/uploads/2021/11/IMG_2690-scaled.jpg" />
+<meta property="og:image:width" content="600" />
+<meta property="og:image:height" content="600" />
+<meta property="og:image:type" content="image/jpeg" />
+<meta name="author" content="Lin" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:label1" content="Written by" />
+<meta name="twitter:data1" content="Lin" />
+<meta name="twitter:label2" content="Est. reading time" />
+<meta name="twitter:data2" content="2 minutes" />
+<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"Article","@id":"https://linschinesekitchen.com/authentic-chinese-beef-tomato-stew-recipe/#article","isPartOf":{"@id":"https://linschinesekitchen.com/authentic-chinese-beef-tomato-stew-recipe/"},"author":{"name":"Lin","@id":"https://linschinesekitchen.com/#/schema/person/0918aed86d914e48e76035ac555f74a5"},"headline":"Chinese Beef Tomato Stew Recipe","datePublished":"2021-11-26T22:44:43+00:00","dateModified":"2023-10-31T11:51:26+00:00","mainEntityOfPage":{"@id":"https://linschinesekitchen.com/authentic-chinese-beef-tomato-stew-recipe/"},"wordCount":185,"commentCount":0,"publisher":{"@id":"https://linschinesekitchen.com/#organization"},"image":{"@id":"https://linschinesekitchen.com/authentic-chinese-beef-tomato-stew-recipe/#primaryimage"},"thumbnailUrl":"https://linschinesekitchen.com/wp-content/uploads/2021/11/IMG_2690-scaled.jpg","keywords":["beef","soup","stew","tomato"],"articleSection":["Soups &amp; Stews"],"inLanguage":"en-US","potentialAction":[{"@type":"CommentAction","name":"Comment","target":["https://linschinesekitchen.com/authentic-chinese-beef-tomato-stew-recipe/#respond"]}]},{"@type":"WebPage","@id":"https://linschinesekitchen.com/authentic-chinese-beef-tomato-stew-recipe/","url":"https://linschinesekitchen.com/authentic-chinese-beef-tomato-stew-recipe/","name":"Chinese Beef Tomato Stew Recipe - Lin&#039;s Chinese Kitchen","isPartOf":{"@id":"https://linschinesekitchen.com/#website"},"primaryImageOfPage":{"@id":"https://linschinesekitchen.com/authentic-chinese-beef-tomato-stew-recipe/#primaryimage"},"image":{"@id":"https://linschinesekitchen.com/authentic-chinese-beef-tomato-stew-recipe/#primaryimage"},"thumbnailUrl":"https://linschinesekitchen.com/wp-content/uploads/2021/11/IMG_2690-scaled.jpg","datePublished":"2021-11-26T22:44:43+00:00","dateModified":"2023-10-31T11:51:26+00:00","description":"This authentic Chinese recipe shows you how to make a delicious beef tomato stew that's perfect for the cold winter season.","breadcrumb":{"@id":"https://linschinesekitchen.com/authentic-chinese-beef-tomato-stew-recipe/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://linschinesekitchen.com/authentic-chinese-beef-tomato-stew-recipe/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https://linschinesekitchen.com/authentic-chinese-beef-tomato-stew-recipe/#primaryimage","url":"https://linschinesekitchen.com/wp-content/uploads/2021/11/IMG_2690-scaled.jpg","contentUrl":"https://linschinesekitchen.com/wp-content/uploads/2021/11/IMG_2690-scaled.jpg","width":600,"height":600,"caption":"chinese beef tomato stew ready to eat"},{"@type":"BreadcrumbList","@id":"https://linschinesekitchen.com/authentic-chinese-beef-tomato-stew-recipe/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://linschinesekitchen.com/"},{"@type":"ListItem","position":2,"name":"Chinese Beef Tomato Stew Recipe"}]},{"@type":"WebSite","@id":"https://linschinesekitchen.com/#website","url":"https://linschinesekitchen.com/","name":"Lin&#039;s Chinese Kitchen","description":"Delicious Authentic Chinese Recipes","publisher":{"@id":"https://linschinesekitchen.com/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://linschinesekitchen.com/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"},{"@type":"Organization","@id":"https://linschinesekitchen.com/#organization","name":"Lin's Chinese Kitchen","url":"https://linschinesekitchen.com/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"https://linschinesekitchen.com/#/schema/logo/image/","url":"https://linschinesekitchen.com/wp-content/uploads/2021/11/temp_logo_2.png","contentUrl":"https://linschinesekitchen.com/wp-content/uploads/2021/11/temp_logo_2.png","width":4000,"height":4000,"caption":"Lin's Chinese Kitchen"},"image":{"@id":"https://linschinesekitchen.com/#/schema/logo/image/"},"sameAs":["https://facebook.com/linschinesekitchen","https://instagram.com/linschinesekitchen","https://www.pinterest.co.uk/linchinesekitchen/"]},{"@type":"Person","@id":"https://linschinesekitchen.com/#/schema/person/0918aed86d914e48e76035ac555f74a5","name":"Lin","image":{"@type":"ImageObject","inLanguage":"en-US","@id":"https://linschinesekitchen.com/#/schema/person/image/","url":"https://secure.gravatar.com/avatar/c75161203a8a9685fe5a779be9ddaeae?s=96&d=mm&r=g","contentUrl":"https://secure.gravatar.com/avatar/c75161203a8a9685fe5a779be9ddaeae?s=96&d=mm&r=g","caption":"Lin"},"sameAs":["https://linschinesekitchen.com"],"url":"https://linschinesekitchen.com/author/linhe/"}]}</script>
+<!-- / Yoast SEO plugin. -->
+<link rel='dns-prefetch' href='//assets.pinterest.com' />
+<link rel='dns-prefetch' href='//www.googletagmanager.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//pagead2.googlesyndication.com' />
+<link rel="alternate" type="application/rss+xml" title="Lin&#039;s Chinese Kitchen &raquo; Feed" href="https://linschinesekitchen.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Lin&#039;s Chinese Kitchen &raquo; Comments Feed" href="https://linschinesekitchen.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Lin&#039;s Chinese Kitchen &raquo; Chinese Beef Tomato Stew Recipe Comments Feed" href="https://linschinesekitchen.com/authentic-chinese-beef-tomato-stew-recipe/feed/" />
+<script type="text/javascript">
+/* <![CDATA[ */
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/linschinesekitchen.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.7.2"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83d\udc26\u200d\u2b1b","\ud83d\udc26\u200b\u2b1b")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+/* ]]> */
+</script>
+<style id='wp-emoji-styles-inline-css' type='text/css'>
+img.wp-smiley, img.emoji {
+display: inline !important;
+border: none !important;
+box-shadow: none !important;
+height: 1em !important;
+width: 1em !important;
+margin: 0 0.07em !important;
+vertical-align: -0.1em !important;
+background: none !important;
+padding: 0 !important;
+}
+</style>
+<!-- <link rel='stylesheet' id='wp-block-library-css' href='https://linschinesekitchen.com/wp-includes/css/dist/block-library/style.min.css?ver=6.7.2' type='text/css' media='all' /> -->
+<link rel="stylesheet" type="text/css" href="//linschinesekitchen.com/wp-content/cache/wpfc-minified/djoe9vmu/8hlxg.css" media="all"/>
+<style id='wp-block-library-theme-inline-css' type='text/css'>
+.wp-block-audio :where(figcaption){color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-audio :where(figcaption){color:#ffffffa6}.wp-block-audio{margin:0 0 1em}.wp-block-code{border:1px solid #ccc;border-radius:4px;font-family:Menlo,Consolas,monaco,monospace;padding:.8em 1em}.wp-block-embed :where(figcaption){color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-embed :where(figcaption){color:#ffffffa6}.wp-block-embed{margin:0 0 1em}.blocks-gallery-caption{color:#555;font-size:13px;text-align:center}.is-dark-theme .blocks-gallery-caption{color:#ffffffa6}:root :where(.wp-block-image figcaption){color:#555;font-size:13px;text-align:center}.is-dark-theme :root :where(.wp-block-image figcaption){color:#ffffffa6}.wp-block-image{margin:0 0 1em}.wp-block-pullquote{border-bottom:4px solid;border-top:4px solid;color:currentColor;margin-bottom:1.75em}.wp-block-pullquote cite,.wp-block-pullquote footer,.wp-block-pullquote__citation{color:currentColor;font-size:.8125em;font-style:normal;text-transform:uppercase}.wp-block-quote{border-left:.25em solid;margin:0 0 1.75em;padding-left:1em}.wp-block-quote cite,.wp-block-quote footer{color:currentColor;font-size:.8125em;font-style:normal;position:relative}.wp-block-quote:where(.has-text-align-right){border-left:none;border-right:.25em solid;padding-left:0;padding-right:1em}.wp-block-quote:where(.has-text-align-center){border:none;padding-left:0}.wp-block-quote.is-large,.wp-block-quote.is-style-large,.wp-block-quote:where(.is-style-plain){border:none}.wp-block-search .wp-block-search__label{font-weight:700}.wp-block-search__button{border:1px solid #ccc;padding:.375em .625em}:where(.wp-block-group.has-background){padding:1.25em 2.375em}.wp-block-separator.has-css-opacity{opacity:.4}.wp-block-separator{border:none;border-bottom:2px solid;margin-left:auto;margin-right:auto}.wp-block-separator.has-alpha-channel-opacity{opacity:1}.wp-block-separator:not(.is-style-wide):not(.is-style-dots){width:100px}.wp-block-separator.has-background:not(.is-style-dots){border-bottom:none;height:1px}.wp-block-separator.has-background:not(.is-style-wide):not(.is-style-dots){height:2px}.wp-block-table{margin:0 0 1em}.wp-block-table td,.wp-block-table th{word-break:normal}.wp-block-table :where(figcaption){color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-table :where(figcaption){color:#ffffffa6}.wp-block-video :where(figcaption){color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-video :where(figcaption){color:#ffffffa6}.wp-block-video{margin:0 0 1em}:root :where(.wp-block-template-part.has-background){margin-bottom:0;margin-top:0;padding:1.25em 2.375em}
+</style>
+<!-- <link rel='stylesheet' id='swiper-css-css' href='https://linschinesekitchen.com/wp-content/plugins/instagram-widget-by-wpzoom/dist/styles/library/swiper.css?ver=7.4.1' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='dashicons-css' href='https://linschinesekitchen.com/wp-includes/css/dashicons.min.css?ver=6.7.2' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='magnific-popup-css' href='https://linschinesekitchen.com/wp-content/plugins/instagram-widget-by-wpzoom/dist/styles/library/magnific-popup.css?ver=2.2.5' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='wpz-insta_block-frontend-style-css' href='https://linschinesekitchen.com/wp-content/plugins/instagram-widget-by-wpzoom/dist/styles/frontend/index.css?ver=bbc4962530486b2c280af5a9d801f209' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='wpzoom-social-icons-block-style-css' href='https://linschinesekitchen.com/wp-content/plugins/social-icons-widget-by-wpzoom/block/dist/style-wpzoom-social-icons.css?ver=4.3.4' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='wpzoom-rcb-block-style-css-css' href='https://linschinesekitchen.com/wp-content/plugins/recipe-card-blocks-by-wpzoom/dist/blocks.style.build.css?ver=3.4.7' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='wpzoom-rcb-block-icon-fonts-css-css' href='https://linschinesekitchen.com/wp-content/plugins/recipe-card-blocks-by-wpzoom/dist/assets/css/icon-fonts.build.css?ver=3.4.7' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='wpzoom-forms-css-frontend-formblock-css' href='https://linschinesekitchen.com/wp-content/plugins/wpzoom-forms/build/form-block/frontend/style.css?ver=1.2.8' type='text/css' media='all' /> -->
+<link rel="stylesheet" type="text/css" href="//linschinesekitchen.com/wp-content/cache/wpfc-minified/978v2zw0/8hlxg.css" media="all"/>
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+<!-- <link rel='stylesheet' id='fupi-consb-css' href='https://linschinesekitchen.com/wp-content/plugins/full-picture-analytics-cookie-notice/public/modules/cook/css/fupi-consb.min.css?ver=8.5.1' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='zoom-theme-utils-css-css' href='https://linschinesekitchen.com/wp-content/themes/wpzoom-cookely/functions/wpzoom/assets/css/theme-utils.css?ver=6.7.2' type='text/css' media='all' /> -->
+<link rel="stylesheet" type="text/css" href="//linschinesekitchen.com/wp-content/cache/wpfc-minified/8z16377s/6b2gn.css" media="all"/>
+<link rel='stylesheet' id='cookely-google-fonts-css' href='https://fonts.googleapis.com/css?family=Rubik%3Aregular%2C500%2C700%2C700i%2Citalic%7CEsteban%7CBad+Script&#038;subset=latin&#038;display=swap&#038;ver=6.7.2' type='text/css' media='all' />
+<!-- <link rel='stylesheet' id='cookely-style-css' href='https://linschinesekitchen.com/wp-content/themes/wpzoom-cookely/style.css?ver=1.1.8' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='cookely-style-color-red-css' href='https://linschinesekitchen.com/wp-content/themes/wpzoom-cookely/styles/red.css?ver=1.1.8' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='media-queries-css' href='https://linschinesekitchen.com/wp-content/themes/wpzoom-cookely/css/media-queries.css?ver=1.1.8' type='text/css' media='all' /> -->
+<link rel="stylesheet" type="text/css" href="//linschinesekitchen.com/wp-content/cache/wpfc-minified/2fqsa2ad/bxct2.css" media="all"/>
+<style id='akismet-widget-style-inline-css' type='text/css'>
+.a-stats {
+--akismet-color-mid-green: #357b49;
+--akismet-color-white: #fff;
+--akismet-color-light-grey: #f6f7f7;
+max-width: 350px;
+width: auto;
+}
+.a-stats * {
+all: unset;
+box-sizing: border-box;
+}
+.a-stats strong {
+font-weight: 600;
+}
+.a-stats a.a-stats__link,
+.a-stats a.a-stats__link:visited,
+.a-stats a.a-stats__link:active {
+background: var(--akismet-color-mid-green);
+border: none;
+box-shadow: none;
+border-radius: 8px;
+color: var(--akismet-color-white);
+cursor: pointer;
+display: block;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen-Sans', 'Ubuntu', 'Cantarell', 'Helvetica Neue', sans-serif;
+font-weight: 500;
+padding: 12px;
+text-align: center;
+text-decoration: none;
+transition: all 0.2s ease;
+}
+/* Extra specificity to deal with TwentyTwentyOne focus style */
+.widget .a-stats a.a-stats__link:focus {
+background: var(--akismet-color-mid-green);
+color: var(--akismet-color-white);
+text-decoration: none;
+}
+.a-stats a.a-stats__link:hover {
+filter: brightness(110%);
+box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06), 0 0 2px rgba(0, 0, 0, 0.16);
+}
+.a-stats .count {
+color: var(--akismet-color-white);
+display: block;
+font-size: 1.5em;
+line-height: 1.4;
+padding: 0 13px;
+white-space: nowrap;
+}
+</style>
+<!-- <link rel='stylesheet' id='wpzoom-social-icons-socicon-css' href='https://linschinesekitchen.com/wp-content/plugins/social-icons-widget-by-wpzoom/assets/css/wpzoom-socicon.css?ver=1732719315' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='wpzoom-social-icons-genericons-css' href='https://linschinesekitchen.com/wp-content/plugins/social-icons-widget-by-wpzoom/assets/css/genericons.css?ver=1732719315' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='wpzoom-social-icons-academicons-css' href='https://linschinesekitchen.com/wp-content/plugins/social-icons-widget-by-wpzoom/assets/css/academicons.min.css?ver=1732719315' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='wpzoom-social-icons-font-awesome-3-css' href='https://linschinesekitchen.com/wp-content/plugins/social-icons-widget-by-wpzoom/assets/css/font-awesome-3.min.css?ver=1732719315' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='wpzoom-social-icons-styles-css' href='https://linschinesekitchen.com/wp-content/plugins/social-icons-widget-by-wpzoom/assets/css/wpzoom-social-icons-styles.css?ver=1732719315' type='text/css' media='all' /> -->
+<link rel="stylesheet" type="text/css" href="//linschinesekitchen.com/wp-content/cache/wpfc-minified/q60y0fx0/bxct2.css" media="all"/>
+<link rel='preload' as='font'  id='wpzoom-social-icons-font-academicons-woff2-css' href='https://linschinesekitchen.com/wp-content/plugins/social-icons-widget-by-wpzoom/assets/font/academicons.woff2?v=1.9.2'  type='font/woff2' crossorigin />
+<link rel='preload' as='font'  id='wpzoom-social-icons-font-fontawesome-3-woff2-css' href='https://linschinesekitchen.com/wp-content/plugins/social-icons-widget-by-wpzoom/assets/font/fontawesome-webfont.woff2?v=4.7.0'  type='font/woff2' crossorigin />
+<link rel='preload' as='font'  id='wpzoom-social-icons-font-genericons-woff-css' href='https://linschinesekitchen.com/wp-content/plugins/social-icons-widget-by-wpzoom/assets/font/Genericons.woff'  type='font/woff' crossorigin />
+<link rel='preload' as='font'  id='wpzoom-social-icons-font-socicon-woff2-css' href='https://linschinesekitchen.com/wp-content/plugins/social-icons-widget-by-wpzoom/assets/font/socicon.woff2?v=4.3.4'  type='font/woff2' crossorigin />
+<script src='//linschinesekitchen.com/wp-content/cache/wpfc-minified/kqe4czc1/8hlxg.js' type="text/javascript"></script>
+<!-- <script type="text/javascript" src="https://linschinesekitchen.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script> -->
+<!-- <script type="text/javascript" src="https://linschinesekitchen.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script> -->
+<!-- <script type="text/javascript" src="https://linschinesekitchen.com/wp-includes/js/underscore.min.js?ver=1.13.7" id="underscore-js"></script> -->
+<script type="text/javascript" id="wp-util-js-extra">
+/* <![CDATA[ */
+var _wpUtilSettings = {"ajax":{"url":"\/wp-admin\/admin-ajax.php"}};
+/* ]]> */
+</script>
+<script src='//linschinesekitchen.com/wp-content/cache/wpfc-minified/dvfvzpu4/6b2gn.js' type="text/javascript"></script>
+<!-- <script type="text/javascript" src="https://linschinesekitchen.com/wp-includes/js/wp-util.min.js?ver=6.7.2" id="wp-util-js"></script> -->
+<!-- <script type="text/javascript" src="https://linschinesekitchen.com/wp-content/plugins/instagram-widget-by-wpzoom/dist/scripts/library/magnific-popup.js?ver=1742828241" id="magnific-popup-js"></script> -->
+<!-- <script type="text/javascript" src="https://linschinesekitchen.com/wp-content/plugins/instagram-widget-by-wpzoom/dist/scripts/library/swiper.js?ver=7.4.1" id="swiper-js-js"></script> -->
+<!-- <script type="text/javascript" src="https://linschinesekitchen.com/wp-content/plugins/instagram-widget-by-wpzoom/dist/scripts/frontend/block.js?ver=9a3affef738588dbf17ec0443c4b21e9" id="wpz-insta_block-frontend-script-js"></script> -->
+<!-- <script type="text/javascript" src="https://linschinesekitchen.com/wp-content/plugins/full-picture-analytics-cookie-notice/public/common/fupi-helpers.js?ver=8.5.1" id="fupi-helpers-js-js"></script> -->
+<!-- Google tag (gtag.js) snippet added by Site Kit -->
+<!-- Google Analytics snippet added by Site Kit -->
+<script type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=G-XG0YZRK78L" id="google_gtagjs-js" async></script>
+<script type="text/javascript" id="google_gtagjs-js-after">
+/* <![CDATA[ */
+window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}
+gtag("set","linker",{"domains":["linschinesekitchen.com"]});
+gtag("js", new Date());
+gtag("set", "developer_id.dZTNiMT", true);
+gtag("config", "G-XG0YZRK78L");
+window._googlesitekit = window._googlesitekit || {}; window._googlesitekit.throttledEvents = []; window._googlesitekit.gtagEvent = (name, data) => { var key = JSON.stringify( { name, data } ); if ( !! window._googlesitekit.throttledEvents[ key ] ) { return; } window._googlesitekit.throttledEvents[ key ] = true; setTimeout( () => { delete window._googlesitekit.throttledEvents[ key ]; }, 5 ); gtag( "event", name, { ...data, event_source: "site-kit" } ); } 
+/* ]]> */
+</script>
+<!-- End Google tag (gtag.js) snippet added by Site Kit -->
+<link rel="https://api.w.org/" href="https://linschinesekitchen.com/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://linschinesekitchen.com/wp-json/wp/v2/posts/7325" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://linschinesekitchen.com/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.7.2" />
+<link rel='shortlink' href='https://linschinesekitchen.com/?p=7325' />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://linschinesekitchen.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Flinschinesekitchen.com%2Fauthentic-chinese-beef-tomato-stew-recipe%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://linschinesekitchen.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Flinschinesekitchen.com%2Fauthentic-chinese-beef-tomato-stew-recipe%2F&#038;format=xml" />
+<meta name="generator" content="Site Kit by Google 1.149.1" /><!-- WPZOOM Theme / Framework -->
+<meta name="generator" content="Cookely 1.1.8" />
+<meta name="generator" content="WPZOOM Framework 2.0.0" />
+<style type="text/css">
+@media screen and (max-width: 768px) {
+.navbar-brand-wpz .header_social { display: none !important; }
+.navbar-brand-wpz .sb-search { display: none !important; }
+}
+</style>
+<!-- Begin Theme Custom CSS -->
+<style type="text/css" id="wpzoom-cookely-custom-css">
+.navbar-brand-wpz .tagline{display:none;}.top-navbar{display:none;}
+@media screen and (max-width: 768px){.navbar-brand-wpz .tagline{display:none;font-size:16px;}body{font-size:16px;}.navbar-brand-wpz h1{font-size:40px;}.widget h3.title{font-size:18px;}.entry-title, .recent-posts .entry-title{font-size:26px;}.single h1.entry-title{font-size:36px;}.page h1.entry-title{font-size:36px;}.footer-menu ul li{font-size:16px;}}
+@media screen and (min-width: 769px){body{font-size:16px;}.navbar-brand-wpz h1{font-size:49px;}.navbar-brand-wpz .tagline{font-size:16px;}.widget h3.title{font-size:18px;}.entry-title, .recent-posts .entry-title{font-size:28px;}.single h1.entry-title{font-size:36px;}.page h1.entry-title{font-size:44px;}.footer-menu ul li{font-size:16px;}}
+@media screen and (max-width: 480px){body{font-size:16px;}.navbar-brand-wpz h1{font-size:36px;}.navbar-brand-wpz .tagline{font-size:16px;}.widget h3.title{font-size:18px;}.entry-title, .recent-posts .entry-title{font-size:24px;}.single h1.entry-title{font-size:28px;}.page h1.entry-title{font-size:28px;}.footer-menu ul li{font-size:16px;}}
+</style>
+<!-- End Theme Custom CSS -->
+<!-- Google AdSense meta tags added by Site Kit -->
+<meta name="google-adsense-platform-account" content="ca-host-pub-2644536267352236">
+<meta name="google-adsense-platform-domain" content="sitekit.withgoogle.com">
+<!-- End Google AdSense meta tags added by Site Kit -->
+<meta name="generator" content="Elementor 3.25.5; features: e_font_icon_svg, additional_custom_breakpoints, e_optimized_control_loading; settings: css_print_method-external, google_font-enabled, font_display-swap">
+<style>
+.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload),
+.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload) * {
+background-image: none !important;
+}
+@media screen and (max-height: 1024px) {
+.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload),
+.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload) * {
+background-image: none !important;
+}
+}
+@media screen and (max-height: 640px) {
+.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload),
+.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload) * {
+background-image: none !important;
+}
+}
+</style>
+<!-- Google AdSense snippet added by Site Kit -->
+<script type="text/javascript" async="async" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6700477836665143&amp;host=ca-host-pub-2644536267352236" crossorigin="anonymous"></script>
+<!-- End Google AdSense snippet added by Site Kit -->
+<style>#mailchimp-top-bar form,#mailchimp-top-bar input,#mailchimp-top-bar label{box-shadow:none;box-sizing:border-box;float:none;font-size:100%;height:auto;line-height:normal;margin:0;outline:0;padding:0;text-shadow:none;vertical-align:middle}#mailchimp-top-bar input,#mailchimp-top-bar label{display:inline-block!important;vertical-align:middle!important;width:auto}#mailchimp-top-bar form{margin:0!important;padding:0!important;text-align:center}#mailchimp-top-bar label{margin:0 6px 0 0}#mailchimp-top-bar .mctb-button,#mailchimp-top-bar .mctb-email,#mailchimp-top-bar input,#mailchimp-top-bar input[type=email],#mailchimp-top-bar input[type=text]{background:#fff;border:1px solid #fff;height:auto;margin:0 0 0 6px}#mailchimp-top-bar .mctb-email{max-width:240px!important;width:100%}#mailchimp-top-bar .mctb-button{cursor:pointer;margin-left:0}#mailchimp-top-bar .mctb-email-confirm{display:none!important}#mailchimp-top-bar.mctb-small{font-size:10px}#mailchimp-top-bar.mctb-small .mctb-bar{padding:5px 6px}#mailchimp-top-bar.mctb-small .mctb-button{padding:4px 12px}#mailchimp-top-bar.mctb-small .mctb-email,#mailchimp-top-bar.mctb-small .mctb-label,#mailchimp-top-bar.mctb-small input{padding:4px 6px!important}#mailchimp-top-bar.mctb-small input,#mailchimp-top-bar.mctb-small label{font-size:12px}#mailchimp-top-bar.mctb-small .mctb-close{font-size:16px;padding:4px 12px}#mailchimp-top-bar.mctb-medium{font-size:12.5px}#mailchimp-top-bar.mctb-medium .mctb-bar{padding:6.25px 7.5px}#mailchimp-top-bar.mctb-medium .mctb-button{padding:5px 15px}#mailchimp-top-bar.mctb-medium .mctb-email,#mailchimp-top-bar.mctb-medium .mctb-label,#mailchimp-top-bar.mctb-medium input{padding:5px 7.5px!important}#mailchimp-top-bar.mctb-medium input,#mailchimp-top-bar.mctb-medium label{font-size:15px}#mailchimp-top-bar.mctb-medium .mctb-close{font-size:20px;padding:5px 15px}#mailchimp-top-bar.mctb-big{font-size:15px}#mailchimp-top-bar.mctb-big .mctb-bar{padding:7.5px 9px}#mailchimp-top-bar.mctb-big .mctb-button{padding:6px 18px}#mailchimp-top-bar.mctb-big .mctb-email,#mailchimp-top-bar.mctb-big .mctb-label,#mailchimp-top-bar.mctb-big input{padding:6px 9px!important}#mailchimp-top-bar.mctb-big input,#mailchimp-top-bar.mctb-big label{font-size:18px}#mailchimp-top-bar.mctb-big .mctb-close{font-size:24px;padding:6px 18px}@media (max-width:580px){#mailchimp-top-bar .mctb-email,#mailchimp-top-bar .mctb-label,#mailchimp-top-bar input,#mailchimp-top-bar label{max-width:100%!important;width:100%}#mailchimp-top-bar .mctb-email,#mailchimp-top-bar input{margin:6px 0 0!important}}@media (max-width:860px){#mailchimp-top-bar.multiple-input-fields .mctb-label{display:block!important;margin:0 0 6px}}.admin-bar .mctb{z-index:99998}.admin-bar .mctb-position-top{top:32px}@media screen and (max-width:782px){.admin-bar .mctb-position-top{top:46px}}@media screen and (max-width:600px){.admin-bar .mctb-position-top.mctb-sticky{top:0}}.mctb{background:transparent;left:0;margin:0;position:absolute;right:0;text-align:center;top:0;width:100%;z-index:100000}.mctb-bar{overflow:hidden;position:relative;width:100%}.mctb-sticky{position:fixed}.mctb-position-bottom{bottom:0;position:fixed;top:auto}.mctb-position-bottom .mctb-bar{clear:both}.mctb-response{left:0;position:absolute;top:0;transition-duration:.8s;width:100%;z-index:100}.mctb-close{clear:both;cursor:pointer;display:inline-block;float:right;line-height:normal;margin-right:12px;z-index:10}.mctb-icon-inside-bar.mctb-position-bottom .mctb-bar{bottom:0;position:absolute}.mctb-icon-inside-bar .mctb-close{float:none;position:absolute;right:0;top:0}.mctb-bar,.mctb-response,.mctb-close{background:#feeae0!important;}.mctb-bar,.mctb-label,.mctb-close{color:#ffffff!important;}.mctb-button{background:#f3524c!important;border-color:#f3524c!important;}.mctb-email:focus{outline-color:#f3524c!important;}.mctb-button{color: #ffffff!important;}</style>
+<style type="text/css" id="wp-custom-css">
+/* Mailchimp subscription field */
+.home-widgetized-mid .widget .mc4wp-form-fields {
+flex-wrap: wrap;
+}
+.home-widgetized-mid .widget .mc4wp-form-fields>:first-child {
+min-width: 100%;
+margin-bottom: 15px;
+}
+.home-widgetized-mid .widget .mc4wp-form-fields p {
+flex: 1;
+}		</style>
+</head>
+<body class="post-template-default single single-post postid-7325 single-format-standard elementor-default elementor-kit-8881">
+<div class="page-wrap">
+<header class="site-header">
+<nav class="top-navbar" role="navigation">
+<div class="inner-wrap">
+<div id="navbar-top">
+<div class="menu-top-container"><ul id="menu-top" class="navbar-wpz dropdown sf-menu"><li id="menu-item-5409" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5409"><a href="https://linschinesekitchen.com/contact/">Contact</a></li>
+<li id="menu-item-6041" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6041"><a href="https://linschinesekitchen.com/privacy-policy-2/">Privacy Policy</a></li>
+</ul></div>
+</div><!-- #navbar-top -->
+</div><!-- ./inner-wrap -->
+</nav><!-- .navbar -->
+<div class="clear"></div>
+<div class="inner-wrap" id="header_wrapper_mob">
+<div class="navbar-brand-wpz">
+<div class="left-align">
+<h1><a href="https://linschinesekitchen.com" title="Delicious Authentic Chinese Recipes">Lin&#039;s Chinese Kitchen</a></h1>
+<p class="tagline">Delicious Authentic Chinese Recipes</p>
+</div>
+<div class="right-align">
+<div class="header_social">
+<div id="zoom-social-icons-widget-2" class="widget zoom-social-icons-widget"><h3 class="title"><span>Social Icons</span></h3>
+<ul class="zoom-social-icons-list zoom-social-icons-list--without-canvas zoom-social-icons-list--round zoom-social-icons-list--no-labels">
+<li class="zoom-social_icons-list__item">
+<a class="zoom-social_icons-list__link" href="https://instagram.com/linschinesekitchen" target="_blank" title="" >
+<span class="screen-reader-text">instagram</span>
+<span class="zoom-social_icons-list-span social-icon socicon socicon-instagram" data-hover-rule="color" data-hover-color="#e4405f" style="color : #e4405f; font-size: 16px; padding:8px" ></span>
+</a>
+</li>
+<li class="zoom-social_icons-list__item">
+<a class="zoom-social_icons-list__link" href="https://pinterest.com/linschinesekitchen" target="_blank" title="">
+<span class="screen-reader-text">pinterest</span>
+<span class="zoom-social_icons-list-span social-icon socicon socicon-pinterest" data-hover-rule="color" data-hover-color="#c92619" style="color : #c92619; font-size: 16px; padding:8px" ></span>
+</a>
+</li>
+<li class="zoom-social_icons-list__item">
+<a class="zoom-social_icons-list__link" href="https://facebook.com/linschinesekitchen" target="_blank" title="Friend me on Facebook" >
+<span class="screen-reader-text">facebook</span>
+<span class="zoom-social_icons-list-span social-icon socicon socicon-facebook" data-hover-rule="color" data-hover-color="#1877F2" style="color : #1877F2; font-size: 16px; padding:8px" ></span>
+</a>
+</li>
+</ul>
+</div>                    </div>
+<div id="sb-search" class="sb-search sb-search-open">
+<form role="search" method="get" id="searchform" action="https://linschinesekitchen.com/">
+<input type="search" class="sb-search-input" placeholder="Enter your keywords..."  name="s" id="s" value="" />
+<span class="sb-search-submit-wrap">
+<input type="submit" id="searchsubmit" class="sb-search-submit" value="Search" />
+<span class="sb-icon-search">&#xe907;</span>
+</span>
+</form>                    </div>
+</div>
+</div><!-- .navbar-brand -->
+<nav class="main-navbar" role="navigation">
+<div class="navbar-header-main">
+<div id="menu-main-slide" class="menu-main-nav-container"><ul id="menu-main-nav" class="menu"><li id="menu-item-49" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-49"><a href="https://linschinesekitchen.com">Home</a></li>
+<li id="menu-item-6245" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-6245"><a href="#">Recipes</a>
+<ul class="sub-menu">
+<li id="menu-item-6247" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-6247"><a href="https://linschinesekitchen.com/category/noodles/">Noodles</a></li>
+<li id="menu-item-6249" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-6249"><a href="https://linschinesekitchen.com/category/staples/">Staples</a></li>
+<li id="menu-item-6507" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-6507"><a href="https://linschinesekitchen.com/category/stir-fry/">Stir Fry</a></li>
+<li id="menu-item-6625" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-6625"><a href="https://linschinesekitchen.com/category/pies/">Pies</a></li>
+<li id="menu-item-6739" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-6739"><a href="https://linschinesekitchen.com/category/vegan/">Vegan</a></li>
+<li id="menu-item-6783" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-6783"><a href="https://linschinesekitchen.com/category/soups-stews/">Soups &amp; Stews</a></li>
+<li id="menu-item-6879" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-6879"><a href="https://linschinesekitchen.com/category/sweet-sour/">Sweet &amp; Sour</a></li>
+<li id="menu-item-7101" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-7101"><a href="https://linschinesekitchen.com/category/dumplings/">Dumplings</a></li>
+<li id="menu-item-7137" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-7137"><a href="https://linschinesekitchen.com/category/salad/">Salad</a></li>
+<li id="menu-item-7245" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-7245"><a href="https://linschinesekitchen.com/category/seafood/">Seafood</a></li>
+<li id="menu-item-7421" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-7421"><a href="https://linschinesekitchen.com/category/rice/">Rice</a></li>
+</ul>
+</li>
+<li id="menu-item-7207" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-7207"><a href="https://linschinesekitchen.com/category/under-30-min/">Under 30 Min</a></li>
+<li id="menu-item-57" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-57"><a href="https://linschinesekitchen.com/about/">About Lin and Yannis</a></li>
+<li id="menu-item-6469" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6469"><a href="https://linschinesekitchen.com/contact/">Contact</a></li>
+</ul></div>
+</div>
+<div id="navbar-main">
+<div class="menu-main-nav-container"><ul id="menu-main-nav-1" class="navbar-wpz dropdown sf-menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-49"><a href="https://linschinesekitchen.com">Home</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-6245"><a href="#">Recipes</a>
+<ul class="sub-menu">
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-6247"><a href="https://linschinesekitchen.com/category/noodles/">Noodles</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-6249"><a href="https://linschinesekitchen.com/category/staples/">Staples</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-6507"><a href="https://linschinesekitchen.com/category/stir-fry/">Stir Fry</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-6625"><a href="https://linschinesekitchen.com/category/pies/">Pies</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-6739"><a href="https://linschinesekitchen.com/category/vegan/">Vegan</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-6783"><a href="https://linschinesekitchen.com/category/soups-stews/">Soups &amp; Stews</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-6879"><a href="https://linschinesekitchen.com/category/sweet-sour/">Sweet &amp; Sour</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-7101"><a href="https://linschinesekitchen.com/category/dumplings/">Dumplings</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-7137"><a href="https://linschinesekitchen.com/category/salad/">Salad</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-7245"><a href="https://linschinesekitchen.com/category/seafood/">Seafood</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-7421"><a href="https://linschinesekitchen.com/category/rice/">Rice</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-7207"><a href="https://linschinesekitchen.com/category/under-30-min/">Under 30 Min</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-57"><a href="https://linschinesekitchen.com/about/">About Lin and Yannis</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6469"><a href="https://linschinesekitchen.com/contact/">Contact</a></li>
+</ul></div>
+</div><!-- #navbar-main -->
+</nav><!-- .navbar -->
+</div><!-- ./inner-wrap -->
+</header><!-- .site-header -->
+<div class="inner-wrap">
+<div class="wpz_breadcrumbs"><span><span><a href="https://linschinesekitchen.com/">Home</a></span> » <span class="breadcrumb_last" aria-current="page">Chinese Beef Tomato Stew Recipe</span></span></div>
+<main id="main" class="site-main featimg-size-normal featimg-orient-landscape" role="main">
+<div class="content-area">
+<article id="post-7325" class="post-7325 post type-post status-publish format-standard has-post-thumbnail hentry category-soups-stews tag-beef tag-soup tag-stew tag-tomato">
+<div class="post-thumb size-normal orientation-landscape">
+<img fetchpriority="high" width="600" height="530" src="https://linschinesekitchen.com/wp-content/uploads/2021/11/IMG_2690-scaled-600x530.jpg" class="attachment-single-normal-landscape size-single-normal-landscape wp-post-image" alt="chinese beef tomato stew ready to eat" decoding="async" />        </div>
+<section class="entry-body">
+<span class="cat-links"><a href="https://linschinesekitchen.com/category/soups-stews/" rel="category tag">Soups &amp; Stews</a></span>
+<h1 class="entry-title"><a href="https://linschinesekitchen.com/authentic-chinese-beef-tomato-stew-recipe/" rel="bookmark">Chinese Beef Tomato Stew Recipe</a></h1>
+<span class="entry-date"><time class="entry-date" datetime="2021-11-26T22:44:43+00:00">November 26, 2021</time></span>
+<span class="comments-link"><a href="https://linschinesekitchen.com/authentic-chinese-beef-tomato-stew-recipe/#respond">0 comments</a></span>
+<div class="entry-content"><div class="wpzoom-recipe-card-buttons"><a href="#wpzoom-recipe-card" rel="nofollow" class="wpzoom-recipe-snippet-button wp-block-wpzoom-recipe-card-block-jump-to-recipe "><svg viewBox="0 0 384 512" xmlns="http://www.w3.org/2000/svg"><path d="M374.6 310.6l-160 160C208.4 476.9 200.2 480 192 480s-16.38-3.125-22.62-9.375l-160-160c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 370.8V64c0-17.69 14.33-31.1 31.1-31.1S224 46.31 224 64v306.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0S387.1 298.1 374.6 310.6z"/></svg>Jump to Recipe</a><a href="#wpzoom-recipe-card" rel="nofollow" class="wpzoom-recipe-snippet-button wp-block-wpzoom-recipe-card-block-print-recipe" data-recipe-id="7325"><svg class="wpzoom-rcb-icon-print-link" width="32" height="32" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M5 7.2C4.822 7.2 4.64799 7.25278 4.49999 7.35168C4.35198 7.45057 4.23663 7.59113 4.16851 7.75558C4.10039 7.92004 4.08257 8.101 4.11729 8.27558C4.15202 8.45016 4.23774 8.61053 4.3636 8.7364C4.48947 8.86226 4.64984 8.94798 4.82442 8.98271C4.999 9.01743 5.17996 8.99961 5.34441 8.93149C5.50887 8.86337 5.64943 8.74802 5.74832 8.60001C5.84722 8.45201 5.9 8.278 5.9 8.1C5.9 7.8613 5.80518 7.63239 5.6364 7.4636C5.46761 7.29482 5.23869 7.2 5 7.2ZM15.8 3.6H14.9V0.9C14.9 0.661305 14.8052 0.432387 14.6364 0.263604C14.4676 0.0948211 14.2387 0 14 0H5C4.76131 0 4.53239 0.0948211 4.3636 0.263604C4.19482 0.432387 4.1 0.661305 4.1 0.9V3.6H3.2C2.48392 3.6 1.79716 3.88446 1.29081 4.39081C0.784464 4.89716 0.5 5.58392 0.5 6.3V11.7C0.5 12.4161 0.784464 13.1028 1.29081 13.6092C1.79716 14.1155 2.48392 14.4 3.2 14.4H4.1V17.1C4.1 17.3387 4.19482 17.5676 4.3636 17.7364C4.53239 17.9052 4.76131 18 5 18H14C14.2387 18 14.4676 17.9052 14.6364 17.7364C14.8052 17.5676 14.9 17.3387 14.9 17.1V14.4H15.8C16.5161 14.4 17.2028 14.1155 17.7092 13.6092C18.2155 13.1028 18.5 12.4161 18.5 11.7V6.3C18.5 5.58392 18.2155 4.89716 17.7092 4.39081C17.2028 3.88446 16.5161 3.6 15.8 3.6ZM5.9 1.8H13.1V3.6H5.9V1.8ZM13.1 16.2H5.9V12.6H13.1V16.2ZM16.7 11.7C16.7 11.9387 16.6052 12.1676 16.4364 12.3364C16.2676 12.5052 16.0387 12.6 15.8 12.6H14.9V11.7C14.9 11.4613 14.8052 11.2324 14.6364 11.0636C14.4676 10.8948 14.2387 10.8 14 10.8H5C4.76131 10.8 4.53239 10.8948 4.3636 11.0636C4.19482 11.2324 4.1 11.4613 4.1 11.7V12.6H3.2C2.9613 12.6 2.73239 12.5052 2.5636 12.3364C2.39482 12.1676 2.3 11.9387 2.3 11.7V6.3C2.3 6.0613 2.39482 5.83239 2.5636 5.6636C2.73239 5.49482 2.9613 5.4 3.2 5.4H15.8C16.0387 5.4 16.2676 5.49482 16.4364 5.6636C16.6052 5.83239 16.7 6.0613 16.7 6.3V11.7Z"></path>
+</svg> Print Recipe</a></div>
+<p>Tomatoes, renowned for their impressive nutritional profile, are packed with antioxidants, and contribute to healthier skin, improved vision, and stronger bones, while also enhancing the immune system. In this authentic Chinese Beef Tomato Stew, we combine succulent beef with these nutrient-rich tomatoes and a selection of simple ingredients to create a hearty, nourishing dish perfect for the winter months. Not only is this Chinese beef tomato stew a delight to the taste buds, but it also brings with it a host of health benefits.</p>
+<h2 class="wp-block-heading">How to Make Authentic Chinese Beef Tomato Stew</h2>
+<p>To make this delicious dish enjoyed by people across China, you&#8217;ll need the ingredients in the photo below.</p>
+<figure class="wp-block-image size-large"><img decoding="async" src="https://linschinesekitchen.com/wp-content/uploads/2021/11/IMG_2668-1024x768.jpg" alt="chinese beef tomato stew ingredients" class="wp-image-7323"/></figure>
+<p>Now, on to the recipe!</p>
+<div class="wp-block-wpzoom-recipe-card-block-recipe-card is-style-newdesign header-content-align-left block-alignment-left" id="wpzoom-recipe-card"><div class="recipe-card-image">
+<figure>
+<img decoding="async" width="600" height="530" src="https://linschinesekitchen.com/wp-content/uploads/2021/11/IMG_2690-scaled-600x530.jpg" class="wpzoom-recipe-card-image" alt="Authentic Chinese Beef Tomato Stew Recipe" id="7317" />
+<figcaption>
+<div class="wpzoom-recipe-card-pinit">
+<a class="btn-pinit-link no-print" target="_blank" data-pin-do="buttonPin" href="https://www.pinterest.com/pin/create/button/?url=https://linschinesekitchen.com/authentic-chinese-beef-tomato-stew-recipe/&#038;media=https://linschinesekitchen.com/wp-content/uploads/2021/11/IMG_2690-800x530.jpg&#038;description=Authentic%20Chinese%20Beef%20Tomato%20Stew%20Recipe" data-pin-custom="true" >
+<SVG class="wpzoom-rcb-icon-pinit-link" enable-background="new 0 0 30 30" height="30px" id="Pinterest" version="1.1" viewBox="0 0 30 30" width="30px" xmlns="http://www.w3.org/2000/svg">
+<Path class="wpzoom-rcb-pinit-icon" d="M16,0C7.813,0,3,6.105,3,11c0,2.964,2,6,3,6s2,0,2-1s-2-2-2-5c0-4.354,4.773-8,10-8c4.627,0,7,3.224,7,7  c0,4.968-2.735,9-6,9c-1.803,0-3.433-1.172-3-3c0.519-2.184,1-2,2-6c0.342-1.368-0.433-3-2-3c-1.843,0-4,1.446-4,4c0,1.627,1,3,1,3  s-2.245,7.863-2.576,9.263C7.766,26.049,6.938,30,7.938,30S10,28,12,23c0.295-0.738,1-3,1-3c0.599,1.142,3.14,2,5,2  c5.539,0,9-5.24,9-12C27,4.888,22.58,0,16,0z" />
+</SVG>
+<span>Pin</span>
+</a>
+</div><div class="wpzoom-recipe-card-print-link">
+<a class="btn-print-link no-print" href="#wpzoom-recipe-card" title="Print directions..." style="background-color: #FFA921; box-shadow: 0 5px 40px #FFA921;" data-servings-size="3" data-recipe-id="7325">
+<SVG class="wpzoom-rcb-icon-print-link" viewBox="0 0 32 32" width="32" height="32" xmlns="http://www.w3.org/2000/svg">
+<g data-name="Layer 55" id="Layer_55">
+<Path class="wpzoom-rcb-print-icon" d="M28,25H25a1,1,0,0,1,0-2h3a1,1,0,0,0,1-1V10a1,1,0,0,0-1-1H4a1,1,0,0,0-1,1V22a1,1,0,0,0,1,1H7a1,1,0,0,1,0,2H4a3,3,0,0,1-3-3V10A3,3,0,0,1,4,7H28a3,3,0,0,1,3,3V22A3,3,0,0,1,28,25Z" />
+<Path class="wpzoom-rcb-print-icon" d="M25,31H7a1,1,0,0,1-1-1V20a1,1,0,0,1,1-1H25a1,1,0,0,1,1,1V30A1,1,0,0,1,25,31ZM8,29H24V21H8Z" />
+<Path class="wpzoom-rcb-print-icon" d="M25,9a1,1,0,0,1-1-1V3H8V8A1,1,0,0,1,6,8V2A1,1,0,0,1,7,1H25a1,1,0,0,1,1,1V8A1,1,0,0,1,25,9Z" />
+<rect class="wpzoom-rcb-print-icon" height="2" width="2" x="24" y="11" />
+<rect class="wpzoom-rcb-print-icon" height="2" width="4" x="18" y="11" />
+</g>
+</SVG>
+<span>Print</span>
+</a>
+</div>
+</figcaption>
+</figure>
+</div>
+<div class="recipe-card-heading">
+<h2 class="recipe-card-title">Authentic Chinese Beef Tomato Stew Recipe</h2><span class="recipe-card-author">Recipe by Lin</span><span class="recipe-card-course">Course: <mark>Main</mark></span><span class="recipe-card-cuisine">Cuisine: <mark>Chinese</mark></span><span class="recipe-card-difficulty">Difficulty: <mark>Medium</mark></span></div><div class="recipe-card-details"><div class="details-items"><div class="detail-item detail-item-0"><span class="detail-item-icon oldicon oldicon-food" style="color: #FFA921;"></span><span class="detail-item-label">Servings</span><p class="detail-item-value">3</p><span class="detail-item-unit">servings</span></div><div class="detail-item detail-item-1"><span class="detail-item-icon oldicon oldicon-clock" style="color: #FFA921;"></span><span class="detail-item-label">Prep time</span><p class="detail-item-value">2</p><span class="detail-item-unit">hours&nbsp;</span></div><div class="detail-item detail-item-2"><span class="detail-item-icon foodicons foodicons-cooking-food-in-a-hot-casserole" style="color: #FFA921;"></span><span class="detail-item-label">Cooking time</span><p class="detail-item-value">1</p><span class="detail-item-unit">hour&nbsp;</span></div></div></div><p class="recipe-card-summary no-print">This authentic Chinese recipe shows you how to make a delicious beef tomato stew that&#8217;s perfect for the cold winter season.</p><div class="recipe-card-ingredients"><h3 class="ingredients-title">Ingredients</h3><ul class="ingredients-list layout-1-column"><li id="wpzoom-rcb-ingredient-item-0" class="ingredient-item"><span class="tick-circle" style="border: 2px solid #FFA921;"></span><p class="ingredient-item-name"><span class="wpzoom-rcb-ingredient-name">Beef shin 500g</span></p></li><li id="wpzoom-rcb-ingredient-item-15" class="ingredient-item"><span class="tick-circle" style="border: 2px solid #FFA921;"></span><p class="ingredient-item-name"><span class="wpzoom-rcb-ingredient-name">Beef tomato x 4-5</span></p></li><li id="wpzoom-rcb-ingredient-item-33" class="ingredient-item"><span class="tick-circle" style="border: 2px solid #FFA921;"></span><p class="ingredient-item-name"><span class="wpzoom-rcb-ingredient-name">Pure cane sugar 20g</span></p></li><li id="wpzoom-rcb-ingredient-item-55" class="ingredient-item"><span class="tick-circle" style="border: 2px solid #FFA921;"></span><p class="ingredient-item-name"><span class="wpzoom-rcb-ingredient-name">Star anise x 1</span></p></li><li id="wpzoom-rcb-ingredient-item-70" class="ingredient-item"><span class="tick-circle" style="border: 2px solid #FFA921;"></span><p class="ingredient-item-name"><span class="wpzoom-rcb-ingredient-name">Cinnamon stick x ½</span></p></li><li id="wpzoom-rcb-ingredient-item-89" class="ingredient-item"><span class="tick-circle" style="border: 2px solid #FFA921;"></span><p class="ingredient-item-name"><span class="wpzoom-rcb-ingredient-name">Bay leaf x 3</span></p></li><li id="wpzoom-rcb-ingredient-item-102" class="ingredient-item"><span class="tick-circle" style="border: 2px solid #FFA921;"></span><p class="ingredient-item-name"><span class="wpzoom-rcb-ingredient-name">Ginger x 3 slices </span></p></li><li id="wpzoom-rcb-ingredient-item-121" class="ingredient-item"><span class="tick-circle" style="border: 2px solid #FFA921;"></span><p class="ingredient-item-name"><span class="wpzoom-rcb-ingredient-name">Soybean (yellow bean) paste 1tbsp</span></p></li></ul></div><div class="recipe-card-directions"><h3 class="directions-title">Directions</h3><ul class="directions-list"><li id="wpzoom-rcb-direction-step-0" class="direction-step">Same as in many Asian meat stew recipes, soaking meat in cold unseasoned water ahead of time is the first step of making this stew. The reason I was given by my mom (also the reason you maybe find online) is to get rid of the excessive blood in the meat. Some may argue, that this step is unnecessary and it is potentially an old holdover from past times where meat processing was different. For me, I still believe that this process will give the broth a cleaner taste, it might just be in my head, but I don’t usually skip this step when I cook Chinese meat broth. For the beef shin, which I purchased from a local supermarket, I have soaked them in cold unseasoned water for 2 hours. At first, you could see the water turning pink after a while.<img decoding="async" width="600" height="600" src="https://linschinesekitchen.com/wp-content/uploads/2021/11/IMG_2669-scaled.jpg" class="direction-step-image" alt="chinese beef tomato stew beef soaking" title="IMG_2669" /></li><li id="wpzoom-rcb-direction-step-761" class="direction-step">Change 2-3 times during soaking your beef, towards the end, you should be able to notice, the meat has visibly become “whiter”.<img loading="lazy" decoding="async" width="600" height="600" src="https://linschinesekitchen.com/wp-content/uploads/2021/11/IMG_2673-scaled.jpg" class="direction-step-image" alt="chinese beef tomato stew meat ready" title="IMG_2673" /></li><li id="wpzoom-rcb-direction-step-901" class="direction-step">While we are soaking the beef shin, we can start preparing the beef tomatoes. Give them a light cross cut on top. Make sure you cut through the skin.<img loading="lazy" decoding="async" width="600" height="600" src="https://linschinesekitchen.com/wp-content/uploads/2021/11/IMG_2671-scaled.jpg" class="direction-step-image" alt="chinese beef tomato stew tomatoes" title="IMG_2671" /></li><li id="wpzoom-rcb-direction-step-1065" class="direction-step">Bring a pot of water to a boil and gently drop your tomatoes in, let them sit for a good 30 seconds.<img loading="lazy" decoding="async" width="600" height="600" src="https://linschinesekitchen.com/wp-content/uploads/2021/11/IMG_2674-scaled.jpg" class="direction-step-image" alt="chinese beef tomato stew tomatoes boiling" title="IMG_2674" /></li><li id="wpzoom-rcb-direction-step-1178" class="direction-step">Take them out and rinse under cold water. Peel their skin. I always find this process quite calming for some reason.<img loading="lazy" decoding="async" width="600" height="600" src="https://linschinesekitchen.com/wp-content/uploads/2021/11/IMG_2677-scaled.jpg" class="direction-step-image" alt="chinese beef tomato stew tomatoes peeled" title="IMG_2677" /></li><li id="wpzoom-rcb-direction-step-1307" class="direction-step">Cut them into small chunks, approximately 2cmx2cm. <img loading="lazy" decoding="async" width="600" height="600" src="https://linschinesekitchen.com/wp-content/uploads/2021/11/IMG_2678-scaled.jpg" class="direction-step-image" alt="chinese beef tomato stew tomatoes cut" title="IMG_2678" /></li><li id="wpzoom-rcb-direction-step-1370" class="direction-step">Heat up a cooking pot, and add ½ tbsp of vegetable oil, wait for it to heat up. Add 1 star anise, ½ cinnamon stick, 3 pieces of bay leaves, and 3 slices of ginger in the oil quickly stir fry. <img loading="lazy" decoding="async" width="600" height="601" src="https://linschinesekitchen.com/wp-content/uploads/2021/11/IMG_2679.jpg" class="direction-step-image" alt="chinese beef tomato stew spices in pot" title="IMG_2679" /></li><li id="wpzoom-rcb-direction-step-1575" class="direction-step">After the smell of the spices is released, add your beef shin in the pot and 1 tbsp of Soybean (yellow bean) paste, stir fry until meat is browned nicely. <img loading="lazy" decoding="async" width="600" height="600" src="https://linschinesekitchen.com/wp-content/uploads/2021/11/IMG_2681.jpg" class="direction-step-image" alt="chinese beef tomato stew meat in pot" title="IMG_2681" /></li><li id="wpzoom-rcb-direction-step-1743" class="direction-step">Add tomatoes to the pot with ¼ tsp of salt, mix well, put the lid on, and let it cook on medium-high heat until tomatoes are soft like this.<img loading="lazy" decoding="async" width="600" height="600" src="https://linschinesekitchen.com/wp-content/uploads/2021/11/IMG_2683-scaled.jpg" class="direction-step-image" alt="chinese beef tomato stew tomatoes in pot" title="IMG_2683" /></li><li id="wpzoom-rcb-direction-step-1896" class="direction-step">Add 20g pure cane sugar to the stew. Change to low heat and let it cook until tomato juice could cover your meat in the cooking pot. <img loading="lazy" decoding="async" width="600" height="600" src="https://linschinesekitchen.com/wp-content/uploads/2021/11/IMG_2686-scaled.jpg" class="direction-step-image" alt="chinese beef tomato stew slow cooking" title="IMG_2686" /></li><li id="wpzoom-rcb-direction-step-2042" class="direction-step">Take the spices out and put the stew in your pressure cooker. I set mine to stew mode, which is 30 minutes. <img decoding="async" src="https://linschinesekitchen.com/wp-content/uploads/2021/11/IMG_2688-750x750.jpg" title="IMG_2688" alt="chinese beef tomato stew spices out" class="direction-step-image" /></li><li id="wpzoom-rcb-direction-step-2166" class="direction-step">Garnish it any way you want. There you have it! A thick, tasty, and healthy Chinese Beef Tomato Stew. A perfect dinner choice with your loved ones. Try it and let us know your thoughts! 请慢用（qǐng màn yòng) Enjoy!<img loading="lazy" decoding="async" width="600" height="600" src="https://linschinesekitchen.com/wp-content/uploads/2021/11/IMG_2696-scaled.jpg" class="direction-step-image" alt="chinese beef tomato stew served" title="IMG_2696" /></li></ul></div><script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Recipe","name":"Authentic Chinese Beef Tomato Stew Recipe","image":["https:\/\/linschinesekitchen.com\/wp-content\/uploads\/2021\/11\/IMG_2690-scaled.jpg","https:\/\/linschinesekitchen.com\/wp-content\/uploads\/2021\/11\/IMG_2690-500x500.jpg","https:\/\/linschinesekitchen.com\/wp-content\/uploads\/2021\/11\/IMG_2690-500x375.jpg","https:\/\/linschinesekitchen.com\/wp-content\/uploads\/2021\/11\/IMG_2690-480x270.jpg"],"description":"This authentic Chinese recipe shows you how to make a delicious beef tomato stew that&#039;s perfect for the cold winter season.","keywords":"beef, soup, stew, tomato, beef, tomato, stew, authentic chinese, soup","author":{"@type":"Person","name":"Lin"},"datePublished":"2021-11-26T22:44:43+00:00","prepTime":"PT2H","cookTime":"PT1H","totalTime":"PT3H","recipeCategory":["Main"],"recipeCuisine":["Chinese"],"recipeYield":["3","3 servings"],"nutrition":{"@type":"NutritionInformation"},"recipeIngredient":["Beef shin 500g","Beef tomato x 4-5","Pure cane sugar 20g","Star anise x 1","Cinnamon stick x ½","Bay leaf x 3","Ginger x 3 slices","Soybean (yellow bean) paste 1tbsp"],"recipeInstructions":[{"@type":"HowToStep","name":"Same as in many Asian meat stew recipes, soaking meat in cold unseasoned water ahead of time is the first step of making this stew. The reason I was given by my mom (also the reason you maybe find online) is to get rid of the excessive blood in the meat. Some may argue, that this step is unnecessary and it is potentially an old holdover from past times where meat processing was different. For me, I still believe that this process will give the broth a cleaner taste, it might just be in my head, but I don’t usually skip this step when I cook Chinese meat broth. For the beef shin, which I purchased from a local supermarket, I have soaked them in cold unseasoned water for 2 hours. At first, you could see the water turning pink after a while.","text":"Same as in many Asian meat stew recipes, soaking meat in cold unseasoned water ahead of time is the first step of making this stew. The reason I was given by my mom (also the reason you maybe find online) is to get rid of the excessive blood in the meat. Some may argue, that this step is unnecessary and it is potentially an old holdover from past times where meat processing was different. For me, I still believe that this process will give the broth a cleaner taste, it might just be in my head, but I don’t usually skip this step when I cook Chinese meat broth. For the beef shin, which I purchased from a local supermarket, I have soaked them in cold unseasoned water for 2 hours. At first, you could see the water turning pink after a while.","url":"https:\/\/linschinesekitchen.com\/authentic-chinese-beef-tomato-stew-recipe\/#wpzoom-rcb-direction-step-0","image":"https:\/\/linschinesekitchen.com\/wp-content\/uploads\/2021\/11\/IMG_2669-750x750.jpg"},{"@type":"HowToStep","name":"Change 2-3 times during soaking your beef, towards the end, you should be able to notice, the meat has visibly become “whiter”.","text":"Change 2-3 times during soaking your beef, towards the end, you should be able to notice, the meat has visibly become “whiter”.","url":"https:\/\/linschinesekitchen.com\/authentic-chinese-beef-tomato-stew-recipe\/#wpzoom-rcb-direction-step-761","image":"https:\/\/linschinesekitchen.com\/wp-content\/uploads\/2021\/11\/IMG_2673-750x750.jpg"},{"@type":"HowToStep","name":"While we are soaking the beef shin, we can start preparing the beef tomatoes. Give them a light cross cut on top. Make sure you cut through the skin.","text":"While we are soaking the beef shin, we can start preparing the beef tomatoes. Give them a light cross cut on top. Make sure you cut through the skin.","url":"https:\/\/linschinesekitchen.com\/authentic-chinese-beef-tomato-stew-recipe\/#wpzoom-rcb-direction-step-901","image":"https:\/\/linschinesekitchen.com\/wp-content\/uploads\/2021\/11\/IMG_2671-750x750.jpg"},{"@type":"HowToStep","name":"Bring a pot of water to a boil and gently drop your tomatoes in, let them sit for a good 30 seconds.","text":"Bring a pot of water to a boil and gently drop your tomatoes in, let them sit for a good 30 seconds.","url":"https:\/\/linschinesekitchen.com\/authentic-chinese-beef-tomato-stew-recipe\/#wpzoom-rcb-direction-step-1065","image":"https:\/\/linschinesekitchen.com\/wp-content\/uploads\/2021\/11\/IMG_2674-750x750.jpg"},{"@type":"HowToStep","name":"Take them out and rinse under cold water. Peel their skin. I always find this process quite calming for some reason.","text":"Take them out and rinse under cold water. Peel their skin. I always find this process quite calming for some reason.","url":"https:\/\/linschinesekitchen.com\/authentic-chinese-beef-tomato-stew-recipe\/#wpzoom-rcb-direction-step-1178","image":"https:\/\/linschinesekitchen.com\/wp-content\/uploads\/2021\/11\/IMG_2677-750x749.jpg"},{"@type":"HowToStep","name":"Cut them into small chunks, approximately 2cmx2cm.","text":"Cut them into small chunks, approximately 2cmx2cm.","url":"https:\/\/linschinesekitchen.com\/authentic-chinese-beef-tomato-stew-recipe\/#wpzoom-rcb-direction-step-1307","image":"https:\/\/linschinesekitchen.com\/wp-content\/uploads\/2021\/11\/IMG_2678-750x750.jpg"},{"@type":"HowToStep","name":"Heat up a cooking pot, and add ½ tbsp of vegetable oil, wait for it to heat up. Add 1 star anise, ½ cinnamon stick, 3 pieces of bay leaves, and 3 slices of ginger in the oil quickly stir fry.","text":"Heat up a cooking pot, and add ½ tbsp of vegetable oil, wait for it to heat up. Add 1 star anise, ½ cinnamon stick, 3 pieces of bay leaves, and 3 slices of ginger in the oil quickly stir fry.","url":"https:\/\/linschinesekitchen.com\/authentic-chinese-beef-tomato-stew-recipe\/#wpzoom-rcb-direction-step-1370","image":"https:\/\/linschinesekitchen.com\/wp-content\/uploads\/2021\/11\/IMG_2679.jpg"},{"@type":"HowToStep","name":"After the smell of the spices is released, add your beef shin in the pot and 1 tbsp of Soybean (yellow bean) paste, stir fry until meat is browned nicely.","text":"After the smell of the spices is released, add your beef shin in the pot and 1 tbsp of Soybean (yellow bean) paste, stir fry until meat is browned nicely.","url":"https:\/\/linschinesekitchen.com\/authentic-chinese-beef-tomato-stew-recipe\/#wpzoom-rcb-direction-step-1575","image":"https:\/\/linschinesekitchen.com\/wp-content\/uploads\/2021\/11\/IMG_2681.jpg"},{"@type":"HowToStep","name":"Add tomatoes to the pot with ¼ tsp of salt, mix well, put the lid on, and let it cook on medium-high heat until tomatoes are soft like this.","text":"Add tomatoes to the pot with ¼ tsp of salt, mix well, put the lid on, and let it cook on medium-high heat until tomatoes are soft like this.","url":"https:\/\/linschinesekitchen.com\/authentic-chinese-beef-tomato-stew-recipe\/#wpzoom-rcb-direction-step-1743","image":"https:\/\/linschinesekitchen.com\/wp-content\/uploads\/2021\/11\/IMG_2683-750x750.jpg"},{"@type":"HowToStep","name":"Add 20g pure cane sugar to the stew. Change to low heat and let it cook until tomato juice could cover your meat in the cooking pot.","text":"Add 20g pure cane sugar to the stew. Change to low heat and let it cook until tomato juice could cover your meat in the cooking pot.","url":"https:\/\/linschinesekitchen.com\/authentic-chinese-beef-tomato-stew-recipe\/#wpzoom-rcb-direction-step-1896","image":"https:\/\/linschinesekitchen.com\/wp-content\/uploads\/2021\/11\/IMG_2686-750x750.jpg"},{"@type":"HowToStep","name":"Take the spices out and put the stew in your pressure cooker. I set mine to stew mode, which is 30 minutes.","text":"Take the spices out and put the stew in your pressure cooker. I set mine to stew mode, which is 30 minutes.","url":"https:\/\/linschinesekitchen.com\/authentic-chinese-beef-tomato-stew-recipe\/#wpzoom-rcb-direction-step-2042","image":"https:\/\/linschinesekitchen.com\/wp-content\/uploads\/2021\/11\/IMG_2688-750x750.jpg"},{"@type":"HowToStep","name":"Garnish it any way you want. There you have it! A thick, tasty, and healthy Chinese Beef Tomato Stew. A perfect dinner choice with your loved ones. Try it and let us know your thoughts! 请慢用（qǐng màn yòng) Enjoy!","text":"Garnish it any way you want. There you have it! A thick, tasty, and healthy Chinese Beef Tomato Stew. A perfect dinner choice with your loved ones. Try it and let us know your thoughts! 请慢用（qǐng màn yòng) Enjoy!","url":"https:\/\/linschinesekitchen.com\/authentic-chinese-beef-tomato-stew-recipe\/#wpzoom-rcb-direction-step-2166","image":"https:\/\/linschinesekitchen.com\/wp-content\/uploads\/2021\/11\/IMG_2696-750x751.jpg"}]}</script></div>
+<h2 class="wp-block-heading">Try It Yourself!</h2>
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="600" height="530" src="https://linschinesekitchen.com/wp-content/uploads/2021/11/IMG_2701-600x530.jpg" alt="chinese beef tomato stew eating" class="wp-image-7321"/></figure>
+<p>And now you know how to make this authentic Chinese stew. Give it a try and let us know how it goes in the comments below. We&#8217;re also around if you have any questions about this and other recipes on the site.</p>
+<p>If you make this delicious dish, we&#8217;d love to check it out! Post it on Instagram and tag us <a href="https://www.instagram.com/linschinesekitchen/">@linschinesekitchen</a>.</p>
+</div>
+<div class="tag_list"><h4>Tags</h4><a href="https://linschinesekitchen.com/tag/beef/" rel="tag">beef</a> <a href="https://linschinesekitchen.com/tag/soup/" rel="tag">soup</a> <a href="https://linschinesekitchen.com/tag/stew/" rel="tag">stew</a> <a href="https://linschinesekitchen.com/tag/tomato/" rel="tag">tomato</a></div>
+<div class="share"><a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Flinschinesekitchen.com%2Fauthentic-chinese-beef-tomato-stew-recipe%2F&text=Chinese+Beef+Tomato+Stew+Recipe" target="_blank" title="Tweet this on Twitter" class="twitter">Twitter</a> <a href="https://facebook.com/sharer.php?u=https%3A%2F%2Flinschinesekitchen.com%2Fauthentic-chinese-beef-tomato-stew-recipe%2F&t=Chinese+Beef+Tomato+Stew+Recipe" target="_blank" title="Share this on Facebook" class="facebook">Facebook</a> <a href="https://pinterest.com/pin/create/button/?url=https%3A%2F%2Flinschinesekitchen.com%2Fauthentic-chinese-beef-tomato-stew-recipe%2F&media=https%3A%2F%2Flinschinesekitchen.com%2Fwp-content%2Fuploads%2F2021%2F11%2FIMG_2690-scaled.jpg&description=Chinese+Beef+Tomato+Stew+Recipe" data-pin-custom="true" target="_blank" count-layout="vertical" title="Pin it to Pinterest" class="pinterest pin-it-button">Pinterest</a> <a href="javascript:window.print()" title="Print this Page" class="print">Print</a></div>
+<div class="post_author clearfix"><img alt='' src='https://secure.gravatar.com/avatar/c75161203a8a9685fe5a779be9ddaeae?s=110&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/c75161203a8a9685fe5a779be9ddaeae?s=220&#038;d=mm&#038;r=g 2x' class='avatar avatar-110 photo' height='110' width='110' decoding='async'/><div class="author-description"><h3 class="author-title author"><a href="https://linschinesekitchen.com/author/linhe/" title="Posts by Lin" rel="author">Lin</a></h3> <p class="author-bio"></p> <div class="author_links">  </div></div></div>
+<div class="prevnext"><div class="previous_post_pag"><a class="prevnext_title" href="https://linschinesekitchen.com/authentic-chinese-fishball-mooli-glass-noodle-soup-recipe/" title="Authentic Chinese Fishball Mooli Glass Noodle Soup Recipe"><img width="380" height="380" src="https://linschinesekitchen.com/wp-content/uploads/2021/11/IMG_2551-380x380.jpg" class="attachment-loop size-loop wp-post-image" alt="fishball mooli glass noodle served" decoding="async" srcset="https://linschinesekitchen.com/wp-content/uploads/2021/11/IMG_2551-380x380.jpg 380w, https://linschinesekitchen.com/wp-content/uploads/2021/11/IMG_2551-300x300.jpg 300w, https://linschinesekitchen.com/wp-content/uploads/2021/11/IMG_2551-1024x1024.jpg 1024w, https://linschinesekitchen.com/wp-content/uploads/2021/11/IMG_2551-150x150.jpg 150w, https://linschinesekitchen.com/wp-content/uploads/2021/11/IMG_2551-768x768.jpg 768w, https://linschinesekitchen.com/wp-content/uploads/2021/11/IMG_2551-1536x1536.jpg 1536w, https://linschinesekitchen.com/wp-content/uploads/2021/11/IMG_2551-2048x2048.jpg 2048w, https://linschinesekitchen.com/wp-content/uploads/2021/11/IMG_2551-530x530.jpg 530w, https://linschinesekitchen.com/wp-content/uploads/2021/11/IMG_2551-750x750.jpg 750w, https://linschinesekitchen.com/wp-content/uploads/2021/11/IMG_2551-500x500.jpg 500w, https://linschinesekitchen.com/wp-content/uploads/2021/11/IMG_2551-760x760.jpg 760w, https://linschinesekitchen.com/wp-content/uploads/2021/11/IMG_2551-800x800.jpg 800w" sizes="(max-width: 380px) 100vw, 380px" /><span><span><strong>Authentic Chinese Fishball Mooli Glass Noodle Soup Recipe</strong></span></span></a></div> <div class="next_post_pag"><a class="prevnext_title" href="https://linschinesekitchen.com/chinese-style-roast-lamb-scallion-bread-greek-tzatziki-fusion-recipe/" title="Chinese-style Roast Lamb, Scallion Bread and Greek Tzatziki Fusion Recipe"><img width="380" height="380" src="https://linschinesekitchen.com/wp-content/uploads/2021/11/IMG_2768-380x380.jpg" class="attachment-loop size-loop wp-post-image" alt="roast lamb scallion bread and tzatziki ready to eat" decoding="async" srcset="https://linschinesekitchen.com/wp-content/uploads/2021/11/IMG_2768-380x380.jpg 380w, https://linschinesekitchen.com/wp-content/uploads/2021/11/IMG_2768-300x300.jpg 300w, https://linschinesekitchen.com/wp-content/uploads/2021/11/IMG_2768-150x150.jpg 150w, https://linschinesekitchen.com/wp-content/uploads/2021/11/IMG_2768-530x530.jpg 530w, https://linschinesekitchen.com/wp-content/uploads/2021/11/IMG_2768-500x500.jpg 500w, https://linschinesekitchen.com/wp-content/uploads/2021/11/IMG_2768.jpg 600w" sizes="(max-width: 380px) 100vw, 380px" /><span><span><strong>Chinese-style Roast Lamb, Scallion Bread and Greek Tzatziki Fusion Recipe</strong></span></span></a></div></div>
+<div id="comments">
+<div id="respond" class="comment-respond">
+<h3 id="reply-title" class="comment-reply-title">Leave a Comment <small><a rel="nofollow" id="cancel-comment-reply-link" href="/authentic-chinese-beef-tomato-stew-recipe/#respond" style="display:none;">Cancel</a></small></h3><form action="https://linschinesekitchen.com/wp-comments-post.php" method="post" id="commentform" class="comment-form" novalidate><p class="comment-notes"><span id="email-notes">Your email address will not be published.</span> <span class="required-field-message">Required fields are marked <span class="required">*</span></span></p><div class="form_fields clearfix"><p class="comment-form-author"><label for="author">Name</label> <input id="author" name="author" type="text" value="" size="30" aria-required='true' class="required" /><span class="required_lab">*</span></p>
+<p class="comment-form-email"><label for="email">Email Address</label> <input id="email" name="email" type="text" value="" size="30" aria-required='true' class="required email" /><span class="required_lab">*</span></p>
+<p class="comment-form-url"><label for="url">Website</label> <input id="url" name="url" type="text" value="" size="30" aria-required='true' /></p></div><div class="clear"></div>
+<p class="comment-form-comment"><label for="comment">Message</label> <textarea id="comment" name="comment" cols="35" rows="5" aria-required="true" class="required"></textarea></p><div class="clear"></div><p class="comment-form-cookies-consent"><input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" value="yes" /><label for="wp-comment-cookies-consent">Save my name, email, and website in this browser for the next time I comment.</label></p>
+<p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Post Comment" /> <input type='hidden' name='comment_post_ID' value='7325' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+</p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="a3a22acdb7" /></p><p style="display: none !important;" class="akismet-fields-container" data-prefix="ak_"><label>&#916;<textarea name="ak_hp_textarea" cols="45" rows="8" maxlength="100"></textarea></label><input type="hidden" id="ak_js_1" name="ak_js" value="126"/><script>document.getElementById( "ak_js_1" ).setAttribute( "value", ( new Date() ).getTime() );</script></p></form>	</div><!-- #respond -->
+<p class="akismet_comment_form_privacy_notice">This site uses Akismet to reduce spam. <a href="https://akismet.com/privacy/" target="_blank" rel="nofollow noopener">Learn how your comment data is processed.</a></p>
+</div><!-- #comments -->
+</section>
+<footer class="entry-footer">
+</footer><!-- .entry-footer -->
+</article><!-- #post-## -->
+</div>
+<section id="sidebar" class="site-sidebar">
+<div class="widget tabbertabs" id="wpzoom-tabber-2"><div class="tabber"><div id="wpzoom-popular-recipes-views-2" class="tabbertab popular-recipes"><h2 class="widgettitle">Most Viewed</h2>
+<ol class="popular-recipes">
+<li><span class="list_wrapper"><a href="https://linschinesekitchen.com/got-carrots-and-celery-try-this-delicious-stir-fry/" rel="bookmark" title="Permanent Link to Got Carrots and Celery? Try This  Delicious Stir Fry">Got Carrots and Celery? Try This  Delicious Stir Fry</a><br/><small>360 views</small></span></li>
+<li><span class="list_wrapper"><a href="https://linschinesekitchen.com/authentic-chinese-beef-tomato-stew-recipe/" rel="bookmark" title="Permanent Link to Chinese Beef Tomato Stew Recipe">Chinese Beef Tomato Stew Recipe</a><br/><small>187 views</small></span></li>
+<li><span class="list_wrapper"><a href="https://linschinesekitchen.com/bitter-melon-pork-belly-stir-fry-recipe/" rel="bookmark" title="Permanent Link to Bitter Melon &#038; Pork Belly Stir Fry Recipe">Bitter Melon &#038; Pork Belly Stir Fry Recipe</a><br/><small>112 views</small></span></li>
+<li><span class="list_wrapper"><a href="https://linschinesekitchen.com/yuxiang-aubergine/" rel="bookmark" title="Permanent Link to Yuxiang Aubergine Recipe">Yuxiang Aubergine Recipe</a><br/><small>103 views</small></span></li>
+<li><span class="list_wrapper"><a href="https://linschinesekitchen.com/sweet-and-sour-king-prawn-recipe/" rel="bookmark" title="Permanent Link to Sweet and Sour King Prawn Recipe">Sweet and Sour King Prawn Recipe</a><br/><small>92 views</small></span></li>
+</ol>
+</div><div id="wpzoom-popular-recipes-comments-2" class="tabbertab popular-recipes"><h2 class="widgettitle">Most Commented</h2>
+<ol class='popular-posts'>
+<li><span class='list_wrapper'><a href='https://linschinesekitchen.com/sweet-and-sour-king-prawn-recipe/' rel='bookmark'>Sweet and Sour King Prawn Recipe</a><br/><small>2 comments</small></span></li>
+<li><span class='list_wrapper'><a href='https://linschinesekitchen.com/tomato-egg-drop-soup-recipe/' rel='bookmark'>Only Tomato and Eggs Left? Try This Hearty Chinese Soup</a><br/><small>2 comments</small></span></li>
+<li><span class='list_wrapper'><a href='https://linschinesekitchen.com/yuxiang-aubergine/' rel='bookmark'>Yuxiang Aubergine Recipe</a><br/><small>1 comments</small></span></li>
+<li><span class='list_wrapper'><a href='https://linschinesekitchen.com/yuxiang-pork-recipe/' rel='bookmark'>Yuxiang Pork Recipe</a><br/><small>1 comments</small></span></li>
+<li><span class='list_wrapper'><a href='https://linschinesekitchen.com/got-carrots-and-celery-try-this-delicious-stir-fry/' rel='bookmark'>Got Carrots and Celery? Try This  Delicious Stir Fry</a><br/><small>1 comments</small></span></li>
+</ol>
+</div></div>
+<div class="clear"></div></div><div class="widget zoom-social-icons-widget" id="zoom-social-icons-widget-3"><h3 class="title">Follow us</h3>
+<ul class="zoom-social-icons-list zoom-social-icons-list--with-canvas zoom-social-icons-list--round zoom-social-icons-list--no-labels">
+<li class="zoom-social_icons-list__item">
+<a class="zoom-social_icons-list__link" href="https://instagram.com/linschinesekitchen" target="_blank" title="" >
+<span class="screen-reader-text">instagram</span>
+<span class="zoom-social_icons-list-span social-icon socicon socicon-instagram" data-hover-rule="background-color" data-hover-color="#e4405f" style="background-color : #e4405f; font-size: 18px; padding:8px" ></span>
+</a>
+</li>
+<li class="zoom-social_icons-list__item">
+<a class="zoom-social_icons-list__link" href="https://www.pinterest.com/linschinesekitchen" target="_blank" title="" >
+<span class="screen-reader-text">pinterest</span>
+<span class="zoom-social_icons-list-span social-icon socicon socicon-pinterest" data-hover-rule="background-color" data-hover-color="#c92619" style="background-color : #c92619; font-size: 18px; padding:8px" ></span>
+</a>
+</li>
+<li class="zoom-social_icons-list__item">
+<a class="zoom-social_icons-list__link" href="https://facebook.com/linschinesekitchen" target="_blank" title="Friend me on Facebook" >
+<span class="screen-reader-text">facebook</span>
+<span class="zoom-social_icons-list-span social-icon socicon socicon-facebook" data-hover-rule="background-color" data-hover-color="#1877F2" style="background-color : #1877F2; font-size: 18px; padding:8px" ></span>
+</a>
+</li>
+</ul>
+<div class="clear"></div></div><div class="widget feature-posts" id="wpzoom-feature-posts-3"><h3 class="title">Latest Recipes</h3><ul class="feature-posts-list"><li><div class="post-thumb"><a href="https://linschinesekitchen.com/hongshao-fish-tofu-recipe/"><img src="https://linschinesekitchen.com/wp-content/uploads/2025/03/IMG_9818-scaled-90x75.webp" height="75" width="90" alt="Chinese Red-Braised Fish and Tofu (Hongshao Style)" /></a></div><h3><a href="https://linschinesekitchen.com/hongshao-fish-tofu-recipe/">Chinese Red-Braised Fish and Tofu (Hongshao Style)</a></h3><br /><small>March 26, 2025</small> <br /><div class="clear"></div></li><li><div class="post-thumb"><a href="https://linschinesekitchen.com/stir-fried-shredded-potato-recipe/"><img src="https://linschinesekitchen.com/wp-content/uploads/2025/03/IMG_9710-scaled-90x75.webp" height="75" width="90" alt="Stir-Fried Shredded Potato: The Sweet, Sour, and Addictively Crunchy Classic" /></a></div><h3><a href="https://linschinesekitchen.com/stir-fried-shredded-potato-recipe/">Stir-Fried Shredded Potato: The Sweet, Sour, and Addictively Crunchy Classic</a></h3><br /><small>March 14, 2025</small> <br /><div class="clear"></div></li><li><div class="post-thumb"><a href="https://linschinesekitchen.com/authentic-chinese-beef-recipe-shacha-stir-fry/"><img src="https://linschinesekitchen.com/wp-content/uploads/2025/02/IMG_9461-scaled-90x75.webp" height="75" width="90" alt="The Best Chinese Beef Recipe &#8211; Shacha Beef Stir Fry" /></a></div><h3><a href="https://linschinesekitchen.com/authentic-chinese-beef-recipe-shacha-stir-fry/">The Best Chinese Beef Recipe &#8211; Shacha Beef Stir Fry</a></h3><br /><small>February 15, 2025</small> <br /><div class="clear"></div></li></ul><div class="clear"></div><div class="clear"></div></div><div class="widget widget_tag_cloud" id="tag_cloud-3"><h3 class="title">Categories</h3><div class="tagcloud"><a href="https://linschinesekitchen.com/category/beef/" class="tag-cloud-link tag-link-123 tag-link-position-1" style="font-size: 16.615384615385pt;" aria-label="Beef (5 items)"><span>Beef </span><span class="post_count"> 5</span></a>
+<a href="https://linschinesekitchen.com/category/blog/" class="tag-cloud-link tag-link-283 tag-link-position-2" style="font-size: 8pt;" aria-label="Blog (1 item)"><span>Blog </span><span class="post_count"> 1</span></a>
+<a href="https://linschinesekitchen.com/category/chicken/" class="tag-cloud-link tag-link-169 tag-link-position-3" style="font-size: 18.769230769231pt;" aria-label="Chicken (7 items)"><span>Chicken </span><span class="post_count"> 7</span></a>
+<a href="https://linschinesekitchen.com/category/dumplings/" class="tag-cloud-link tag-link-127 tag-link-position-4" style="font-size: 16.615384615385pt;" aria-label="Dumplings (5 items)"><span>Dumplings </span><span class="post_count"> 5</span></a>
+<a href="https://linschinesekitchen.com/category/fusion/" class="tag-cloud-link tag-link-163 tag-link-position-5" style="font-size: 8pt;" aria-label="Fusion (1 item)"><span>Fusion </span><span class="post_count"> 1</span></a>
+<a href="https://linschinesekitchen.com/category/noodles/" class="tag-cloud-link tag-link-3 tag-link-position-6" style="font-size: 13.384615384615pt;" aria-label="Noodles (3 items)"><span>Noodles </span><span class="post_count"> 3</span></a>
+<a href="https://linschinesekitchen.com/category/pies/" class="tag-cloud-link tag-link-109 tag-link-position-7" style="font-size: 15.179487179487pt;" aria-label="Pies (4 items)"><span>Pies </span><span class="post_count"> 4</span></a>
+<a href="https://linschinesekitchen.com/category/pork/" class="tag-cloud-link tag-link-107 tag-link-position-8" style="font-size: 22pt;" aria-label="Pork (11 items)"><span>Pork </span><span class="post_count"> 11</span></a>
+<a href="https://linschinesekitchen.com/category/rice/" class="tag-cloud-link tag-link-165 tag-link-position-9" style="font-size: 11.230769230769pt;" aria-label="Rice (2 items)"><span>Rice </span><span class="post_count"> 2</span></a>
+<a href="https://linschinesekitchen.com/category/salad/" class="tag-cloud-link tag-link-129 tag-link-position-10" style="font-size: 13.384615384615pt;" aria-label="Salad (3 items)"><span>Salad </span><span class="post_count"> 3</span></a>
+<a href="https://linschinesekitchen.com/category/seafood/" class="tag-cloud-link tag-link-125 tag-link-position-11" style="font-size: 15.179487179487pt;" aria-label="Seafood (4 items)"><span>Seafood </span><span class="post_count"> 4</span></a>
+<a href="https://linschinesekitchen.com/category/soups-stews/" class="tag-cloud-link tag-link-119 tag-link-position-12" style="font-size: 18.769230769231pt;" aria-label="Soups &amp; Stews (7 items)"><span>Soups &amp; Stews </span><span class="post_count"> 7</span></a>
+<a href="https://linschinesekitchen.com/category/staples/" class="tag-cloud-link tag-link-5 tag-link-position-13" style="font-size: 11.230769230769pt;" aria-label="Staples (2 items)"><span>Staples </span><span class="post_count"> 2</span></a>
+<a href="https://linschinesekitchen.com/category/steamed/" class="tag-cloud-link tag-link-299 tag-link-position-14" style="font-size: 8pt;" aria-label="Steamed (1 item)"><span>Steamed </span><span class="post_count"> 1</span></a>
+<a href="https://linschinesekitchen.com/category/stir-fry/" class="tag-cloud-link tag-link-105 tag-link-position-15" style="font-size: 22pt;" aria-label="Stir Fry (11 items)"><span>Stir Fry </span><span class="post_count"> 11</span></a>
+<a href="https://linschinesekitchen.com/category/sweet-sour/" class="tag-cloud-link tag-link-121 tag-link-position-16" style="font-size: 16.615384615385pt;" aria-label="Sweet &amp; Sour (5 items)"><span>Sweet &amp; Sour </span><span class="post_count"> 5</span></a>
+<a href="https://linschinesekitchen.com/category/sweets/" class="tag-cloud-link tag-link-211 tag-link-position-17" style="font-size: 8pt;" aria-label="Sweets (1 item)"><span>Sweets </span><span class="post_count"> 1</span></a>
+<a href="https://linschinesekitchen.com/category/under-30-min/" class="tag-cloud-link tag-link-113 tag-link-position-18" style="font-size: 22pt;" aria-label="Under 30 Min (11 items)"><span>Under 30 Min </span><span class="post_count"> 11</span></a>
+<a href="https://linschinesekitchen.com/category/vegan/" class="tag-cloud-link tag-link-111 tag-link-position-19" style="font-size: 16.615384615385pt;" aria-label="Vegan (5 items)"><span>Vegan </span><span class="post_count"> 5</span></a></div>
+<div class="clear"></div></div>
+</section>
+</main><!-- #main -->
+
+</div><!-- ./inner-wrap -->
+<footer id="colophon" class="site-footer" role="contentinfo">
+<div class="footer-widgets widgets widget-columns-3">
+<div class="inner-wrap">
+<div class="column">
+<div class="widget feature-posts" id="wpzoom-feature-posts-5"><h3 class="title">Recent Posts</h3><ul class="feature-posts-list"><li><div class="post-thumb"><a href="https://linschinesekitchen.com/hongshao-fish-tofu-recipe/"><img src="https://linschinesekitchen.com/wp-content/uploads/2025/03/IMG_9818-scaled-90x75.webp" height="75" width="90" alt="Chinese Red-Braised Fish and Tofu (Hongshao Style)" /></a></div><h3><a href="https://linschinesekitchen.com/hongshao-fish-tofu-recipe/">Chinese Red-Braised Fish and Tofu (Hongshao Style)</a></h3><br /><small>March 26, 2025</small> <br /><div class="clear"></div></li><li><div class="post-thumb"><a href="https://linschinesekitchen.com/stir-fried-shredded-potato-recipe/"><img src="https://linschinesekitchen.com/wp-content/uploads/2025/03/IMG_9710-scaled-90x75.webp" height="75" width="90" alt="Stir-Fried Shredded Potato: The Sweet, Sour, and Addictively Crunchy Classic" /></a></div><h3><a href="https://linschinesekitchen.com/stir-fried-shredded-potato-recipe/">Stir-Fried Shredded Potato: The Sweet, Sour, and Addictively Crunchy Classic</a></h3><br /><small>March 14, 2025</small> <br /><div class="clear"></div></li><li><div class="post-thumb"><a href="https://linschinesekitchen.com/authentic-chinese-beef-recipe-shacha-stir-fry/"><img src="https://linschinesekitchen.com/wp-content/uploads/2025/02/IMG_9461-scaled-90x75.webp" height="75" width="90" alt="The Best Chinese Beef Recipe &#8211; Shacha Beef Stir Fry" /></a></div><h3><a href="https://linschinesekitchen.com/authentic-chinese-beef-recipe-shacha-stir-fry/">The Best Chinese Beef Recipe &#8211; Shacha Beef Stir Fry</a></h3><br /><small>February 15, 2025</small> <br /><div class="clear"></div></li></ul><div class="clear"></div><div class="clear"></div></div>                        </div><!-- .column -->
+<div class="column">
+<div class="widget widget_categories" id="categories-3"><h3 class="title">Recipe Categories</h3>
+<ul>
+<li class="cat-item cat-item-123"><a href="https://linschinesekitchen.com/category/beef/">Beef</a>
+</li>
+<li class="cat-item cat-item-283"><a href="https://linschinesekitchen.com/category/blog/">Blog</a>
+</li>
+<li class="cat-item cat-item-169"><a href="https://linschinesekitchen.com/category/chicken/">Chicken</a>
+</li>
+<li class="cat-item cat-item-127"><a href="https://linschinesekitchen.com/category/dumplings/">Dumplings</a>
+</li>
+<li class="cat-item cat-item-163"><a href="https://linschinesekitchen.com/category/fusion/">Fusion</a>
+</li>
+<li class="cat-item cat-item-3"><a href="https://linschinesekitchen.com/category/noodles/">Noodles</a>
+</li>
+<li class="cat-item cat-item-109"><a href="https://linschinesekitchen.com/category/pies/">Pies</a>
+</li>
+<li class="cat-item cat-item-107"><a href="https://linschinesekitchen.com/category/pork/">Pork</a>
+</li>
+<li class="cat-item cat-item-165"><a href="https://linschinesekitchen.com/category/rice/">Rice</a>
+</li>
+<li class="cat-item cat-item-129"><a href="https://linschinesekitchen.com/category/salad/">Salad</a>
+</li>
+<li class="cat-item cat-item-125"><a href="https://linschinesekitchen.com/category/seafood/">Seafood</a>
+</li>
+<li class="cat-item cat-item-119"><a href="https://linschinesekitchen.com/category/soups-stews/">Soups &amp; Stews</a>
+</li>
+<li class="cat-item cat-item-5"><a href="https://linschinesekitchen.com/category/staples/">Staples</a>
+</li>
+<li class="cat-item cat-item-299"><a href="https://linschinesekitchen.com/category/steamed/">Steamed</a>
+</li>
+<li class="cat-item cat-item-105"><a href="https://linschinesekitchen.com/category/stir-fry/">Stir Fry</a>
+</li>
+<li class="cat-item cat-item-121"><a href="https://linschinesekitchen.com/category/sweet-sour/">Sweet &amp; Sour</a>
+</li>
+<li class="cat-item cat-item-211"><a href="https://linschinesekitchen.com/category/sweets/">Sweets</a>
+</li>
+<li class="cat-item cat-item-113"><a href="https://linschinesekitchen.com/category/under-30-min/">Under 30 Min</a>
+</li>
+<li class="cat-item cat-item-111"><a href="https://linschinesekitchen.com/category/vegan/">Vegan</a>
+</li>
+</ul>
+<div class="clear"></div></div>                        </div><!-- .column -->
+<div class="column">
+</div><!-- .column -->
+</div>
+</div><!-- .footer-widgets -->
+<section class="site-widgetized-section section-footer">
+<div class="widgets clearfix">
+<div class="widget zoom-instagram-widget" id="wpzoom_instagram_widget-2">		<ul class="zoom-instagram-widget__items layout-legacy zoom-instagram-widget__items--no-js"
+data-images-per-row="3"
+data-image-width="241"
+data-image-spacing="0"
+data-image-resolution="default_algorithm"
+data-image-lazy-loading=""
+data-lightbox="1">
+<li class="zoom-instagram-widget__item" data-media-type="video">
+<a class="zoom-instagram-link zoom-instagram-link-old" data-src="https://linschinesekitchen.com/wp-content/uploads/2025/01/486181202_18030889496642683_7048420933099353177_n-180x320.jpg"
+style="width:241px;height:241px;background-image: url('https://linschinesekitchen.com/wp-content/uploads/2025/01/486181202_18030889496642683_7048420933099353177_n-180x320.jpg');"
+data-mfp-src="18319545727202047"
+href="https://www.instagram.com/reel/DHoPo5Mo56G/" target="_blank" rel="noopener nofollow" title="Another way to cook #eggplant, perfect bite of flavor, healthy and easy to make! #eggplantrecipe #qiehe #stuffedeggplant #chineserecipe #howtocookeggplant"
+>
+</a>
+</li>
+<li class="zoom-instagram-widget__item" data-media-type="video">
+<a class="zoom-instagram-link zoom-instagram-link-old" data-src="https://linschinesekitchen.com/wp-content/uploads/2023/04/485432032_18030412541642683_7611878952427031645_n-180x320.jpg"
+style="width:241px;height:241px;background-image: url('https://linschinesekitchen.com/wp-content/uploads/2023/04/485432032_18030412541642683_7611878952427031645_n-180x320.jpg');"
+data-mfp-src="17903215200135062"
+href="https://www.instagram.com/reel/DHdymN3IVYU/" target="_blank" rel="noopener nofollow" title="It is #wildgarlic season! Try this simple and quick #stirfryrecipe under 15 mins and you get a delicious and nutritious meal for the whole family. #wildgarlicrecipes #ricenoodlestirfry #chinesefood"
+>
+</a>
+</li>
+<li class="zoom-instagram-widget__item" data-media-type="video">
+<a class="zoom-instagram-link zoom-instagram-link-old" data-src="https://linschinesekitchen.com/wp-content/uploads/2025/02/483925739_18029493890642683_6447907584901818823_n-180x320.jpg"
+style="width:241px;height:241px;background-image: url('https://linschinesekitchen.com/wp-content/uploads/2025/02/483925739_18029493890642683_6447907584901818823_n-180x320.jpg');"
+data-mfp-src="18125400091424868"
+href="https://www.instagram.com/reel/DHIvPEXIBqC/" target="_blank" rel="noopener nofollow" title="#vegetarianrecipe learn how to cook #tofuandtomato #stew. It is simple and packed with flavors! #chineserecipes #tofurecipes #chinesefood #howtocooktofu #simplerecipes"
+>
+</a>
+</li>
+<li class="zoom-instagram-widget__item" data-media-type="video">
+<a class="zoom-instagram-link zoom-instagram-link-old" data-src="https://linschinesekitchen.com/wp-content/uploads/2024/12/483352019_18029280023642683_236479197696105397_n-180x320.jpg"
+style="width:241px;height:241px;background-image: url('https://linschinesekitchen.com/wp-content/uploads/2024/12/483352019_18029280023642683_236479197696105397_n-180x320.jpg');"
+data-mfp-src="17906200224017525"
+href="https://www.instagram.com/reel/DHD9QcGo0aW/" target="_blank" rel="noopener nofollow" title="My daughter hates fish but she eat this! Try it and you won’t look back. #fishrecipe #hongshao #toufu #chinesefood #chineserecipes #cookingfish"
+>
+</a>
+</li>
+<li class="zoom-instagram-widget__item" data-media-type="video">
+<a class="zoom-instagram-link zoom-instagram-link-old" data-src="https://linschinesekitchen.com/wp-content/uploads/2024/12/482344079_18028289018642683_3212409112270888489_n-180x320.jpg"
+style="width:241px;height:241px;background-image: url('https://linschinesekitchen.com/wp-content/uploads/2024/12/482344079_18028289018642683_3212409112270888489_n-180x320.jpg');"
+data-mfp-src="18041965619114752"
+href="https://www.instagram.com/reel/DGu_RdQIiCS/" target="_blank" rel="noopener nofollow" title="The best #comfortfood #zhajiangmian #blackbeanpaste #noodle if you love noodle dish this is a #musttryrecipe you can replace #pork with tofu or eggs. #noodlerecipe #porkrecipes #chineserecipe #chinesefood #chinesecooking"
+>
+</a>
+</li>
+<li class="zoom-instagram-widget__item" data-media-type="video">
+<a class="zoom-instagram-link zoom-instagram-link-old" data-src="https://linschinesekitchen.com/wp-content/uploads/2025/02/479900754_18026498933642683_9039036124438832924_n-180x320.jpg"
+style="width:241px;height:241px;background-image: url('https://linschinesekitchen.com/wp-content/uploads/2025/02/479900754_18026498933642683_9039036124438832924_n-180x320.jpg');"
+data-mfp-src="18052973444276772"
+href="https://www.instagram.com/reel/DGJHxtGIBWd/" target="_blank" rel="noopener nofollow" title="A light and hassle free dinner anyone? #miso #souprecipe #chinesefood #homecooking #veganfood #veganrecipe #vegitarianrecipe #healthylifestyle #tofusoup #tofurecipes"
+>
+</a>
+</li>
+<li class="zoom-instagram-widget__item" data-media-type="video">
+<a class="zoom-instagram-link zoom-instagram-link-old" data-src="https://linschinesekitchen.com/wp-content/uploads/2024/12/479017752_18026202044642683_756508760771189293_n-180x320.jpg"
+style="width:241px;height:241px;background-image: url('https://linschinesekitchen.com/wp-content/uploads/2024/12/479017752_18026202044642683_756508760771189293_n-180x320.jpg');"
+data-mfp-src="17958382976885295"
+href="https://www.instagram.com/reel/DGDQme3IjuA/" target="_blank" rel="noopener nofollow" title="Better than take out! Simple #eggfriedrice with #chorizo Get started with #budgetfriendly quick #homemadefood #under30minutemeals #chinesefoods #simplerecipes #homecooking #budgetmeal #healthyeating"
+>
+</a>
+</li>
+<li class="zoom-instagram-widget__item" data-media-type="video">
+<a class="zoom-instagram-link zoom-instagram-link-old" data-src="https://linschinesekitchen.com/wp-content/uploads/2023/04/479905067_18026087516642683_7303234979635010419_n-180x320.jpg"
+style="width:241px;height:241px;background-image: url('https://linschinesekitchen.com/wp-content/uploads/2023/04/479905067_18026087516642683_7303234979635010419_n-180x320.jpg');"
+data-mfp-src="18493644796047389"
+href="https://www.instagram.com/reel/DGA5KG6tWSn/" target="_blank" rel="noopener nofollow" title="Can’t find a fish recipe that works? Try #sweetandsour #fish the ultimate #comfortfood #fishrecipes #yummyfood #chinesefood"
+>
+</a>
+</li>
+<li class="zoom-instagram-widget__item" data-media-type="video">
+<a class="zoom-instagram-link zoom-instagram-link-old" data-src="https://linschinesekitchen.com/wp-content/uploads/2025/02/476354949_18025526738642683_8039344563070453380_n-180x320.jpg"
+style="width:241px;height:241px;background-image: url('https://linschinesekitchen.com/wp-content/uploads/2025/02/476354949_18025526738642683_8039344563070453380_n-180x320.jpg');"
+data-mfp-src="18261449176279815"
+href="https://www.instagram.com/reel/DF0e6uSIgjh/" target="_blank" rel="noopener nofollow" title="A great way to clear the fridge before your next shopping trip. #xianbing #chinesepie you can make with any kind of meat or vegetable. #homecooking #chinesefood #beefrecipes"
+>
+</a>
+</li>
+<li class="zoom-instagram-widget__item" data-media-type="video">
+<a class="zoom-instagram-link zoom-instagram-link-old" data-src="https://linschinesekitchen.com/wp-content/uploads/2025/01/476152757_18025256819642683_3572827826448845343_n-180x320.jpg"
+style="width:241px;height:241px;background-image: url('https://linschinesekitchen.com/wp-content/uploads/2025/01/476152757_18025256819642683_3572827826448845343_n-180x320.jpg');"
+data-mfp-src="18063478531923596"
+href="https://www.instagram.com/reel/DFuvPbtoDk_/" target="_blank" rel="noopener nofollow" title="The ultimate #comfortfood #yuxiang #pork perfect mixture of sweet sour savory and spiciness. Detailed recipe visit www.linschinesekitchen.com #chinesefood #porkrecipes #homecooking"
+>
+</a>
+</li>
+<li class="zoom-instagram-widget__item" data-media-type="video">
+<a class="zoom-instagram-link zoom-instagram-link-old" data-src="https://linschinesekitchen.com/wp-content/uploads/2023/04/473652563_18022998260642683_4524622681983372965_n-180x320.jpg"
+style="width:241px;height:241px;background-image: url('https://linschinesekitchen.com/wp-content/uploads/2023/04/473652563_18022998260642683_4524622681983372965_n-180x320.jpg');"
+data-mfp-src="18391665970103393"
+href="https://www.instagram.com/reel/DE7JP-eIGOl/" target="_blank" rel="noopener nofollow" title="Feeling something savory and with a bit of a kick? Try this #shacha #beef and #waterspinach #stirfry  Make sure you prepare enough rice! #chinesefood #homecooking #fakeaway #chinesefakeaway #beefrecipes #beefstirfry"
+>
+</a>
+</li>
+<li class="zoom-instagram-widget__item" data-media-type="carousel_album">
+<a class="zoom-instagram-link zoom-instagram-link-old" data-src="https://linschinesekitchen.com/wp-content/uploads/2022/07/472636843_18022945661642683_8325623012263483665_n-256x320.jpg"
+style="width:241px;height:241px;background-image: url('https://linschinesekitchen.com/wp-content/uploads/2022/07/472636843_18022945661642683_8325623012263483665_n-256x320.jpg');"
+data-mfp-src="18012262430677890"
+href="https://www.instagram.com/p/DE51GUfIUbW/" target="_blank" rel="noopener nofollow" title="A delicious chicken zucchini stir fry to help with your gut health while also perfect for those who are not fans of the vegetable. #guthealth #zucchini #courgettes #chinesefoods #stirfry #chickendishes 👉🏼check out full recipe: https://linschinesekitchen.com/chicken-zucchini-stri-fry-recipe/"
+>
+</a>
+</li>
+<li class="zoom-instagram-widget__item" data-media-type="video">
+<a class="zoom-instagram-link zoom-instagram-link-old" data-src="https://linschinesekitchen.com/wp-content/uploads/2023/04/472424158_18022046558642683_472485875717888314_n-180x320.jpg"
+style="width:241px;height:241px;background-image: url('https://linschinesekitchen.com/wp-content/uploads/2023/04/472424158_18022046558642683_472485875717888314_n-180x320.jpg');"
+data-mfp-src="18054816968507574"
+href="https://www.instagram.com/reel/DEm1ToJorNy/" target="_blank" rel="noopener nofollow" title="The perfect combo to hit that comforting spot! Peking Duck Pizza 🍕 Try it and make it yours! #trendingrecipes #pizzalover #fusioncooking #pekingduck #musttryfood #foodlovers"
+>
+</a>
+</li>
+<li class="zoom-instagram-widget__item" data-media-type="carousel_album">
+<a class="zoom-instagram-link zoom-instagram-link-old" data-src="https://linschinesekitchen.com/wp-content/uploads/2023/04/469716342_18018212849642683_7636549962361022744_n-256x320.jpg"
+style="width:241px;height:241px;background-image: url('https://linschinesekitchen.com/wp-content/uploads/2023/04/469716342_18018212849642683_7636549962361022744_n-256x320.jpg');"
+data-mfp-src="18476685073031183"
+href="https://www.instagram.com/p/DDaQd0NIFpb/" target="_blank" rel="noopener nofollow" title="Sweetheart cabbage and tomatoes are great compliments to each other. If you are looking for a vegetarian recipe that is appetizing, with easy to find ingredients and hassle-free to cook, this quick stir fry is a MUST try! Full receipt check out 👉🏼https://linschinesekitchen.com/quick-sweetheart-cabbage-courgette-zucchini-stir-fry-recipe/ #vegitarianrecipe #howtocookcabbage #chinesefood #healthyreceipes #stirfryveggies #chinesecuisine"
+>
+</a>
+</li>
+<li class="zoom-instagram-widget__item" data-media-type="carousel_album">
+<a class="zoom-instagram-link zoom-instagram-link-old" data-src="https://linschinesekitchen.com/wp-content/uploads/2024/11/466384385_18014680019642683_6907753918598789615_n-256x320.jpg"
+style="width:241px;height:241px;background-image: url('https://linschinesekitchen.com/wp-content/uploads/2024/11/466384385_18014680019642683_6907753918598789615_n-256x320.jpg');"
+data-mfp-src="18050253187826400"
+href="https://www.instagram.com/p/DCRx3bHoTwR/" target="_blank" rel="noopener nofollow" title="Have you tried #lotusroot before? It is crunchy with tons of health benefits. One of the most popular way to cook it is to make little burgers with minced pork, in China it is called Ou He #ouhé 藕盒. Filled with flavors and mixed textures, you will absolutely love it! Check out the recipe 👉🏼 https://linschinesekitchen.com/lotus-root-and-minced-pork-pies-recipe/  #chinesefoods #chinesecooking #mincedpork #learntocookchinesecuisine"
+>
+</a>
+</li>
+<li class="zoom-instagram-widget__item" data-media-type="carousel_album">
+<a class="zoom-instagram-link zoom-instagram-link-old" data-src="https://linschinesekitchen.com/wp-content/uploads/2024/11/465983622_18014679287642683_8285639080847046063_n-320x320.jpg"
+style="width:241px;height:241px;background-image: url('https://linschinesekitchen.com/wp-content/uploads/2024/11/465983622_18014679287642683_8285639080847046063_n-320x320.jpg');"
+data-mfp-src="18471442579037990"
+href="https://www.instagram.com/p/DCRwmTXoTit/" target="_blank" rel="noopener nofollow" title="#mushroomlovers button mushrooms soaked in garlic and onion infused olive oil, yum yum 🤤"
+>
+</a>
+</li>
+</ul>
+<div class="wpz-insta-lightbox-wrapper mfp-hide">
+<div class="swiper">
+<div class="swiper-wrapper">
+<div data-uid="18319545727202047" class="swiper-slide wpz-insta-lightbox-item">
+<div class="wpz-insta-lightbox">
+<div class="image-wrapper">
+<img class="wpzoom-swiper-image swiper-lazy" data-src="https://linschinesekitchen.com/wp-content/uploads/2025/01/486181202_18030889496642683_7048420933099353177_n.jpg" alt="Another way to cook #eggplant, perfect bite of flavor, healthy and easy to make! #eggplantrecipe #qiehe #stuffedeggplant #chineserecipe #howtocookeggplant"/>
+<div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+</div>
+<div class="details-wrapper">
+<div class="wpz-insta-header">
+<div class="wpz-insta-avatar">
+<img src="https://linschinesekitchen.com/wp-content/plugins/instagram-widget-by-wpzoom/dist/images/backend/icon-insta.png" alt="linschinesekitchen" width="42" height="42"/>
+</div>
+<div class="wpz-insta-buttons">
+<div class="wpz-insta-username">
+<a rel="noopener" target="_blank" href="https://instagram.com/linschinesekitchen">linschinesekitchen</a>
+</div>
+<div>&bull;</div>
+<div class="wpz-insta-follow">
+<a target="_blank" rel="noopener"
+href="https://instagram.com/linschinesekitchen?ref=badge">
+Follow													</a>
+</div>
+</div>
+</div>
+<div class="wpz-insta-caption">
+Another way to cook #eggplant, perfect bite of flavor, healthy and easy to make! #eggplantrecipe #qiehe #stuffedeggplant #chineserecipe #howtocookeggplant											</div>
+<div class="wpz-insta-date">
+20 hours ago											</div>
+<div class="view-post">
+<a href="https://www.instagram.com/reel/DHoPo5Mo56G/" target="_blank" rel="noopener"><span class="dashicons dashicons-instagram"></span>View on Instagram</a>
+<span class="delimiter">|</span>
+<div class="wpz-insta-pagination">1/16</div>
+</div>
+</div>
+</div>
+</div>
+<div data-uid="17903215200135062" class="swiper-slide wpz-insta-lightbox-item">
+<div class="wpz-insta-lightbox">
+<div class="image-wrapper">
+<img class="wpzoom-swiper-image swiper-lazy" data-src="https://linschinesekitchen.com/wp-content/uploads/2023/04/485432032_18030412541642683_7611878952427031645_n.jpg" alt="It is #wildgarlic season! Try this simple and quick #stirfryrecipe under 15 mins and you get a delicious and nutritious meal for the whole family. #wildgarlicrecipes #ricenoodlestirfry #chinesefood"/>
+<div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+</div>
+<div class="details-wrapper">
+<div class="wpz-insta-header">
+<div class="wpz-insta-avatar">
+<img src="https://linschinesekitchen.com/wp-content/plugins/instagram-widget-by-wpzoom/dist/images/backend/icon-insta.png" alt="linschinesekitchen" width="42" height="42"/>
+</div>
+<div class="wpz-insta-buttons">
+<div class="wpz-insta-username">
+<a rel="noopener" target="_blank" href="https://instagram.com/linschinesekitchen">linschinesekitchen</a>
+</div>
+<div>&bull;</div>
+<div class="wpz-insta-follow">
+<a target="_blank" rel="noopener"
+href="https://instagram.com/linschinesekitchen?ref=badge">
+Follow													</a>
+</div>
+</div>
+</div>
+<div class="wpz-insta-caption">
+It is #wildgarlic season! Try this simple and quick #stirfryrecipe under 15 mins and you get a delicious and nutritious meal for the whole family. #wildgarlicrecipes #ricenoodlestirfry #chinesefood											</div>
+<div class="wpz-insta-date">
+5 days ago											</div>
+<div class="view-post">
+<a href="https://www.instagram.com/reel/DHdymN3IVYU/" target="_blank" rel="noopener"><span class="dashicons dashicons-instagram"></span>View on Instagram</a>
+<span class="delimiter">|</span>
+<div class="wpz-insta-pagination">2/16</div>
+</div>
+</div>
+</div>
+</div>
+<div data-uid="18125400091424868" class="swiper-slide wpz-insta-lightbox-item">
+<div class="wpz-insta-lightbox">
+<div class="image-wrapper">
+<img class="wpzoom-swiper-image swiper-lazy" data-src="https://linschinesekitchen.com/wp-content/uploads/2025/02/483925739_18029493890642683_6447907584901818823_n.jpg" alt="#vegetarianrecipe learn how to cook #tofuandtomato #stew. It is simple and packed with flavors! #chineserecipes #tofurecipes #chinesefood #howtocooktofu #simplerecipes"/>
+<div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+</div>
+<div class="details-wrapper">
+<div class="wpz-insta-header">
+<div class="wpz-insta-avatar">
+<img src="https://linschinesekitchen.com/wp-content/plugins/instagram-widget-by-wpzoom/dist/images/backend/icon-insta.png" alt="linschinesekitchen" width="42" height="42"/>
+</div>
+<div class="wpz-insta-buttons">
+<div class="wpz-insta-username">
+<a rel="noopener" target="_blank" href="https://instagram.com/linschinesekitchen">linschinesekitchen</a>
+</div>
+<div>&bull;</div>
+<div class="wpz-insta-follow">
+<a target="_blank" rel="noopener"
+href="https://instagram.com/linschinesekitchen?ref=badge">
+Follow													</a>
+</div>
+</div>
+</div>
+<div class="wpz-insta-caption">
+#vegetarianrecipe learn how to cook #tofuandtomato #stew. It is simple and packed with flavors! #chineserecipes #tofurecipes #chinesefood #howtocooktofu #simplerecipes											</div>
+<div class="wpz-insta-date">
+2 weeks ago											</div>
+<div class="view-post">
+<a href="https://www.instagram.com/reel/DHIvPEXIBqC/" target="_blank" rel="noopener"><span class="dashicons dashicons-instagram"></span>View on Instagram</a>
+<span class="delimiter">|</span>
+<div class="wpz-insta-pagination">3/16</div>
+</div>
+</div>
+</div>
+</div>
+<div data-uid="17906200224017525" class="swiper-slide wpz-insta-lightbox-item">
+<div class="wpz-insta-lightbox">
+<div class="image-wrapper">
+<img class="wpzoom-swiper-image swiper-lazy" data-src="https://linschinesekitchen.com/wp-content/uploads/2024/12/483352019_18029280023642683_236479197696105397_n.jpg" alt="My daughter hates fish but she eat this! Try it and you won’t look back. #fishrecipe #hongshao #toufu #chinesefood #chineserecipes #cookingfish"/>
+<div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+</div>
+<div class="details-wrapper">
+<div class="wpz-insta-header">
+<div class="wpz-insta-avatar">
+<img src="https://linschinesekitchen.com/wp-content/plugins/instagram-widget-by-wpzoom/dist/images/backend/icon-insta.png" alt="linschinesekitchen" width="42" height="42"/>
+</div>
+<div class="wpz-insta-buttons">
+<div class="wpz-insta-username">
+<a rel="noopener" target="_blank" href="https://instagram.com/linschinesekitchen">linschinesekitchen</a>
+</div>
+<div>&bull;</div>
+<div class="wpz-insta-follow">
+<a target="_blank" rel="noopener"
+href="https://instagram.com/linschinesekitchen?ref=badge">
+Follow													</a>
+</div>
+</div>
+</div>
+<div class="wpz-insta-caption">
+My daughter hates fish but she eat this! Try it and you won’t look back. #fishrecipe #hongshao #toufu #chinesefood #chineserecipes #cookingfish											</div>
+<div class="wpz-insta-date">
+2 weeks ago											</div>
+<div class="view-post">
+<a href="https://www.instagram.com/reel/DHD9QcGo0aW/" target="_blank" rel="noopener"><span class="dashicons dashicons-instagram"></span>View on Instagram</a>
+<span class="delimiter">|</span>
+<div class="wpz-insta-pagination">4/16</div>
+</div>
+</div>
+</div>
+</div>
+<div data-uid="18041965619114752" class="swiper-slide wpz-insta-lightbox-item">
+<div class="wpz-insta-lightbox">
+<div class="image-wrapper">
+<img class="wpzoom-swiper-image swiper-lazy" data-src="https://linschinesekitchen.com/wp-content/uploads/2024/12/482344079_18028289018642683_3212409112270888489_n.jpg" alt="The best #comfortfood #zhajiangmian #blackbeanpaste #noodle if you love noodle dish this is a #musttryrecipe you can replace #pork with tofu or eggs. #noodlerecipe #porkrecipes #chineserecipe #chinesefood #chinesecooking"/>
+<div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+</div>
+<div class="details-wrapper">
+<div class="wpz-insta-header">
+<div class="wpz-insta-avatar">
+<img src="https://linschinesekitchen.com/wp-content/plugins/instagram-widget-by-wpzoom/dist/images/backend/icon-insta.png" alt="linschinesekitchen" width="42" height="42"/>
+</div>
+<div class="wpz-insta-buttons">
+<div class="wpz-insta-username">
+<a rel="noopener" target="_blank" href="https://instagram.com/linschinesekitchen">linschinesekitchen</a>
+</div>
+<div>&bull;</div>
+<div class="wpz-insta-follow">
+<a target="_blank" rel="noopener"
+href="https://instagram.com/linschinesekitchen?ref=badge">
+Follow													</a>
+</div>
+</div>
+</div>
+<div class="wpz-insta-caption">
+The best #comfortfood #zhajiangmian #blackbeanpaste #noodle if you love noodle dish this is a #musttryrecipe you can replace #pork with tofu or eggs. #noodlerecipe #porkrecipes #chineserecipe #chinesefood #chinesecooking											</div>
+<div class="wpz-insta-date">
+3 weeks ago											</div>
+<div class="view-post">
+<a href="https://www.instagram.com/reel/DGu_RdQIiCS/" target="_blank" rel="noopener"><span class="dashicons dashicons-instagram"></span>View on Instagram</a>
+<span class="delimiter">|</span>
+<div class="wpz-insta-pagination">5/16</div>
+</div>
+</div>
+</div>
+</div>
+<div data-uid="18052973444276772" class="swiper-slide wpz-insta-lightbox-item">
+<div class="wpz-insta-lightbox">
+<div class="image-wrapper">
+<img class="wpzoom-swiper-image swiper-lazy" data-src="https://linschinesekitchen.com/wp-content/uploads/2025/02/479900754_18026498933642683_9039036124438832924_n.jpg" alt="A light and hassle free dinner anyone? #miso #souprecipe #chinesefood #homecooking #veganfood #veganrecipe #vegitarianrecipe #healthylifestyle #tofusoup #tofurecipes"/>
+<div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+</div>
+<div class="details-wrapper">
+<div class="wpz-insta-header">
+<div class="wpz-insta-avatar">
+<img src="https://linschinesekitchen.com/wp-content/plugins/instagram-widget-by-wpzoom/dist/images/backend/icon-insta.png" alt="linschinesekitchen" width="42" height="42"/>
+</div>
+<div class="wpz-insta-buttons">
+<div class="wpz-insta-username">
+<a rel="noopener" target="_blank" href="https://instagram.com/linschinesekitchen">linschinesekitchen</a>
+</div>
+<div>&bull;</div>
+<div class="wpz-insta-follow">
+<a target="_blank" rel="noopener"
+href="https://instagram.com/linschinesekitchen?ref=badge">
+Follow													</a>
+</div>
+</div>
+</div>
+<div class="wpz-insta-caption">
+A light and hassle free dinner anyone? #miso #souprecipe #chinesefood #homecooking #veganfood #veganrecipe #vegitarianrecipe #healthylifestyle #tofusoup #tofurecipes											</div>
+<div class="wpz-insta-date">
+1 month ago											</div>
+<div class="view-post">
+<a href="https://www.instagram.com/reel/DGJHxtGIBWd/" target="_blank" rel="noopener"><span class="dashicons dashicons-instagram"></span>View on Instagram</a>
+<span class="delimiter">|</span>
+<div class="wpz-insta-pagination">6/16</div>
+</div>
+</div>
+</div>
+</div>
+<div data-uid="17958382976885295" class="swiper-slide wpz-insta-lightbox-item">
+<div class="wpz-insta-lightbox">
+<div class="image-wrapper">
+<img class="wpzoom-swiper-image swiper-lazy" data-src="https://linschinesekitchen.com/wp-content/uploads/2024/12/479017752_18026202044642683_756508760771189293_n.jpg" alt="Better than take out! Simple #eggfriedrice with #chorizo Get started with #budgetfriendly quick #homemadefood #under30minutemeals #chinesefoods #simplerecipes #homecooking #budgetmeal #healthyeating"/>
+<div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+</div>
+<div class="details-wrapper">
+<div class="wpz-insta-header">
+<div class="wpz-insta-avatar">
+<img src="https://linschinesekitchen.com/wp-content/plugins/instagram-widget-by-wpzoom/dist/images/backend/icon-insta.png" alt="linschinesekitchen" width="42" height="42"/>
+</div>
+<div class="wpz-insta-buttons">
+<div class="wpz-insta-username">
+<a rel="noopener" target="_blank" href="https://instagram.com/linschinesekitchen">linschinesekitchen</a>
+</div>
+<div>&bull;</div>
+<div class="wpz-insta-follow">
+<a target="_blank" rel="noopener"
+href="https://instagram.com/linschinesekitchen?ref=badge">
+Follow													</a>
+</div>
+</div>
+</div>
+<div class="wpz-insta-caption">
+Better than take out! Simple #eggfriedrice with #chorizo Get started with #budgetfriendly quick #homemadefood #under30minutemeals #chinesefoods #simplerecipes #homecooking #budgetmeal #healthyeating											</div>
+<div class="wpz-insta-date">
+1 month ago											</div>
+<div class="view-post">
+<a href="https://www.instagram.com/reel/DGDQme3IjuA/" target="_blank" rel="noopener"><span class="dashicons dashicons-instagram"></span>View on Instagram</a>
+<span class="delimiter">|</span>
+<div class="wpz-insta-pagination">7/16</div>
+</div>
+</div>
+</div>
+</div>
+<div data-uid="18493644796047389" class="swiper-slide wpz-insta-lightbox-item">
+<div class="wpz-insta-lightbox">
+<div class="image-wrapper">
+<img class="wpzoom-swiper-image swiper-lazy" data-src="https://linschinesekitchen.com/wp-content/uploads/2023/04/479905067_18026087516642683_7303234979635010419_n.jpg" alt="Can’t find a fish recipe that works? Try #sweetandsour #fish the ultimate #comfortfood #fishrecipes #yummyfood #chinesefood"/>
+<div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+</div>
+<div class="details-wrapper">
+<div class="wpz-insta-header">
+<div class="wpz-insta-avatar">
+<img src="https://linschinesekitchen.com/wp-content/plugins/instagram-widget-by-wpzoom/dist/images/backend/icon-insta.png" alt="linschinesekitchen" width="42" height="42"/>
+</div>
+<div class="wpz-insta-buttons">
+<div class="wpz-insta-username">
+<a rel="noopener" target="_blank" href="https://instagram.com/linschinesekitchen">linschinesekitchen</a>
+</div>
+<div>&bull;</div>
+<div class="wpz-insta-follow">
+<a target="_blank" rel="noopener"
+href="https://instagram.com/linschinesekitchen?ref=badge">
+Follow													</a>
+</div>
+</div>
+</div>
+<div class="wpz-insta-caption">
+Can’t find a fish recipe that works? Try #sweetandsour #fish the ultimate #comfortfood #fishrecipes #yummyfood #chinesefood											</div>
+<div class="wpz-insta-date">
+1 month ago											</div>
+<div class="view-post">
+<a href="https://www.instagram.com/reel/DGA5KG6tWSn/" target="_blank" rel="noopener"><span class="dashicons dashicons-instagram"></span>View on Instagram</a>
+<span class="delimiter">|</span>
+<div class="wpz-insta-pagination">8/16</div>
+</div>
+</div>
+</div>
+</div>
+<div data-uid="18261449176279815" class="swiper-slide wpz-insta-lightbox-item">
+<div class="wpz-insta-lightbox">
+<div class="image-wrapper">
+<img class="wpzoom-swiper-image swiper-lazy" data-src="https://linschinesekitchen.com/wp-content/uploads/2025/02/476354949_18025526738642683_8039344563070453380_n.jpg" alt="A great way to clear the fridge before your next shopping trip. #xianbing #chinesepie you can make with any kind of meat or vegetable. #homecooking #chinesefood #beefrecipes"/>
+<div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+</div>
+<div class="details-wrapper">
+<div class="wpz-insta-header">
+<div class="wpz-insta-avatar">
+<img src="https://linschinesekitchen.com/wp-content/plugins/instagram-widget-by-wpzoom/dist/images/backend/icon-insta.png" alt="linschinesekitchen" width="42" height="42"/>
+</div>
+<div class="wpz-insta-buttons">
+<div class="wpz-insta-username">
+<a rel="noopener" target="_blank" href="https://instagram.com/linschinesekitchen">linschinesekitchen</a>
+</div>
+<div>&bull;</div>
+<div class="wpz-insta-follow">
+<a target="_blank" rel="noopener"
+href="https://instagram.com/linschinesekitchen?ref=badge">
+Follow													</a>
+</div>
+</div>
+</div>
+<div class="wpz-insta-caption">
+A great way to clear the fridge before your next shopping trip. #xianbing #chinesepie you can make with any kind of meat or vegetable. #homecooking #chinesefood #beefrecipes											</div>
+<div class="wpz-insta-date">
+2 months ago											</div>
+<div class="view-post">
+<a href="https://www.instagram.com/reel/DF0e6uSIgjh/" target="_blank" rel="noopener"><span class="dashicons dashicons-instagram"></span>View on Instagram</a>
+<span class="delimiter">|</span>
+<div class="wpz-insta-pagination">9/16</div>
+</div>
+</div>
+</div>
+</div>
+<div data-uid="18063478531923596" class="swiper-slide wpz-insta-lightbox-item">
+<div class="wpz-insta-lightbox">
+<div class="image-wrapper">
+<img class="wpzoom-swiper-image swiper-lazy" data-src="https://linschinesekitchen.com/wp-content/uploads/2025/01/476152757_18025256819642683_3572827826448845343_n.jpg" alt="The ultimate #comfortfood #yuxiang #pork perfect mixture of sweet sour savory and spiciness. Detailed recipe visit www.linschinesekitchen.com #chinesefood #porkrecipes #homecooking"/>
+<div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+</div>
+<div class="details-wrapper">
+<div class="wpz-insta-header">
+<div class="wpz-insta-avatar">
+<img src="https://linschinesekitchen.com/wp-content/plugins/instagram-widget-by-wpzoom/dist/images/backend/icon-insta.png" alt="linschinesekitchen" width="42" height="42"/>
+</div>
+<div class="wpz-insta-buttons">
+<div class="wpz-insta-username">
+<a rel="noopener" target="_blank" href="https://instagram.com/linschinesekitchen">linschinesekitchen</a>
+</div>
+<div>&bull;</div>
+<div class="wpz-insta-follow">
+<a target="_blank" rel="noopener"
+href="https://instagram.com/linschinesekitchen?ref=badge">
+Follow													</a>
+</div>
+</div>
+</div>
+<div class="wpz-insta-caption">
+The ultimate #comfortfood #yuxiang #pork perfect mixture of sweet sour savory and spiciness. Detailed recipe visit www.linschinesekitchen.com #chinesefood #porkrecipes #homecooking											</div>
+<div class="wpz-insta-date">
+2 months ago											</div>
+<div class="view-post">
+<a href="https://www.instagram.com/reel/DFuvPbtoDk_/" target="_blank" rel="noopener"><span class="dashicons dashicons-instagram"></span>View on Instagram</a>
+<span class="delimiter">|</span>
+<div class="wpz-insta-pagination">10/16</div>
+</div>
+</div>
+</div>
+</div>
+<div data-uid="18391665970103393" class="swiper-slide wpz-insta-lightbox-item">
+<div class="wpz-insta-lightbox">
+<div class="image-wrapper">
+<img class="wpzoom-swiper-image swiper-lazy" data-src="https://linschinesekitchen.com/wp-content/uploads/2023/04/473652563_18022998260642683_4524622681983372965_n.jpg" alt="Feeling something savory and with a bit of a kick? Try this #shacha #beef and #waterspinach #stirfry  Make sure you prepare enough rice! #chinesefood #homecooking #fakeaway #chinesefakeaway #beefrecipes #beefstirfry"/>
+<div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+</div>
+<div class="details-wrapper">
+<div class="wpz-insta-header">
+<div class="wpz-insta-avatar">
+<img src="https://linschinesekitchen.com/wp-content/plugins/instagram-widget-by-wpzoom/dist/images/backend/icon-insta.png" alt="linschinesekitchen" width="42" height="42"/>
+</div>
+<div class="wpz-insta-buttons">
+<div class="wpz-insta-username">
+<a rel="noopener" target="_blank" href="https://instagram.com/linschinesekitchen">linschinesekitchen</a>
+</div>
+<div>&bull;</div>
+<div class="wpz-insta-follow">
+<a target="_blank" rel="noopener"
+href="https://instagram.com/linschinesekitchen?ref=badge">
+Follow													</a>
+</div>
+</div>
+</div>
+<div class="wpz-insta-caption">
+Feeling something savory and with a bit of a kick? Try this #shacha #beef and #waterspinach #stirfry  Make sure you prepare enough rice! #chinesefood #homecooking #fakeaway #chinesefakeaway #beefrecipes #beefstirfry											</div>
+<div class="wpz-insta-date">
+2 months ago											</div>
+<div class="view-post">
+<a href="https://www.instagram.com/reel/DE7JP-eIGOl/" target="_blank" rel="noopener"><span class="dashicons dashicons-instagram"></span>View on Instagram</a>
+<span class="delimiter">|</span>
+<div class="wpz-insta-pagination">11/16</div>
+</div>
+</div>
+</div>
+</div>
+<div data-uid="18012262430677890" class="swiper-slide wpz-insta-lightbox-item">
+<div class="wpz-insta-lightbox">
+<div class="image-wrapper">
+<div class="swiper" style="height: 100%;">
+<div class="swiper-wrapper wpz-insta-album-images">
+<div class="swiper-slide wpz-insta-album-image" data-media-type="image">
+<img class="wpzoom-swiper-image swiper-lazy"  data-src="https://scontent.cdninstagram.com/v/t51.75761-15/472636843_18022945661642683_8325623012263483665_n.jpg?stp=dst-jpg_e35_tt6&#038;_nc_cat=109&#038;ccb=1-7&#038;_nc_sid=18de74&#038;_nc_ohc=VHrstkBt_PYQ7kNvgHH0VZd&#038;_nc_oc=AdnUxr5iLpHKbChLifsyOL33mnCjOVSI-Y7HKwiNpZXyyDe59G_jEUHTjYp03kV5nEs&#038;_nc_zt=23&#038;_nc_ht=scontent.cdninstagram.com&#038;edm=ANo9K5cEAAAA&#038;_nc_gid=iwndduzL9OZX0WTGtTScNQ&#038;oh=00_AYEd3-pn8Igt3h8cxxn6nPM8Tfkh564zkvOn9n_saXKOgg&#038;oe=67E926BD" alt="A delicious chicken zucchini stir fry to help with your gut health while also perfect for those who are not fans of the vegetable. #guthealth #zucchini #courgettes #chinesefoods #stirfry #chickendishes 👉🏼check out full recipe: https://linschinesekitchen.com/chicken-zucchini-stri-fry-recipe/"/><div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+</div>
+<div class="swiper-slide wpz-insta-album-image" data-media-type="image">
+<img class="wpzoom-swiper-image swiper-lazy"  data-src="https://scontent.cdninstagram.com/v/t51.75761-15/473713305_18022945670642683_2206041550683299034_n.jpg?stp=dst-jpg_e35_tt6&#038;_nc_cat=104&#038;ccb=1-7&#038;_nc_sid=18de74&#038;_nc_ohc=Qrn5visO_KEQ7kNvgH36V3i&#038;_nc_oc=AdnGEO2Jbp8KiIJpfD_80-sjg_WaHiweBXkb9XpZLT6Yx97BMu_pjqmwFqlNzmuCeCA&#038;_nc_zt=23&#038;_nc_ht=scontent.cdninstagram.com&#038;edm=ANo9K5cEAAAA&#038;_nc_gid=iwndduzL9OZX0WTGtTScNQ&#038;oh=00_AYEz5yJZz7DHBuqRzLxxjbqqYsiR-j8bvzdnYLuzDXdlZQ&#038;oe=67E92F30" alt="A delicious chicken zucchini stir fry to help with your gut health while also perfect for those who are not fans of the vegetable. #guthealth #zucchini #courgettes #chinesefoods #stirfry #chickendishes 👉🏼check out full recipe: https://linschinesekitchen.com/chicken-zucchini-stri-fry-recipe/"/><div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+</div>
+</div>
+<div class="swiper-pagination"></div>
+<div class="swiper-button-prev"></div>
+<div class="swiper-button-next"></div>
+</div>
+<div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+</div>
+<div class="details-wrapper">
+<div class="wpz-insta-header">
+<div class="wpz-insta-avatar">
+<img src="https://linschinesekitchen.com/wp-content/plugins/instagram-widget-by-wpzoom/dist/images/backend/icon-insta.png" alt="linschinesekitchen" width="42" height="42"/>
+</div>
+<div class="wpz-insta-buttons">
+<div class="wpz-insta-username">
+<a rel="noopener" target="_blank" href="https://instagram.com/linschinesekitchen">linschinesekitchen</a>
+</div>
+<div>&bull;</div>
+<div class="wpz-insta-follow">
+<a target="_blank" rel="noopener"
+href="https://instagram.com/linschinesekitchen?ref=badge">
+Follow													</a>
+</div>
+</div>
+</div>
+<div class="wpz-insta-caption">
+A delicious chicken zucchini stir fry to help with your gut health while also perfect for those who are not fans of the vegetable. #guthealth #zucchini #courgettes #chinesefoods #stirfry #chickendishes 👉🏼check out full recipe: https://linschinesekitchen.com/chicken-zucchini-stri-fry-recipe/											</div>
+<div class="wpz-insta-date">
+2 months ago											</div>
+<div class="view-post">
+<a href="https://www.instagram.com/p/DE51GUfIUbW/" target="_blank" rel="noopener"><span class="dashicons dashicons-instagram"></span>View on Instagram</a>
+<span class="delimiter">|</span>
+<div class="wpz-insta-pagination">12/16</div>
+</div>
+</div>
+</div>
+</div>
+<div data-uid="18054816968507574" class="swiper-slide wpz-insta-lightbox-item">
+<div class="wpz-insta-lightbox">
+<div class="image-wrapper">
+<img class="wpzoom-swiper-image swiper-lazy" data-src="https://linschinesekitchen.com/wp-content/uploads/2023/04/472424158_18022046558642683_472485875717888314_n.jpg" alt="The perfect combo to hit that comforting spot! Peking Duck Pizza 🍕 Try it and make it yours! #trendingrecipes #pizzalover #fusioncooking #pekingduck #musttryfood #foodlovers"/>
+<div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+</div>
+<div class="details-wrapper">
+<div class="wpz-insta-header">
+<div class="wpz-insta-avatar">
+<img src="https://linschinesekitchen.com/wp-content/plugins/instagram-widget-by-wpzoom/dist/images/backend/icon-insta.png" alt="linschinesekitchen" width="42" height="42"/>
+</div>
+<div class="wpz-insta-buttons">
+<div class="wpz-insta-username">
+<a rel="noopener" target="_blank" href="https://instagram.com/linschinesekitchen">linschinesekitchen</a>
+</div>
+<div>&bull;</div>
+<div class="wpz-insta-follow">
+<a target="_blank" rel="noopener"
+href="https://instagram.com/linschinesekitchen?ref=badge">
+Follow													</a>
+</div>
+</div>
+</div>
+<div class="wpz-insta-caption">
+The perfect combo to hit that comforting spot! Peking Duck Pizza 🍕 Try it and make it yours! #trendingrecipes #pizzalover #fusioncooking #pekingduck #musttryfood #foodlovers											</div>
+<div class="wpz-insta-date">
+3 months ago											</div>
+<div class="view-post">
+<a href="https://www.instagram.com/reel/DEm1ToJorNy/" target="_blank" rel="noopener"><span class="dashicons dashicons-instagram"></span>View on Instagram</a>
+<span class="delimiter">|</span>
+<div class="wpz-insta-pagination">13/16</div>
+</div>
+</div>
+</div>
+</div>
+<div data-uid="18476685073031183" class="swiper-slide wpz-insta-lightbox-item">
+<div class="wpz-insta-lightbox">
+<div class="image-wrapper">
+<div class="swiper" style="height: 100%;">
+<div class="swiper-wrapper wpz-insta-album-images">
+<div class="swiper-slide wpz-insta-album-image" data-media-type="image">
+<img class="wpzoom-swiper-image swiper-lazy"  data-src="https://scontent.cdninstagram.com/v/t51.75761-15/469716342_18018212849642683_7636549962361022744_n.jpg?stp=dst-jpg_e35_tt6&#038;_nc_cat=109&#038;ccb=1-7&#038;_nc_sid=18de74&#038;_nc_ohc=ktjQs1JAWE8Q7kNvgHv0sDj&#038;_nc_oc=Adn33pMXcuIbE53K_n6peXzYKskdQrM1Y9w1MZmTlY6uRrFr-C8cM9ip4BTcUxk5PzE&#038;_nc_zt=23&#038;_nc_ht=scontent.cdninstagram.com&#038;edm=ANo9K5cEAAAA&#038;_nc_gid=iwndduzL9OZX0WTGtTScNQ&#038;oh=00_AYFhuhBg1wLtM7Mj92gSR0c3HYPAmOFvNurLc22wUABWnA&#038;oe=67E904D7" alt="Sweetheart cabbage and tomatoes are great compliments to each other. If you are looking for a vegetarian recipe that is appetizing, with easy to find ingredients and hassle-free to cook, this quick stir fry is a MUST try! Full receipt check out 👉🏼https://linschinesekitchen.com/quick-sweetheart-cabbage-courgette-zucchini-stir-fry-recipe/ #vegitarianrecipe #howtocookcabbage #chinesefood #healthyreceipes #stirfryveggies #chinesecuisine"/><div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+</div>
+<div class="swiper-slide wpz-insta-album-image" data-media-type="image">
+<img class="wpzoom-swiper-image swiper-lazy"  data-src="https://scontent.cdninstagram.com/v/t51.75761-15/469720053_18018212858642683_2289499634358944091_n.jpg?stp=dst-jpg_e35_tt6&#038;_nc_cat=106&#038;ccb=1-7&#038;_nc_sid=18de74&#038;_nc_ohc=mB8RuarOh80Q7kNvgHsufQS&#038;_nc_oc=Adn56ikSWd1VKLbyvJQq2ZWvX1mrI3PTdLSAybI9VChJ2W1G7fOqh2eSGZmMJ5p9qW8&#038;_nc_zt=23&#038;_nc_ht=scontent.cdninstagram.com&#038;edm=ANo9K5cEAAAA&#038;_nc_gid=iwndduzL9OZX0WTGtTScNQ&#038;oh=00_AYESufFbPx-eVBoUnXkbyx7ydzdx0tKf_3x1XZnmlNOR7Q&#038;oe=67E90485" alt="Sweetheart cabbage and tomatoes are great compliments to each other. If you are looking for a vegetarian recipe that is appetizing, with easy to find ingredients and hassle-free to cook, this quick stir fry is a MUST try! Full receipt check out 👉🏼https://linschinesekitchen.com/quick-sweetheart-cabbage-courgette-zucchini-stir-fry-recipe/ #vegitarianrecipe #howtocookcabbage #chinesefood #healthyreceipes #stirfryveggies #chinesecuisine"/><div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+</div>
+<div class="swiper-slide wpz-insta-album-image" data-media-type="image">
+<img class="wpzoom-swiper-image swiper-lazy"  data-src="https://scontent.cdninstagram.com/v/t51.75761-15/469532197_18018212867642683_7263091437279891793_n.jpg?stp=dst-jpg_e35_tt6&#038;_nc_cat=102&#038;ccb=1-7&#038;_nc_sid=18de74&#038;_nc_ohc=xP7RgUYhKc4Q7kNvgEsH_GI&#038;_nc_oc=AdnjxIixEl2TVOOgFsOV-O-j3Fhhw4TtgLLRHO2IZ3cVzmMU-TJAimk-ucQn0fN-AxM&#038;_nc_zt=23&#038;_nc_ht=scontent.cdninstagram.com&#038;edm=ANo9K5cEAAAA&#038;_nc_gid=iwndduzL9OZX0WTGtTScNQ&#038;oh=00_AYGLVDQzLaWQIuWb42og_evyZpq9zczvdXsiDpBqcPsJ_A&#038;oe=67E908BE" alt="Sweetheart cabbage and tomatoes are great compliments to each other. If you are looking for a vegetarian recipe that is appetizing, with easy to find ingredients and hassle-free to cook, this quick stir fry is a MUST try! Full receipt check out 👉🏼https://linschinesekitchen.com/quick-sweetheart-cabbage-courgette-zucchini-stir-fry-recipe/ #vegitarianrecipe #howtocookcabbage #chinesefood #healthyreceipes #stirfryveggies #chinesecuisine"/><div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+</div>
+</div>
+<div class="swiper-pagination"></div>
+<div class="swiper-button-prev"></div>
+<div class="swiper-button-next"></div>
+</div>
+<div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+</div>
+<div class="details-wrapper">
+<div class="wpz-insta-header">
+<div class="wpz-insta-avatar">
+<img src="https://linschinesekitchen.com/wp-content/plugins/instagram-widget-by-wpzoom/dist/images/backend/icon-insta.png" alt="linschinesekitchen" width="42" height="42"/>
+</div>
+<div class="wpz-insta-buttons">
+<div class="wpz-insta-username">
+<a rel="noopener" target="_blank" href="https://instagram.com/linschinesekitchen">linschinesekitchen</a>
+</div>
+<div>&bull;</div>
+<div class="wpz-insta-follow">
+<a target="_blank" rel="noopener"
+href="https://instagram.com/linschinesekitchen?ref=badge">
+Follow													</a>
+</div>
+</div>
+</div>
+<div class="wpz-insta-caption">
+Sweetheart cabbage and tomatoes are great compliments to each other. If you are looking for a vegetarian recipe that is appetizing, with easy to find ingredients and hassle-free to cook, this quick stir fry is a MUST try! Full receipt check out 👉🏼https://linschinesekitchen.com/quick-sweetheart-cabbage-courgette-zucchini-stir-fry-recipe/ #vegitarianrecipe #howtocookcabbage #chinesefood #healthyreceipes #stirfryveggies #chinesecuisine											</div>
+<div class="wpz-insta-date">
+4 months ago											</div>
+<div class="view-post">
+<a href="https://www.instagram.com/p/DDaQd0NIFpb/" target="_blank" rel="noopener"><span class="dashicons dashicons-instagram"></span>View on Instagram</a>
+<span class="delimiter">|</span>
+<div class="wpz-insta-pagination">14/16</div>
+</div>
+</div>
+</div>
+</div>
+<div data-uid="18050253187826400" class="swiper-slide wpz-insta-lightbox-item">
+<div class="wpz-insta-lightbox">
+<div class="image-wrapper">
+<div class="swiper" style="height: 100%;">
+<div class="swiper-wrapper wpz-insta-album-images">
+<div class="swiper-slide wpz-insta-album-image" data-media-type="image">
+<img class="wpzoom-swiper-image swiper-lazy"  data-src="https://scontent.cdninstagram.com/v/t51.75761-15/466384385_18014680019642683_6907753918598789615_n.jpg?stp=dst-jpg_e35_tt6&#038;_nc_cat=102&#038;ccb=1-7&#038;_nc_sid=18de74&#038;_nc_ohc=WUZcm46J3A4Q7kNvgGLkS1J&#038;_nc_oc=AdllTRvdgqxRjzxWnghSLgxNBUuwz--43FrjbAuCorGhB_FvTgXzL21wizH8imoReD4&#038;_nc_zt=23&#038;_nc_ht=scontent.cdninstagram.com&#038;edm=ANo9K5cEAAAA&#038;_nc_gid=iwndduzL9OZX0WTGtTScNQ&#038;oh=00_AYFYtpitRF2089mlQkAmUJkvzlDZD81EVJaNJMG37maicw&#038;oe=67E913A8" alt="Have you tried #lotusroot before? It is crunchy with tons of health benefits. One of the most popular way to cook it is to make little burgers with minced pork, in China it is called Ou He #ouhé 藕盒. Filled with flavors and mixed textures, you will absolutely love it! Check out the recipe 👉🏼 https://linschinesekitchen.com/lotus-root-and-minced-pork-pies-recipe/  #chinesefoods #chinesecooking #mincedpork #learntocookchinesecuisine"/><div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+</div>
+<div class="swiper-slide wpz-insta-album-image" data-media-type="image">
+<img class="wpzoom-swiper-image swiper-lazy"  data-src="https://scontent.cdninstagram.com/v/t51.75761-15/466695159_18014680028642683_7734963667576656862_n.jpg?stp=dst-jpg_e35_tt6&#038;_nc_cat=109&#038;ccb=1-7&#038;_nc_sid=18de74&#038;_nc_ohc=NTIv0OR2GfMQ7kNvgFG5uyq&#038;_nc_oc=AdlIKsmt4AfM3rRrBxMkwr9m-z4DsBqChlwBhLN4b9ON5anRNSFc0wJILlqB3uxhUo4&#038;_nc_zt=23&#038;_nc_ht=scontent.cdninstagram.com&#038;edm=ANo9K5cEAAAA&#038;_nc_gid=iwndduzL9OZX0WTGtTScNQ&#038;oh=00_AYEqohsZ9F0uyQongK5AD2ysUrvAUU-99uwBprJA4KFBWw&#038;oe=67E92E04" alt="Have you tried #lotusroot before? It is crunchy with tons of health benefits. One of the most popular way to cook it is to make little burgers with minced pork, in China it is called Ou He #ouhé 藕盒. Filled with flavors and mixed textures, you will absolutely love it! Check out the recipe 👉🏼 https://linschinesekitchen.com/lotus-root-and-minced-pork-pies-recipe/  #chinesefoods #chinesecooking #mincedpork #learntocookchinesecuisine"/><div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+</div>
+</div>
+<div class="swiper-pagination"></div>
+<div class="swiper-button-prev"></div>
+<div class="swiper-button-next"></div>
+</div>
+<div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+</div>
+<div class="details-wrapper">
+<div class="wpz-insta-header">
+<div class="wpz-insta-avatar">
+<img src="https://linschinesekitchen.com/wp-content/plugins/instagram-widget-by-wpzoom/dist/images/backend/icon-insta.png" alt="linschinesekitchen" width="42" height="42"/>
+</div>
+<div class="wpz-insta-buttons">
+<div class="wpz-insta-username">
+<a rel="noopener" target="_blank" href="https://instagram.com/linschinesekitchen">linschinesekitchen</a>
+</div>
+<div>&bull;</div>
+<div class="wpz-insta-follow">
+<a target="_blank" rel="noopener"
+href="https://instagram.com/linschinesekitchen?ref=badge">
+Follow													</a>
+</div>
+</div>
+</div>
+<div class="wpz-insta-caption">
+Have you tried #lotusroot before? It is crunchy with tons of health benefits. One of the most popular way to cook it is to make little burgers with minced pork, in China it is called Ou He #ouhé 藕盒. Filled with flavors and mixed textures, you will absolutely love it! Check out the recipe 👉🏼 https://linschinesekitchen.com/lotus-root-and-minced-pork-pies-recipe/  #chinesefoods #chinesecooking #mincedpork #learntocookchinesecuisine											</div>
+<div class="wpz-insta-date">
+4 months ago											</div>
+<div class="view-post">
+<a href="https://www.instagram.com/p/DCRx3bHoTwR/" target="_blank" rel="noopener"><span class="dashicons dashicons-instagram"></span>View on Instagram</a>
+<span class="delimiter">|</span>
+<div class="wpz-insta-pagination">15/16</div>
+</div>
+</div>
+</div>
+</div>
+<div data-uid="18471442579037990" class="swiper-slide wpz-insta-lightbox-item">
+<div class="wpz-insta-lightbox">
+<div class="image-wrapper">
+<div class="swiper" style="height: 100%;">
+<div class="swiper-wrapper wpz-insta-album-images">
+<div class="swiper-slide wpz-insta-album-image" data-media-type="image">
+<img class="wpzoom-swiper-image swiper-lazy"  data-src="https://scontent.cdninstagram.com/v/t51.75761-15/465983622_18014679287642683_8285639080847046063_n.jpg?stp=dst-jpg_e35_tt6&#038;_nc_cat=102&#038;ccb=1-7&#038;_nc_sid=18de74&#038;_nc_ohc=Vv6fgIxN4vMQ7kNvgFxs8-d&#038;_nc_oc=AdkpTZtONlEa0WNvHLiLTnUgoCrDHZ9r9jKmPJE2d8BPtn7UmbqpqkPVq_eW1oJSs-E&#038;_nc_zt=23&#038;_nc_ht=scontent.cdninstagram.com&#038;edm=ANo9K5cEAAAA&#038;_nc_gid=iwndduzL9OZX0WTGtTScNQ&#038;oh=00_AYG8Sez7VcV10MyPE7_GM9WtX58zXYzhPSFV8sBf8nArAA&#038;oe=67E93151" alt="#mushroomlovers button mushrooms soaked in garlic and onion infused olive oil, yum yum 🤤"/><div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+</div>
+<div class="swiper-slide wpz-insta-album-image" data-media-type="image">
+<img class="wpzoom-swiper-image swiper-lazy"  data-src="https://scontent.cdninstagram.com/v/t51.75761-15/466454337_18014679305642683_2378491652847850065_n.jpg?stp=dst-jpg_e35_tt6&#038;_nc_cat=111&#038;ccb=1-7&#038;_nc_sid=18de74&#038;_nc_ohc=VHD1mClTZ_sQ7kNvgE-E00r&#038;_nc_oc=AdkXwWtmF8_aY3AxGx_x0rvuKDr9-2hyJRL8y3u1js2u234lCuGnfP_8mrRJnwc6tTM&#038;_nc_zt=23&#038;_nc_ht=scontent.cdninstagram.com&#038;edm=ANo9K5cEAAAA&#038;_nc_gid=iwndduzL9OZX0WTGtTScNQ&#038;oh=00_AYGbem-9pXTAx4ehZbUmk4nEPqBYFf9hF_X1-zVBnr89Jg&#038;oe=67E91F3E" alt="#mushroomlovers button mushrooms soaked in garlic and onion infused olive oil, yum yum 🤤"/><div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+</div>
+</div>
+<div class="swiper-pagination"></div>
+<div class="swiper-button-prev"></div>
+<div class="swiper-button-next"></div>
+</div>
+<div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+</div>
+<div class="details-wrapper">
+<div class="wpz-insta-header">
+<div class="wpz-insta-avatar">
+<img src="https://linschinesekitchen.com/wp-content/plugins/instagram-widget-by-wpzoom/dist/images/backend/icon-insta.png" alt="linschinesekitchen" width="42" height="42"/>
+</div>
+<div class="wpz-insta-buttons">
+<div class="wpz-insta-username">
+<a rel="noopener" target="_blank" href="https://instagram.com/linschinesekitchen">linschinesekitchen</a>
+</div>
+<div>&bull;</div>
+<div class="wpz-insta-follow">
+<a target="_blank" rel="noopener"
+href="https://instagram.com/linschinesekitchen?ref=badge">
+Follow													</a>
+</div>
+</div>
+</div>
+<div class="wpz-insta-caption">
+#mushroomlovers button mushrooms soaked in garlic and onion infused olive oil, yum yum 🤤											</div>
+<div class="wpz-insta-date">
+4 months ago											</div>
+<div class="view-post">
+<a href="https://www.instagram.com/p/DCRwmTXoTit/" target="_blank" rel="noopener"><span class="dashicons dashicons-instagram"></span>View on Instagram</a>
+<span class="delimiter">|</span>
+<div class="wpz-insta-pagination">16/16</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="swiper-button-prev"></div>
+<div class="swiper-button-next"></div>
+</div>
+</div>
+<div style="clear:both;"></div>
+<div class="zoom-instagram-widget__follow-me">
+<a href="https://instagram.com/linschinesekitchen?ref=badge"
+class="ig-b- ig-b-v-24" rel="noopener nofollow"
+target="_blank">View on Instagram</a>
+</div>
+<div class="clear"></div></div>                </div>
+</section><!-- .site-widgetized-section -->
+<div class="inner-wrap">
+<div class="footer-menu">
+<div class="menu-footer"><ul id="menu-footer" class="menu"><li id="menu-item-5402" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5402"><a href="http://demo.wpzoom.com/foodica/">Home</a></li>
+<li id="menu-item-6387" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6387"><a href="https://linschinesekitchen.com/about/">About Lin and Yannis</a></li>
+<li id="menu-item-5408" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5408"><a href="https://linschinesekitchen.com/contact/">Contact</a></li>
+</ul></div>                </div>
+<section class="footer-social">
+<div id="zoom-social-icons-widget-4" class="widget zoom-social-icons-widget">
+<ul class="zoom-social-icons-list zoom-social-icons-list--without-canvas zoom-social-icons-list--round zoom-social-icons-list--no-labels">
+<li class="zoom-social_icons-list__item">
+<a class="zoom-social_icons-list__link" href="https://instagram.com/linschinesekitchen" target="_blank" title="Instagram" >
+<span class="screen-reader-text">instagram</span>
+<span class="zoom-social_icons-list-span social-icon socicon socicon-instagram" data-hover-rule="color" data-hover-color="#e4405f" style="color : #e4405f; font-size: 18px; padding:9px" ></span>
+</a>
+</li>
+<li class="zoom-social_icons-list__item">
+<a class="zoom-social_icons-list__link" href="https://www.pinterest.com/linschinesekitchen" target="_blank" title="" >
+<span class="screen-reader-text">pinterest</span>
+<span class="zoom-social_icons-list-span social-icon socicon socicon-pinterest" data-hover-rule="color" data-hover-color="#c92619" style="color : #c92619; font-size: 18px; padding:9px" ></span>
+</a>
+</li>
+<li class="zoom-social_icons-list__item">
+<a class="zoom-social_icons-list__link" href="https://facebook.com/linschinesekitchen" target="_blank" title="Friend me on Facebook" >
+<span class="screen-reader-text">facebook</span>
+<span class="zoom-social_icons-list-span social-icon socicon socicon-facebook" data-hover-rule="color" data-hover-color="#1877F2" style="color : #1877F2; font-size: 18px; padding:9px" ></span>
+</a>
+</li>
+</ul>
+</div>                </section><!-- .home-widgetized-sections -->
+<div class="site-info">
+<span class="copyright">Copyright &copy; 2025 Lin&#039;s Chinese Kitchen</span>
+<span class="designed-by">&mdash; <a href="https://www.wpzoom.com/themes/cookely/" target="_blank" rel="nofollow">Cookely Theme</a> by <a href="https://www.wpzoom.com/" target="_blank" rel="nofollow">WPZOOM</a></span>
+</div><!-- .site-info -->
+</div><!-- .inner-wrap -->
+</footer><!-- #colophon -->
+</div>
+<!-- Mailchimp Top Bar v1.7.0 - https://wordpress.org/plugins/mailchimp-top-bar/ -->
+<div id="mailchimp-top-bar" class="mctb mctb-position-top mctb-medium">
+<div class="mctb-bar" >
+<form method="post" >
+<label class="mctb-label" for="mailchimp-top-bar__email">Sign-up now - don't miss the fun!</label>
+<input type="email" name="email"
+placeholder="Your email address.."
+class="mctb-email" required id="mailchimp-top-bar__email"/>
+<input type="text" name="email_confirm" placeholder="Confirm your email" value="" autocomplete="off"
+tabindex="-1" class="mctb-email-confirm"/>
+<input type="submit" value="Subscribe"
+class="mctb-button"/>
+<input type="hidden" name="_mctb" value="1"/>
+<input type="hidden" name="_mctb_no_js" value="1"/>
+<input type="hidden" name="_mctb_timestamp" value="1742993314"/>
+</form>
+</div>
+</div>
+<!-- / Mailchimp Top Bar -->
+<style id="fupi_cookie_css">
+body{
+--fupi-notice-panel-bg-color: #fff;
+--fupi-notice-panel-round-corners:  0px;
+--fupi-notice-panel-box-shadow: 2px 3px 7px rgba(0,0,0,.2);
+--fupi-notice-panel-border-width: 0px;
+--fupi-notice-panel-border-color: #ccc; 
+--fupi-notice-txt-color: #555;
+--fupi-notice-p-size: 16px;
+--fupi-notice-h-color: #333;
+--fupi-notice-h-size: 20px;
+--fupi-notice-btn-round-corners:  0px;
+--fupi-notice-btn-txt-size: 16px;
+--fupi-notice-btn-bg-color: #dfdfdf;
+--fupi-notice-btn-bg-color-hover: #e9e9e9;
+--fupi-notice-btn-text-color: #111;
+--fupi-notice-btn-text-color-hover: #111;
+--fupi-notice-cta-bg-color: #249dc1;
+--fupi-notice-cta-bg-color-hover: #3ca9d8;
+--fupi-notice-cta-txt-color: #fff;
+--fupi-notice-cta-txt-color-hover: #fff;
+--fupi-notice-slider-color: #249dc1;
+--fupi-notice-necessary-slider-color: #68909b;
+--fupi-notice-slider-focus-shadow: 0 0 4px #249dc1;
+--fupi-notice-popup-panel-max-width: 700px;
+--fupi-notice-toggler-bg-color: #6190c6;
+}
+</style>
+<!-- WP Full Picture - Consent Banner & Analytics - START -->
+<aside id="fupi_cookie_notice" class="fupi_hidden fupi_notice_gradient_overlay fupi_notice_btn_large" style="display: none;" data-position="bottom_full" data-position_inform="bottom" data-paddings="default" data-btn_config="config_2" data-headlinetag="p">
+<div id="fupi_welcome_panel" class="fupi_panel fupi_hidden" role="dialog" aria-label="Consent banner" aria-modal="true" aria-describedby="fupi_main_descr">
+<div class="fupi_inner">
+<div class="fupi_content">
+<p id="fupi_main_descr" class="fupi_cookietype_descr">We use cookies to provide you with the best browsing experience, personalize content of our site, analyse its traffic and show you relevant ads. See our <a href="https://linschinesekitchen.com/sample-page/">privacy policy</a> for more information.</p>
+</div>
+<div class="fupi_buttons">
+<button type="button" id="fupi_agree_to_all_cookies_btn" data-classes="fupi_cta" class="fupi_cta "><span id="fupi_agree_text">Agree</span><span id="fupi_ok_text">I understand</span></button>
+<button type="button" id="fupi_stats_only_btn" data-classes="fupi_button" class="fupi_button ">I only agree to statistics</button>
+<button type="button" id="fupi_cookie_settings_btn" data-classes="fupi_button" class="fupi_button ">Settings</button>
+<button type="button" id="fupi_decline_cookies_btn" data-classes="fupi_button" class="fupi_button ">Decline</button>
+<button type="button" data-classes="fupi_button" class="fupi_close_banner_btn fupi_button fupi_hidden ">Close</button>
+</div>
+<div class="fupi_cdb_info fupi_hidden">
+<span class="fupi_consent_id"></span><br><span class="fupi_consent_date"></span>
+</div>
+<p class="fupi_poweredBy">Powered by <a class="fupi_poweredBy_link" href="https://wpfullpicture.com/?utm_source=usersite&utm_medium=poweredby&utm_campaign=free_link" rel="nofollow noopener">WP Full Picture </a></p>
+</div>
+</div><div id="fupi_settings_panel" class="fupi_panel fupi_fadeOutDown" role="dialog" aria-label="Settings" aria-modal="true" aria-describedby="fupi_notice_settings_content">
+<div class="fupi_inner">
+<div id="fupi_notice_settings_content" class="fupi_content">
+<div id="fupi_necess_section" class="fupi_section fupi_hidden">
+<p id="fupi_necess_headline" class="fupi_headline fupi_hidden"></p>
+<label id="fupi_necess_switch" class="fupi_faux_switch fupi_hidden">
+<span class="fupi_faux_slider fupi_switch_slider_enabled" aria-hidden="true"></span>
+</label>
+<div id="fupi_necess_descr" class="fupi_cookietype_descr fupi_hidden"></div>
+</div>
+<div id="fupi_stats_section" class="fupi_section">
+<p id="fupi_stats_headline" class="fupi_headline">Statistics</p>
+<label class="fupi_switch">
+<span class="fupi_srt">Statistics</span>
+<input id="fupi_stats_agree" name="fupi_stats_agree" value="stats" type="checkbox" role="switch"/>
+<span class="fupi_switch_slider" aria-hidden="true"></span>
+</label>
+<div id="fupi_stats_descr" class="fupi_cookietype_descr">I want to help you make this site better so I will provide you with data about my use of this site.</div>
+</div>
+<div id="fupi_pers_section" class="fupi_section">
+<p id="fupi_pers_headline" class="fupi_headline">Personalisation</p>
+<label class="fupi_switch">
+<span class="fupi_srt">Personalisation</span>
+<input id="fupi_pers_agree" name="fupi_pers_agree" value="personalisation" type="checkbox" role="switch"/>
+<span class="fupi_switch_slider" aria-hidden="true"></span>
+</label>
+<div id="fupi_pers_descr" class="fupi_cookietype_descr">I want to have the best experience on this site so I agree to saving my choices, recommending things I may like and modifying the site to my liking</div>
+</div>
+<div id="fupi_market_section" class="fupi_section">
+<p id="fupi_market_headline" class="fupi_headline">Marketing</p>
+<label class="fupi_switch">
+<span class="fupi_srt">Marketing</span>
+<input id="fupi_marketing_agree" name="fupi_marketing_agree" value="marketing" type="checkbox" role="switch"/>
+<span class="fupi_switch_slider" aria-hidden="true"></span>
+</label>
+<div id="fupi_market_descr" class="fupi_cookietype_descr">I want to see ads with your offers, coupons and exclusive deals rather than random ads from other advertisers.</div>
+</div>
+</div>
+<div class="fupi_buttons">
+<button type="button" id="fupi_agree_to_selected_cookies_btn" data-classes="fupi_cta" class="fupi_cta ">Agree to selected</button>
+<button type="button" id="fupi_return_btn" data-classes="fupi_button" class="fupi_button ">Return</button>
+<button type="button" data-classes="fupi_button" class="fupi_close_banner_btn fupi_button fupi_hidden ">Close</button>
+</div>
+<div class="fupi_cdb_info fupi_hidden">
+<span class="fupi_consent_id"></span><br><span class="fupi_consent_date"></span>
+</div>
+<p class="fupi_poweredBy">Powered by <a class="fupi_poweredBy_link" href="https://wpfullpicture.com/?utm_source=usersite&utm_medium=poweredby&utm_campaign=free_link" rel="nofollow noopener">WP Full Picture </a></p>
+</div>
+</div></aside><!-- WP Full Picture - Consent Banner & Analytics - END -->			<script type='text/javascript'>
+const lazyloadRunObserver = () => {
+const lazyloadBackgrounds = document.querySelectorAll( `.e-con.e-parent:not(.e-lazyloaded)` );
+const lazyloadBackgroundObserver = new IntersectionObserver( ( entries ) => {
+entries.forEach( ( entry ) => {
+if ( entry.isIntersecting ) {
+let lazyloadBackground = entry.target;
+if( lazyloadBackground ) {
+lazyloadBackground.classList.add( 'e-lazyloaded' );
+}
+lazyloadBackgroundObserver.unobserve( entry.target );
+}
+});
+}, { rootMargin: '200px 0px 200px 0px' } );
+lazyloadBackgrounds.forEach( ( lazyloadBackground ) => {
+lazyloadBackgroundObserver.observe( lazyloadBackground );
+} );
+};
+const events = [
+'DOMContentLoaded',
+'elementor/lazyload/observe',
+];
+events.forEach( ( event ) => {
+document.addEventListener( event, lazyloadRunObserver );
+} );
+</script>
+<script type="text/javascript">/* <![CDATA[ */ jQuery(document).ready( function() { jQuery.post( "https://linschinesekitchen.com/wp-admin/admin-ajax.php", { action : "entry_views", _ajax_nonce : "9481cb4310", post_id : 7325 } ); } ); /* ]]> */</script>
+<script type="text/javascript" id="wpzoom-rcb-block-script-js-extra">
+/* <![CDATA[ */
+var wpzoomRecipeCard = {"siteURL":"https:\/\/linschinesekitchen.com","pluginURL":"https:\/\/linschinesekitchen.com\/wp-content\/plugins\/recipe-card-blocks-by-wpzoom\/","storeURL":"https:\/\/recipecard.io\/","homeURL":"https:\/\/linschinesekitchen.com\/","permalinks":"\/%postname%\/","ajax_url":"https:\/\/linschinesekitchen.com\/wp-admin\/admin-ajax.php","nonce":"8a1beb2dd7","api_nonce":"2e14d14641"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://linschinesekitchen.com/wp-content/plugins/recipe-card-blocks-by-wpzoom/dist/assets/js/script.js?ver=3.4.7" id="wpzoom-rcb-block-script-js"></script>
+<script type="text/javascript" src="https://assets.pinterest.com/js/pinit.js?ver=6.7.2" id="wpzoom-rcb-block-pinit-js"></script>
+<script type="text/javascript" src="https://linschinesekitchen.com/wp-content/plugins/wpzoom-forms/dist/assets/frontend/js/script.js?ver=1.2.8" id="wpzoom-forms-js-frontend-formblock-js"></script>
+<script type="text/javascript" src="https://linschinesekitchen.com/wp-content/plugins/full-picture-analytics-cookie-notice/public/common/fupi-helpers-footer.js?ver=8.5.1" id="fupi-helpers-footer-js-js"></script>
+<script type="text/javascript" src="https://linschinesekitchen.com/wp-content/plugins/full-picture-analytics-cookie-notice/public/modules/cook/js/fupi-consb.js?ver=8.5.1" id="fupi-consb-js-js"></script>
+<script type="text/javascript" src="https://linschinesekitchen.com/wp-content/plugins/instagram-widget-by-wpzoom/dist/scripts/library/lazy.js?ver=1742828241" id="zoom-instagram-widget-lazy-load-js"></script>
+<script type="text/javascript" src="https://linschinesekitchen.com/wp-content/plugins/instagram-widget-by-wpzoom/dist/scripts/frontend/index.js?ver=2.2.5" id="zoom-instagram-widget-js"></script>
+<script type="text/javascript" src="https://linschinesekitchen.com/wp-includes/js/comment-reply.min.js?ver=6.7.2" id="comment-reply-js" async="async" data-wp-strategy="async"></script>
+<script type="text/javascript" src="https://linschinesekitchen.com/wp-content/themes/wpzoom-cookely/js/jquery.slicknav.min.js?ver=1.1.8" id="slicknav-js"></script>
+<script type="text/javascript" src="https://linschinesekitchen.com/wp-content/themes/wpzoom-cookely/js/flickity.pkgd.min.js?ver=1.1.8" id="flickity-js"></script>
+<script type="text/javascript" src="https://linschinesekitchen.com/wp-content/themes/wpzoom-cookely/js/jquery.fitvids.js?ver=1.1.8" id="fitvids-js"></script>
+<script type="text/javascript" src="https://linschinesekitchen.com/wp-content/themes/wpzoom-cookely/js/superfish.min.js?ver=1.1.8" id="superfish-js"></script>
+<script type="text/javascript" src="https://linschinesekitchen.com/wp-content/themes/wpzoom-cookely/js/tabs.js?ver=1.1.8" id="tabber-tabs-js"></script>
+<script type="text/javascript" id="cookely-script-js-extra">
+/* <![CDATA[ */
+var zoomOptions = {"index_infinite_load_txt":"Load More\u2026","index_infinite_loading_txt":"Loading\u2026"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://linschinesekitchen.com/wp-content/themes/wpzoom-cookely/js/functions.js?ver=1.1.8" id="cookely-script-js"></script>
+<script type="text/javascript" src="https://linschinesekitchen.com/wp-content/plugins/social-icons-widget-by-wpzoom/assets/js/social-icons-widget-frontend.js?ver=1732719315" id="zoom-social-icons-widget-frontend-js"></script>
+<script type="text/javascript" id="mailchimp-top-bar-js-extra">
+/* <![CDATA[ */
+var mctb = {"cookieLength":"365","icons":{"hide":"&#x25B2;","show":"&#x25BC;"},"position":"top","state":{"submitted":false,"success":false}};
+/* ]]> */
+</script>
+<script type="text/javascript" defer src="https://linschinesekitchen.com/wp-content/plugins/mailchimp-top-bar/assets/script.js?ver=1.7.0" id="mailchimp-top-bar-js"></script>
+<script type="text/javascript" defer src="https://linschinesekitchen.com/wp-content/plugins/mailchimp-for-wp/assets/js/forms.js?ver=4.10.2" id="mc4wp-forms-api-js"></script>
+<script type="text/javascript" src="https://linschinesekitchen.com/wp-content/plugins/google-site-kit/dist/assets/js/googlesitekit-events-provider-mailchimp-7920d200a07d3bcd60bb.js" id="googlesitekit-events-provider-mailchimp-js" defer></script>
+<script type="text/javascript" src="https://linschinesekitchen.com/wp-content/plugins/google-site-kit/dist/assets/js/googlesitekit-events-provider-wpforms-b35450445f9cb0eeb855.js" id="googlesitekit-events-provider-wpforms-js" defer></script>
+<script defer type="text/javascript" src="https://linschinesekitchen.com/wp-content/plugins/akismet/_inc/akismet-frontend.js?ver=1739588559" id="akismet-frontend-js"></script>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a542ee9c5eec6bb4',t:'MTc5MzYyMDMzNg=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a542ee9c5eec6bb4',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script><script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092" integrity="sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==" data-cf-beacon='{"version":"2024.11.0","token":"21fdca2836504518be42af6354d63aed","r":1,"spa":2}' crossorigin="anonymous"></script>
+</body>
+</html><!-- WP Fastest Cache file was created in 0.671 seconds, on March 26, 2025 @ 12:48 pm --><!-- via php -->

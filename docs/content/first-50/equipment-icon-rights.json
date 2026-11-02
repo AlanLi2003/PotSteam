@@ -1,0 +1,27 @@
+{
+  "assets": [
+    "duck",
+    "equipment-board",
+    "equipment-bowl",
+    "equipment-mitt",
+    "equipment-oven",
+    "equipment-parchment",
+    "equipment-plate",
+    "equipment-pot",
+    "equipment-probe",
+    "equipment-rolling-pin",
+    "equipment-skillet",
+    "equipment-slotted-spoon",
+    "equipment-spatula",
+    "equipment-steam-pot",
+    "equipment-steamer",
+    "equipment-string",
+    "equipment-thermometer",
+    "equipment-wok",
+    "wood-ear"
+  ],
+  "equipmentCoverage": 20,
+  "ingredientCoverage": 119,
+  "basis": "Original geometric SVG linework matching the existing stroke style; existing appropriate supplied icons retained",
+  "mapping": "ios/CNrecipe/Content/ingredient-icons.json"
+}

@@ -1,0 +1,302 @@
+[
+  {
+    "n": 1,
+    "servings": 2,
+    "minutes": 10,
+    "items": "Tomatoes|500|g;Scallions|1|stalks;Eggs|4|large;Salt|0.75|tsp;White pepper|0.25|tsp;Sesame oil|0.5|tsp;Shaoxing wine|1|tsp;Cooking oil|3|tbsp;Sugar|2|tsp;Water|0.25|cup"
+  },
+  {
+    "n": 2,
+    "servings": 2,
+    "minutes": 20,
+    "items": "Potatoes|1|medium;Dried chilies|4|pieces;Scallions|2|stalks;Garlic|2|cloves;Cooking oil|2|tbsp;White vinegar|0.5|tsp;Sichuan peppercorns|1|tsp;Salt|0|to taste;Black pepper|0|to taste"
+  },
+  {
+    "n": 3,
+    "servings": 4,
+    "minutes": 18,
+    "items": "Cabbage|1.5|lb;Cooking oil|1.5|tbsp;Garlic|4|cloves;Kosher salt|0.5|tsp;Sugar|0.25|tsp;Water|1|tbsp"
+  },
+  {
+    "n": 4,
+    "servings": 2,
+    "minutes": 6,
+    "items": "Broccoli|1|heads;Carrots|1|small;Salt|1.125|tsp;Vegetarian oyster sauce|1|tbsp;Cornstarch|1|tsp;White pepper|1|pinch;Water|5|tbsp;Cooking oil|1|tbsp;Garlic|4|cloves"
+  },
+  {
+    "n": 5,
+    "servings": 6,
+    "minutes": 60,
+    "items": "Dried shiitake mushrooms|2.5|oz;Bok choy|10|oz;Cooking oil|2.5|tbsp;Salt|1|tsp;Garlic|2|cloves;Shaoxing wine|1|tbsp;Dark soy sauce|0.25|tsp;Light soy sauce|1.5|tbsp;Vegetarian oyster sauce|1|tbsp;Sugar|1.5|tsp;Sesame oil|0.125|tsp;White pepper|0.125|tsp;Cornstarch|1|tbsp;Water|2|cup;Water|0|as needed"
+  },
+  {
+    "n": 6,
+    "servings": 2,
+    "minutes": 22,
+    "items": "Eggplant|170|g;Salt|0.125|tsp;Cornstarch|2|tbsp;Potatoes|250|g;Bell peppers|170|g;Light soy sauce|1.5|tbsp;Dark soy sauce|1|tsp;Shaoxing wine|0.5|tbsp;White pepper|0.25|tsp;Sugar|0.25|tsp;Water|5|tbsp;Cooking oil|4|tbsp;Garlic|4|cloves;Scallions|1|stalks"
+  },
+  {
+    "n": 7,
+    "servings": 4,
+    "minutes": 30,
+    "items": "Light soy sauce|3|tbsp;Black rice vinegar|3|tbsp;Sugar|1|tbsp;Cooking oil|1.5|tbsp;Garlic|4|cloves;Green chili peppers|500|g"
+  },
+  {
+    "n": 8,
+    "servings": 4,
+    "minutes": 50,
+    "items": "Water|1.5|cup;Shaoxing wine|0.25|cup;Light soy sauce|2|tbsp;Sugar|4|tsp;Chili bean paste|2|tsp;Cornstarch|1|tsp;Eggplant|2|pieces;Cooking oil|1|tbsp;Garlic|1|cloves;Ginger|1|tsp;Sesame oil|0.5|tsp;Scallions|2|stalks"
+  },
+  {
+    "n": 9,
+    "servings": 2,
+    "minutes": 30,
+    "items": "Tofu|396|g;Cooking oil|1|cup;Garlic|4|cloves;Ginger|1|inch;Scallions|3|stalks;Chili bean paste|1|tbsp;Carrots|0.5|pieces;Bell peppers|1|pieces;Bamboo shoots|226|g;Sesame oil|1|tsp;Light soy sauce|3|tbsp;Black rice vinegar|1|tbsp;Vegetarian oyster sauce|2|tsp;Sugar|1|tbsp;Water|4|tbsp;Cornstarch|1.5|tsp"
+  },
+  {
+    "n": 10,
+    "servings": 4,
+    "minutes": 10,
+    "items": "Cucumbers|1|lb;Salt|1|tsp;Sugar|2.5|tsp;Sesame oil|2|tsp;Light soy sauce|3|tsp;Rice vinegar|1.5|tbsp;Garlic|2|cloves;Sesame seeds|2|tsp;Cilantro|0.25|cup"
+  },
+  {
+    "n": 11,
+    "servings": 6,
+    "minutes": 30,
+    "items": "Wood ear mushrooms, rehydrated|4|cup;Garlic|3|cloves;Fresh red chilies|2|pieces;Black rice vinegar|1.5|tbsp;Light soy sauce|1|tbsp;Sugar|1|tsp;Sesame oil|1|tsp;Scallions|1|tbsp"
+  },
+  {
+    "n": 12,
+    "servings": 2,
+    "minutes": 25,
+    "items": "Pork loin|300|g;Light soy sauce|2|tbsp;Dark soy sauce|1|tsp;Shaoxing wine|1|tbsp;Five-spice powder|1|tsp;Salt|0.5|tsp;Cornstarch|1|tbsp;Egg whites|0.5|large;Cooking oil|3|tbsp;Green bell peppers|2|pieces;Garlic|1|tbsp;Ginger|1|tbsp;Dried chilies|2|pieces;Sichuan peppercorns|1|tsp"
+  },
+  {
+    "n": 13,
+    "servings": 1,
+    "minutes": 23,
+    "items": "Oyster sauce|1|tbsp;Light soy sauce|1|tsp;Sugar|0.25|tsp;Cornstarch|0.5|tsp;Water|2|tbsp;Eggs|3|large;Salt|0.125|tsp;Water|1|cup;Cooking oil|0.5|tbsp;Ground pork|120|g;Scallions|1|stalks"
+  },
+  {
+    "n": 14,
+    "servings": 4,
+    "minutes": 85,
+    "items": "Pork belly|700|g;Cooking oil|2|tbsp;Ginger|1|tbsp;Shaoxing wine|3|tbsp;Star anise|3|pieces;Sichuan peppercorns|1|tsp;Dried chilies|2|pieces;Chicken stock|250|mL;Dark soy sauce|80|mL;Brown sugar|3|tbsp;Salt|1|pinch;Water|1500|mL"
+  },
+  {
+    "n": 15,
+    "servings": 4,
+    "minutes": 40,
+    "items": "Chicken wings|2|lb;Cooking oil|1|tbsp;Ginger|1|tbsp;Garlic|2|cloves;Scallions|1|stalks;Light soy sauce|2|tbsp;Dark soy sauce|1|tbsp;Sugar|1|tbsp;Shaoxing wine|1|tbsp;Water|0.75|cup"
+  },
+  {
+    "n": 16,
+    "servings": 4,
+    "minutes": 125,
+    "items": "Cooking oil|2|tbsp;Ginger|3|slices;Chicken wings|1.333333333|lb;Dried shiitake mushrooms|25|pieces;Dried wood ear mushrooms|0.75|cup;Mushroom soaking liquid|1.25|cup;Shaoxing wine|0.25|cup;Sugar|1|tsp;Light soy sauce|1|tbsp;Dark soy sauce|2.5|tsp;Scallions|1|stalks"
+  },
+  {
+    "n": 17,
+    "servings": 3,
+    "minutes": 90,
+    "items": "Tomatoes|600|g;Beef brisket|500|g;Cooking oil|20|mL;Scallions|2|segments;Ginger|2|slices;Scallions|10|g;Ginger|10|g;Star anise|3|fragments;Shaoxing wine|5|mL;Water|2000|mL;Salt|0|to taste;Sugar|0|to taste;Light soy sauce|0|to taste"
+  },
+  {
+    "n": 18,
+    "servings": 4,
+    "minutes": 40,
+    "items": "Whole sea bass, cleaned|1500|g;Ginger|5|cm;Scallions|4|stalks;Dark soy sauce|4|tbsp;Sesame oil|3|tbsp;Garlic|4|cloves;Water|0|as needed"
+  },
+  {
+    "n": 19,
+    "servings": 4,
+    "minutes": 85,
+    "items": "Pork ribs|1.1|lb;Winter melon|1.3|lb;Scallions|1|stalks;Ginger|1|inch;Salt|1|tsp;Water|0|as needed"
+  },
+  {
+    "n": 20,
+    "servings": 1,
+    "minutes": 20,
+    "items": "Dried laver seaweed|10|g;Eggs|2|large;Salt|2|g;Water|1500|mL;Cooking oil|5|mL;Scallions|0|to taste"
+  },
+  {
+    "n": 21,
+    "servings": 6,
+    "minutes": 35,
+    "items": "Cooking oil|0.5|cup;Fresh red chilies|1|pieces;Dried chilies|6|pieces;Sichuan peppercorns|0.5|tbsp;Ginger|3|tbsp;Garlic|3|tbsp;Ground pork|8|oz;Chili bean paste|1|tbsp;Chicken stock|0.666666667|cup;Tofu|1|lb;Water|0.25|cup;Cornstarch|1.5|tsp;Scallions|1|stalks"
+  },
+  {
+    "n": 22,
+    "servings": 2,
+    "minutes": 16,
+    "items": "Chicken thighs|11|oz;Cornstarch|1|tsp;Water|1|tbsp;Sesame oil|1|tsp;Peanuts|0.333333333|cup;Light soy sauce|1|tsp;Dark soy sauce|1|tsp;Black rice vinegar|1.5|tbsp;Shaoxing wine|1|tsp;Sugar|2|tsp;Cornstarch|2|tsp;Water|1|tbsp;Cooking oil|2|tbsp;Dried chilies|10|pieces;Sichuan peppercorns|1|tsp;Scallions|6|stalks;Garlic|3|cloves;Ginger|8|slices"
+  },
+  {
+    "n": 23,
+    "servings": 3,
+    "minutes": 25,
+    "items": "Pork tenderloin|10|oz;Light soy sauce|2|tsp;Shaoxing wine|2|tsp;Cornstarch|1|tsp;Salt|1|pinch;Water|1|tbsp;Cooking oil|1|tsp;Black rice vinegar|2|tbsp;Shaoxing wine|1.5|tbsp;Light soy sauce|1|tbsp;Dark soy sauce|0.5|tbsp;Sugar|2|tbsp;Cornstarch|1.5|tbsp;Water|2|tbsp;Cooking oil|3|tbsp;Pickled chilies|2|tbsp;Garlic|2|tsp;Ginger|1|tsp;Carrots|0.5|cup;Wood ear mushrooms, rehydrated|0.5|cup;Bamboo shoots|0.5|cup;Scallions|1|stalks"
+  },
+  {
+    "n": 24,
+    "servings": 4,
+    "minutes": 270,
+    "items": "Leeks|1|lb;Pork belly|1|lb;Ginger|2|inch;Cooking oil|1|tbsp;Fermented black beans|1|tbsp;Chili bean paste|4|tsp;Sweet bean sauce|2|tsp;Dark soy sauce|1|tsp;Sugar|1|tsp;Water|2|quart"
+  },
+  {
+    "n": 25,
+    "servings": 2,
+    "minutes": 35,
+    "items": "Catfish fillets|450|g;Egg whites|1|large;Salt|0.75|tsp;Cornstarch|1|tbsp;White pepper|0.5|tsp;Dried chilies|0.333333333|cup;Scallions|4|stalks;Garlic|6|cloves;Ginger|1|thumb;Pickled mustard greens|300|g;Pickled chilies|0.5|cup;Shaoxing wine|2|tbsp;Chicken stock|4|cup;Sugar|1|tsp;Sichuan peppercorns|0.25|tsp;Cooking oil|2|tbsp"
+  },
+  {
+    "n": 26,
+    "servings": 2,
+    "minutes": 40,
+    "items": "Pork loin|350|g;Bean sprouts|500|g;Scallions|20|g;Garlic|20|g;Salt|11|g;Light soy sauce|5|mL;Shaoxing wine|5|mL;Cornstarch|10|g;Egg whites|1|large;Chili bean paste|50|g;Chili powder|10|g;Sichuan peppercorn powder|10|g;Cooking oil|50|mL;Cooking oil|0|as needed;Water|300|mL"
+  },
+  {
+    "n": 27,
+    "servings": 4,
+    "minutes": 35,
+    "items": "Carp head, cleaned|2|lb;Chopped salted chilies|4|tbsp;Ginger|1|thumb;Garlic|4|cloves;Scallions|3|stalks;Shaoxing wine|2|tbsp;Light soy sauce|1|tbsp;Sesame oil|1|tsp;White pepper|0.25|tsp;Cooking oil|2|tbsp;Water|0|as needed"
+  },
+  {
+    "n": 28,
+    "servings": 2,
+    "minutes": 10,
+    "items": "Cooking oil|2|tsp;Pork belly|200|g;Green chili peppers|150|g;Garlic|5|cloves;Fermented black beans|1|tbsp;Light soy sauce|1|tsp;Dark soy sauce|0.5|tsp"
+  },
+  {
+    "n": 29,
+    "servings": 6,
+    "minutes": 70,
+    "items": "Whole chicken|3|lb;Scallions|2|stalks;Ginger|5|slices;Scallions|3|tbsp;Ginger|2|tbsp;Cooking oil|3|tbsp;Salt|0|to taste;Water|0|as needed"
+  },
+  {
+    "n": 30,
+    "servings": 4,
+    "minutes": 40,
+    "items": "Tofu|500|g;Cornstarch|4|tbsp;Cooking oil|2|tbsp;Scallions|1|stalks;Cilantro|0|to taste;Light soy sauce|3|tbsp;Ginger|1|knob;Scallions|0.5|stalks;Cilantro|1|handful;Ground pork|100|g;Raw shrimp|100|g;Light soy sauce|1|tbsp;Shaoxing wine|0.5|tbsp;Sugar|0.25|tsp;White pepper|1|pinch;Cornstarch|1|tbsp;Water|0|as needed"
+  },
+  {
+    "n": 31,
+    "servings": 4,
+    "minutes": 305,
+    "items": "Whole chicken|1800|g;Scallions|3|stalks;Cooking oil|1|tbsp;Coarse rock salt, baking bed only|3000|g;Ginger|30|g;Dark soy sauce|1|tbsp;Shaoxing wine|1.5|tbsp;Sand ginger powder|1|tsp;Five-spice powder|0.5|tsp;Salt|0.5|tsp;Ginger|50|g;Scallions|3|stalks;Cooking oil|125|mL;Sugar|1|pinch;Salt|0|to taste"
+  },
+  {
+    "n": 32,
+    "servings": 2,
+    "minutes": 20,
+    "items": "Raw oysters, shucked|250|g;Eggs|2|large;Sweet potato starch|2|tbsp;Garlic chives|1|small handful;Salt|0|to taste;Cooking oil|2|tbsp"
+  },
+  {
+    "n": 33,
+    "servings": 2,
+    "minutes": 30,
+    "items": "Pressed tofu strips|200|g;Shiitake mushrooms, rehydrated|15|g;Cooked ham|10|g;Cooked chicken breast|20|g;Dried shrimp|5|g;Chicken stock|500|g;Salt|2|tsp;White pepper|0|to taste;Water|0|as needed"
+  },
+  {
+    "n": 34,
+    "servings": 4,
+    "minutes": 80,
+    "items": "Ground pork|450|g;Ginger|8|g;Scallions|1|stalks;Eggs|1|large;Breadcrumbs|25|g;Shaoxing wine|1|tbsp;Light soy sauce|1|tbsp;Oyster sauce|1|tbsp;White pepper|0.5|tsp;Five-spice powder|0.25|tsp;Cornstarch|1.5|tsp;Water|0.25|cup;Water chestnuts|100|g;Cooking oil|0|as needed;Cooking oil|1|tbsp;Ginger|2|slices;Scallions|2|stalks;Rock sugar|10|g;Shaoxing wine|1|tbsp;Light soy sauce|1.5|tbsp;Dark soy sauce|0.25|tsp;Oyster sauce|1|tbsp;Water|1.5|cup;Cornstarch|1|tsp;Water|1|tbsp;Sesame oil|0.25|tsp"
+  },
+  {
+    "n": 35,
+    "servings": 2,
+    "minutes": 30,
+    "items": "Whole grass carp, cleaned|900|g;Water|1500|mL;Ginger|4|slices;Scallions|1|stalks;Black rice vinegar|80|mL;Sugar|50|g;Light soy sauce|2|tbsp;Shaoxing wine|2|tbsp;Cornstarch|2|tbsp;Salt|0|to taste;White pepper|1|pinch"
+  },
+  {
+    "n": 36,
+    "servings": 4,
+    "minutes": 60,
+    "items": "Water|450|mL;Light soy sauce|125|mL;Black rice vinegar|175|mL;Shaoxing wine|75|mL;Dark soy sauce|1|tbsp;Rock sugar|210|g;Pork ribs|2|lb"
+  },
+  {
+    "n": 37,
+    "servings": 4,
+    "minutes": 60,
+    "items": "Pork tenderloin|500|g;Vinegar|10|g;Sugar|30|g;Cornstarch|50|g;Eggs, beaten|50|g;Light soy sauce|10|mL;Shaoxing wine|20|g;Oyster sauce|10|g;Ketchup|30|mL;White pepper|5|g;Salt|10|g;Water|150|mL;Cooking oil|0|as needed"
+  },
+  {
+    "n": 38,
+    "servings": 2,
+    "minutes": 40,
+    "items": "Commercially pre-fermented mandarin fish|500|g;Garlic|1|bulbs;Ginger|0.5|pieces;Chili bean paste|0|to taste;Scallions|1|small handful;Sugar|0|to taste;Light soy sauce|0|to taste;Dark soy sauce|0|to taste;Cooking oil|0|as needed;Fresh red chilies|1|pieces;Water|0|as needed"
+  },
+  {
+    "n": 39,
+    "servings": 6,
+    "minutes": 40,
+    "items": "Pork ribs|1|lb;Lotus root|1|lb;Goji berries|2|tbsp;Water|10|cup;Ginger|1|inch;Garlic|3|cloves;Diamond Crystal kosher salt|2|tsp"
+  },
+  {
+    "n": 40,
+    "servings": 2,
+    "minutes": 40,
+    "items": "Pork tenderloin|400|g;Baking soda|0.5|tsp;Light soy sauce|2|tsp;Shaoxing wine|2|tsp;Salt|0|to taste;Potato starch|175|g;Cooking oil|750|mL;Ginger|2|cm;Scallions|4|stalks;Sugar|110|g;Rice vinegar|125|mL;Sesame oil|1|tsp;Water|250|mL;Water|0|as needed"
+  },
+  {
+    "n": 41,
+    "servings": 4,
+    "minutes": 120,
+    "items": "Bone-in chicken|800|g;Ginger|20|g;Scallions|20|g;Water|0|as needed;Shaoxing wine|10|mL;Salt|3|g;White pepper|0.5|g"
+  },
+  {
+    "n": 42,
+    "servings": 6,
+    "minutes": 55,
+    "items": "Light soy sauce|1|tbsp;Shaoxing wine|1|tsp;Sesame oil|1|tsp;Cornstarch|1|tsp;Bone-in chicken|2|lb;Light soy sauce|3|tbsp;Chili bean paste|1.5|tbsp;Dark soy sauce|2|tsp;Shaoxing wine|2|tsp;Garlic|5|cloves;Ginger|6|slices;Scallions|3|stalks;Dried chilies|6|pieces;Sichuan peppercorns|1|tsp;Cumin|2|tsp;Star anise|3|pieces;Cassia bark|3|inch;Potatoes|1|lb;Green bell peppers|1|pieces;Red bell peppers|1|pieces;Wheat noodles|9|oz;Cooking oil|3|tbsp;Water|2|cup"
+  },
+  {
+    "n": 43,
+    "servings": 4,
+    "minutes": 50,
+    "items": "Light soy sauce|0.333333333|cup;Shaoxing wine|0.333333333|cup;Brown sugar|1|tbsp;Chicken thighs|1.5|lb;Cooking oil|3|tbsp;Ginger|2|inch;Garlic|12|cloves;Red pepper flakes|0.5|tsp;Scallions|6|stalks;Water|1|tbsp;Cornstarch|1|tsp;Thai basil|1|cup;Sesame oil|1|tbsp"
+  },
+  {
+    "n": 44,
+    "servings": 6,
+    "minutes": 60,
+    "items": "Duck|1500|g;Pickled chilies|60|g;Perilla leaves|20|g;Pickled shallots|50|g;Garlic|50|g;Pickled ginger|30|g;Ginger|30|g;Scallions|30|g;Pickled sour plums|20|g;Preserved salted lemons|2|pieces;Dark soy sauce|4|mL;Light soy sauce|10|mL;Shaoxing wine|30|mL;Sugar|5|g;Salt|3|g;Oyster sauce|25|g;Preserved wampee sauce|30|g;Fermented tofu|2|cubes;Cooking oil|0|as needed;Water|0|as needed"
+  },
+  {
+    "n": 45,
+    "servings": 6,
+    "minutes": 60,
+    "items": "Ground pork|1|lb;Napa cabbage|3|cup;Kosher salt|1|tsp;Scallions|2|stalks;Ginger|1|tbsp;Light soy sauce|1|tbsp;Shaoxing wine|1|tbsp;Sesame oil|1|tsp;White pepper|0.25|tsp;Dumpling wrappers|50|pieces;Water|0|as needed"
+  },
+  {
+    "n": 46,
+    "servings": 4,
+    "minutes": 55,
+    "items": "Long-grain rice|1|cup;Cooking oil|3|tbsp;Scallions|8|stalks;Raw shrimp|4|oz;Eggs|3|large;Fresh shiitake mushrooms|4|oz;Peas|4|oz;Cooked ham|4|oz;Oyster sauce|1|tbsp;Sugar|1|tsp;Kosher salt|1|tsp;White pepper|0.5|tsp;Water|1.25|cup"
+  },
+  {
+    "n": 47,
+    "servings": 6,
+    "minutes": 25,
+    "items": "Cooking oil|0.333333333|cup;Scallions|8|oz;Dark soy sauce|3|tbsp;Light soy sauce|3|tbsp;Sugar|4|tsp;Wheat noodles|1|lb;Water|0|as needed"
+  },
+  {
+    "n": 48,
+    "servings": 2,
+    "minutes": 15,
+    "items": "Tomatoes|450|g;Eggs|3|large;Cooking oil|2.5|tbsp;Garlic|2|cloves;Salt|0.75|tsp;Sugar|0.25|tsp;Noodles|2|portions;Scallions|1|stalks;Water|350|mL;Water|1|tbsp;Water|0|as needed"
+  },
+  {
+    "n": 49,
+    "servings": 2,
+    "minutes": 60,
+    "items": "Medium-grain rice|0.5|cup;Water|4|cup;Century eggs|2|pieces;Cooking oil|2|tsp;Scallions|1|stalks;Salt|0|to taste;Pork loin|4|oz;Ginger|1|tbsp;Water|1|tsp;Shaoxing wine|1|tsp;Kosher salt|0.5|tsp;White pepper|0|to taste;Cornstarch|1|tsp;Water|0|as needed"
+  },
+  {
+    "n": 50,
+    "servings": 12,
+    "minutes": 60,
+    "items": "All-purpose flour|2|cup;Salt|0.5|tsp;Water|0.5|cup;Water|0.25|cup;All-purpose flour|0.333333333|cup;Cooking oil|0.25|cup;Salt|0.75|tsp;Scallions|8|stalks;Cooking oil|0|as needed;Light soy sauce|1.5|tbsp;Black rice vinegar|1|tbsp;Sugar|0.25|tsp;Water|1|tbsp"
+  }
+]

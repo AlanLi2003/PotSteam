@@ -1,0 +1,133 @@
+{
+  "date": "2026-10-31",
+  "verificationScope": "Document and assets only; no app build or app business tests executed",
+  "images": [
+    {
+      "alt": "食品与设备图标修正版",
+      "loaded": true,
+      "width": 1200,
+      "height": 560,
+      "embedded": true
+    },
+    {
+      "alt": "首页 菜谱浏览 我的食材 购物清单",
+      "loaded": true,
+      "width": 1705,
+      "height": 923,
+      "embedded": true
+    },
+    {
+      "alt": "详情 备料 圆环计时 完成评价 图标修正版",
+      "loaded": true,
+      "width": 1536,
+      "height": 1024,
+      "embedded": true
+    },
+    {
+      "alt": "收藏 设置 编辑食材 烹饪食材抽屉 空态与校验",
+      "loaded": true,
+      "width": 1536,
+      "height": 1024,
+      "embedded": true
+    }
+  ],
+  "sections": 12,
+  "desktopOverflow": false,
+  "mobileOverflow": false,
+  "dialogOpened": true,
+  "dialogClosed": true,
+  "externalRequests": [],
+  "pageErrors": [],
+  "sourceChecks": [
+    {
+      "file": "ios/CNrecipe/App.swift",
+      "unchanged": true
+    },
+    {
+      "file": "ios/CNrecipe/Web/index.html",
+      "unchanged": true
+    },
+    {
+      "file": "reference/CNrecipe_v1.1_interactive.html",
+      "unchanged": true
+    },
+    {
+      "file": "scripts/build-web.py",
+      "unchanged": true
+    },
+    {
+      "file": "tests/app-source.js",
+      "unchanged": true
+    }
+  ],
+  "assetChecks": [
+    {
+      "file": "assets/preview-a-discover.png",
+      "valid": true
+    },
+    {
+      "file": "assets/preview-b-cook-corrected.png",
+      "valid": true
+    },
+    {
+      "file": "assets/preview-c-support.png",
+      "valid": true
+    },
+    {
+      "file": "assets/icon-corrections.svg",
+      "valid": true
+    },
+    {
+      "file": "assets/icons/egg.svg",
+      "valid": true
+    },
+    {
+      "file": "assets/icons/mapping.json",
+      "valid": true
+    },
+    {
+      "file": "assets/icons/oil.svg",
+      "valid": true
+    },
+    {
+      "file": "assets/icons/pan.svg",
+      "valid": true
+    },
+    {
+      "file": "assets/icons/pepper.svg",
+      "valid": true
+    },
+    {
+      "file": "assets/icons/salt.svg",
+      "valid": true
+    },
+    {
+      "file": "assets/icons/scallions.svg",
+      "valid": true
+    },
+    {
+      "file": "assets/icons/tomato.svg",
+      "valid": true
+    },
+    {
+      "file": "assets/icons/utensils.svg",
+      "valid": true
+    },
+    {
+      "file": "CNrecipe-修改说明.md",
+      "valid": true
+    },
+    {
+      "file": "CNrecipe-修改说明.html",
+      "valid": true
+    }
+  ],
+  "visualReview": "passed: opening desktop/mobile, all 12 sections, icon sheet and corrected cooking preview inspected",
+  "visualReviewScope": "Document layout and design assets; not an App implementation review",
+  "svgStructureChecks": {
+    "count": 8,
+    "viewBox": "0 0 24 24",
+    "strokeWidth": "1.7",
+    "valid": true
+  }
+}

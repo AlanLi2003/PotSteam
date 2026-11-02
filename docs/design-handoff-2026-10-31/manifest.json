@@ -1,0 +1,92 @@
+{
+  "version": "1.0",
+  "date": "2026-10-31",
+  "status": "design-approved-app-not-modified",
+  "files": [
+    {
+      "path": "assets/preview-a-discover.png",
+      "bytes": 1628777,
+      "sha256": "3ef8bbae186c7734c00a3ba02543f2d08f49672bc26e42e74ae4fc6f59c52e62"
+    },
+    {
+      "path": "assets/preview-b-cook-corrected.png",
+      "bytes": 1816422,
+      "sha256": "53e86265780be6ab0c45a9fdeddd3962ccc175b24aef1600cfa4f05722a99eca"
+    },
+    {
+      "path": "assets/preview-c-support.png",
+      "bytes": 1615596,
+      "sha256": "dac44a52d6384045cfe35f4b65a586804c3a12fed81b730c19d00bd48a85e53f"
+    },
+    {
+      "path": "assets/icon-corrections.svg",
+      "bytes": 4947,
+      "sha256": "5b51a878dd635558aa3c87177c53ed44872e6fd4c0565dfe606533a01e95dc9f"
+    },
+    {
+      "path": "assets/icons/egg.svg",
+      "bytes": 268,
+      "sha256": "9223b1f6eaa5c36e3622644d2d5056c1df15d3615d9568d1abbbfcd4d3cd23bc"
+    },
+    {
+      "path": "assets/icons/mapping.json",
+      "bytes": 819,
+      "sha256": "dda17468cb790a55b590daa6f6ca667eec05f20f3274421a827a9a1f2aa830e5"
+    },
+    {
+      "path": "assets/icons/oil.svg",
+      "bytes": 314,
+      "sha256": "b50b5ec3e7ed09bbb8f050e80cece692c56a364929e5ec8aec9db7e246670e5c"
+    },
+    {
+      "path": "assets/icons/pan.svg",
+      "bytes": 300,
+      "sha256": "6291c564f42ce6917b2873ba05b664982e1a9fe52cffd5e6e1ed4c9211be111a"
+    },
+    {
+      "path": "assets/icons/pepper.svg",
+      "bytes": 413,
+      "sha256": "bb4e32e131537736e80ea6af5b9aa58d00e57c8c94146d18d1348233837c755f"
+    },
+    {
+      "path": "assets/icons/salt.svg",
+      "bytes": 341,
+      "sha256": "427861dbf898db5f752db42041b612896b535ffc64e11c13da52629062570976"
+    },
+    {
+      "path": "assets/icons/scallions.svg",
+      "bytes": 353,
+      "sha256": "e6ac1d00dda270b42369c4ec8d40ae7304769d4c66e2b099f0dd77461e005087"
+    },
+    {
+      "path": "assets/icons/tomato.svg",
+      "bytes": 324,
+      "sha256": "0c6dde25cc6e1924f5fbe047050acfa4fd8fc37e61a733d6f4dba50a351c9ca6"
+    },
+    {
+      "path": "assets/icons/utensils.svg",
+      "bytes": 288,
+      "sha256": "cf1b5e14236e479e9d4bb8c64630bf31fc2dbd080876bd227f6dd0d158802d54"
+    },
+    {
+      "path": "CNrecipe-修改说明.md",
+      "bytes": 18262,
+      "sha256": "f7ae04f5ac191c1a8b7876f7ce60eb8e51fc495df93cce375499ea70d3efef62"
+    },
+    {
+      "path": "CNrecipe-修改说明.html",
+      "bytes": 6782303,
+      "sha256": "5aec6adca76c629c47e56fc77004c87b5e9e4816f223c303e2095c769d7101ad"
+    },
+    {
+      "path": "README.txt",
+      "bytes": 636,
+      "sha256": "f968487d05802c97938360621d0fdf8159c2224705b2649298558ba9511fe162"
+    },
+    {
+      "path": "delivery-checks.json",
+      "bytes": 2889,
+      "sha256": "4f72c09434839f3056272b02596d65fd73ecaf55c2675c269e8352f16f3cf16a"
+    }
+  ]
+}

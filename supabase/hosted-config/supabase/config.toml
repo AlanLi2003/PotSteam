@@ -1,0 +1,6 @@
+project_id = "CNrecipe"
+
+# Default hosted email service and templates are retained for internal testing.
+# Only the native PKCE callback is declared; never push local-stack defaults.
+[auth]
+additional_redirect_urls = ["cnrecipe://auth/callback"]

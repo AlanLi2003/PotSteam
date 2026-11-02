@@ -1,0 +1,42 @@
+{
+  "egg": {
+    "label": "Eggs",
+    "description": "鸡蛋",
+    "file": "egg.svg"
+  },
+  "tomato": {
+    "label": "Tomatoes",
+    "description": "番茄",
+    "file": "tomato.svg"
+  },
+  "scallions": {
+    "label": "Scallions",
+    "description": "葱",
+    "file": "scallions.svg"
+  },
+  "oil": {
+    "label": "Cooking oil",
+    "description": "食用油",
+    "file": "oil.svg"
+  },
+  "salt": {
+    "label": "Salt",
+    "description": "盐",
+    "file": "salt.svg"
+  },
+  "pepper": {
+    "label": "White pepper",
+    "description": "白胡椒 仅对应实际食材",
+    "file": "pepper.svg"
+  },
+  "pan": {
+    "label": "Cooking pan",
+    "description": "平底锅",
+    "file": "pan.svg"
+  },
+  "utensils": {
+    "label": "Cooking utensils",
+    "description": "锅铲与筷子",
+    "file": "utensils.svg"
+  }
+}

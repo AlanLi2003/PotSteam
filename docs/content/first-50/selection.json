@@ -1,0 +1,1706 @@
+{
+  "sourceCommit": "308cc8b7dab1da84b20e7fafdf836a715437f582",
+  "requiredLanguages": [
+    "en"
+  ],
+  "recipes": [
+    {
+      "number": 1,
+      "chineseName": "西红柿炒鸡蛋",
+      "batch": "B1",
+      "appLanguage": "en",
+      "status": "published",
+      "references": [
+        {
+          "url": "https://raw.githubusercontent.com/Anduin2017/HowToCook/308cc8b7dab1da84b20e7fafdf836a715437f582/dishes/vegetable_dish/%E8%A5%BF%E7%BA%A2%E6%9F%BF%E7%82%92%E9%B8%A1%E8%9B%8B.md",
+          "path": "docs/content/first-50/sources/01-2130948c.md",
+          "sha256": "6ef54c60c7701866ba212e3e7cbc19a2d84c109e142824084d1f467dc701dc2f",
+          "retrievedOn": "2026-11-02",
+          "use": "research-only; recipe/version match and rights unreviewed"
+        }
+      ],
+      "englishReview": "completed-agent-review",
+      "culinaryTest": "not-performed-user-waived",
+      "rightsReview": "original-prose-and-original-covers",
+      "approved": true,
+      "recipeId": "tomato",
+      "publishedVersion": 3,
+      "englishName": "Tomato and Egg Stir-Fry",
+      "acceptancePolicy": "source-english-technical",
+      "publishedSource": "https://thewoksoflife.com/stir-fried-tomato-and-egg/",
+      "imageKey": "recipes/tomato/v3.jpg",
+      "bundledImage": "classic-01-photo-v3.jpg",
+      "mediaEvidence": "docs/content/first-50/photo-rights.json"
+    },
+    {
+      "number": 2,
+      "chineseName": "酸辣土豆丝",
+      "batch": "B1",
+      "appLanguage": "en",
+      "status": "published",
+      "references": [
+        {
+          "url": "https://raw.githubusercontent.com/Anduin2017/HowToCook/308cc8b7dab1da84b20e7fafdf836a715437f582/dishes/vegetable_dish/%E9%85%B8%E8%BE%A3%E5%9C%9F%E8%B1%86%E4%B8%9D.md",
+          "path": "docs/content/first-50/sources/02-9190d442.md",
+          "sha256": "c6bf903ae1c79e1089f32bffb79a14dd4d2bea58d1a2f90330f164b0b4f3f3cb",
+          "retrievedOn": "2026-11-02",
+          "use": "research-only; recipe/version match and rights unreviewed"
+        }
+      ],
+      "englishReview": "completed-agent-review",
+      "culinaryTest": "not-performed-user-waived",
+      "rightsReview": "original-prose-and-original-covers",
+      "approved": true,
+      "recipeId": "classic-02-hot-and-sour-shredded-potatoes",
+      "publishedVersion": 2,
+      "englishName": "Hot and Sour Shredded Potatoes",
+      "acceptancePolicy": "source-english-technical",
+      "publishedSource": "https://mychinesehomekitchen.com/2021/04/15/hot-and-sour-shredded-potatoes/",
+      "imageKey": "recipes/classic-02-hot-and-sour-shredded-potatoes/v2.jpg",
+      "bundledImage": "classic-02-photo-v2.jpg",
+      "mediaEvidence": "docs/content/first-50/photo-rights.json"
+    },
+    {
+      "number": 3,
+      "chineseName": "手撕包菜",
+      "batch": "B1",
+      "appLanguage": "en",
+      "status": "published",
+      "references": [
+        {
+          "url": "https://raw.githubusercontent.com/Anduin2017/HowToCook/308cc8b7dab1da84b20e7fafdf836a715437f582/dishes/vegetable_dish/%E6%89%8B%E6%92%95%E5%8C%85%E8%8F%9C/%E6%89%8B%E6%92%95%E5%8C%85%E8%8F%9C.md",
+          "path": "docs/content/first-50/sources/03-cf8cf91d.md",
+          "sha256": "47368bd94f44883f9b2bfc8dac2b8a5378f9ec466d26001ca9383cff71e23a4b",
+          "retrievedOn": "2026-11-02",
+          "use": "research-only; recipe/version match and rights unreviewed"
+        }
+      ],
+      "englishReview": "completed-agent-review",
+      "culinaryTest": "not-performed-user-waived",
+      "rightsReview": "original-prose-and-original-covers",
+      "approved": true,
+      "recipeId": "classic-03-hand-torn-cabbage-stir-fry",
+      "publishedVersion": 2,
+      "englishName": "Hand-Torn Cabbage Stir-Fry",
+      "acceptancePolicy": "source-english-technical",
+      "publishedSource": "https://tryshio.com/recipes/hand-torn-cabbage-stir-fry",
+      "imageKey": "recipes/classic-03-hand-torn-cabbage-stir-fry/v2.jpg",
+      "bundledImage": "classic-03-photo-v2.jpg",
+      "mediaEvidence": "docs/content/first-50/photo-rights.json"
+    },
+    {
+      "number": 4,
+      "chineseName": "蒜蓉西兰花",
+      "batch": "B1",
+      "appLanguage": "en",
+      "status": "published",
+      "references": [
+        {
+          "url": "https://raw.githubusercontent.com/Anduin2017/HowToCook/308cc8b7dab1da84b20e7fafdf836a715437f582/dishes/vegetable_dish/%E8%92%9C%E8%93%89%E8%A5%BF%E5%85%B0%E8%8A%B1.md",
+          "path": "docs/content/first-50/sources/04-92f286f5.md",
+          "sha256": "59a8c2a875182a8a59dd253e58a7c26c66fb03448891bb025ec0189e4baab940",
+          "retrievedOn": "2026-11-02",
+          "use": "research-only; recipe/version match and rights unreviewed"
+        }
+      ],
+      "englishReview": "completed-agent-review",
+      "culinaryTest": "not-performed-user-waived",
+      "rightsReview": "original-prose-and-original-covers",
+      "approved": true,
+      "recipeId": "classic-04-broccoli-with-garlic-sauce",
+      "publishedVersion": 2,
+      "englishName": "Broccoli with Garlic Sauce",
+      "acceptancePolicy": "source-english-technical",
+      "publishedSource": "https://redhousespice.com/broccoli-with-garlic-sauce/",
+      "imageKey": "recipes/classic-04-broccoli-with-garlic-sauce/v2.jpg",
+      "bundledImage": "classic-04-photo-v2.jpg",
+      "mediaEvidence": "docs/content/first-50/photo-rights.json"
+    },
+    {
+      "number": 5,
+      "chineseName": "香菇青菜",
+      "batch": "B1",
+      "appLanguage": "en",
+      "status": "published",
+      "references": [
+        {
+          "url": "https://m.xiachufang.com/recipe/101779978/",
+          "path": "docs/content/first-50/sources/05-web-5769228b4874.html",
+          "sha256": "5769228b487475e9a01839e2dc4e2d4164a09fab4cf74d235fe3d0c438189f89",
+          "retrievedOn": "2026-11-02",
+          "use": "research-only; raw page archive, license and recipe not verified"
+        }
+      ],
+      "englishReview": "completed-agent-review",
+      "culinaryTest": "not-performed-user-waived",
+      "rightsReview": "original-prose-and-original-covers",
+      "approved": true,
+      "discoveryFile": "docs/content/first-50/sources/supplemental-discovery.json",
+      "recipeId": "classic-05-shiitake-mushrooms-and-bok-choy",
+      "publishedVersion": 2,
+      "englishName": "Shiitake Mushrooms and Bok Choy",
+      "acceptancePolicy": "source-english-technical",
+      "publishedSource": "https://thewoksoflife.com/braised-chinese-mushrooms-bok-choy/",
+      "imageKey": "recipes/classic-05-shiitake-mushrooms-and-bok-choy/v2.jpg",
+      "bundledImage": "classic-05-photo-v2.jpg",
+      "mediaEvidence": "docs/content/first-50/photo-rights.json"
+    },
+    {
+      "number": 6,
+      "chineseName": "地三鲜",
+      "batch": "B1",
+      "appLanguage": "en",
+      "status": "published",
+      "references": [
+        {
+          "url": "https://raw.githubusercontent.com/Anduin2017/HowToCook/308cc8b7dab1da84b20e7fafdf836a715437f582/dishes/vegetable_dish/%E5%9C%B0%E4%B8%89%E9%B2%9C/%E5%9C%B0%E4%B8%89%E9%B2%9C.md",
+          "path": "docs/content/first-50/sources/06-0250e6ee.md",
+          "sha256": "0db707103ad5e9a63677f47628e8719ee46b350a3f820da08cbbfdceda1dd010",
+          "retrievedOn": "2026-11-02",
+          "use": "research-only; recipe/version match and rights unreviewed"
+        }
+      ],
+      "englishReview": "completed-agent-review",
+      "culinaryTest": "not-performed-user-waived",
+      "rightsReview": "original-prose-and-original-covers",
+      "approved": true,
+      "recipeId": "classic-06-di-san-xian",
+      "publishedVersion": 2,
+      "englishName": "Di San Xian",
+      "acceptancePolicy": "source-english-technical",
+      "publishedSource": "https://charwok.com/di-san-xian/",
+      "imageKey": "recipes/classic-06-di-san-xian/v2.jpg",
+      "bundledImage": "classic-06-photo-v2.jpg",
+      "mediaEvidence": "docs/content/first-50/photo-rights.json"
+    },
+    {
+      "number": 7,
+      "chineseName": "虎皮青椒",
+      "batch": "B1",
+      "appLanguage": "en",
+      "status": "published",
+      "references": [
+        {
+          "url": "https://raw.githubusercontent.com/Anduin2017/HowToCook/308cc8b7dab1da84b20e7fafdf836a715437f582/dishes/vegetable_dish/%E8%99%8E%E7%9A%AE%E9%9D%92%E6%A4%92/%E8%99%8E%E7%9A%AE%E9%9D%92%E6%A4%92.md",
+          "path": "docs/content/first-50/sources/07-322c053e.md",
+          "sha256": "b49f516f967eb74688024ba32c332ee3893ad85ab0706de61ed87d6cd33e71da",
+          "retrievedOn": "2026-11-02",
+          "use": "research-only; recipe/version match and rights unreviewed"
+        }
+      ],
+      "englishReview": "completed-agent-review",
+      "culinaryTest": "not-performed-user-waived",
+      "rightsReview": "original-prose-and-original-covers",
+      "approved": true,
+      "recipeId": "classic-07-tiger-skin-peppers",
+      "publishedVersion": 2,
+      "englishName": "Tiger-Skin Peppers",
+      "acceptancePolicy": "source-english-technical",
+      "publishedSource": "https://omnivorescookbook.com/szechuan-pan-fried-peppers/",
+      "imageKey": "recipes/classic-07-tiger-skin-peppers/v2.jpg",
+      "bundledImage": "classic-07-photo-v2.jpg",
+      "mediaEvidence": "docs/content/first-50/photo-rights.json"
+    },
+    {
+      "number": 8,
+      "chineseName": "红烧茄子",
+      "batch": "B1",
+      "appLanguage": "en",
+      "status": "published",
+      "references": [
+        {
+          "url": "https://raw.githubusercontent.com/Anduin2017/HowToCook/308cc8b7dab1da84b20e7fafdf836a715437f582/dishes/vegetable_dish/%E7%BA%A2%E7%83%A7%E8%8C%84%E5%AD%90.md",
+          "path": "docs/content/first-50/sources/08-5fa782ab.md",
+          "sha256": "490ef2db64fe58ecae97bc7f06566d75988181c5b7b7f394c4f0756f7d03f30b",
+          "retrievedOn": "2026-11-02",
+          "use": "research-only; recipe/version match and rights unreviewed"
+        }
+      ],
+      "englishReview": "completed-agent-review",
+      "culinaryTest": "not-performed-user-waived",
+      "rightsReview": "original-prose-and-original-covers",
+      "approved": true,
+      "recipeId": "classic-08-braised-eggplant",
+      "publishedVersion": 2,
+      "englishName": "Braised Eggplant",
+      "acceptancePolicy": "source-english-technical",
+      "publishedSource": "https://www.americastestkitchen.com/recipes/11902-braised-eggplant-with-soy-garlic-and-ginger",
+      "imageKey": "recipes/classic-08-braised-eggplant/v2.jpg",
+      "bundledImage": "classic-08-photo-v2.jpg",
+      "mediaEvidence": "docs/content/first-50/photo-rights.json"
+    },
+    {
+      "number": 9,
+      "chineseName": "家常豆腐",
+      "batch": "B1",
+      "appLanguage": "en",
+      "status": "published",
+      "references": [
+        {
+          "url": "https://m.xiachufang.com/recipe/104387445/",
+          "path": "docs/content/first-50/sources/09-web-4978f410123d.html",
+          "sha256": "4978f410123df34847a4685c2e02642fe416b4e325db5cc56577c5ab9c497ef1",
+          "retrievedOn": "2026-11-02",
+          "use": "research-only; raw page archive, license and recipe not verified"
+        },
+        {
+          "url": "https://m.xiachufang.com/recipe/103860637/",
+          "path": "docs/content/first-50/sources/09-web-16c7a5adc8fd.html",
+          "sha256": "16c7a5adc8fd98fe55d375f9bc54ced4828b1dabdb89f7bc448ac9783b1d7f15",
+          "retrievedOn": "2026-11-02",
+          "use": "research-only; raw page archive, license and recipe not verified"
+        },
+        {
+          "url": "https://www.asiancookingmom.com/homestyle-braised-tofu-%e5%ae%b6%e5%b8%b8%e8%b1%86%e8%85%90/",
+          "path": "docs/content/first-50/sources/09-web-c838d0d7305d.html",
+          "sha256": "c838d0d7305d16a3c57416b09fd65ebed552951d1b286cfc6a0a1091da2ae8b1",
+          "retrievedOn": "2026-11-02",
+          "use": "research-only; raw page archive, license and recipe not verified"
+        }
+      ],
+      "englishReview": "completed-agent-review",
+      "culinaryTest": "not-performed-user-waived",
+      "rightsReview": "original-prose-and-original-covers",
+      "approved": true,
+      "discoveryFile": "docs/content/first-50/sources/supplemental-discovery.json",
+      "recipeId": "classic-09-home-style-tofu",
+      "publishedVersion": 2,
+      "englishName": "Home-Style Tofu",
+      "acceptancePolicy": "source-english-technical",
+      "publishedSource": "https://omnivorescookbook.com/home-style-tofu/",
+      "imageKey": "recipes/classic-09-home-style-tofu/v2.jpg",
+      "bundledImage": "classic-09-photo-v2.jpg",
+      "mediaEvidence": "docs/content/first-50/photo-rights.json"
+    },
+    {
+      "number": 10,
+      "chineseName": "凉拌黄瓜",
+      "batch": "B1",
+      "appLanguage": "en",
+      "status": "published",
+      "references": [
+        {
+          "url": "https://raw.githubusercontent.com/Anduin2017/HowToCook/308cc8b7dab1da84b20e7fafdf836a715437f582/dishes/vegetable_dish/%E5%87%89%E6%8B%8C%E9%BB%84%E7%93%9C.md",
+          "path": "docs/content/first-50/sources/10-f5e44764.md",
+          "sha256": "2b1798821af132fdaf09cfae8381513dfcdbe2810288e1012137c93d8d82eea7",
+          "retrievedOn": "2026-11-02",
+          "use": "research-only; recipe/version match and rights unreviewed"
+        }
+      ],
+      "englishReview": "completed-agent-review",
+      "culinaryTest": "not-performed-user-waived",
+      "rightsReview": "original-prose-and-original-covers",
+      "approved": true,
+      "recipeId": "classic-10-smashed-cucumber-salad",
+      "publishedVersion": 2,
+      "englishName": "Smashed Cucumber Salad",
+      "acceptancePolicy": "source-english-technical",
+      "publishedSource": "https://thewoksoflife.com/smashed-asian-cucumber-salad/",
+      "imageKey": "recipes/classic-10-smashed-cucumber-salad/v2.jpg",
+      "bundledImage": "classic-10-photo-v2.jpg",
+      "mediaEvidence": "docs/content/first-50/photo-rights.json"
+    },
+    {
+      "number": 11,
+      "chineseName": "凉拌木耳",
+      "batch": "B1",
+      "appLanguage": "en",
+      "status": "published",
+      "references": [
+        {
+          "url": "https://raw.githubusercontent.com/Anduin2017/HowToCook/308cc8b7dab1da84b20e7fafdf836a715437f582/dishes/vegetable_dish/%E5%87%89%E6%8B%8C%E6%9C%A8%E8%80%B3/%E5%87%89%E6%8B%8C%E6%9C%A8%E8%80%B3.md",
+          "path": "docs/content/first-50/sources/11-9d5b2964.md",
+          "sha256": "1fb8a605ac51d7ff2f64d3d4451731b13396fb0d2aad9444e3aeae6f329d9735",
+          "retrievedOn": "2026-11-02",
+          "use": "research-only; recipe/version match and rights unreviewed"
+        }
+      ],
+      "englishReview": "completed-agent-review",
+      "culinaryTest": "not-performed-user-waived",
+      "rightsReview": "original-prose-and-original-covers",
+      "approved": true,
+      "recipeId": "classic-11-wood-ear-mushroom-salad",
+      "publishedVersion": 2,
+      "englishName": "Wood Ear Mushroom Salad",
+      "acceptancePolicy": "source-english-technical",
+      "publishedSource": "https://thewoksoflife.com/wood-ear-mushroom-salad/",
+      "imageKey": "recipes/classic-11-wood-ear-mushroom-salad/v2.jpg",
+      "bundledImage": "classic-11-photo-v2.jpg",
+      "mediaEvidence": "docs/content/first-50/photo-rights.json"
+    },
+    {
+      "number": 12,
+      "chineseName": "青椒肉丝",
+      "batch": "B1",
+      "appLanguage": "en",
+      "status": "published",
+      "references": [
+        {
+          "url": "https://m.xiachufang.com/recipe/107372249/",
+          "path": "docs/content/first-50/sources/12-web-798cfe5e9337.html",
+          "sha256": "798cfe5e9337d14dfb6c20a2d457a5a68415ac4637a93f42c7b4e8bb2d1fe619",
+          "retrievedOn": "2026-11-02",
+          "use": "research-only; raw page archive, license and recipe not verified"
+        },
+        {
+          "url": "https://m.xiachufang.com/recipe/104681537/",
+          "path": "docs/content/first-50/sources/12-web-910bdf469a7c.html",
+          "sha256": "910bdf469a7ce738f3692e8afd65de6a2c02566b9eb99bd5fbf60573f7252402",
+          "retrievedOn": "2026-11-02",
+          "use": "research-only; raw page archive, license and recipe not verified"
+        },
+        {
+          "url": "https://m.xiachufang.com/recipe/1060023/",
+          "path": "docs/content/first-50/sources/12-web-82cc5da51391.html",
+          "sha256": "82cc5da51391c3668623c2294645b4a6e2b5ffd922d079c7afc1e0379461b077",
+          "retrievedOn": "2026-11-02",
+          "use": "research-only; raw page archive, license and recipe not verified"
+        }
+      ],
+      "englishReview": "completed-agent-review",
+      "culinaryTest": "not-performed-user-waived",
+      "rightsReview": "original-prose-and-original-covers",
+      "approved": true,
+      "discoveryFile": "docs/content/first-50/sources/supplemental-discovery.json",
+      "recipeId": "classic-12-pork-and-green-pepper-stir-fry",
+      "publishedVersion": 2,
+      "englishName": "Pork and Green Pepper Stir-Fry",
+      "acceptancePolicy": "source-english-technical",
+      "publishedSource": "https://tasteasianfood.com/pork-and-pepper-stir-fry/",
+      "imageKey": "recipes/classic-12-pork-and-green-pepper-stir-fry/v2.jpg",
+      "bundledImage": "classic-12-photo-v2.jpg",
+      "mediaEvidence": "docs/content/first-50/photo-rights.json"
+    },
+    {
+      "number": 13,
+      "chineseName": "肉末蒸蛋",
+      "batch": "B1",
+      "appLanguage": "en",
+      "status": "published",
+      "references": [
+        {
+          "url": "https://pmst.panasonic.com.tw/PanasonicCookingTW/Recipe/Detail/3609",
+          "path": "docs/content/first-50/sources/13-web-494e80a56eae.html",
+          "sha256": "494e80a56eae59e890edcd964d2ef406e4e5943bba977abc0b8b679145e68b24",
+          "retrievedOn": "2026-11-02",
+          "use": "research-only; raw page archive, license and recipe not verified"
+        },
+        {
+          "url": "https://m.xiachufang.com/recipe/106781747/",
+          "path": "docs/content/first-50/sources/13-web-49368641d061.html",
+          "sha256": "49368641d06169e14a881a3f8f7a2aa6e9e4c5210ad939873ff7ea50cdb77b58",
+          "retrievedOn": "2026-11-02",
+          "use": "research-only; raw page archive, license and recipe not verified"
+        },
+        {
+          "url": "https://m.xiachufang.com/recipe/107621160/",
+          "path": "docs/content/first-50/sources/13-web-4934bd05f3bd.html",
+          "sha256": "4934bd05f3bdaedae31ea312977269803336dceccaccb8cd7c61c40b455aa73f",
+          "retrievedOn": "2026-11-02",
+          "use": "research-only; raw page archive, license and recipe not verified"
+        }
+      ],
+      "englishReview": "completed-agent-review",
+      "culinaryTest": "not-performed-user-waived",
+      "rightsReview": "original-prose-and-original-covers",
+      "approved": true,
+      "discoveryFile": "docs/content/first-50/sources/supplemental-discovery.json",
+      "recipeId": "classic-13-steamed-egg-with-minced-pork",
+      "publishedVersion": 2,
+      "englishName": "Steamed Egg with Minced Pork",
+      "acceptancePolicy": "source-english-technical",
+      "publishedSource": "https://omnivorescookbook.com/steamed-egg-with-minced-pork/",
+      "imageKey": "recipes/classic-13-steamed-egg-with-minced-pork/v2.jpg",
+      "bundledImage": "classic-13-photo-v2.jpg",
+      "mediaEvidence": "docs/content/first-50/photo-rights.json"
+    },
+    {
+      "number": 14,
+      "chineseName": "红烧肉",
+      "batch": "B1",
+      "appLanguage": "en",
+      "status": "published",
+      "references": [
+        {
+          "url": "https://raw.githubusercontent.com/Anduin2017/HowToCook/308cc8b7dab1da84b20e7fafdf836a715437f582/dishes/meat_dish/%E5%BE%BD%E6%B4%BE%E7%BA%A2%E7%83%A7%E8%82%89/%E5%BE%BD%E6%B4%BE%E7%BA%A2%E7%83%A7%E8%82%89.md",
+          "path": "docs/content/first-50/sources/14-ca670c5a.md",
+          "sha256": "cd0dccda7739ad948f3c0ca8e92091f8a8c7475363b5ca54367482910a06680d",
+          "retrievedOn": "2026-11-02",
+          "use": "research-only; recipe/version match and rights unreviewed"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/Anduin2017/HowToCook/308cc8b7dab1da84b20e7fafdf836a715437f582/dishes/meat_dish/%E6%B9%96%E5%8D%97%E5%AE%B6%E5%B8%B8%E7%BA%A2%E7%83%A7%E8%82%89/%E6%B9%96%E5%8D%97%E5%AE%B6%E5%B8%B8%E7%BA%A2%E7%83%A7%E8%82%89.md",
+          "path": "docs/content/first-50/sources/14-c57bcc7e.md",
+          "sha256": "b42f460c021f503494281c4c164bd95e803c4e7fa4db455b5b554d3ca91aeb39",
+          "retrievedOn": "2026-11-02",
+          "use": "research-only; recipe/version match and rights unreviewed"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/Anduin2017/HowToCook/308cc8b7dab1da84b20e7fafdf836a715437f582/dishes/meat_dish/%E7%BA%A2%E7%83%A7%E8%82%89/%E5%8D%97%E6%B4%BE%E7%BA%A2%E7%83%A7%E8%82%89.md",
+          "path": "docs/content/first-50/sources/14-373d56f2.md",
+          "sha256": "c593691671c43624fb6172d79440ddc60555f76e25682cefef825df7125a59e7",
+          "retrievedOn": "2026-11-02",
+          "use": "research-only; recipe/version match and rights unreviewed"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/Anduin2017/HowToCook/308cc8b7dab1da84b20e7fafdf836a715437f582/dishes/meat_dish/%E7%BA%A2%E7%83%A7%E8%82%89/%E7%AE%80%E6%98%93%E7%BA%A2%E7%83%A7%E8%82%89.md",
+          "path": "docs/content/first-50/sources/14-0eb9f442.md",
+          "sha256": "b268ceba9cb9a1a3bdab365e060a29badd34589aab8d2a54c80bc9c9baf42447",
+          "retrievedOn": "2026-11-02",
+          "use": "research-only; recipe/version match and rights unreviewed"
+        }
+      ],
+      "englishReview": "completed-agent-review",
+      "culinaryTest": "not-performed-user-waived",
+      "rightsReview": "original-prose-and-original-covers",
+      "approved": true,
+      "recipeId": "classic-14-red-braised-pork-belly",
+      "publishedVersion": 2,
+      "englishName": "Red-Braised Pork Belly",
+      "acceptancePolicy": "source-english-technical",
+      "publishedSource": "https://www.bbc.co.uk/food/recipes/red_braised_pork_belly_52653",
+      "imageKey": "recipes/classic-14-red-braised-pork-belly/v2.jpg",
+      "bundledImage": "classic-14-photo-v2.jpg",
+      "mediaEvidence": "docs/content/first-50/photo-rights.json"
+    },
+    {
+      "number": 15,
+      "chineseName": "红烧鸡翅",
+      "batch": "B1",
+      "appLanguage": "en",
+      "status": "published",
+      "references": [
+        {
+          "url": "https://raw.githubusercontent.com/Anduin2017/HowToCook/308cc8b7dab1da84b20e7fafdf836a715437f582/dishes/meat_dish/%E7%BA%A2%E7%83%A7%E9%B8%A1%E7%BF%85.md",
+          "path": "docs/content/first-50/sources/15-0d42f08d.md",
+          "sha256": "23bf4d3d3779155876f30b9fc123c3f575b2025ff6dca8a97722734b81ee0e81",
+          "retrievedOn": "2026-11-02",
+          "use": "research-only; recipe/version match and rights unreviewed"
+        }
+      ],
+      "englishReview": "completed-agent-review",
+      "culinaryTest": "not-performed-user-waived",
+      "rightsReview": "original-prose-and-original-covers",
+      "approved": true,
+      "recipeId": "classic-15-red-braised-chicken-wings",
+      "publishedVersion": 2,
+      "englishName": "Red-Braised Chicken Wings",
+      "acceptancePolicy": "source-english-technical",
+      "publishedSource": "https://ohsnapletseat.com/2026/01/06/red-braised-chicken-wings/",
+      "imageKey": "recipes/classic-15-red-braised-chicken-wings/v2.jpg",
+      "bundledImage": "classic-15-photo-v2.jpg",
+      "mediaEvidence": "docs/content/first-50/photo-rights.json"
+    },
+    {
+      "number": 16,
+      "chineseName": "香菇炖鸡",
+      "batch": "B1",
+      "appLanguage": "en",
+      "status": "published",
+      "references": [
+        {
+          "url": "https://m.xiachufang.com/recipe/107765108/",
+          "path": "docs/content/first-50/sources/16-web-8a80b7c690f7.html",
+          "sha256": "8a80b7c690f782dfa284238e0a2e9085ee3e0343d8eaa7e44b1361b7cb5e74be",
+          "retrievedOn": "2026-11-02",
+          "use": "research-only; raw page archive, license and recipe not verified"
+        },
+        {
+          "url": "https://www.dachu.co/zh/recipe/116759",
+          "path": "docs/content/first-50/sources/16-web-aa54d8557911.html",
+          "sha256": "aa54d8557911bedde0bdd3f9a659c934c761270389e52a0d56c7f5578ef19499",
+          "retrievedOn": "2026-11-02",
+          "use": "research-only; raw page archive, license and recipe not verified"
+        },
+        {
+          "url": "https://www.xiachufang.com/recipe/107023162/",
+          "path": "docs/content/first-50/sources/16-web-9690f71522c8.html",
+          "sha256": "9690f71522c8b02d9f3219161f85584b1f6421d48444e9009dc5dbd47e2c4e44",
+          "retrievedOn": "2026-11-02",
+          "use": "research-only; raw page archive, license and recipe not verified"
+        }
+      ],
+      "englishReview": "completed-agent-review",
+      "culinaryTest": "not-performed-user-waived",
+      "rightsReview": "original-prose-and-original-covers",
+      "approved": true,
+      "discoveryFile": "docs/content/first-50/sources/supplemental-discovery.json",
+      "recipeId": "classic-16-chicken-and-shiitake-mushroom-stew",
+      "publishedVersion": 2,
+      "englishName": "Chicken and Shiitake Mushroom Stew",
+      "acceptancePolicy": "source-english-technical",
+      "publishedSource": "https://thewoksoflife.com/chinese-braised-chicken-with-mushrooms/",
+      "imageKey": "recipes/classic-16-chicken-and-shiitake-mushroom-stew/v2.jpg",
+      "bundledImage": "classic-16-photo-v2.jpg",
+      "mediaEvidence": "docs/content/first-50/photo-rights.json"
+    },
+    {
+      "number": 17,
+      "chineseName": "番茄炖牛腩",
+      "batch": "B1",
+      "appLanguage": "en",
+      "status": "published",
+      "references": [
+        {
+          "url": "https://raw.githubusercontent.com/Anduin2017/HowToCook/308cc8b7dab1da84b20e7fafdf836a715437f582/dishes/meat_dish/%E8%A5%BF%E7%BA%A2%E6%9F%BF%E7%89%9B%E8%85%A9/%E8%A5%BF%E7%BA%A2%E6%9F%BF%E7%89%9B%E8%85%A9.md",
+          "path": "docs/content/first-50/sources/17-24562260.md",
+          "sha256": "82f1ae878a443d109e8fd9291f0d0854d41f586080440351417fc665726f2c31",
+          "retrievedOn": "2026-11-02",
+          "use": "research-only; synonym match, rights and recipe unreviewed"
+        }
+      ],
+      "englishReview": "completed-agent-review",
+      "culinaryTest": "not-performed-user-waived",
+      "rightsReview": "original-prose-and-original-covers",
+      "approved": true,
+      "recipeId": "classic-17-tomato-and-beef-brisket-stew",
+      "publishedVersion": 2,
+      "englishName": "Tomato and Beef Brisket Stew",
+      "acceptancePolicy": "source-english-technical",
+      "publishedSource": "https://raw.githubusercontent.com/Anduin2017/HowToCook/308cc8b7dab1da84b20e7fafdf836a715437f582/dishes/meat_dish/%E8%A5%BF%E7%BA%A2%E6%9F%BF%E7%89%9B%E8%85%A9/%E8%A5%BF%E7%BA%A2%E6%9F%BF%E7%89%9B%E8%85%A9.md",
+      "imageKey": "recipes/classic-17-tomato-and-beef-brisket-stew/v2.jpg",
+      "bundledImage": "classic-17-photo-v2.jpg",
+      "mediaEvidence": "docs/content/first-50/photo-rights.json"
+    },
+    {
+      "number": 18,
+      "chineseName": "清蒸鲈鱼",
+      "batch": "B1",
+      "appLanguage": "en",
+      "status": "published",
+      "references": [
+        {
+          "url": "https://raw.githubusercontent.com/Anduin2017/HowToCook/308cc8b7dab1da84b20e7fafdf836a715437f582/dishes/aquatic/%E6%B8%85%E8%92%B8%E9%B2%88%E9%B1%BC/%E6%B8%85%E8%92%B8%E9%B2%88%E9%B1%BC.md",
+          "path": "docs/content/first-50/sources/18-547705f2.md",
+          "sha256": "fe51b4171a90f9f8f2b194f24ac8da7e1966518ca7f437935418bf339a21ff1a",
+          "retrievedOn": "2026-11-02",
+          "use": "research-only; recipe/version match and rights unreviewed"
+        }
+      ],
+      "englishReview": "completed-agent-review",
+      "culinaryTest": "not-performed-user-waived",
+      "rightsReview": "original-prose-and-original-covers",
+      "approved": true,
+      "recipeId": "classic-18-steamed-whole-sea-bass",
+      "publishedVersion": 2,
+      "englishName": "Steamed Whole Sea Bass",
+      "acceptancePolicy": "source-english-technical",
+      "publishedSource": "https://www.bbc.co.uk/food/recipes/steamed_whole_sea_bass_85778",
+      "imageKey": "recipes/classic-18-steamed-whole-sea-bass/v2.jpg",
+      "bundledImage": "classic-18-photo-v2.jpg",
+      "mediaEvidence": "docs/content/first-50/photo-rights.json"
+    },
+    {
+      "number": 19,
+      "chineseName": "冬瓜排骨汤",
+      "batch": "B1",
+      "appLanguage": "en",
+      "status": "published",
+      "references": [
+        {
+          "url": "https://icook.tw/recipes/438242",
+          "path": "docs/content/first-50/sources/19-web-70c5b9ae5cb0.html",
+          "sha256": "70c5b9ae5cb0c84f43a79eeea8d090c6101121be4e0b07ecd945d1724f61aae8",
+          "retrievedOn": "2026-11-02",
+          "use": "research-only; raw page archive, license and recipe not verified"
+        },
+        {
+          "url": "https://m.xiachufang.com/recipe/104538604/",
+          "path": "docs/content/first-50/sources/19-web-9398f2d01249.html",
+          "sha256": "9398f2d0124956a0a7516d24e4976e6e43dd893afbe0c77ce44655b9189c6104",
+          "retrievedOn": "2026-11-02",
+          "use": "research-only; raw page archive, license and recipe not verified"
+        },
+        {
+          "url": "https://icook.tw/recipes/449188",
+          "path": "docs/content/first-50/sources/19-web-46c1a6a8dc55.html",
+          "sha256": "46c1a6a8dc553079b4a4da4ad079a835be0d6aac7220a15b7ef2a0864f51efc3",
+          "retrievedOn": "2026-11-02",
+          "use": "research-only; raw page archive, license and recipe not verified"
+        }
+      ],
+      "englishReview": "completed-agent-review",
+      "culinaryTest": "not-performed-user-waived",
+      "rightsReview": "original-prose-and-original-covers",
+      "approved": true,
+      "discoveryFile": "docs/content/first-50/sources/supplemental-discovery.json",
+      "recipeId": "classic-19-winter-melon-and-pork-rib-soup",
+      "publishedVersion": 2,
+      "englishName": "Winter Melon and Pork Rib Soup",
+      "acceptancePolicy": "source-english-technical",
+      "publishedSource": "https://savorychina.com/winter-melon-pork-rib-soup/",
+      "imageKey": "recipes/classic-19-winter-melon-and-pork-rib-soup/v2.jpg",
+      "bundledImage": "classic-19-photo-v2.jpg",
+      "mediaEvidence": "docs/content/first-50/photo-rights.json"
+    },
+    {
+      "number": 20,
+      "chineseName": "紫菜蛋花汤",
+      "batch": "B1",
+      "appLanguage": "en",
+      "status": "published",
+      "references": [
+        {
+          "url": "https://raw.githubusercontent.com/Anduin2017/HowToCook/308cc8b7dab1da84b20e7fafdf836a715437f582/dishes/soup/%E7%B4%AB%E8%8F%9C%E8%9B%8B%E8%8A%B1%E6%B1%A4.md",
+          "path": "docs/content/first-50/sources/20-b435c11c.md",
+          "sha256": "8b83438660e9d15b9658644b4b9c8d16eecf1207cf33ac7e2fd526aa3f760020",
+          "retrievedOn": "2026-11-02",
+          "use": "research-only; recipe/version match and rights unreviewed"
+        }
+      ],
+      "englishReview": "completed-agent-review",
+      "culinaryTest": "not-performed-user-waived",
+      "rightsReview": "original-prose-and-original-covers",
+      "approved": true,
+      "recipeId": "classic-20-seaweed-and-egg-drop-soup",
+      "publishedVersion": 2,
+      "englishName": "Seaweed and Egg Drop Soup",
+      "acceptancePolicy": "source-english-technical",
+      "publishedSource": "https://raw.githubusercontent.com/Anduin2017/HowToCook/308cc8b7dab1da84b20e7fafdf836a715437f582/dishes/soup/%E7%B4%AB%E8%8F%9C%E8%9B%8B%E8%8A%B1%E6%B1%A4.md",
+      "imageKey": "recipes/classic-20-seaweed-and-egg-drop-soup/v2.jpg",
+      "bundledImage": "classic-20-photo-v2.jpg",
+      "mediaEvidence": "docs/content/first-50/photo-rights.json"
+    },
+    {
+      "number": 21,
+      "chineseName": "麻婆豆腐",
+      "batch": "B2",
+      "appLanguage": "en",
+      "status": "published",
+      "references": [
+        {
+          "url": "https://raw.githubusercontent.com/Anduin2017/HowToCook/308cc8b7dab1da84b20e7fafdf836a715437f582/dishes/meat_dish/%E9%BA%BB%E5%A9%86%E8%B1%86%E8%85%90/%E9%BA%BB%E5%A9%86%E8%B1%86%E8%85%90.md",
+          "path": "docs/content/first-50/sources/21-c68aaa42.md",
+          "sha256": "11547a2586819cd712ccd275aebf7318a724e2bb5d47d10f5f0e6fa71735ba3d",
+          "retrievedOn": "2026-11-02",
+          "use": "research-only; recipe/version match and rights unreviewed"
+        }
+      ],
+      "englishReview": "completed-agent-review",
+      "culinaryTest": "not-performed-user-waived",
+      "rightsReview": "original-prose-and-original-covers",
+      "approved": true,
+      "recipeId": "mapo",
+      "publishedVersion": 3,
+      "englishName": "Mapo Tofu",
+      "acceptancePolicy": "source-english-technical",
+      "publishedSource": "https://thewoksoflife.com/ma-po-tofu-real-deal/",
+      "imageKey": "recipes/mapo/v3.jpg",
+      "bundledImage": "classic-21-photo-v3.jpg",
+      "mediaEvidence": "docs/content/first-50/photo-rights.json"
+    },
+    {
+      "number": 22,
+      "chineseName": "宫保鸡丁",
+      "batch": "B2",
+      "appLanguage": "en",
+      "status": "published",
+      "references": [
+        {
+          "url": "https://raw.githubusercontent.com/Anduin2017/HowToCook/308cc8b7dab1da84b20e7fafdf836a715437f582/dishes/meat_dish/%E5%AE%AB%E4%BF%9D%E9%B8%A1%E4%B8%81/%E5%AE%AB%E4%BF%9D%E9%B8%A1%E4%B8%81.md",
+          "path": "docs/content/first-50/sources/22-f727a804.md",
+          "sha256": "c44371612f01646a0395f7f9e0ef1a6dab6592992f9c1a80ae7d2b0550d6a5ee",
+          "retrievedOn": "2026-11-02",
+          "use": "research-only; recipe/version match and rights unreviewed"
+        }
+      ],
+      "englishReview": "completed-agent-review",
+      "culinaryTest": "not-performed-user-waived",
+      "rightsReview": "original-prose-and-original-covers",
+      "approved": true,
+      "recipeId": "kung",
+      "publishedVersion": 3,
+      "englishName": "Kung Pao Chicken",
+      "acceptancePolicy": "source-english-technical",
+      "publishedSource": "https://www.pbs.org/food/recipes/kung-pao-chicken",
+      "imageKey": "recipes/kung/v3.jpg",
+      "bundledImage": "classic-22-photo-v3.jpg",
+      "mediaEvidence": "docs/content/first-50/photo-rights.json"
+    },
+    {
+      "number": 23,
+      "chineseName": "鱼香肉丝",
+      "batch": "B2",
+      "appLanguage": "en",
+      "status": "published",
+      "references": [
+        {
+          "url": "https://raw.githubusercontent.com/Anduin2017/HowToCook/308cc8b7dab1da84b20e7fafdf836a715437f582/dishes/meat_dish/%E9%B1%BC%E9%A6%99%E8%82%89%E4%B8%9D.md",
+          "path": "docs/content/first-50/sources/23-5f3a3719.md",
+          "sha256": "62470993d67fb07ce6805b4c5de7b8a956da00118c9dfe73fa408c19efadac52",
+          "retrievedOn": "2026-11-02",
+          "use": "research-only; recipe/version match and rights unreviewed"
+        }
+      ],
+      "englishReview": "completed-agent-review",
+      "culinaryTest": "not-performed-user-waived",
+      "rightsReview": "original-prose-and-original-covers",
+      "approved": true,
+      "recipeId": "classic-23-yu-xiang-shredded-pork",
+      "publishedVersion": 2,
+      "englishName": "Yu Xiang Shredded Pork",
+      "acceptancePolicy": "source-english-technical",
+      "publishedSource": "https://redhousespice.com/sichuan-shredded-pork-garlic-sauce/",
+      "imageKey": "recipes/classic-23-yu-xiang-shredded-pork/v2.jpg",
+      "bundledImage": "classic-23-photo-v2.jpg",
+      "mediaEvidence": "docs/content/first-50/photo-rights.json"
+    },
+    {
+      "number": 24,
+      "chineseName": "回锅肉",
+      "batch": "B2",
+      "appLanguage": "en",
+      "status": "published",
+      "references": [
+        {
+          "url": "https://raw.githubusercontent.com/Anduin2017/HowToCook/308cc8b7dab1da84b20e7fafdf836a715437f582/dishes/meat_dish/%E5%9B%9E%E9%94%85%E8%82%89/%E5%9B%9E%E9%94%85%E8%82%89.md",
+          "path": "docs/content/first-50/sources/24-dacc0e7e.md",
+          "sha256": "e1639a38cbebb8d56aaa2661c72a3537a79df8c08dcd6b9b08558867e01835b7",
+          "retrievedOn": "2026-11-02",
+          "use": "research-only; recipe/version match and rights unreviewed"
+        }
+      ],
+      "englishReview": "completed-agent-review",
+      "culinaryTest": "not-performed-user-waived",
+      "rightsReview": "original-prose-and-original-covers",
+      "approved": true,
+      "recipeId": "classic-24-twice-cooked-pork",
+      "publishedVersion": 2,
+      "englishName": "Twice-Cooked Pork",
+      "acceptancePolicy": "source-english-technical",
+      "publishedSource": "https://www.americastestkitchen.com/recipes/15844-hui-guo-rou-sichuan-twice-cooked-pork-belly",
+      "imageKey": "recipes/classic-24-twice-cooked-pork/v2.jpg",
+      "bundledImage": "classic-24-photo-v2.jpg",
+      "mediaEvidence": "docs/content/first-50/photo-rights.json"
+    },
+    {
+      "number": 25,
+      "chineseName": "酸菜鱼",
+      "batch": "B2",
+      "appLanguage": "en",
+      "status": "published",
+      "references": [
+        {
+          "url": "https://www.xiachufang.com/recipe/107534678/",
+          "path": "docs/content/first-50/sources/25-web-3046b405c19a.html",
+          "sha256": "3046b405c19adc153bfe4fa18ded68e73eac514b1700971c0e6c3c543bd394c2",
+          "retrievedOn": "2026-11-02",
+          "use": "research-only; raw page archive, license and recipe not verified"
+        },
+        {
+          "url": "https://m.xiachufang.com/recipe/103642610/",
+          "path": "docs/content/first-50/sources/25-web-62d922685ac5.html",
+          "sha256": "62d922685ac59aeafe2f0ed687002815d0ad6a4a7a5f456a675ff0fd557d90be",
+          "retrievedOn": "2026-11-02",
+          "use": "research-only; raw page archive, license and recipe not verified"
+        },
+        {
+          "url": "https://www.iris.net.cn/elec_PCMA.asp?RECIPE_ID=42",
+          "path": "docs/content/first-50/sources/25-web-69398667d3d2.html",
+          "sha256": "69398667d3d2f31667287bf59332b168a9162e14dc027098312aeb910be9c98e",
+          "retrievedOn": "2026-11-02",
+          "use": "research-only; raw page archive, license and recipe not verified"
+        }
+      ],
+      "englishReview": "completed-agent-review",
+      "culinaryTest": "not-performed-user-waived",
+      "rightsReview": "original-prose-and-original-covers",
+      "approved": true,
+      "discoveryFile": "docs/content/first-50/sources/supplemental-discovery.json",
+      "recipeId": "classic-25-sichuan-fish-with-pickled-mustard-greens",
+      "publishedVersion": 2,
+      "englishName": "Sichuan Fish with Pickled Mustard Greens",
+      "acceptancePolicy": "source-english-technical",
+      "publishedSource": "https://omnivorescookbook.com/suan-cai-yu/",
+      "imageKey": "recipes/classic-25-sichuan-fish-with-pickled-mustard-greens/v2.jpg",
+      "bundledImage": "classic-25-photo-v2.jpg",
+      "mediaEvidence": "docs/content/first-50/photo-rights.json"
+    },
+    {
+      "number": 26,
+      "chineseName": "水煮肉片",
+      "batch": "B2",
+      "appLanguage": "en",
+      "status": "published",
+      "references": [
+        {
+          "url": "https://raw.githubusercontent.com/Anduin2017/HowToCook/308cc8b7dab1da84b20e7fafdf836a715437f582/dishes/meat_dish/%E6%B0%B4%E7%85%AE%E8%82%89%E7%89%87.md",
+          "path": "docs/content/first-50/sources/26-b898ff51.md",
+          "sha256": "e43cd5a4206a11c65d6ce0ca96d7ace90ab5b7e2e9ed3788d65e9e285ebdd607",
+          "retrievedOn": "2026-11-02",
+          "use": "research-only; recipe/version match and rights unreviewed"
+        }
+      ],
+      "englishReview": "completed-agent-review",
+      "culinaryTest": "not-performed-user-waived",
+      "rightsReview": "original-prose-and-original-covers",
+      "approved": true,
+      "recipeId": "classic-26-sichuan-boiled-pork-slices",
+      "publishedVersion": 2,
+      "englishName": "Sichuan Boiled Pork Slices",
+      "acceptancePolicy": "source-english-technical",
+      "publishedSource": "https://www.chinarecipes.com/sichuan-boiled-pork-shui-zhu-rou-pian-recipe-34060/",
+      "imageKey": "recipes/classic-26-sichuan-boiled-pork-slices/v2.jpg",
+      "bundledImage": "classic-26-photo-v2.jpg",
+      "mediaEvidence": "docs/content/first-50/photo-rights.json"
+    },
+    {
+      "number": 27,
+      "chineseName": "剁椒鱼头",
+      "batch": "B2",
+      "appLanguage": "en",
+      "status": "published",
+      "references": [
+        {
+          "url": "https://cookidoo.com.cn/recipes/recipe/zh-hans-cn/r345050",
+          "path": "docs/content/first-50/sources/27-web-59c7c0bf80c0.html",
+          "sha256": "59c7c0bf80c082448b7ab49cb164d7cc1f763e2f30891e5bbd77b24ca1c0188e",
+          "retrievedOn": "2026-11-02",
+          "use": "research-only; raw page archive, license and recipe not verified"
+        },
+        {
+          "url": "https://m.xiachufang.com/recipe/107338424/",
+          "path": "docs/content/first-50/sources/27-web-a0e0ebad4c00.html",
+          "sha256": "a0e0ebad4c00ae035bb1d22b39d54f4fe9a5f0556f8e3645074da4a8530ae61b",
+          "retrievedOn": "2026-11-02",
+          "use": "research-only; raw page archive, license and recipe not verified"
+        },
+        {
+          "url": "https://m.xiachufang.com/recipe/1042276/",
+          "path": "docs/content/first-50/sources/27-web-bcb084d9b5a8.html",
+          "sha256": "bcb084d9b5a8abb7fcee5338a3b01ff526b3c8ee8fe574cf459f920ecb90994f",
+          "retrievedOn": "2026-11-02",
+          "use": "research-only; raw page archive, license and recipe not verified"
+        }
+      ],
+      "englishReview": "completed-agent-review",
+      "culinaryTest": "not-performed-user-waived",
+      "rightsReview": "original-prose-and-original-covers",
+      "approved": true,
+      "discoveryFile": "docs/content/first-50/sources/supplemental-discovery.json",
+      "recipeId": "classic-27-steamed-fish-head-with-chopped-chilies",
+      "publishedVersion": 2,
+      "englishName": "Steamed Fish Head with Chopped Chilies",
+      "acceptancePolicy": "source-english-technical",
+      "publishedSource": "https://invaderkitchen.com/recipes/duo-jiao-fish-head",
+      "imageKey": "recipes/classic-27-steamed-fish-head-with-chopped-chilies/v2.jpg",
+      "bundledImage": "classic-27-photo-v2.jpg",
+      "mediaEvidence": "docs/content/first-50/photo-rights.json"
+    },
+    {
+      "number": 28,
+      "chineseName": "湖南小炒肉",
+      "batch": "B2",
+      "appLanguage": "en",
+      "status": "published",
+      "references": [
+        {
+          "url": "https://raw.githubusercontent.com/Anduin2017/HowToCook/308cc8b7dab1da84b20e7fafdf836a715437f582/dishes/meat_dish/%E5%B0%8F%E7%82%92%E8%82%89.md",
+          "path": "docs/content/first-50/sources/28-d1509149.md",
+          "sha256": "020664019cc79e82f8619b8e5cdc66c39aa83abc83ff6bdbec22a767a68842c6",
+          "retrievedOn": "2026-11-02",
+          "use": "research-only; recipe/version match and rights unreviewed"
+        }
+      ],
+      "englishReview": "completed-agent-review",
+      "culinaryTest": "not-performed-user-waived",
+      "rightsReview": "original-prose-and-original-covers",
+      "approved": true,
+      "recipeId": "classic-28-hunan-pork-and-pepper-stir-fry",
+      "publishedVersion": 2,
+      "englishName": "Hunan Pork and Pepper Stir-Fry",
+      "acceptancePolicy": "source-english-technical",
+      "publishedSource": "https://redhousespice.com/hunan-pork/",
+      "imageKey": "recipes/classic-28-hunan-pork-and-pepper-stir-fry/v2.jpg",
+      "bundledImage": "classic-28-photo-v2.jpg",
+      "mediaEvidence": "docs/content/first-50/photo-rights.json"
+    },
+    {
+      "number": 29,
+      "chineseName": "白切鸡",
+      "batch": "B2",
+      "appLanguage": "en",
+      "status": "published",
+      "references": [
+        {
+          "url": "https://www.nanyangkitchen.co/recipe/boiled-kampong-chicken/",
+          "path": "docs/content/first-50/sources/29-web-080e977adf5e.html",
+          "sha256": "080e977adf5e47a9f17315af61b607cf3df622de59ffda56f62161b60949fc06",
+          "retrievedOn": "2026-11-02",
+          "use": "research-only; raw page archive, license and recipe not verified"
+        },
+        {
+          "url": "https://www.nanyangkitchen.co/chicken/cantonese-boiled-chicken/",
+          "path": "docs/content/first-50/sources/29-web-7583525b3870.html",
+          "sha256": "7583525b3870131c49f4f7edba02e0925049b1aca0d1035ff61663ae60f551b0",
+          "retrievedOn": "2026-11-02",
+          "use": "research-only; raw page archive, license and recipe not verified"
+        },
+        {
+          "url": "https://m.xiachufang.com/recipe/106182433/",
+          "path": "docs/content/first-50/sources/29-web-638a12601963.html",
+          "sha256": "638a12601963c51ff7b2577d267e8e5c4d8c5e6eafc14eb6e279038ea420ac05",
+          "retrievedOn": "2026-11-02",
+          "use": "research-only; raw page archive, license and recipe not verified"
+        }
+      ],
+      "englishReview": "completed-agent-review",
+      "culinaryTest": "not-performed-user-waived",
+      "rightsReview": "original-prose-and-original-covers",
+      "approved": true,
+      "discoveryFile": "docs/content/first-50/sources/supplemental-discovery.json",
+      "recipeId": "classic-29-cantonese-poached-chicken",
+      "publishedVersion": 2,
+      "englishName": "Cantonese Poached Chicken",
+      "acceptancePolicy": "source-english-technical",
+      "publishedSource": "https://thewoksoflife.com/cantonese-poached-chicken-w-ginger-scallion-oil-bai-qie-ji/",
+      "imageKey": "recipes/classic-29-cantonese-poached-chicken/v2.jpg",
+      "bundledImage": "classic-29-photo-v2.jpg",
+      "mediaEvidence": "docs/content/first-50/photo-rights.json"
+    },
+    {
+      "number": 30,
+      "chineseName": "客家酿豆腐",
+      "batch": "B2",
+      "appLanguage": "en",
+      "status": "published",
+      "references": [
+        {
+          "url": "https://www.spoonandstorykitchen.com/zh/recipe/stuffed-tofu-with-minced-pork-hakka-style-2/",
+          "path": "docs/content/first-50/sources/30-web-886bb91daf16.html",
+          "sha256": "886bb91daf164295f3c1918116c6667f37615726f64d584dff14068d0a12c788",
+          "retrievedOn": "2026-11-02",
+          "use": "research-only; raw page archive, license and recipe not verified"
+        },
+        {
+          "url": "https://www.gdnx.gov.cn/lynx/cyms/content/post_2086246.html",
+          "path": "docs/content/first-50/sources/30-web-310b6be31855.html",
+          "sha256": "310b6be318552906b1590fcc6156f3316fb8ab80ef1fb28ecf42ddcc9a4df6f3",
+          "retrievedOn": "2026-11-02",
+          "use": "research-only; raw page archive, license and recipe not verified"
+        }
+      ],
+      "englishReview": "completed-agent-review",
+      "culinaryTest": "not-performed-user-waived",
+      "rightsReview": "original-prose-and-original-covers",
+      "approved": true,
+      "discoveryFile": "docs/content/first-50/sources/supplemental-discovery.json",
+      "recipeId": "classic-30-hakka-stuffed-tofu",
+      "publishedVersion": 2,
+      "englishName": "Hakka Stuffed Tofu",
+      "acceptancePolicy": "source-english-technical",
+      "publishedSource": "https://uk.lkk.com/recipes/hakka-stuffed-tofu",
+      "imageKey": "recipes/classic-30-hakka-stuffed-tofu/v2.jpg",
+      "bundledImage": "classic-30-photo-v2.jpg",
+      "mediaEvidence": "docs/content/first-50/photo-rights.json"
+    },
+    {
+      "number": 31,
+      "chineseName": "客家盐焗鸡",
+      "batch": "B2",
+      "appLanguage": "en",
+      "status": "published",
+      "references": [
+        {
+          "url": "https://m.xiachufang.com/recipe/104387715/",
+          "path": "docs/content/first-50/sources/31-web-5e78f78e577c.html",
+          "sha256": "5e78f78e577ca58465a176141ba3495dbe900025a847c4cda36261bd30650774",
+          "retrievedOn": "2026-11-02",
+          "use": "research-only; raw page archive, license and recipe not verified"
+        },
+        {
+          "url": "https://ndls.cnis.ac.cn/standard/detail/d9bd107e10425fe89156839d3ac13463",
+          "path": "docs/content/first-50/sources/31-web-32266abbfee4.html",
+          "sha256": "32266abbfee43a7d57e3c2ef6f3f7acad6c5d4f35ac3877eee8a3202a338c61a",
+          "retrievedOn": "2026-11-02",
+          "use": "research-only; raw page archive, license and recipe not verified"
+        },
+        {
+          "url": "https://ndls.cnis.ac.cn/standard/detail/4e6838c821012b1fa6da49c1ecc7dc0c",
+          "path": "docs/content/first-50/sources/31-web-58dd5defe782.html",
+          "sha256": "58dd5defe7827d007e4e4e082b7f095fe14cc7fd55094393ec590b910b212287",
+          "retrievedOn": "2026-11-02",
+          "use": "research-only; raw page archive, license and recipe not verified"
+        }
+      ],
+      "englishReview": "completed-agent-review",
+      "culinaryTest": "not-performed-user-waived",
+      "rightsReview": "original-prose-and-original-covers",
+      "approved": true,
+      "discoveryFile": "docs/content/first-50/sources/supplemental-discovery.json",
+      "recipeId": "classic-31-hakka-salt-baked-chicken",
+      "publishedVersion": 2,
+      "englishName": "Hakka Salt-Baked Chicken",
+      "acceptancePolicy": "source-english-technical",
+      "publishedSource": "https://www.gourmettraveller.com.au/recipe/mains/hakka-salt-baked-chicken-14247/",
+      "imageKey": "recipes/classic-31-hakka-salt-baked-chicken/v2.jpg",
+      "bundledImage": "classic-31-photo-v2.jpg",
+      "mediaEvidence": "docs/content/first-50/photo-rights.json"
+    },
+    {
+      "number": 32,
+      "chineseName": "海蛎煎",
+      "batch": "B2",
+      "appLanguage": "en",
+      "status": "published",
+      "references": [
+        {
+          "url": "https://scjgj.quanzhou.gov.cn/qzitp/interface/download/download.action?appFile=AD2025062309164065.pdf",
+          "path": "docs/content/first-50/sources/32-web-696b14efcfe4.html",
+          "sha256": "696b14efcfe4c22962456389c803862b2c001479a836ddb32dcbc2d475a224d8",
+          "retrievedOn": "2026-11-02",
+          "use": "research-only; raw page archive, license and recipe not verified"
+        }
+      ],
+      "englishReview": "completed-agent-review",
+      "culinaryTest": "not-performed-user-waived",
+      "rightsReview": "original-prose-and-original-covers",
+      "approved": true,
+      "discoveryFile": "docs/content/first-50/sources/supplemental-discovery.json",
+      "recipeId": "classic-32-fujian-oyster-omelette",
+      "publishedVersion": 2,
+      "englishName": "Fujian Oyster Omelette",
+      "acceptancePolicy": "source-english-technical",
+      "publishedSource": "https://zh.dachu.co/zh-hans/recipe/252925",
+      "imageKey": "recipes/classic-32-fujian-oyster-omelette/v2.jpg",
+      "bundledImage": "classic-32-photo-v2.jpg",
+      "mediaEvidence": "docs/content/first-50/photo-rights.json"
+    },
+    {
+      "number": 33,
+      "chineseName": "大煮干丝",
+      "batch": "B2",
+      "appLanguage": "en",
+      "status": "published",
+      "references": [
+        {
+          "url": "https://www.zuocaicai.com/dazhugansi/23272.html",
+          "path": "docs/content/first-50/sources/33-web-69eddf76334f.html",
+          "sha256": "69eddf76334fdddc59842baecbf2ce83a2c3a6292e6ee62f6ee17e557d4d8959",
+          "retrievedOn": "2026-11-02",
+          "use": "research-only; raw page archive, license and recipe not verified"
+        },
+        {
+          "url": "https://www.bilibili.com/opus/760258328845615143",
+          "path": "docs/content/first-50/sources/33-web-84ff39c2c5d5.html",
+          "sha256": "84ff39c2c5d5e414982512c66ebd9e1fb47c1ba1f97d8077dedb6cf97f2155bf",
+          "retrievedOn": "2026-11-02",
+          "use": "research-only; raw page archive, license and recipe not verified"
+        }
+      ],
+      "englishReview": "completed-agent-review",
+      "culinaryTest": "not-performed-user-waived",
+      "rightsReview": "original-prose-and-original-covers",
+      "approved": true,
+      "discoveryFile": "docs/content/first-50/sources/supplemental-discovery.json",
+      "recipeId": "classic-33-huaiyang-shredded-tofu-soup",
+      "publishedVersion": 2,
+      "englishName": "Huaiyang Shredded Tofu Soup",
+      "acceptancePolicy": "source-english-technical",
+      "publishedSource": "http://chuzhuge.com/pcpinfo/11377",
+      "imageKey": "recipes/classic-33-huaiyang-shredded-tofu-soup/v2.jpg",
+      "bundledImage": "classic-33-photo-v2.jpg",
+      "mediaEvidence": "docs/content/first-50/photo-rights.json"
+    },
+    {
+      "number": 34,
+      "chineseName": "砂锅狮子头",
+      "batch": "B2",
+      "appLanguage": "en",
+      "status": "published",
+      "references": [
+        {
+          "url": "https://kmweb.moa.gov.tw/subject/subject.php?id=20891",
+          "path": "docs/content/first-50/sources/34-web-1c0f3c398014.html",
+          "sha256": "1c0f3c3980148d42f9727a56655cfd08b194713c4b3f0cf35757cc01aa5ecc64",
+          "retrievedOn": "2026-11-02",
+          "use": "research-only; raw page archive, license and recipe not verified"
+        },
+        {
+          "url": "https://www.xiachufang.com/recipe/104659665/",
+          "path": "docs/content/first-50/sources/34-web-382d58ab6afe.html",
+          "sha256": "382d58ab6afe0d94516860b352dbce0a9ed68b86cedbf33a598bc1b46da55d88",
+          "retrievedOn": "2026-11-02",
+          "use": "research-only; raw page archive, license and recipe not verified"
+        },
+        {
+          "url": "https://m.xiachufang.com/recipe/100043440/",
+          "path": "docs/content/first-50/sources/34-web-722f4d32d38c.html",
+          "sha256": "722f4d32d38c91a3f89a88d1a87227943afc3ff89ee00aca415ff0a13e7e5aec",
+          "retrievedOn": "2026-11-02",
+          "use": "research-only; raw page archive, license and recipe not verified"
+        }
+      ],
+      "englishReview": "completed-agent-review",
+      "culinaryTest": "not-performed-user-waived",
+      "rightsReview": "original-prose-and-original-covers",
+      "approved": true,
+      "discoveryFile": "docs/content/first-50/sources/supplemental-discovery.json",
+      "recipeId": "classic-34-lion-s-head-pork-meatballs",
+      "publishedVersion": 2,
+      "englishName": "Lion's Head Pork Meatballs",
+      "acceptancePolicy": "source-english-technical",
+      "publishedSource": "https://thewoksoflife.com/lions-head-meatballs/",
+      "imageKey": "recipes/classic-34-lion-s-head-pork-meatballs/v2.jpg",
+      "bundledImage": "classic-34-photo-v2.jpg",
+      "mediaEvidence": "docs/content/first-50/photo-rights.json"
+    },
+    {
+      "number": 35,
+      "chineseName": "西湖醋鱼",
+      "batch": "B2",
+      "appLanguage": "en",
+      "status": "published",
+      "references": [
+        {
+          "url": "http://www.hangzhouds.org.cn/qiantang/info.aspx?itemid=3836&lcid=12&page=20",
+          "path": "docs/content/first-50/sources/35-web-9636868b1de6.html",
+          "sha256": "9636868b1de67d10c241c50cf62f32462a276d474671d5f23c211c7cd835d9fe",
+          "retrievedOn": "2026-11-02",
+          "use": "research-only; raw page archive, license and recipe not verified"
+        },
+        {
+          "url": "https://zjnews.zjol.com.cn/zjnews/202412/t20241206_30691976.shtml",
+          "path": "docs/content/first-50/sources/35-web-a2d39119e55e.html",
+          "sha256": "a2d39119e55e9c7a8267fe6c98a327ed11d0cc7544148316291facedb4c2c205",
+          "retrievedOn": "2026-11-02",
+          "use": "research-only; raw page archive, license and recipe not verified"
+        },
+        {
+          "url": "https://m.xiachufang.com/recipe/103762979/",
+          "path": "docs/content/first-50/sources/35-web-28a0a8979e63.html",
+          "sha256": "28a0a8979e63ee248492b682880a51d669913889f4b68f63a1a1bf175c173c99",
+          "retrievedOn": "2026-11-02",
+          "use": "research-only; raw page archive, license and recipe not verified"
+        }
+      ],
+      "englishReview": "completed-agent-review",
+      "culinaryTest": "not-performed-user-waived",
+      "rightsReview": "original-prose-and-original-covers",
+      "approved": true,
+      "discoveryFile": "docs/content/first-50/sources/supplemental-discovery.json",
+      "recipeId": "classic-35-west-lake-vinegar-fish",
+      "publishedVersion": 2,
+      "englishName": "West Lake Vinegar Fish",
+      "acceptancePolicy": "source-english-technical",
+      "publishedSource": "https://world.food/recipes/china/xi-hu-cu-yu",
+      "imageKey": "recipes/classic-35-west-lake-vinegar-fish/v2.jpg",
+      "bundledImage": "classic-35-photo-v2.jpg",
+      "mediaEvidence": "docs/content/first-50/photo-rights.json"
+    },
+    {
+      "number": 36,
+      "chineseName": "糖醋小排",
+      "batch": "B2",
+      "appLanguage": "en",
+      "status": "published",
+      "references": [
+        {
+          "url": "https://www.thepaper.cn/newsDetail_forward_22445622",
+          "path": "docs/content/first-50/sources/36-web-96ca215fd383.html",
+          "sha256": "96ca215fd38380d49a85d6988f903ba4bfc3a4fb859dcac2c57a2411b095f1e2",
+          "retrievedOn": "2026-11-02",
+          "use": "research-only; raw page archive, license and recipe not verified"
+        },
+        {
+          "url": "https://www.xiachufang.com/recipe/105934299/",
+          "path": "docs/content/first-50/sources/36-web-bb299d02dff1.html",
+          "sha256": "bb299d02dff1bed46fe045679524e539d4248a65a36597403cc6369b3bfe1a6e",
+          "retrievedOn": "2026-11-02",
+          "use": "research-only; raw page archive, license and recipe not verified"
+        },
+        {
+          "url": "https://zh.dachu.co/zh-cn/recipe/337255",
+          "path": "docs/content/first-50/sources/36-web-cb326aacc9fa.html",
+          "sha256": "cb326aacc9faf22337077dbea982de7cbdb81c936e48c4366c30bb82c0a89426",
+          "retrievedOn": "2026-11-02",
+          "use": "research-only; raw page archive, license and recipe not verified"
+        }
+      ],
+      "englishReview": "completed-agent-review",
+      "culinaryTest": "not-performed-user-waived",
+      "rightsReview": "original-prose-and-original-covers",
+      "approved": true,
+      "discoveryFile": "docs/content/first-50/sources/supplemental-discovery.json",
+      "recipeId": "classic-36-shanghai-sweet-and-sour-pork-ribs",
+      "publishedVersion": 2,
+      "englishName": "Shanghai Sweet and Sour Pork Ribs",
+      "acceptancePolicy": "source-english-technical",
+      "publishedSource": "https://curiositytotheoven.ca/shanghai-style-sweet-and-sour-pork-ribs",
+      "imageKey": "recipes/classic-36-shanghai-sweet-and-sour-pork-ribs/v2.jpg",
+      "bundledImage": "classic-36-photo-v2.jpg",
+      "mediaEvidence": "docs/content/first-50/photo-rights.json"
+    },
+    {
+      "number": 37,
+      "chineseName": "糖醋里脊",
+      "batch": "B2",
+      "appLanguage": "en",
+      "status": "published",
+      "references": [
+        {
+          "url": "https://raw.githubusercontent.com/Anduin2017/HowToCook/308cc8b7dab1da84b20e7fafdf836a715437f582/dishes/meat_dish/%E7%B3%96%E9%86%8B%E9%87%8C%E8%84%8A.md",
+          "path": "docs/content/first-50/sources/37-788feaed.md",
+          "sha256": "bd9f201630fd9394f6620cabadd621b73be163125c03e8c1bb3dced901f873b5",
+          "retrievedOn": "2026-11-02",
+          "use": "research-only; recipe/version match and rights unreviewed"
+        }
+      ],
+      "englishReview": "completed-agent-review",
+      "culinaryTest": "not-performed-user-waived",
+      "rightsReview": "original-prose-and-original-covers",
+      "approved": true,
+      "recipeId": "classic-37-sweet-and-sour-pork-tenderloin",
+      "publishedVersion": 2,
+      "englishName": "Sweet and Sour Pork Tenderloin",
+      "acceptancePolicy": "source-english-technical",
+      "publishedSource": "https://raw.githubusercontent.com/Anduin2017/HowToCook/308cc8b7dab1da84b20e7fafdf836a715437f582/dishes/meat_dish/%E7%B3%96%E9%86%8B%E9%87%8C%E8%84%8A.md",
+      "imageKey": "recipes/classic-37-sweet-and-sour-pork-tenderloin/v2.jpg",
+      "bundledImage": "classic-37-photo-v2.jpg",
+      "mediaEvidence": "docs/content/first-50/photo-rights.json"
+    },
+    {
+      "number": 38,
+      "chineseName": "徽州臭鳜鱼",
+      "batch": "B3",
+      "appLanguage": "en",
+      "status": "published",
+      "references": [
+        {
+          "url": "http://www.yes43.com/detail-108bf6e4da21552f.html",
+          "path": "docs/content/first-50/sources/38-web-df64d23fd176.html",
+          "sha256": "df64d23fd1762f0f0236153dba08e1cbff6762655de3a42566c08fdc2b369efa",
+          "retrievedOn": "2026-11-02",
+          "use": "research-only; raw page archive, license and recipe not verified"
+        },
+        {
+          "url": "https://m.xiachufang.com/recipe/104735373/",
+          "path": "docs/content/first-50/sources/38-web-795911822f5c.html",
+          "sha256": "795911822f5c4dec36a142cadba19e83d375d0f7e1c5872bf96b0d17fdc0dcfc",
+          "retrievedOn": "2026-11-02",
+          "use": "research-only; raw page archive, license and recipe not verified"
+        }
+      ],
+      "englishReview": "completed-agent-review",
+      "culinaryTest": "not-performed-user-waived",
+      "rightsReview": "original-prose-and-original-covers",
+      "approved": true,
+      "discoveryFile": "docs/content/first-50/sources/supplemental-discovery.json",
+      "recipeId": "classic-38-anhui-fermented-mandarin-fish",
+      "publishedVersion": 2,
+      "englishName": "Anhui Fermented Mandarin Fish",
+      "acceptancePolicy": "source-english-technical",
+      "publishedSource": "https://m.xiachufang.com/recipe/100404095/",
+      "imageKey": "recipes/classic-38-anhui-fermented-mandarin-fish/v2.jpg",
+      "bundledImage": "classic-38-photo-v2.jpg",
+      "mediaEvidence": "docs/content/first-50/photo-rights.json"
+    },
+    {
+      "number": 39,
+      "chineseName": "莲藕排骨汤",
+      "batch": "B2",
+      "appLanguage": "en",
+      "status": "published",
+      "references": [
+        {
+          "url": "https://m.xiachufang.com/recipe/104127349/",
+          "path": "docs/content/first-50/sources/39-web-293d6e050cfc.html",
+          "sha256": "293d6e050cfceb8db74a6010fc8d459feb70732a8eafea852ed62aa7cc1f44cc",
+          "retrievedOn": "2026-11-02",
+          "use": "research-only; raw page archive, license and recipe not verified"
+        },
+        {
+          "url": "https://www.anan.gov.cn/anan/mrkpnew/202007/89770490723a45adbef09bccca74fe9a.shtml",
+          "path": "docs/content/first-50/sources/39-web-5b24116f0b79.html",
+          "sha256": "5b24116f0b7911405e636258563909398372f302c1ca00944272f7816f7626ff",
+          "retrievedOn": "2026-11-02",
+          "use": "research-only; raw page archive, license and recipe not verified"
+        },
+        {
+          "url": "https://www.xiachufang.com/recipe/105990479/",
+          "path": "docs/content/first-50/sources/39-web-9fb66cc81907.html",
+          "sha256": "9fb66cc81907b8e17421c1692a58eee3994f2c79c0849cb40dd7050075b0b530",
+          "retrievedOn": "2026-11-02",
+          "use": "research-only; raw page archive, license and recipe not verified"
+        }
+      ],
+      "englishReview": "completed-agent-review",
+      "culinaryTest": "not-performed-user-waived",
+      "rightsReview": "original-prose-and-original-covers",
+      "approved": true,
+      "discoveryFile": "docs/content/first-50/sources/supplemental-discovery.json",
+      "recipeId": "classic-39-lotus-root-and-pork-rib-soup",
+      "publishedVersion": 2,
+      "englishName": "Lotus Root and Pork Rib Soup",
+      "acceptancePolicy": "source-english-technical",
+      "publishedSource": "https://weeklydelight.com/recipes/lotus-root-rib-soup/",
+      "imageKey": "recipes/classic-39-lotus-root-and-pork-rib-soup/v2.jpg",
+      "bundledImage": "classic-39-photo-v2.jpg",
+      "mediaEvidence": "docs/content/first-50/photo-rights.json"
+    },
+    {
+      "number": 40,
+      "chineseName": "锅包肉",
+      "batch": "B2",
+      "appLanguage": "en",
+      "status": "published",
+      "references": [
+        {
+          "url": "https://raw.githubusercontent.com/Anduin2017/HowToCook/308cc8b7dab1da84b20e7fafdf836a715437f582/dishes/meat_dish/%E8%80%81%E5%BC%8F%E9%94%85%E5%8C%85%E8%82%89/%E8%80%81%E5%BC%8F%E9%94%85%E5%8C%85%E8%82%89.md",
+          "path": "docs/content/first-50/sources/40-c40321c4.md",
+          "sha256": "c3ea6710d1eb6109136753a011c9a5264ff4282733dc232f55415a2a6215e512",
+          "retrievedOn": "2026-11-02",
+          "use": "research-only; recipe/version match and rights unreviewed"
+        }
+      ],
+      "englishReview": "completed-agent-review",
+      "culinaryTest": "not-performed-user-waived",
+      "rightsReview": "original-prose-and-original-covers",
+      "approved": true,
+      "recipeId": "classic-40-guo-bao-rou",
+      "publishedVersion": 2,
+      "englishName": "Guo Bao Rou",
+      "acceptancePolicy": "source-english-technical",
+      "publishedSource": "https://www.sbs.com.au/food/the-cook-up-with-adam-liaw/recipe/guo-bao-rou-dongbei-style-sweet-and-sour-pork/w4xtw7nx9",
+      "imageKey": "recipes/classic-40-guo-bao-rou/v2.jpg",
+      "bundledImage": "classic-40-photo-v2.jpg",
+      "mediaEvidence": "docs/content/first-50/photo-rights.json"
+    },
+    {
+      "number": 41,
+      "chineseName": "汽锅鸡",
+      "batch": "B3",
+      "appLanguage": "en",
+      "status": "published",
+      "references": [
+        {
+          "url": "https://www.xiachufang.com/recipe/102853132/",
+          "path": "docs/content/first-50/sources/41-web-8adeb9fcd1e1.html",
+          "sha256": "8adeb9fcd1e132e6ee0f6d83b6a9bfddf70a262c341cb8bf59d3cdbdd44da654",
+          "retrievedOn": "2026-11-02",
+          "use": "research-only; raw page archive, license and recipe not verified"
+        },
+        {
+          "url": "https://m.xiachufang.com/recipe/107437702/",
+          "path": "docs/content/first-50/sources/41-web-a6f76240fbde.html",
+          "sha256": "a6f76240fbdec395977500feeab36e5e3d6dc78684411cdd23309923fe90b266",
+          "retrievedOn": "2026-11-02",
+          "use": "research-only; raw page archive, license and recipe not verified"
+        },
+        {
+          "url": "https://bbs.aboluowang.com/thread-873108-1-1.html",
+          "path": "docs/content/first-50/sources/41-web-eb3bd56a48c6.html",
+          "sha256": "eb3bd56a48c6eb618dd680dd72612e5925be4ada0120fdc958a02b0cd395dd06",
+          "retrievedOn": "2026-11-02",
+          "use": "research-only; raw page archive, license and recipe not verified"
+        }
+      ],
+      "englishReview": "completed-agent-review",
+      "culinaryTest": "not-performed-user-waived",
+      "rightsReview": "original-prose-and-original-covers",
+      "approved": true,
+      "discoveryFile": "docs/content/first-50/sources/supplemental-discovery.json",
+      "recipeId": "classic-41-yunnan-steam-pot-chicken",
+      "publishedVersion": 2,
+      "englishName": "Yunnan Steam-Pot Chicken",
+      "acceptancePolicy": "source-english-technical",
+      "publishedSource": "https://goldendennis.com/en/recipe-yunnan-steam-pot-chicken.html",
+      "imageKey": "recipes/classic-41-yunnan-steam-pot-chicken/v2.jpg",
+      "bundledImage": "classic-41-photo-v2.jpg",
+      "mediaEvidence": "docs/content/first-50/photo-rights.json"
+    },
+    {
+      "number": 42,
+      "chineseName": "新疆大盘鸡",
+      "batch": "B2",
+      "appLanguage": "en",
+      "status": "published",
+      "references": [
+        {
+          "url": "https://raw.githubusercontent.com/Anduin2017/HowToCook/308cc8b7dab1da84b20e7fafdf836a715437f582/dishes/meat_dish/%E6%96%B0%E7%96%86%E5%A4%A7%E7%9B%98%E9%B8%A1/%E6%96%B0%E7%96%86%E5%A4%A7%E7%9B%98%E9%B8%A1.md",
+          "path": "docs/content/first-50/sources/42-96dd2280.md",
+          "sha256": "d74bbe97c0199fccafd9f09831666735118aa3f47045c5c31bb3116630e08e4d",
+          "retrievedOn": "2026-11-02",
+          "use": "research-only; recipe/version match and rights unreviewed"
+        }
+      ],
+      "englishReview": "completed-agent-review",
+      "culinaryTest": "not-performed-user-waived",
+      "rightsReview": "original-prose-and-original-covers",
+      "approved": true,
+      "recipeId": "classic-42-xinjiang-big-plate-chicken",
+      "publishedVersion": 2,
+      "englishName": "Xinjiang Big Plate Chicken",
+      "acceptancePolicy": "source-english-technical",
+      "publishedSource": "https://blog.themalamarket.com/xinjiang-big-plate-chicken-da-pan-ji-sarah-ting-ting-hou/",
+      "imageKey": "recipes/classic-42-xinjiang-big-plate-chicken/v2.jpg",
+      "bundledImage": "classic-42-photo-v2.jpg",
+      "mediaEvidence": "docs/content/first-50/photo-rights.json"
+    },
+    {
+      "number": 43,
+      "chineseName": "三杯鸡",
+      "batch": "B3",
+      "appLanguage": "en",
+      "status": "published",
+      "references": [
+        {
+          "url": "https://tw.lkk.com/zh-hk/recipes/twnds18",
+          "path": "docs/content/first-50/sources/43-web-2610733c47d4.html",
+          "sha256": "2610733c47d47541138389dad76edd50e9fb8c402de888c528b73631794358a9",
+          "retrievedOn": "2026-11-02",
+          "use": "research-only; raw page archive, license and recipe not verified"
+        },
+        {
+          "url": "https://www.dachu.co/zh/recipe/305019",
+          "path": "docs/content/first-50/sources/43-web-539442a92a71.html",
+          "sha256": "539442a92a711376965b90deddb41a1698117a143653997568bd692c0f08d3ca",
+          "retrievedOn": "2026-11-02",
+          "use": "research-only; raw page archive, license and recipe not verified"
+        }
+      ],
+      "englishReview": "completed-agent-review",
+      "culinaryTest": "not-performed-user-waived",
+      "rightsReview": "original-prose-and-original-covers",
+      "approved": true,
+      "discoveryFile": "docs/content/first-50/sources/supplemental-discovery.json",
+      "recipeId": "classic-43-three-cup-chicken",
+      "publishedVersion": 2,
+      "englishName": "Three-Cup Chicken",
+      "acceptancePolicy": "source-english-technical",
+      "publishedSource": "https://www.americastestkitchen.com/recipes/10614-three-cup-chicken",
+      "imageKey": "recipes/classic-43-three-cup-chicken/v2.jpg",
+      "bundledImage": "classic-43-photo-v2.jpg",
+      "mediaEvidence": "docs/content/first-50/photo-rights.json"
+    },
+    {
+      "number": 44,
+      "chineseName": "柠檬鸭",
+      "batch": "B3",
+      "appLanguage": "en",
+      "status": "published",
+      "references": [
+        {
+          "url": "https://m.xiachufang.com/recipe/107484526/",
+          "path": "docs/content/first-50/sources/44-web-b116ab243f86.html",
+          "sha256": "b116ab243f8669baab081d36a1ccdbf6c807ce7eba9cdd7912d65b3f690ab969",
+          "retrievedOn": "2026-11-02",
+          "use": "research-only; raw page archive, license and recipe not verified"
+        },
+        {
+          "url": "https://m.xiachufang.com/recipe/104452941/",
+          "path": "docs/content/first-50/sources/44-web-45c674667ff8.html",
+          "sha256": "45c674667ff8ef85e47b501347daa07c69e1cf46bee16bf2a8bf8179ff9a6477",
+          "retrievedOn": "2026-11-02",
+          "use": "research-only; raw page archive, license and recipe not verified"
+        },
+        {
+          "url": "https://m.xiachufang.com/recipe/105934137/",
+          "path": "docs/content/first-50/sources/44-web-2872f7c84b5d.html",
+          "sha256": "2872f7c84b5d4698b05c0e33cdb3396fcaf918a25cf52310c4bea0c61773d240",
+          "retrievedOn": "2026-11-02",
+          "use": "research-only; raw page archive, license and recipe not verified"
+        }
+      ],
+      "englishReview": "completed-agent-review",
+      "culinaryTest": "not-performed-user-waived",
+      "rightsReview": "original-prose-and-original-covers",
+      "approved": true,
+      "discoveryFile": "docs/content/first-50/sources/supplemental-discovery.json",
+      "recipeId": "classic-44-guangxi-lemon-duck",
+      "publishedVersion": 2,
+      "englishName": "Guangxi Lemon Duck",
+      "acceptancePolicy": "source-english-technical",
+      "publishedSource": "https://www.renrendoc.com/paper/407379443.html",
+      "imageKey": "recipes/classic-44-guangxi-lemon-duck/v2.jpg",
+      "bundledImage": "classic-44-photo-v2.jpg",
+      "mediaEvidence": "docs/content/first-50/photo-rights.json"
+    },
+    {
+      "number": 45,
+      "chineseName": "猪肉白菜饺子",
+      "batch": "B3",
+      "appLanguage": "en",
+      "status": "published",
+      "references": [
+        {
+          "url": "https://m.xiachufang.com/recipe/107446582/",
+          "path": "docs/content/first-50/sources/45-web-82dce2794f4c.html",
+          "sha256": "82dce2794f4ce814988623c0870a27ff6222fedfdd685d898bba4a89347d1f61",
+          "retrievedOn": "2026-11-02",
+          "use": "research-only; raw page archive, license and recipe not verified"
+        },
+        {
+          "url": "https://charwok.com/zh/pork-cabbage-dumpling/",
+          "path": "docs/content/first-50/sources/45-web-252b6507d9ab.html",
+          "sha256": "252b6507d9ab86cce1ec6e01344d615258314235fc4881b317db4e39809ac4f0",
+          "retrievedOn": "2026-11-02",
+          "use": "research-only; raw page archive, license and recipe not verified"
+        }
+      ],
+      "englishReview": "completed-agent-review",
+      "culinaryTest": "not-performed-user-waived",
+      "rightsReview": "original-prose-and-original-covers",
+      "approved": true,
+      "discoveryFile": "docs/content/first-50/sources/supplemental-discovery.json",
+      "recipeId": "classic-45-pork-and-napa-cabbage-dumplings",
+      "publishedVersion": 2,
+      "englishName": "Pork and Napa Cabbage Dumplings",
+      "acceptancePolicy": "source-english-technical",
+      "publishedSource": "https://silkandsteamrecipes.com/recipes/pork-and-cabbage-dumplings",
+      "imageKey": "recipes/classic-45-pork-and-napa-cabbage-dumplings/v2.jpg",
+      "bundledImage": "classic-45-photo-v2.jpg",
+      "mediaEvidence": "docs/content/first-50/photo-rights.json"
+    },
+    {
+      "number": 46,
+      "chineseName": "扬州炒饭",
+      "batch": "B3",
+      "appLanguage": "en",
+      "status": "published",
+      "references": [
+        {
+          "url": "https://raw.githubusercontent.com/Anduin2017/HowToCook/308cc8b7dab1da84b20e7fafdf836a715437f582/dishes/staple/%E6%89%AC%E5%B7%9E%E7%82%92%E9%A5%AD/%E6%89%AC%E5%B7%9E%E7%82%92%E9%A5%AD.md",
+          "path": "docs/content/first-50/sources/46-b80fc917.md",
+          "sha256": "5a996f70892a9186f58eec015c02a21e3e9c4fdb4e3b6cb53a24160ba0a41631",
+          "retrievedOn": "2026-11-02",
+          "use": "research-only; recipe/version match and rights unreviewed"
+        }
+      ],
+      "englishReview": "completed-agent-review",
+      "culinaryTest": "not-performed-user-waived",
+      "rightsReview": "original-prose-and-original-covers",
+      "approved": true,
+      "recipeId": "classic-46-yangzhou-fried-rice",
+      "publishedVersion": 2,
+      "englishName": "Yangzhou Fried Rice",
+      "acceptancePolicy": "source-english-technical",
+      "publishedSource": "https://www.epicurious.com/recipes/food/views/yangzhou-fried-rice-243064",
+      "imageKey": "recipes/classic-46-yangzhou-fried-rice/v2.jpg",
+      "bundledImage": "classic-46-photo-v2.jpg",
+      "mediaEvidence": "docs/content/first-50/photo-rights.json"
+    },
+    {
+      "number": 47,
+      "chineseName": "葱油拌面",
+      "batch": "B3",
+      "appLanguage": "en",
+      "status": "published",
+      "references": [
+        {
+          "url": "https://raw.githubusercontent.com/Anduin2017/HowToCook/308cc8b7dab1da84b20e7fafdf836a715437f582/dishes/staple/%E8%91%B1%E6%B2%B9%E6%8B%8C%E9%9D%A2.md",
+          "path": "docs/content/first-50/sources/47-6aa1fa07.md",
+          "sha256": "353b5c30fed110a891282bb890f5690d3a09dcb97edfdee8b67a06dd250a2c5a",
+          "retrievedOn": "2026-11-02",
+          "use": "research-only; recipe/version match and rights unreviewed"
+        }
+      ],
+      "englishReview": "completed-agent-review",
+      "culinaryTest": "not-performed-user-waived",
+      "rightsReview": "original-prose-and-original-covers",
+      "approved": true,
+      "recipeId": "noodles",
+      "publishedVersion": 3,
+      "englishName": "Scallion Oil Noodles",
+      "acceptancePolicy": "source-english-technical",
+      "publishedSource": "https://thewoksoflife.com/soy-scallion-noodles-cong-ban-mian/",
+      "imageKey": "recipes/noodles/v3.jpg",
+      "bundledImage": "classic-47-photo-v3.jpg",
+      "mediaEvidence": "docs/content/first-50/photo-rights.json"
+    },
+    {
+      "number": 48,
+      "chineseName": "番茄鸡蛋面",
+      "batch": "B3",
+      "appLanguage": "en",
+      "status": "published",
+      "references": [
+        {
+          "url": "https://raw.githubusercontent.com/Anduin2017/HowToCook/308cc8b7dab1da84b20e7fafdf836a715437f582/dishes/staple/%E8%A5%BF%E7%BA%A2%E6%9F%BF%E9%B8%A1%E8%9B%8B%E6%8C%82%E9%9D%A2/%E8%A5%BF%E7%BA%A2%E6%9F%BF%E9%B8%A1%E8%9B%8B%E6%8C%82%E9%9D%A2.md",
+          "path": "docs/content/first-50/sources/48-49e4e1e8.md",
+          "sha256": "f3084cc2ebfcc50d29dc0ca9f7c137d54b760b78d1dcaad9cd67a01dc72f75c1",
+          "retrievedOn": "2026-11-02",
+          "use": "research-only; synonym match, rights and recipe unreviewed"
+        }
+      ],
+      "englishReview": "completed-agent-review",
+      "culinaryTest": "not-performed-user-waived",
+      "rightsReview": "original-prose-and-original-covers",
+      "approved": true,
+      "recipeId": "classic-48-tomato-and-egg-noodle-soup",
+      "publishedVersion": 2,
+      "englishName": "Tomato and Egg Noodle Soup",
+      "acceptancePolicy": "source-english-technical",
+      "publishedSource": "https://redhousespice.com/tomato-egg-noodle-soup/",
+      "imageKey": "recipes/classic-48-tomato-and-egg-noodle-soup/v2.jpg",
+      "bundledImage": "classic-48-photo-v2.jpg",
+      "mediaEvidence": "docs/content/first-50/photo-rights.json"
+    },
+    {
+      "number": 49,
+      "chineseName": "皮蛋瘦肉粥",
+      "batch": "B3",
+      "appLanguage": "en",
+      "status": "published",
+      "references": [
+        {
+          "url": "https://raw.githubusercontent.com/Anduin2017/HowToCook/308cc8b7dab1da84b20e7fafdf836a715437f582/dishes/soup/%E7%9A%AE%E8%9B%8B%E7%98%A6%E8%82%89%E7%B2%A5.md",
+          "path": "docs/content/first-50/sources/49-64852390.md",
+          "sha256": "89b7c3fa44c7195fad86bd61b1716ad3360d7e94fede903b9e53203d8e41e267",
+          "retrievedOn": "2026-11-02",
+          "use": "research-only; recipe/version match and rights unreviewed"
+        }
+      ],
+      "englishReview": "completed-agent-review",
+      "culinaryTest": "not-performed-user-waived",
+      "rightsReview": "original-prose-and-original-covers",
+      "approved": true,
+      "recipeId": "classic-49-century-egg-and-pork-congee",
+      "publishedVersion": 2,
+      "englishName": "Century Egg and Pork Congee",
+      "acceptancePolicy": "source-english-technical",
+      "publishedSource": "https://twoplaidaprons.com/century-egg-and-pork-congee/",
+      "imageKey": "recipes/classic-49-century-egg-and-pork-congee/v2.jpg",
+      "bundledImage": "classic-49-photo-v2.jpg",
+      "mediaEvidence": "docs/content/first-50/photo-rights.json"
+    },
+    {
+      "number": 50,
+      "chineseName": "葱油饼",
+      "batch": "B3",
+      "appLanguage": "en",
+      "status": "published",
+      "references": [
+        {
+          "url": "https://www.dachu.co/zh/recipe/170895",
+          "path": "docs/content/first-50/sources/50-web-e7e0bb99e195.html",
+          "sha256": "e7e0bb99e1957cdd3d236bdd9a6c535863dcc1836372676c524773b36b913a30",
+          "retrievedOn": "2026-11-02",
+          "use": "research-only; raw page archive, license and recipe not verified"
+        },
+        {
+          "url": "https://m.xiachufang.com/recipe/104263143/",
+          "path": "docs/content/first-50/sources/50-web-167fcf148cae.html",
+          "sha256": "167fcf148caed0faef378326e079b2be268e0fb785320cd662b532ac137873b6",
+          "retrievedOn": "2026-11-02",
+          "use": "research-only; raw page archive, license and recipe not verified"
+        }
+      ],
+      "englishReview": "completed-agent-review",
+      "culinaryTest": "not-performed-user-waived",
+      "rightsReview": "original-prose-and-original-covers",
+      "approved": true,
+      "discoveryFile": "docs/content/first-50/sources/supplemental-discovery.json",
+      "recipeId": "classic-50-scallion-pancakes",
+      "publishedVersion": 2,
+      "englishName": "Scallion Pancakes",
+      "acceptancePolicy": "source-english-technical",
+      "publishedSource": "https://omnivorescookbook.com/chinese-scallion-pancakes/",
+      "imageKey": "recipes/classic-50-scallion-pancakes/v2.jpg",
+      "bundledImage": "classic-50-photo-v2.jpg",
+      "mediaEvidence": "docs/content/first-50/photo-rights.json"
+    }
+  ],
+  "batchId": "classic-50-media-2026-11-02",
+  "publicationDate": "2026-11-02"
+}

@@ -1,0 +1,18 @@
+{
+  "n": 34,
+  "recipeId": "classic-34-lion-s-head-pork-meatballs",
+  "prompt": "Generate ONE photorealistic professional Chinese food presentation image for Lion's Head Pork Meatballs (砂锅狮子头). Exact dish appearance: Large Chinese lion's-head pork meatballs, evenly round with browned surfaces, glazed in rich brown braising sauce with a few green scallion pieces, in a small ceramic casserole. No spaghetti.. Match this recipe's actual visible ingredients; do not invent extra main ingredients. Cohesive app photography series: warm natural side lighting, pale neutral stone tabletop, off-white ceramic tableware except the specified traditional steam pot or casserole, subtle linen at an edge, 45-degree overhead camera. Landscape approximately 4:3, centered dish, generous safe margins so the food is not cropped in a wide card. Realistic home-style portion and edible cooked textures, appetizing and believable. One dish only; no people, hands, writing, text, numbers, logos, labels, branding, watermark, collage, menus or title-card design. No visible raw meat.",
+  "source": "/Users/alanli/.codex/generated_images/01a1971b-3514-7f63-b387-02bfb52056f2/exec-df06f305-571b-4fe8-b705-5eac8f744cbd.png",
+  "localSource": "assets/recipe-photos/dish-34.png",
+  "image": "ios/CNrecipe/Web/assets/classic-34-photo-v2.jpg",
+  "generator": "image_gen",
+  "kind": "AI-generated food presentation image; not an actual cooking photograph",
+  "sha256": "995a4bbeb7588f60eabd50c27695488dd7222137c5a405d2ef80a558d683da60",
+  "stagingJPEG": "assets/recipe-photos/dish-34.jpg",
+  "visualReview": {
+    "reviewer": "Codex visual review",
+    "result": "passed",
+    "scope": "Dish identity, visible main ingredients, food presentation and absence of text/watermarks",
+    "evidence": "artifacts/recipe-media-fix/photos-26-50.jpg"
+  }
+}

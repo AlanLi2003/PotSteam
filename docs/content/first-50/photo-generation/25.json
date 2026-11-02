@@ -1,0 +1,18 @@
+{
+  "n": 25,
+  "recipeId": "classic-25-sichuan-fish-with-pickled-mustard-greens",
+  "prompt": "Generate ONE photorealistic professional Chinese food presentation image for Sichuan Fish with Pickled Mustard Greens (酸菜鱼). Exact dish appearance: Suan cai yu: tender ivory boneless fish slices in a light yellowish broth with chopped pickled mustard greens, pickled green chilies, garlic and red chili accents. Not a red-oil beef soup.. Match this recipe's actual visible ingredients; do not invent extra main ingredients. Cohesive app photography series: warm natural side lighting, pale neutral stone tabletop, off-white ceramic tableware except the specified traditional steam pot or casserole, subtle linen at an edge, 45-degree overhead camera. Landscape approximately 4:3, centered dish, generous safe margins so the food is not cropped in a wide card. Realistic home-style portion and edible cooked textures, appetizing and believable. One dish only; no people, hands, writing, text, numbers, logos, labels, branding, watermark, collage, menus or title-card design. No visible raw meat.",
+  "source": "/Users/alanli/.codex/generated_images/01a1971b-3514-7f63-b387-02bfb52056f2/exec-3f90847b-9b47-4575-8106-e7cf874bc6d5.png",
+  "localSource": "assets/recipe-photos/dish-25.png",
+  "image": "ios/CNrecipe/Web/assets/classic-25-photo-v2.jpg",
+  "generator": "image_gen",
+  "kind": "AI-generated food presentation image; not an actual cooking photograph",
+  "sha256": "431a206e0425b546c844c4565997c178222363e5c7b577aeacf45f31e12e404a",
+  "stagingJPEG": "assets/recipe-photos/dish-25.jpg",
+  "visualReview": {
+    "reviewer": "Codex visual review",
+    "result": "passed",
+    "scope": "Dish identity, visible main ingredients, food presentation and absence of text/watermarks",
+    "evidence": "artifacts/recipe-media-fix/photos-01-25.jpg"
+  }
+}

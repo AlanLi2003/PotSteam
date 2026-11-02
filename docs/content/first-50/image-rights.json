@@ -1,0 +1,502 @@
+[
+  {
+    "candidateNumber": 1,
+    "file": "ios/CNrecipe/Web/assets/classic-01.jpg",
+    "sha256": "6fa5fc9a6d9fd7aba9c802746556c487758da96122fc64949cbc99f20f728426",
+    "creator": "CNrecipe original generated graphic",
+    "rights": "Original geometric linework and typesetting; no external photograph, illustration or logo used",
+    "format": "JPEG",
+    "width": 1200,
+    "height": 900
+  },
+  {
+    "candidateNumber": 2,
+    "file": "ios/CNrecipe/Web/assets/classic-02.jpg",
+    "sha256": "2326b5c5b5c1315ea73f247a1b33be9d3c535ece3bb2dbb0a32bf1c23322eb79",
+    "creator": "CNrecipe original generated graphic",
+    "rights": "Original geometric linework and typesetting; no external photograph, illustration or logo used",
+    "format": "JPEG",
+    "width": 1200,
+    "height": 900
+  },
+  {
+    "candidateNumber": 3,
+    "file": "ios/CNrecipe/Web/assets/classic-03.jpg",
+    "sha256": "cc9ed974fc0878461ce8d69c826ee8a7f05c007788c28fa63c9b11d92c528293",
+    "creator": "CNrecipe original generated graphic",
+    "rights": "Original geometric linework and typesetting; no external photograph, illustration or logo used",
+    "format": "JPEG",
+    "width": 1200,
+    "height": 900
+  },
+  {
+    "candidateNumber": 4,
+    "file": "ios/CNrecipe/Web/assets/classic-04.jpg",
+    "sha256": "9358f6aa7ca51474260943224d23d83115b985c3dd069586f7a81328a0e738f5",
+    "creator": "CNrecipe original generated graphic",
+    "rights": "Original geometric linework and typesetting; no external photograph, illustration or logo used",
+    "format": "JPEG",
+    "width": 1200,
+    "height": 900
+  },
+  {
+    "candidateNumber": 5,
+    "file": "ios/CNrecipe/Web/assets/classic-05.jpg",
+    "sha256": "36f9c3957cfd2cde760d81bf84b77eddf4ab882fdd233b09413a64309a05ecde",
+    "creator": "CNrecipe original generated graphic",
+    "rights": "Original geometric linework and typesetting; no external photograph, illustration or logo used",
+    "format": "JPEG",
+    "width": 1200,
+    "height": 900
+  },
+  {
+    "candidateNumber": 6,
+    "file": "ios/CNrecipe/Web/assets/classic-06.jpg",
+    "sha256": "47ec91afede9a78ea9efd709e099568a779e90cc492139b10bc56a0ebc63dcc7",
+    "creator": "CNrecipe original generated graphic",
+    "rights": "Original geometric linework and typesetting; no external photograph, illustration or logo used",
+    "format": "JPEG",
+    "width": 1200,
+    "height": 900
+  },
+  {
+    "candidateNumber": 7,
+    "file": "ios/CNrecipe/Web/assets/classic-07.jpg",
+    "sha256": "4180091fe905b1e7d2c5f07581cf32dde02b6f42c8b5c694815982dc953446b9",
+    "creator": "CNrecipe original generated graphic",
+    "rights": "Original geometric linework and typesetting; no external photograph, illustration or logo used",
+    "format": "JPEG",
+    "width": 1200,
+    "height": 900
+  },
+  {
+    "candidateNumber": 8,
+    "file": "ios/CNrecipe/Web/assets/classic-08.jpg",
+    "sha256": "f9a9cec07e5d09fe6ef72770fd4ef25d8f17565cfd6fdb0a7d5698f9567f387b",
+    "creator": "CNrecipe original generated graphic",
+    "rights": "Original geometric linework and typesetting; no external photograph, illustration or logo used",
+    "format": "JPEG",
+    "width": 1200,
+    "height": 900
+  },
+  {
+    "candidateNumber": 9,
+    "file": "ios/CNrecipe/Web/assets/classic-09.jpg",
+    "sha256": "05ef76d38f9a648774ca2650f54d18059a9f24b049f1fefedb614e67a6426170",
+    "creator": "CNrecipe original generated graphic",
+    "rights": "Original geometric linework and typesetting; no external photograph, illustration or logo used",
+    "format": "JPEG",
+    "width": 1200,
+    "height": 900
+  },
+  {
+    "candidateNumber": 10,
+    "file": "ios/CNrecipe/Web/assets/classic-10.jpg",
+    "sha256": "16eda03637cfb9cba494d0b567c9869a3c8f5eaf07feedc641b0580a493ebde7",
+    "creator": "CNrecipe original generated graphic",
+    "rights": "Original geometric linework and typesetting; no external photograph, illustration or logo used",
+    "format": "JPEG",
+    "width": 1200,
+    "height": 900
+  },
+  {
+    "candidateNumber": 11,
+    "file": "ios/CNrecipe/Web/assets/classic-11.jpg",
+    "sha256": "fcf43eb3d9773cf6602afe2015aa1238a334c7a7f0df2e69907d9ae793a8f952",
+    "creator": "CNrecipe original generated graphic",
+    "rights": "Original geometric linework and typesetting; no external photograph, illustration or logo used",
+    "format": "JPEG",
+    "width": 1200,
+    "height": 900
+  },
+  {
+    "candidateNumber": 12,
+    "file": "ios/CNrecipe/Web/assets/classic-12.jpg",
+    "sha256": "13eb50456e3dac8440ac466c5bfdf9a052a8d454175b29a182220255b898d324",
+    "creator": "CNrecipe original generated graphic",
+    "rights": "Original geometric linework and typesetting; no external photograph, illustration or logo used",
+    "format": "JPEG",
+    "width": 1200,
+    "height": 900
+  },
+  {
+    "candidateNumber": 13,
+    "file": "ios/CNrecipe/Web/assets/classic-13.jpg",
+    "sha256": "bf0dec40c944d1fb9b1bb69cb205e2cc16fb376bf832d1f8dab53d87f5882603",
+    "creator": "CNrecipe original generated graphic",
+    "rights": "Original geometric linework and typesetting; no external photograph, illustration or logo used",
+    "format": "JPEG",
+    "width": 1200,
+    "height": 900
+  },
+  {
+    "candidateNumber": 14,
+    "file": "ios/CNrecipe/Web/assets/classic-14.jpg",
+    "sha256": "cf669b0847ed22e4f9bd37b61d53459ca7a85ebd201f3ddd70e121f36bbff3b5",
+    "creator": "CNrecipe original generated graphic",
+    "rights": "Original geometric linework and typesetting; no external photograph, illustration or logo used",
+    "format": "JPEG",
+    "width": 1200,
+    "height": 900
+  },
+  {
+    "candidateNumber": 15,
+    "file": "ios/CNrecipe/Web/assets/classic-15.jpg",
+    "sha256": "bc66a54749fac875a6a9423bb3cfc013375533061c91dde1fd7bc4bba3065000",
+    "creator": "CNrecipe original generated graphic",
+    "rights": "Original geometric linework and typesetting; no external photograph, illustration or logo used",
+    "format": "JPEG",
+    "width": 1200,
+    "height": 900
+  },
+  {
+    "candidateNumber": 16,
+    "file": "ios/CNrecipe/Web/assets/classic-16.jpg",
+    "sha256": "bbfd395d5cd44e84e439048533007201485f4dc422220d9f080d644e37bfc420",
+    "creator": "CNrecipe original generated graphic",
+    "rights": "Original geometric linework and typesetting; no external photograph, illustration or logo used",
+    "format": "JPEG",
+    "width": 1200,
+    "height": 900
+  },
+  {
+    "candidateNumber": 17,
+    "file": "ios/CNrecipe/Web/assets/classic-17.jpg",
+    "sha256": "c5e69bb38429d1120b23436d68de7ad21438f5c212cb335c165798e6078780e3",
+    "creator": "CNrecipe original generated graphic",
+    "rights": "Original geometric linework and typesetting; no external photograph, illustration or logo used",
+    "format": "JPEG",
+    "width": 1200,
+    "height": 900
+  },
+  {
+    "candidateNumber": 18,
+    "file": "ios/CNrecipe/Web/assets/classic-18.jpg",
+    "sha256": "4609d3dc56ab729d9e01e008aa0e9481bda4bdcce588c9414f3fe586fd84e390",
+    "creator": "CNrecipe original generated graphic",
+    "rights": "Original geometric linework and typesetting; no external photograph, illustration or logo used",
+    "format": "JPEG",
+    "width": 1200,
+    "height": 900
+  },
+  {
+    "candidateNumber": 19,
+    "file": "ios/CNrecipe/Web/assets/classic-19.jpg",
+    "sha256": "93fcbed1797d52e2359388ba50590bef61312abc32b4a2e8f137960bf358e7b7",
+    "creator": "CNrecipe original generated graphic",
+    "rights": "Original geometric linework and typesetting; no external photograph, illustration or logo used",
+    "format": "JPEG",
+    "width": 1200,
+    "height": 900
+  },
+  {
+    "candidateNumber": 20,
+    "file": "ios/CNrecipe/Web/assets/classic-20.jpg",
+    "sha256": "629de87d2d8844aa5959e6d6b39abed71913c3cbc96fa9cb9c8eba244bfe3703",
+    "creator": "CNrecipe original generated graphic",
+    "rights": "Original geometric linework and typesetting; no external photograph, illustration or logo used",
+    "format": "JPEG",
+    "width": 1200,
+    "height": 900
+  },
+  {
+    "candidateNumber": 21,
+    "file": "ios/CNrecipe/Web/assets/classic-21.jpg",
+    "sha256": "5bf6fee12bc7429a541d53282d67893d62dcabdc69f16894f4f06defd3355676",
+    "creator": "CNrecipe original generated graphic",
+    "rights": "Original geometric linework and typesetting; no external photograph, illustration or logo used",
+    "format": "JPEG",
+    "width": 1200,
+    "height": 900
+  },
+  {
+    "candidateNumber": 22,
+    "file": "ios/CNrecipe/Web/assets/classic-22.jpg",
+    "sha256": "ece9de8c27fdfa0e60b6d7c09b95ff62ed10e50c5bfa033db60aa2739f3a9a0b",
+    "creator": "CNrecipe original generated graphic",
+    "rights": "Original geometric linework and typesetting; no external photograph, illustration or logo used",
+    "format": "JPEG",
+    "width": 1200,
+    "height": 900
+  },
+  {
+    "candidateNumber": 23,
+    "file": "ios/CNrecipe/Web/assets/classic-23.jpg",
+    "sha256": "07fe627920b5d379ceaa0f3629f5db1f856baf0c4786ceae0690e08fb56de541",
+    "creator": "CNrecipe original generated graphic",
+    "rights": "Original geometric linework and typesetting; no external photograph, illustration or logo used",
+    "format": "JPEG",
+    "width": 1200,
+    "height": 900
+  },
+  {
+    "candidateNumber": 24,
+    "file": "ios/CNrecipe/Web/assets/classic-24.jpg",
+    "sha256": "a5c534f447f7f7da1c61f5be44f1cfd4531f8fbb845d91cd4abe02cf9d6526eb",
+    "creator": "CNrecipe original generated graphic",
+    "rights": "Original geometric linework and typesetting; no external photograph, illustration or logo used",
+    "format": "JPEG",
+    "width": 1200,
+    "height": 900
+  },
+  {
+    "candidateNumber": 25,
+    "file": "ios/CNrecipe/Web/assets/classic-25.jpg",
+    "sha256": "92f904a68136f18ce9b9dfbf065f4e4e2b95d745183923b6737fca768d75adb9",
+    "creator": "CNrecipe original generated graphic",
+    "rights": "Original geometric linework and typesetting; no external photograph, illustration or logo used",
+    "format": "JPEG",
+    "width": 1200,
+    "height": 900
+  },
+  {
+    "candidateNumber": 26,
+    "file": "ios/CNrecipe/Web/assets/classic-26.jpg",
+    "sha256": "ca9d0b77bdaaa4a6952e1c63196d514462573c8726361770d5db25ba95b00dea",
+    "creator": "CNrecipe original generated graphic",
+    "rights": "Original geometric linework and typesetting; no external photograph, illustration or logo used",
+    "format": "JPEG",
+    "width": 1200,
+    "height": 900
+  },
+  {
+    "candidateNumber": 27,
+    "file": "ios/CNrecipe/Web/assets/classic-27.jpg",
+    "sha256": "fa789eff711b1a35bac8f78c3afead60036a3aa3eda3aa5ccc0dccc4b22ba508",
+    "creator": "CNrecipe original generated graphic",
+    "rights": "Original geometric linework and typesetting; no external photograph, illustration or logo used",
+    "format": "JPEG",
+    "width": 1200,
+    "height": 900
+  },
+  {
+    "candidateNumber": 28,
+    "file": "ios/CNrecipe/Web/assets/classic-28.jpg",
+    "sha256": "04c7b0390a5ae1edf7b7553557ef2da9488a06fb91036d1bed505d3072452dae",
+    "creator": "CNrecipe original generated graphic",
+    "rights": "Original geometric linework and typesetting; no external photograph, illustration or logo used",
+    "format": "JPEG",
+    "width": 1200,
+    "height": 900
+  },
+  {
+    "candidateNumber": 29,
+    "file": "ios/CNrecipe/Web/assets/classic-29.jpg",
+    "sha256": "40f6c889f6e2b44dff7dbfb552e07ab343095b6ba3fb752d06c9e0e218d99339",
+    "creator": "CNrecipe original generated graphic",
+    "rights": "Original geometric linework and typesetting; no external photograph, illustration or logo used",
+    "format": "JPEG",
+    "width": 1200,
+    "height": 900
+  },
+  {
+    "candidateNumber": 30,
+    "file": "ios/CNrecipe/Web/assets/classic-30.jpg",
+    "sha256": "d99bf7efa227794fcb50ee1c85503b7635dc2345013acc588321fa7b82f6aae2",
+    "creator": "CNrecipe original generated graphic",
+    "rights": "Original geometric linework and typesetting; no external photograph, illustration or logo used",
+    "format": "JPEG",
+    "width": 1200,
+    "height": 900
+  },
+  {
+    "candidateNumber": 31,
+    "file": "ios/CNrecipe/Web/assets/classic-31.jpg",
+    "sha256": "801ae24e5525653d2981ebd5d1e229187599d9c062a78ead68a5a9b24cf6696e",
+    "creator": "CNrecipe original generated graphic",
+    "rights": "Original geometric linework and typesetting; no external photograph, illustration or logo used",
+    "format": "JPEG",
+    "width": 1200,
+    "height": 900
+  },
+  {
+    "candidateNumber": 32,
+    "file": "ios/CNrecipe/Web/assets/classic-32.jpg",
+    "sha256": "57deb59bb02c86ff0386761dbb2638cce8462a81dce4c469361cc8268107b6f9",
+    "creator": "CNrecipe original generated graphic",
+    "rights": "Original geometric linework and typesetting; no external photograph, illustration or logo used",
+    "format": "JPEG",
+    "width": 1200,
+    "height": 900
+  },
+  {
+    "candidateNumber": 33,
+    "file": "ios/CNrecipe/Web/assets/classic-33.jpg",
+    "sha256": "b91838772ae36b2bf87df508e3e466e695dadb8aa7815360031a0481ce3030d4",
+    "creator": "CNrecipe original generated graphic",
+    "rights": "Original geometric linework and typesetting; no external photograph, illustration or logo used",
+    "format": "JPEG",
+    "width": 1200,
+    "height": 900
+  },
+  {
+    "candidateNumber": 34,
+    "file": "ios/CNrecipe/Web/assets/classic-34.jpg",
+    "sha256": "ab5c1e76da6f7f7109b3288b1a95cbac52f0a0393da999640db825a86834608f",
+    "creator": "CNrecipe original generated graphic",
+    "rights": "Original geometric linework and typesetting; no external photograph, illustration or logo used",
+    "format": "JPEG",
+    "width": 1200,
+    "height": 900
+  },
+  {
+    "candidateNumber": 35,
+    "file": "ios/CNrecipe/Web/assets/classic-35.jpg",
+    "sha256": "abbd297abb8cf726b9115b860ec760bffa1965a7989aed9d354201a120d280fb",
+    "creator": "CNrecipe original generated graphic",
+    "rights": "Original geometric linework and typesetting; no external photograph, illustration or logo used",
+    "format": "JPEG",
+    "width": 1200,
+    "height": 900
+  },
+  {
+    "candidateNumber": 36,
+    "file": "ios/CNrecipe/Web/assets/classic-36.jpg",
+    "sha256": "9c1a3c52057ef043f3ed95334cedfd3d4ff5190512392566e56396eb2a43a4f5",
+    "creator": "CNrecipe original generated graphic",
+    "rights": "Original geometric linework and typesetting; no external photograph, illustration or logo used",
+    "format": "JPEG",
+    "width": 1200,
+    "height": 900
+  },
+  {
+    "candidateNumber": 37,
+    "file": "ios/CNrecipe/Web/assets/classic-37.jpg",
+    "sha256": "6b92a68558b53599a706184181b2b5d303631d18ec311d939dfc38c19b66d024",
+    "creator": "CNrecipe original generated graphic",
+    "rights": "Original geometric linework and typesetting; no external photograph, illustration or logo used",
+    "format": "JPEG",
+    "width": 1200,
+    "height": 900
+  },
+  {
+    "candidateNumber": 38,
+    "file": "ios/CNrecipe/Web/assets/classic-38.jpg",
+    "sha256": "3a107306e5653ff2ec15027d393bd3c9e413e89a70fb5f01665dbd094900b587",
+    "creator": "CNrecipe original generated graphic",
+    "rights": "Original geometric linework and typesetting; no external photograph, illustration or logo used",
+    "format": "JPEG",
+    "width": 1200,
+    "height": 900
+  },
+  {
+    "candidateNumber": 39,
+    "file": "ios/CNrecipe/Web/assets/classic-39.jpg",
+    "sha256": "904675a3d4c17437a286e00c07893c3d8d7e778561ef124d1c8bea18010b6afb",
+    "creator": "CNrecipe original generated graphic",
+    "rights": "Original geometric linework and typesetting; no external photograph, illustration or logo used",
+    "format": "JPEG",
+    "width": 1200,
+    "height": 900
+  },
+  {
+    "candidateNumber": 40,
+    "file": "ios/CNrecipe/Web/assets/classic-40.jpg",
+    "sha256": "71268082c189e82574f769af454d6dbc24e46e9928b26b7e8b5b70a73c39e5eb",
+    "creator": "CNrecipe original generated graphic",
+    "rights": "Original geometric linework and typesetting; no external photograph, illustration or logo used",
+    "format": "JPEG",
+    "width": 1200,
+    "height": 900
+  },
+  {
+    "candidateNumber": 41,
+    "file": "ios/CNrecipe/Web/assets/classic-41.jpg",
+    "sha256": "2d977a69d288992d0fbbd6e20c676d9dc0ea5e6341792a65b80ee2794aa06de1",
+    "creator": "CNrecipe original generated graphic",
+    "rights": "Original geometric linework and typesetting; no external photograph, illustration or logo used",
+    "format": "JPEG",
+    "width": 1200,
+    "height": 900
+  },
+  {
+    "candidateNumber": 42,
+    "file": "ios/CNrecipe/Web/assets/classic-42.jpg",
+    "sha256": "b7b26d6bc5739a33ea63733889ac09cacf4978cd71ef95f46bd3358ac45e9d89",
+    "creator": "CNrecipe original generated graphic",
+    "rights": "Original geometric linework and typesetting; no external photograph, illustration or logo used",
+    "format": "JPEG",
+    "width": 1200,
+    "height": 900
+  },
+  {
+    "candidateNumber": 43,
+    "file": "ios/CNrecipe/Web/assets/classic-43.jpg",
+    "sha256": "bf80b94aa7db269233438fca8f5e9913e381d6a845aefcbccfdfc53a89501cf4",
+    "creator": "CNrecipe original generated graphic",
+    "rights": "Original geometric linework and typesetting; no external photograph, illustration or logo used",
+    "format": "JPEG",
+    "width": 1200,
+    "height": 900
+  },
+  {
+    "candidateNumber": 44,
+    "file": "ios/CNrecipe/Web/assets/classic-44.jpg",
+    "sha256": "2e8d45df59d105b0344c9a4a2b48a872f9939049f9e4e9f3cefb3106613d4d24",
+    "creator": "CNrecipe original generated graphic",
+    "rights": "Original geometric linework and typesetting; no external photograph, illustration or logo used",
+    "format": "JPEG",
+    "width": 1200,
+    "height": 900
+  },
+  {
+    "candidateNumber": 45,
+    "file": "ios/CNrecipe/Web/assets/classic-45.jpg",
+    "sha256": "81844847a3120a1568d8b997fbaee286610ba4dd6d634324c89cd05cfa713899",
+    "creator": "CNrecipe original generated graphic",
+    "rights": "Original geometric linework and typesetting; no external photograph, illustration or logo used",
+    "format": "JPEG",
+    "width": 1200,
+    "height": 900
+  },
+  {
+    "candidateNumber": 46,
+    "file": "ios/CNrecipe/Web/assets/classic-46.jpg",
+    "sha256": "73e3d013d157a2b571674228945d2f70bd65aeebd3ed61c236672fa95bc51579",
+    "creator": "CNrecipe original generated graphic",
+    "rights": "Original geometric linework and typesetting; no external photograph, illustration or logo used",
+    "format": "JPEG",
+    "width": 1200,
+    "height": 900
+  },
+  {
+    "candidateNumber": 47,
+    "file": "ios/CNrecipe/Web/assets/classic-47.jpg",
+    "sha256": "4aa17687ceb72fbd9f283a2c9ddfefc21ec6d84038b96508fac5aaad1213661b",
+    "creator": "CNrecipe original generated graphic",
+    "rights": "Original geometric linework and typesetting; no external photograph, illustration or logo used",
+    "format": "JPEG",
+    "width": 1200,
+    "height": 900
+  },
+  {
+    "candidateNumber": 48,
+    "file": "ios/CNrecipe/Web/assets/classic-48.jpg",
+    "sha256": "d8f47a28759b1de79ef84f4e855d3a04f018a30102f197e5355b964e8709ec82",
+    "creator": "CNrecipe original generated graphic",
+    "rights": "Original geometric linework and typesetting; no external photograph, illustration or logo used",
+    "format": "JPEG",
+    "width": 1200,
+    "height": 900
+  },
+  {
+    "candidateNumber": 49,
+    "file": "ios/CNrecipe/Web/assets/classic-49.jpg",
+    "sha256": "dac545e78d2f7e8b6fa7b7b62a731c9a16ed82b4aad3a0dade96c52c5a5eaf92",
+    "creator": "CNrecipe original generated graphic",
+    "rights": "Original geometric linework and typesetting; no external photograph, illustration or logo used",
+    "format": "JPEG",
+    "width": 1200,
+    "height": 900
+  },
+  {
+    "candidateNumber": 50,
+    "file": "ios/CNrecipe/Web/assets/classic-50.jpg",
+    "sha256": "37c4e0c51a6e88c1163927bf299a8041e5388dde29069be68f42ef9e05056e11",
+    "creator": "CNrecipe original generated graphic",
+    "rights": "Original geometric linework and typesetting; no external photograph, illustration or logo used",
+    "format": "JPEG",
+    "width": 1200,
+    "height": 900
+  }
+]

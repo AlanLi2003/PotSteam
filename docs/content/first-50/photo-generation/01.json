@@ -1,0 +1,16 @@
+{
+  "n": 1,
+  "source": "/Users/alanli/.codex/generated_images/01a1971b-3514-7f63-b387-02bfb52056f2/exec-6db4ae2d-e926-400b-89dd-a4080b6b2b07.png",
+  "localSource": "assets/recipe-photos/dish-01.png",
+  "image": "ios/CNrecipe/Web/assets/classic-01-photo-v3.jpg",
+  "generator": "image_gen",
+  "kind": "AI-generated food presentation image; not an actual cooking photograph",
+  "sha256": "3bc4a2b55de194cc87901ed62b4d2d982451ef8cc8a9b0f0a6e7bf039acec40e",
+  "stagingJPEG": "assets/recipe-photos/dish-01.jpg",
+  "visualReview": {
+    "reviewer": "Codex visual review",
+    "result": "passed",
+    "scope": "Dish identity, visible main ingredients, food presentation and absence of text/watermarks",
+    "evidence": "artifacts/recipe-media-fix/photos-01-25.jpg"
+  }
+}

@@ -1,0 +1,14 @@
+node_modules/
+playwright-report/
+test-results/
+.DS_Store
+DerivedData/
+*.xcuserstate
+xcuserdata/
+artifacts/
+supabase/.temp/
+.env
+.env.*
+*.p8
+*.pem
+*.key

@@ -1,0 +1,593 @@
+[
+  {
+    "number": 5,
+    "name": "香菇青菜",
+    "archives": [
+      {
+        "url": "https://home.meishichina.com/recipe-32016.html",
+        "error": "HTTPError"
+      },
+      {
+        "url": "https://m.xiachufang.com/recipe/101779978/",
+        "path": "docs/content/first-50/sources/05-web-5769228b4874.html",
+        "sha256": "5769228b487475e9a01839e2dc4e2d4164a09fab4cf74d235fe3d0c438189f89",
+        "retrievedOn": "2026-11-02",
+        "use": "research-only; raw page archive, license and recipe not verified"
+      },
+      {
+        "url": "https://m.xiangha.com/caipu/101785996.html",
+        "error": "HTTPError"
+      }
+    ]
+  },
+  {
+    "number": 9,
+    "name": "家常豆腐",
+    "archives": [
+      {
+        "url": "https://m.xiachufang.com/recipe/104387445/",
+        "path": "docs/content/first-50/sources/09-web-4978f410123d.html",
+        "sha256": "4978f410123df34847a4685c2e02642fe416b4e325db5cc56577c5ab9c497ef1",
+        "retrievedOn": "2026-11-02",
+        "use": "research-only; raw page archive, license and recipe not verified"
+      },
+      {
+        "url": "https://m.xiachufang.com/recipe/103860637/",
+        "path": "docs/content/first-50/sources/09-web-16c7a5adc8fd.html",
+        "sha256": "16c7a5adc8fd98fe55d375f9bc54ced4828b1dabdb89f7bc448ac9783b1d7f15",
+        "retrievedOn": "2026-11-02",
+        "use": "research-only; raw page archive, license and recipe not verified"
+      },
+      {
+        "url": "https://www.asiancookingmom.com/homestyle-braised-tofu-%e5%ae%b6%e5%b8%b8%e8%b1%86%e8%85%90/",
+        "path": "docs/content/first-50/sources/09-web-c838d0d7305d.html",
+        "sha256": "c838d0d7305d16a3c57416b09fd65ebed552951d1b286cfc6a0a1091da2ae8b1",
+        "retrievedOn": "2026-11-02",
+        "use": "research-only; raw page archive, license and recipe not verified"
+      }
+    ]
+  },
+  {
+    "number": 12,
+    "name": "青椒肉丝",
+    "archives": [
+      {
+        "url": "https://m.xiachufang.com/recipe/107372249/",
+        "path": "docs/content/first-50/sources/12-web-798cfe5e9337.html",
+        "sha256": "798cfe5e9337d14dfb6c20a2d457a5a68415ac4637a93f42c7b4e8bb2d1fe619",
+        "retrievedOn": "2026-11-02",
+        "use": "research-only; raw page archive, license and recipe not verified"
+      },
+      {
+        "url": "https://m.xiachufang.com/recipe/104681537/",
+        "path": "docs/content/first-50/sources/12-web-910bdf469a7c.html",
+        "sha256": "910bdf469a7ce738f3692e8afd65de6a2c02566b9eb99bd5fbf60573f7252402",
+        "retrievedOn": "2026-11-02",
+        "use": "research-only; raw page archive, license and recipe not verified"
+      },
+      {
+        "url": "https://m.xiachufang.com/recipe/1060023/",
+        "path": "docs/content/first-50/sources/12-web-82cc5da51391.html",
+        "sha256": "82cc5da51391c3668623c2294645b4a6e2b5ffd922d079c7afc1e0379461b077",
+        "retrievedOn": "2026-11-02",
+        "use": "research-only; raw page archive, license and recipe not verified"
+      }
+    ]
+  },
+  {
+    "number": 13,
+    "name": "肉末蒸蛋",
+    "archives": [
+      {
+        "url": "https://pmst.panasonic.com.tw/PanasonicCookingTW/Recipe/Detail/3609",
+        "path": "docs/content/first-50/sources/13-web-494e80a56eae.html",
+        "sha256": "494e80a56eae59e890edcd964d2ef406e4e5943bba977abc0b8b679145e68b24",
+        "retrievedOn": "2026-11-02",
+        "use": "research-only; raw page archive, license and recipe not verified"
+      },
+      {
+        "url": "https://m.xiachufang.com/recipe/106781747/",
+        "path": "docs/content/first-50/sources/13-web-49368641d061.html",
+        "sha256": "49368641d06169e14a881a3f8f7a2aa6e9e4c5210ad939873ff7ea50cdb77b58",
+        "retrievedOn": "2026-11-02",
+        "use": "research-only; raw page archive, license and recipe not verified"
+      },
+      {
+        "url": "https://m.xiachufang.com/recipe/107621160/",
+        "path": "docs/content/first-50/sources/13-web-4934bd05f3bd.html",
+        "sha256": "4934bd05f3bdaedae31ea312977269803336dceccaccb8cd7c61c40b455aa73f",
+        "retrievedOn": "2026-11-02",
+        "use": "research-only; raw page archive, license and recipe not verified"
+      }
+    ]
+  },
+  {
+    "number": 16,
+    "name": "香菇炖鸡",
+    "archives": [
+      {
+        "url": "https://m.xiachufang.com/recipe/107765108/",
+        "path": "docs/content/first-50/sources/16-web-8a80b7c690f7.html",
+        "sha256": "8a80b7c690f782dfa284238e0a2e9085ee3e0343d8eaa7e44b1361b7cb5e74be",
+        "retrievedOn": "2026-11-02",
+        "use": "research-only; raw page archive, license and recipe not verified"
+      },
+      {
+        "url": "https://www.dachu.co/zh/recipe/116759",
+        "path": "docs/content/first-50/sources/16-web-aa54d8557911.html",
+        "sha256": "aa54d8557911bedde0bdd3f9a659c934c761270389e52a0d56c7f5578ef19499",
+        "retrievedOn": "2026-11-02",
+        "use": "research-only; raw page archive, license and recipe not verified"
+      },
+      {
+        "url": "https://www.xiachufang.com/recipe/107023162/",
+        "path": "docs/content/first-50/sources/16-web-9690f71522c8.html",
+        "sha256": "9690f71522c8b02d9f3219161f85584b1f6421d48444e9009dc5dbd47e2c4e44",
+        "retrievedOn": "2026-11-02",
+        "use": "research-only; raw page archive, license and recipe not verified"
+      }
+    ]
+  },
+  {
+    "number": 19,
+    "name": "冬瓜排骨汤",
+    "archives": [
+      {
+        "url": "https://icook.tw/recipes/438242",
+        "path": "docs/content/first-50/sources/19-web-70c5b9ae5cb0.html",
+        "sha256": "70c5b9ae5cb0c84f43a79eeea8d090c6101121be4e0b07ecd945d1724f61aae8",
+        "retrievedOn": "2026-11-02",
+        "use": "research-only; raw page archive, license and recipe not verified"
+      },
+      {
+        "url": "https://m.xiachufang.com/recipe/104538604/",
+        "path": "docs/content/first-50/sources/19-web-9398f2d01249.html",
+        "sha256": "9398f2d0124956a0a7516d24e4976e6e43dd893afbe0c77ce44655b9189c6104",
+        "retrievedOn": "2026-11-02",
+        "use": "research-only; raw page archive, license and recipe not verified"
+      },
+      {
+        "url": "https://icook.tw/recipes/449188",
+        "path": "docs/content/first-50/sources/19-web-46c1a6a8dc55.html",
+        "sha256": "46c1a6a8dc553079b4a4da4ad079a835be0d6aac7220a15b7ef2a0864f51efc3",
+        "retrievedOn": "2026-11-02",
+        "use": "research-only; raw page archive, license and recipe not verified"
+      }
+    ]
+  },
+  {
+    "number": 25,
+    "name": "酸菜鱼",
+    "archives": [
+      {
+        "url": "https://www.xiachufang.com/recipe/107534678/",
+        "path": "docs/content/first-50/sources/25-web-3046b405c19a.html",
+        "sha256": "3046b405c19adc153bfe4fa18ded68e73eac514b1700971c0e6c3c543bd394c2",
+        "retrievedOn": "2026-11-02",
+        "use": "research-only; raw page archive, license and recipe not verified"
+      },
+      {
+        "url": "https://m.xiachufang.com/recipe/103642610/",
+        "path": "docs/content/first-50/sources/25-web-62d922685ac5.html",
+        "sha256": "62d922685ac59aeafe2f0ed687002815d0ad6a4a7a5f456a675ff0fd557d90be",
+        "retrievedOn": "2026-11-02",
+        "use": "research-only; raw page archive, license and recipe not verified"
+      },
+      {
+        "url": "https://www.iris.net.cn/elec_PCMA.asp?RECIPE_ID=42",
+        "path": "docs/content/first-50/sources/25-web-69398667d3d2.html",
+        "sha256": "69398667d3d2f31667287bf59332b168a9162e14dc027098312aeb910be9c98e",
+        "retrievedOn": "2026-11-02",
+        "use": "research-only; raw page archive, license and recipe not verified"
+      }
+    ]
+  },
+  {
+    "number": 27,
+    "name": "剁椒鱼头",
+    "archives": [
+      {
+        "url": "https://cookidoo.com.cn/recipes/recipe/zh-hans-cn/r345050",
+        "path": "docs/content/first-50/sources/27-web-59c7c0bf80c0.html",
+        "sha256": "59c7c0bf80c082448b7ab49cb164d7cc1f763e2f30891e5bbd77b24ca1c0188e",
+        "retrievedOn": "2026-11-02",
+        "use": "research-only; raw page archive, license and recipe not verified"
+      },
+      {
+        "url": "https://m.xiachufang.com/recipe/107338424/",
+        "path": "docs/content/first-50/sources/27-web-a0e0ebad4c00.html",
+        "sha256": "a0e0ebad4c00ae035bb1d22b39d54f4fe9a5f0556f8e3645074da4a8530ae61b",
+        "retrievedOn": "2026-11-02",
+        "use": "research-only; raw page archive, license and recipe not verified"
+      },
+      {
+        "url": "https://m.xiachufang.com/recipe/1042276/",
+        "path": "docs/content/first-50/sources/27-web-bcb084d9b5a8.html",
+        "sha256": "bcb084d9b5a8abb7fcee5338a3b01ff526b3c8ee8fe574cf459f920ecb90994f",
+        "retrievedOn": "2026-11-02",
+        "use": "research-only; raw page archive, license and recipe not verified"
+      }
+    ]
+  },
+  {
+    "number": 29,
+    "name": "白切鸡",
+    "archives": [
+      {
+        "url": "https://www.nanyangkitchen.co/recipe/boiled-kampong-chicken/",
+        "path": "docs/content/first-50/sources/29-web-080e977adf5e.html",
+        "sha256": "080e977adf5e47a9f17315af61b607cf3df622de59ffda56f62161b60949fc06",
+        "retrievedOn": "2026-11-02",
+        "use": "research-only; raw page archive, license and recipe not verified"
+      },
+      {
+        "url": "https://www.nanyangkitchen.co/chicken/cantonese-boiled-chicken/",
+        "path": "docs/content/first-50/sources/29-web-7583525b3870.html",
+        "sha256": "7583525b3870131c49f4f7edba02e0925049b1aca0d1035ff61663ae60f551b0",
+        "retrievedOn": "2026-11-02",
+        "use": "research-only; raw page archive, license and recipe not verified"
+      },
+      {
+        "url": "https://m.xiachufang.com/recipe/106182433/",
+        "path": "docs/content/first-50/sources/29-web-638a12601963.html",
+        "sha256": "638a12601963c51ff7b2577d267e8e5c4d8c5e6eafc14eb6e279038ea420ac05",
+        "retrievedOn": "2026-11-02",
+        "use": "research-only; raw page archive, license and recipe not verified"
+      }
+    ]
+  },
+  {
+    "number": 30,
+    "name": "客家酿豆腐",
+    "archives": [
+      {
+        "url": "https://www.spoonandstorykitchen.com/zh/recipe/stuffed-tofu-with-minced-pork-hakka-style-2/",
+        "path": "docs/content/first-50/sources/30-web-886bb91daf16.html",
+        "sha256": "886bb91daf164295f3c1918116c6667f37615726f64d584dff14068d0a12c788",
+        "retrievedOn": "2026-11-02",
+        "use": "research-only; raw page archive, license and recipe not verified"
+      },
+      {
+        "url": "https://home.meishichina.com/recipe-54560.html",
+        "error": "HTTPError"
+      },
+      {
+        "url": "https://www.gdnx.gov.cn/lynx/cyms/content/post_2086246.html",
+        "path": "docs/content/first-50/sources/30-web-310b6be31855.html",
+        "sha256": "310b6be318552906b1590fcc6156f3316fb8ab80ef1fb28ecf42ddcc9a4df6f3",
+        "retrievedOn": "2026-11-02",
+        "use": "research-only; raw page archive, license and recipe not verified"
+      }
+    ]
+  },
+  {
+    "number": 31,
+    "name": "客家盐焗鸡",
+    "archives": [
+      {
+        "url": "https://m.xiachufang.com/recipe/104387715/",
+        "path": "docs/content/first-50/sources/31-web-5e78f78e577c.html",
+        "sha256": "5e78f78e577ca58465a176141ba3495dbe900025a847c4cda36261bd30650774",
+        "retrievedOn": "2026-11-02",
+        "use": "research-only; raw page archive, license and recipe not verified"
+      },
+      {
+        "url": "https://ndls.cnis.ac.cn/standard/detail/d9bd107e10425fe89156839d3ac13463",
+        "path": "docs/content/first-50/sources/31-web-32266abbfee4.html",
+        "sha256": "32266abbfee43a7d57e3c2ef6f3f7acad6c5d4f35ac3877eee8a3202a338c61a",
+        "retrievedOn": "2026-11-02",
+        "use": "research-only; raw page archive, license and recipe not verified"
+      },
+      {
+        "url": "https://ndls.cnis.ac.cn/standard/detail/4e6838c821012b1fa6da49c1ecc7dc0c",
+        "path": "docs/content/first-50/sources/31-web-58dd5defe782.html",
+        "sha256": "58dd5defe7827d007e4e4e082b7f095fe14cc7fd55094393ec590b910b212287",
+        "retrievedOn": "2026-11-02",
+        "use": "research-only; raw page archive, license and recipe not verified"
+      }
+    ]
+  },
+  {
+    "number": 32,
+    "name": "海蛎煎",
+    "archives": [
+      {
+        "url": "https://scjgj.quanzhou.gov.cn/qzitp/interface/download/download.action?appFile=AD2025062309164065.pdf",
+        "path": "docs/content/first-50/sources/32-web-696b14efcfe4.html",
+        "sha256": "696b14efcfe4c22962456389c803862b2c001479a836ddb32dcbc2d475a224d8",
+        "retrievedOn": "2026-11-02",
+        "use": "research-only; raw page archive, license and recipe not verified"
+      },
+      {
+        "url": "https://m.xiachufang.com/recipe/103689689/",
+        "error": "HTTPError"
+      },
+      {
+        "url": "https://www.xiachufang.com/recipe/104516493/",
+        "error": "HTTPError"
+      }
+    ]
+  },
+  {
+    "number": 33,
+    "name": "大煮干丝",
+    "archives": [
+      {
+        "url": "https://www.ichf.cn/fyms?id=545",
+        "error": "URLError"
+      },
+      {
+        "url": "https://www.zuocaicai.com/dazhugansi/23272.html",
+        "path": "docs/content/first-50/sources/33-web-69eddf76334f.html",
+        "sha256": "69eddf76334fdddc59842baecbf2ce83a2c3a6292e6ee62f6ee17e557d4d8959",
+        "retrievedOn": "2026-11-02",
+        "use": "research-only; raw page archive, license and recipe not verified"
+      },
+      {
+        "url": "https://www.bilibili.com/opus/760258328845615143",
+        "path": "docs/content/first-50/sources/33-web-84ff39c2c5d5.html",
+        "sha256": "84ff39c2c5d5e414982512c66ebd9e1fb47c1ba1f97d8077dedb6cf97f2155bf",
+        "retrievedOn": "2026-11-02",
+        "use": "research-only; raw page archive, license and recipe not verified"
+      }
+    ]
+  },
+  {
+    "number": 34,
+    "name": "砂锅狮子头",
+    "archives": [
+      {
+        "url": "https://kmweb.moa.gov.tw/subject/subject.php?id=20891",
+        "path": "docs/content/first-50/sources/34-web-1c0f3c398014.html",
+        "sha256": "1c0f3c3980148d42f9727a56655cfd08b194713c4b3f0cf35757cc01aa5ecc64",
+        "retrievedOn": "2026-11-02",
+        "use": "research-only; raw page archive, license and recipe not verified"
+      },
+      {
+        "url": "https://www.xiachufang.com/recipe/104659665/",
+        "path": "docs/content/first-50/sources/34-web-382d58ab6afe.html",
+        "sha256": "382d58ab6afe0d94516860b352dbce0a9ed68b86cedbf33a598bc1b46da55d88",
+        "retrievedOn": "2026-11-02",
+        "use": "research-only; raw page archive, license and recipe not verified"
+      },
+      {
+        "url": "https://m.xiachufang.com/recipe/100043440/",
+        "path": "docs/content/first-50/sources/34-web-722f4d32d38c.html",
+        "sha256": "722f4d32d38c91a3f89a88d1a87227943afc3ff89ee00aca415ff0a13e7e5aec",
+        "retrievedOn": "2026-11-02",
+        "use": "research-only; raw page archive, license and recipe not verified"
+      }
+    ]
+  },
+  {
+    "number": 35,
+    "name": "西湖醋鱼",
+    "archives": [
+      {
+        "url": "http://www.hangzhouds.org.cn/qiantang/info.aspx?itemid=3836&lcid=12&page=20",
+        "path": "docs/content/first-50/sources/35-web-9636868b1de6.html",
+        "sha256": "9636868b1de67d10c241c50cf62f32462a276d474671d5f23c211c7cd835d9fe",
+        "retrievedOn": "2026-11-02",
+        "use": "research-only; raw page archive, license and recipe not verified"
+      },
+      {
+        "url": "https://zjnews.zjol.com.cn/zjnews/202412/t20241206_30691976.shtml",
+        "path": "docs/content/first-50/sources/35-web-a2d39119e55e.html",
+        "sha256": "a2d39119e55e9c7a8267fe6c98a327ed11d0cc7544148316291facedb4c2c205",
+        "retrievedOn": "2026-11-02",
+        "use": "research-only; raw page archive, license and recipe not verified"
+      },
+      {
+        "url": "https://m.xiachufang.com/recipe/103762979/",
+        "path": "docs/content/first-50/sources/35-web-28a0a8979e63.html",
+        "sha256": "28a0a8979e63ee248492b682880a51d669913889f4b68f63a1a1bf175c173c99",
+        "retrievedOn": "2026-11-02",
+        "use": "research-only; raw page archive, license and recipe not verified"
+      }
+    ]
+  },
+  {
+    "number": 36,
+    "name": "糖醋小排",
+    "archives": [
+      {
+        "url": "https://www.thepaper.cn/newsDetail_forward_22445622",
+        "path": "docs/content/first-50/sources/36-web-96ca215fd383.html",
+        "sha256": "96ca215fd38380d49a85d6988f903ba4bfc3a4fb859dcac2c57a2411b095f1e2",
+        "retrievedOn": "2026-11-02",
+        "use": "research-only; raw page archive, license and recipe not verified"
+      },
+      {
+        "url": "https://www.xiachufang.com/recipe/105934299/",
+        "path": "docs/content/first-50/sources/36-web-bb299d02dff1.html",
+        "sha256": "bb299d02dff1bed46fe045679524e539d4248a65a36597403cc6369b3bfe1a6e",
+        "retrievedOn": "2026-11-02",
+        "use": "research-only; raw page archive, license and recipe not verified"
+      },
+      {
+        "url": "https://zh.dachu.co/zh-cn/recipe/337255",
+        "path": "docs/content/first-50/sources/36-web-cb326aacc9fa.html",
+        "sha256": "cb326aacc9faf22337077dbea982de7cbdb81c936e48c4366c30bb82c0a89426",
+        "retrievedOn": "2026-11-02",
+        "use": "research-only; raw page archive, license and recipe not verified"
+      }
+    ]
+  },
+  {
+    "number": 38,
+    "name": "徽州臭鳜鱼",
+    "archives": [
+      {
+        "url": "http://www.yes43.com/detail-108bf6e4da21552f.html",
+        "path": "docs/content/first-50/sources/38-web-df64d23fd176.html",
+        "sha256": "df64d23fd1762f0f0236153dba08e1cbff6762655de3a42566c08fdc2b369efa",
+        "retrievedOn": "2026-11-02",
+        "use": "research-only; raw page archive, license and recipe not verified"
+      },
+      {
+        "url": "https://m.xiachufang.com/recipe/104735373/",
+        "path": "docs/content/first-50/sources/38-web-795911822f5c.html",
+        "sha256": "795911822f5c4dec36a142cadba19e83d375d0f7e1c5872bf96b0d17fdc0dcfc",
+        "retrievedOn": "2026-11-02",
+        "use": "research-only; raw page archive, license and recipe not verified"
+      },
+      {
+        "url": "https://www.xiachufang.com/recipe/104602719/",
+        "error": "HTTPError"
+      }
+    ]
+  },
+  {
+    "number": 39,
+    "name": "莲藕排骨汤",
+    "archives": [
+      {
+        "url": "https://m.xiachufang.com/recipe/104127349/",
+        "path": "docs/content/first-50/sources/39-web-293d6e050cfc.html",
+        "sha256": "293d6e050cfceb8db74a6010fc8d459feb70732a8eafea852ed62aa7cc1f44cc",
+        "retrievedOn": "2026-11-02",
+        "use": "research-only; raw page archive, license and recipe not verified"
+      },
+      {
+        "url": "https://www.anan.gov.cn/anan/mrkpnew/202007/89770490723a45adbef09bccca74fe9a.shtml",
+        "path": "docs/content/first-50/sources/39-web-5b24116f0b79.html",
+        "sha256": "5b24116f0b7911405e636258563909398372f302c1ca00944272f7816f7626ff",
+        "retrievedOn": "2026-11-02",
+        "use": "research-only; raw page archive, license and recipe not verified"
+      },
+      {
+        "url": "https://www.xiachufang.com/recipe/105990479/",
+        "path": "docs/content/first-50/sources/39-web-9fb66cc81907.html",
+        "sha256": "9fb66cc81907b8e17421c1692a58eee3994f2c79c0849cb40dd7050075b0b530",
+        "retrievedOn": "2026-11-02",
+        "use": "research-only; raw page archive, license and recipe not verified"
+      }
+    ]
+  },
+  {
+    "number": 41,
+    "name": "汽锅鸡",
+    "archives": [
+      {
+        "url": "https://www.xiachufang.com/recipe/102853132/",
+        "path": "docs/content/first-50/sources/41-web-8adeb9fcd1e1.html",
+        "sha256": "8adeb9fcd1e132e6ee0f6d83b6a9bfddf70a262c341cb8bf59d3cdbdd44da654",
+        "retrievedOn": "2026-11-02",
+        "use": "research-only; raw page archive, license and recipe not verified"
+      },
+      {
+        "url": "https://m.xiachufang.com/recipe/107437702/",
+        "path": "docs/content/first-50/sources/41-web-a6f76240fbde.html",
+        "sha256": "a6f76240fbdec395977500feeab36e5e3d6dc78684411cdd23309923fe90b266",
+        "retrievedOn": "2026-11-02",
+        "use": "research-only; raw page archive, license and recipe not verified"
+      },
+      {
+        "url": "https://bbs.aboluowang.com/thread-873108-1-1.html",
+        "path": "docs/content/first-50/sources/41-web-eb3bd56a48c6.html",
+        "sha256": "eb3bd56a48c6eb618dd680dd72612e5925be4ada0120fdc958a02b0cd395dd06",
+        "retrievedOn": "2026-11-02",
+        "use": "research-only; raw page archive, license and recipe not verified"
+      }
+    ]
+  },
+  {
+    "number": 43,
+    "name": "三杯鸡",
+    "archives": [
+      {
+        "url": "https://tw.lkk.com/zh-hk/recipes/twnds18",
+        "path": "docs/content/first-50/sources/43-web-2610733c47d4.html",
+        "sha256": "2610733c47d47541138389dad76edd50e9fb8c402de888c528b73631794358a9",
+        "retrievedOn": "2026-11-02",
+        "use": "research-only; raw page archive, license and recipe not verified"
+      },
+      {
+        "url": "https://www.xiachufang.com/recipe/106543554/",
+        "error": "HTTPError"
+      },
+      {
+        "url": "https://www.dachu.co/zh/recipe/305019",
+        "path": "docs/content/first-50/sources/43-web-539442a92a71.html",
+        "sha256": "539442a92a711376965b90deddb41a1698117a143653997568bd692c0f08d3ca",
+        "retrievedOn": "2026-11-02",
+        "use": "research-only; raw page archive, license and recipe not verified"
+      }
+    ]
+  },
+  {
+    "number": 44,
+    "name": "柠檬鸭",
+    "archives": [
+      {
+        "url": "https://m.xiachufang.com/recipe/107484526/",
+        "path": "docs/content/first-50/sources/44-web-b116ab243f86.html",
+        "sha256": "b116ab243f8669baab081d36a1ccdbf6c807ce7eba9cdd7912d65b3f690ab969",
+        "retrievedOn": "2026-11-02",
+        "use": "research-only; raw page archive, license and recipe not verified"
+      },
+      {
+        "url": "https://m.xiachufang.com/recipe/104452941/",
+        "path": "docs/content/first-50/sources/44-web-45c674667ff8.html",
+        "sha256": "45c674667ff8ef85e47b501347daa07c69e1cf46bee16bf2a8bf8179ff9a6477",
+        "retrievedOn": "2026-11-02",
+        "use": "research-only; raw page archive, license and recipe not verified"
+      },
+      {
+        "url": "https://m.xiachufang.com/recipe/105934137/",
+        "path": "docs/content/first-50/sources/44-web-2872f7c84b5d.html",
+        "sha256": "2872f7c84b5d4698b05c0e33cdb3396fcaf918a25cf52310c4bea0c61773d240",
+        "retrievedOn": "2026-11-02",
+        "use": "research-only; raw page archive, license and recipe not verified"
+      }
+    ]
+  },
+  {
+    "number": 45,
+    "name": "猪肉白菜饺子",
+    "archives": [
+      {
+        "url": "https://m.xiachufang.com/recipe/107446582/",
+        "path": "docs/content/first-50/sources/45-web-82dce2794f4c.html",
+        "sha256": "82dce2794f4ce814988623c0870a27ff6222fedfdd685d898bba4a89347d1f61",
+        "retrievedOn": "2026-11-02",
+        "use": "research-only; raw page archive, license and recipe not verified"
+      },
+      {
+        "url": "https://home.meishichina.com/recipe-666357.html",
+        "error": "HTTPError"
+      },
+      {
+        "url": "https://charwok.com/zh/pork-cabbage-dumpling/",
+        "path": "docs/content/first-50/sources/45-web-252b6507d9ab.html",
+        "sha256": "252b6507d9ab86cce1ec6e01344d615258314235fc4881b317db4e39809ac4f0",
+        "retrievedOn": "2026-11-02",
+        "use": "research-only; raw page archive, license and recipe not verified"
+      }
+    ]
+  },
+  {
+    "number": 50,
+    "name": "葱油饼",
+    "archives": [
+      {
+        "url": "https://www.dachu.co/zh/recipe/170895",
+        "path": "docs/content/first-50/sources/50-web-e7e0bb99e195.html",
+        "sha256": "e7e0bb99e1957cdd3d236bdd9a6c535863dcc1836372676c524773b36b913a30",
+        "retrievedOn": "2026-11-02",
+        "use": "research-only; raw page archive, license and recipe not verified"
+      },
+      {
+        "url": "https://m.xiachufang.com/recipe/104263143/",
+        "path": "docs/content/first-50/sources/50-web-167fcf148cae.html",
+        "sha256": "167fcf148caed0faef378326e079b2be268e0fb785320cd662b532ac137873b6",
+        "retrievedOn": "2026-11-02",
+        "use": "research-only; raw page archive, license and recipe not verified"
+      },
+      {
+        "url": "https://m.xiachufang.com/recipe/106068558/",
+        "error": "HTTPError"
+      }
+    ]
+  }
+]

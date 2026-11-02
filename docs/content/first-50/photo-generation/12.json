@@ -1,0 +1,18 @@
+{
+  "n": 12,
+  "recipeId": "classic-12-pork-and-green-pepper-stir-fry",
+  "prompt": "Generate ONE photorealistic professional Chinese food presentation image for Pork and Green Pepper Stir-Fry (青椒肉丝). Exact dish appearance: Fine pale browned pork strips stir-fried with thin green bell pepper strips, garlic and ginger. No beef or chicken.. Match this recipe's actual visible ingredients; do not invent extra main ingredients. Cohesive app photography series: warm natural side lighting, pale neutral stone tabletop, off-white ceramic tableware except the specified traditional steam pot or casserole, subtle linen at an edge, 45-degree overhead camera. Landscape approximately 4:3, centered dish, generous safe margins so the food is not cropped in a wide card. Realistic home-style portion and edible cooked textures, appetizing and believable. One dish only; no people, hands, writing, text, numbers, logos, labels, branding, watermark, collage, menus or title-card design. No visible raw meat.",
+  "source": "/Users/alanli/.codex/generated_images/01a1971b-3514-7f63-b387-02bfb52056f2/exec-1b0a99f0-e5f1-4ca4-afe5-c4756b6690ca.png",
+  "localSource": "assets/recipe-photos/dish-12.png",
+  "image": "ios/CNrecipe/Web/assets/classic-12-photo-v2.jpg",
+  "generator": "image_gen",
+  "kind": "AI-generated food presentation image; not an actual cooking photograph",
+  "sha256": "b0d66fbd43080347d3eac3ec82b720a3d3f1cc2b7119244c8ab82a34be9a6d5f",
+  "stagingJPEG": "assets/recipe-photos/dish-12.jpg",
+  "visualReview": {
+    "reviewer": "Codex visual review",
+    "result": "passed",
+    "scope": "Dish identity, visible main ingredients, food presentation and absence of text/watermarks",
+    "evidence": "artifacts/recipe-media-fix/photos-01-25.jpg"
+  }
+}

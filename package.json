@@ -1,0 +1,21 @@
+{
+  "name": "cnrecipe-ios",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build:assets": "node scripts/prepare-backend.mjs && node scripts/prepare-explore.mjs",
+    "test": "node --test tests/backend.test.mjs tests/api.test.mjs tests/content-import.test.mjs tests/recipe-media.test.mjs tests/explore.test.mjs",
+    "test:backend": "node --test tests/backend.test.mjs tests/api.test.mjs",
+    "test:explore": "node --test tests/explore.test.mjs",
+    "test:legacy": "playwright test",
+    "test:ios": "bash scripts/test-ios.sh",
+    "test:ios:release": "bash scripts/test-ios-release.sh",
+    "test:content": "node --test tests/content-import.test.mjs",
+    "test:media": "node --test tests/recipe-media.test.mjs"
+  },
+  "devDependencies": {
+    "@electric-sql/pglite": "0.5.13",
+    "@playwright/test": "1.64.1",
+    "supabase": "2.122.0"
+  }
+}

@@ -1,0 +1,402 @@
+[
+  {
+    "number": 1,
+    "recipeId": "tomato",
+    "url": "https://thewoksoflife.com/stir-fried-tomato-and-egg/",
+    "archive": "docs/content/first-50/sources/01-english-3c4d950c3111.html",
+    "sha256": "3c4d950c31112b04354968e7e8ae1ba6b12756d2f5d2ea572d6724499ca04235",
+    "use": "Ingredient and process facts only; no third-party photo or expressive prose published."
+  },
+  {
+    "number": 2,
+    "recipeId": "classic-02-hot-and-sour-shredded-potatoes",
+    "url": "https://mychinesehomekitchen.com/2021/04/15/hot-and-sour-shredded-potatoes/",
+    "archive": "docs/content/first-50/sources/02-english-b5ba59a2cf96.html",
+    "sha256": "b5ba59a2cf961736d00c0c4f4375e3bc54bb3401325eddaffaed39eabea08a7e",
+    "use": "Ingredient and process facts only; no third-party photo or expressive prose published."
+  },
+  {
+    "number": 3,
+    "recipeId": "classic-03-hand-torn-cabbage-stir-fry",
+    "url": "https://tryshio.com/recipes/hand-torn-cabbage-stir-fry",
+    "archive": "docs/content/first-50/sources/03-english-f7b05f99a302.html",
+    "sha256": "f7b05f99a302f0e07755ae60861161b8db6827c9f8898a2caa2e83337a295649",
+    "use": "Ingredient and process facts only; no third-party photo or expressive prose published."
+  },
+  {
+    "number": 4,
+    "recipeId": "classic-04-broccoli-with-garlic-sauce",
+    "url": "https://redhousespice.com/broccoli-with-garlic-sauce/",
+    "archive": "docs/content/first-50/sources/04-english-0974f3dc6ae5.html",
+    "sha256": "0974f3dc6ae522ab96d48d72143a6159218a4e2925356dbafc9189af8cb5e557",
+    "use": "Ingredient and process facts only; no third-party photo or expressive prose published."
+  },
+  {
+    "number": 5,
+    "recipeId": "classic-05-shiitake-mushrooms-and-bok-choy",
+    "url": "https://thewoksoflife.com/braised-chinese-mushrooms-bok-choy/",
+    "archive": "docs/content/first-50/sources/05-english-c1ef30031bc9.html",
+    "sha256": "c1ef30031bc9337896fb92cc54601b9690f230532595c4845abbbf22ea900917",
+    "use": "Ingredient and process facts only; no third-party photo or expressive prose published."
+  },
+  {
+    "number": 6,
+    "recipeId": "classic-06-di-san-xian",
+    "url": "https://charwok.com/di-san-xian/",
+    "archive": "docs/content/first-50/sources/06-english-f8d103bd5666.html",
+    "sha256": "f8d103bd5666c868584e8cf63d515e113956ccef998eba3868ee6fc751454132",
+    "use": "Ingredient and process facts only; no third-party photo or expressive prose published."
+  },
+  {
+    "number": 7,
+    "recipeId": "classic-07-tiger-skin-peppers",
+    "url": "https://omnivorescookbook.com/szechuan-pan-fried-peppers/",
+    "archive": "docs/content/first-50/sources/07-english-6c1734103753.html",
+    "sha256": "6c1734103753678cad4d85a9d0f8b22fdfc4c5da07c879c7effe3f401f71297e",
+    "use": "Ingredient and process facts only; no third-party photo or expressive prose published."
+  },
+  {
+    "number": 8,
+    "recipeId": "classic-08-braised-eggplant",
+    "url": "https://www.americastestkitchen.com/recipes/11902-braised-eggplant-with-soy-garlic-and-ginger",
+    "archive": "docs/content/first-50/sources/08-english-e28a3025bd88.html",
+    "sha256": "e28a3025bd8874b3c5680c0bc9dbe4a7b5a8a804da9c1bbf97973db155a18966",
+    "use": "Ingredient and process facts only; no third-party photo or expressive prose published."
+  },
+  {
+    "number": 9,
+    "recipeId": "classic-09-home-style-tofu",
+    "url": "https://omnivorescookbook.com/home-style-tofu/",
+    "archive": "docs/content/first-50/sources/09-english-df5ef6afbe9c.html",
+    "sha256": "df5ef6afbe9c362541f5083314ec9607d5b03e7816e38a29842fd4b266894f02",
+    "use": "Ingredient and process facts only; no third-party photo or expressive prose published."
+  },
+  {
+    "number": 10,
+    "recipeId": "classic-10-smashed-cucumber-salad",
+    "url": "https://thewoksoflife.com/smashed-asian-cucumber-salad/",
+    "archive": "docs/content/first-50/sources/10-english-8a25ee020510.html",
+    "sha256": "8a25ee020510488b1ae8f6ad8a59a8b4aefd76f6c720e89c16131abdd48ce2bb",
+    "use": "Ingredient and process facts only; no third-party photo or expressive prose published."
+  },
+  {
+    "number": 11,
+    "recipeId": "classic-11-wood-ear-mushroom-salad",
+    "url": "https://thewoksoflife.com/wood-ear-mushroom-salad/",
+    "archive": "docs/content/first-50/sources/11-english-628dffb147a2.html",
+    "sha256": "628dffb147a2f32e14ba4017dbbeab9e3ee9b20eb696838abef7eeb4765e94ec",
+    "use": "Ingredient and process facts only; no third-party photo or expressive prose published."
+  },
+  {
+    "number": 12,
+    "recipeId": "classic-12-pork-and-green-pepper-stir-fry",
+    "url": "https://tasteasianfood.com/pork-and-pepper-stir-fry/",
+    "archive": "docs/content/first-50/sources/12-english-8318fa18daa4.html",
+    "sha256": "8318fa18daa4778810b540ab41f2294f95d707cb0bbe262db637d8f7128ce063",
+    "use": "Ingredient and process facts only; no third-party photo or expressive prose published."
+  },
+  {
+    "number": 13,
+    "recipeId": "classic-13-steamed-egg-with-minced-pork",
+    "url": "https://omnivorescookbook.com/steamed-egg-with-minced-pork/",
+    "archive": "docs/content/first-50/sources/13-english-9f8fd0b8a75c.html",
+    "sha256": "9f8fd0b8a75ca55687cfffb6142769c5d663925cdb7c6b0187c7a1369ccb3176",
+    "use": "Ingredient and process facts only; no third-party photo or expressive prose published."
+  },
+  {
+    "number": 14,
+    "recipeId": "classic-14-red-braised-pork-belly",
+    "url": "https://www.bbc.co.uk/food/recipes/red_braised_pork_belly_52653",
+    "archive": "docs/content/first-50/sources/14-english-a8f5891a0fe6.html",
+    "sha256": "a8f5891a0fe64a7ce567d6af96b4f83a88e6e626d71de31a3f3c5f0c1804cff1",
+    "use": "Ingredient and process facts only; no third-party photo or expressive prose published."
+  },
+  {
+    "number": 15,
+    "recipeId": "classic-15-red-braised-chicken-wings",
+    "url": "https://ohsnapletseat.com/2026/01/06/red-braised-chicken-wings/",
+    "archive": "docs/content/first-50/sources/15-english-44941d5187d2.html",
+    "sha256": "44941d5187d26e527ea5301d1dc3de007accd58c2c264139ecde94de4edac9d4",
+    "use": "Ingredient and process facts only; no third-party photo or expressive prose published."
+  },
+  {
+    "number": 16,
+    "recipeId": "classic-16-chicken-and-shiitake-mushroom-stew",
+    "url": "https://thewoksoflife.com/chinese-braised-chicken-with-mushrooms/",
+    "archive": "docs/content/first-50/sources/16-english-e2fbde491fbc.html",
+    "sha256": "e2fbde491fbcdf7dd962501b42321d2cb1fef9d755ffca53059565b64d5d7a3e",
+    "use": "Ingredient and process facts only; no third-party photo or expressive prose published."
+  },
+  {
+    "number": 17,
+    "recipeId": "classic-17-tomato-and-beef-brisket-stew",
+    "url": "https://raw.githubusercontent.com/Anduin2017/HowToCook/308cc8b7dab1da84b20e7fafdf836a715437f582/dishes/meat_dish/%E8%A5%BF%E7%BA%A2%E6%9F%BF%E7%89%9B%E8%85%A9/%E8%A5%BF%E7%BA%A2%E6%9F%BF%E7%89%9B%E8%85%A9.md",
+    "archive": "docs/content/first-50/sources/17-24562260.md",
+    "sha256": "82f1ae878a443d109e8fd9291f0d0854d41f586080440351417fc665726f2c31",
+    "use": "Ingredient and process facts only; no third-party photo or expressive prose published."
+  },
+  {
+    "number": 18,
+    "recipeId": "classic-18-steamed-whole-sea-bass",
+    "url": "https://www.bbc.co.uk/food/recipes/steamed_whole_sea_bass_85778",
+    "archive": "docs/content/first-50/sources/18-english-a122151e3fbe.html",
+    "sha256": "a122151e3fbedd95e0da768741bd8465b95a06c0a5338128b3c74147b6d9c168",
+    "use": "Ingredient and process facts only; no third-party photo or expressive prose published."
+  },
+  {
+    "number": 19,
+    "recipeId": "classic-19-winter-melon-and-pork-rib-soup",
+    "url": "https://savorychina.com/winter-melon-pork-rib-soup/",
+    "archive": "docs/content/first-50/sources/19-english-a563670b55a9.html",
+    "sha256": "a563670b55a9ec5cdae4b8647399516406a3d760ee5272fa581ada64f8158ae6",
+    "use": "Ingredient and process facts only; no third-party photo or expressive prose published."
+  },
+  {
+    "number": 20,
+    "recipeId": "classic-20-seaweed-and-egg-drop-soup",
+    "url": "https://raw.githubusercontent.com/Anduin2017/HowToCook/308cc8b7dab1da84b20e7fafdf836a715437f582/dishes/soup/%E7%B4%AB%E8%8F%9C%E8%9B%8B%E8%8A%B1%E6%B1%A4.md",
+    "archive": "docs/content/first-50/sources/20-b435c11c.md",
+    "sha256": "8b83438660e9d15b9658644b4b9c8d16eecf1207cf33ac7e2fd526aa3f760020",
+    "use": "Ingredient and process facts only; no third-party photo or expressive prose published."
+  },
+  {
+    "number": 21,
+    "recipeId": "mapo",
+    "url": "https://thewoksoflife.com/ma-po-tofu-real-deal/",
+    "archive": "docs/content/first-50/sources/21-english-8b62d28693de.html",
+    "sha256": "8b62d28693de030ddc0c1e29750002e1632c064237fd95d64f79a4d15b657eff",
+    "use": "Ingredient and process facts only; no third-party photo or expressive prose published."
+  },
+  {
+    "number": 22,
+    "recipeId": "kung",
+    "url": "https://www.pbs.org/food/recipes/kung-pao-chicken",
+    "archive": "docs/content/first-50/sources/22-english-fbbffb5cf61e.html",
+    "sha256": "fbbffb5cf61e0c8efe367e12d96286f90a23045a907d78e85cb99d15dc964d67",
+    "use": "Ingredient and process facts only; no third-party photo or expressive prose published."
+  },
+  {
+    "number": 23,
+    "recipeId": "classic-23-yu-xiang-shredded-pork",
+    "url": "https://redhousespice.com/sichuan-shredded-pork-garlic-sauce/",
+    "archive": "docs/content/first-50/sources/23-english-e32e2f1cd5ca.html",
+    "sha256": "e32e2f1cd5ca53f373ce4ac16ae41aefa0b43c60865a6278d25e66dea0e41827",
+    "use": "Ingredient and process facts only; no third-party photo or expressive prose published."
+  },
+  {
+    "number": 24,
+    "recipeId": "classic-24-twice-cooked-pork",
+    "url": "https://www.americastestkitchen.com/recipes/15844-hui-guo-rou-sichuan-twice-cooked-pork-belly",
+    "archive": "docs/content/first-50/sources/24-english-27640f79698d.html",
+    "sha256": "27640f79698d3016c902c759a8011939291f92d20fe19e895f2e4d31fbb7ac3c",
+    "use": "Ingredient and process facts only; no third-party photo or expressive prose published."
+  },
+  {
+    "number": 25,
+    "recipeId": "classic-25-sichuan-fish-with-pickled-mustard-greens",
+    "url": "https://omnivorescookbook.com/suan-cai-yu/",
+    "archive": "docs/content/first-50/sources/25-english-5eb10bfeaa5f.html",
+    "sha256": "5eb10bfeaa5fe9711dbdd51c3a2f0ae198c9686afb7faafe83924f36c59d6823",
+    "use": "Ingredient and process facts only; no third-party photo or expressive prose published."
+  },
+  {
+    "number": 26,
+    "recipeId": "classic-26-sichuan-boiled-pork-slices",
+    "url": "https://www.chinarecipes.com/sichuan-boiled-pork-shui-zhu-rou-pian-recipe-34060/",
+    "archive": "docs/content/first-50/sources/26-english-4a61c9e3a932.html",
+    "sha256": "4a61c9e3a93222a302e0c46baab069e210a70f9bf549070a69abed9e8f957b58",
+    "use": "Ingredient and process facts only; no third-party photo or expressive prose published."
+  },
+  {
+    "number": 27,
+    "recipeId": "classic-27-steamed-fish-head-with-chopped-chilies",
+    "url": "https://invaderkitchen.com/recipes/duo-jiao-fish-head",
+    "archive": "docs/content/first-50/sources/27-english-6073b03ef440.html",
+    "sha256": "6073b03ef4402c3b9c88b532df0ab337c723b1f02091f33f40ee8efef752e486",
+    "use": "Ingredient and process facts only; no third-party photo or expressive prose published."
+  },
+  {
+    "number": 28,
+    "recipeId": "classic-28-hunan-pork-and-pepper-stir-fry",
+    "url": "https://redhousespice.com/hunan-pork/",
+    "archive": "docs/content/first-50/sources/28-english-62c50f49bce2.html",
+    "sha256": "62c50f49bce28f18fa2530c3af59cdc0374b9dcabf90933426e4fa1937b50b17",
+    "use": "Ingredient and process facts only; no third-party photo or expressive prose published."
+  },
+  {
+    "number": 29,
+    "recipeId": "classic-29-cantonese-poached-chicken",
+    "url": "https://thewoksoflife.com/cantonese-poached-chicken-w-ginger-scallion-oil-bai-qie-ji/",
+    "archive": "docs/content/first-50/sources/29-english-9f76410edb84.html",
+    "sha256": "9f76410edb84354381a14cd6da9961abfed41e89d7a353b1266084af9244c9b3",
+    "use": "Ingredient and process facts only; no third-party photo or expressive prose published."
+  },
+  {
+    "number": 30,
+    "recipeId": "classic-30-hakka-stuffed-tofu",
+    "url": "https://uk.lkk.com/recipes/hakka-stuffed-tofu",
+    "archive": "docs/content/first-50/sources/30-english-75a69840b99a.html",
+    "sha256": "75a69840b99aa710ee39c5dc357e5bbd4204712007154a5b76c3a937864ca43c",
+    "use": "Ingredient and process facts only; no third-party photo or expressive prose published."
+  },
+  {
+    "number": 31,
+    "recipeId": "classic-31-hakka-salt-baked-chicken",
+    "url": "https://www.gourmettraveller.com.au/recipe/mains/hakka-salt-baked-chicken-14247/",
+    "archive": "docs/content/first-50/sources/31-english-0fb4b2849da2.html",
+    "sha256": "0fb4b2849da2ec922691825dc6dda65014480f05028ed3389c5d64beb066c026",
+    "use": "Ingredient and process facts only; no third-party photo or expressive prose published."
+  },
+  {
+    "number": 32,
+    "recipeId": "classic-32-fujian-oyster-omelette",
+    "url": "https://zh.dachu.co/zh-hans/recipe/252925",
+    "archive": "docs/content/first-50/sources/32-english-663967d441fd.html",
+    "sha256": "663967d441fddd87f08f72868bcaf891c332360cb827f1cc98d8a5227d10cb3c",
+    "use": "Ingredient and process facts only; no third-party photo or expressive prose published."
+  },
+  {
+    "number": 33,
+    "recipeId": "classic-33-huaiyang-shredded-tofu-soup",
+    "url": "http://chuzhuge.com/pcpinfo/11377",
+    "archive": "docs/content/first-50/sources/targeted-discovery.json",
+    "sha256": "9e17f09e4f532ed3a793a02d236665f8c8d55aaa3c238a2e50c46ef5444f7e19",
+    "use": "Ingredient and process facts only; no third-party photo or expressive prose published."
+  },
+  {
+    "number": 34,
+    "recipeId": "classic-34-lion-s-head-pork-meatballs",
+    "url": "https://thewoksoflife.com/lions-head-meatballs/",
+    "archive": "docs/content/first-50/sources/braised-lions-head-discovery.json",
+    "sha256": "a57abebfb7f1b8deee3fc8e7f99a87fde6dc7228d90ab8b30c37bdb808bbcbbb",
+    "use": "Ingredient and process facts only; no third-party photo or expressive prose published."
+  },
+  {
+    "number": 35,
+    "recipeId": "classic-35-west-lake-vinegar-fish",
+    "url": "https://world.food/recipes/china/xi-hu-cu-yu",
+    "archive": "docs/content/first-50/sources/35-english-d9ad92fac01e.html",
+    "sha256": "d9ad92fac01e85867835762df46ecdd71418920c9c0743530a9e8c4bb8994f17",
+    "use": "Ingredient and process facts only; no third-party photo or expressive prose published."
+  },
+  {
+    "number": 36,
+    "recipeId": "classic-36-shanghai-sweet-and-sour-pork-ribs",
+    "url": "https://curiositytotheoven.ca/shanghai-style-sweet-and-sour-pork-ribs",
+    "archive": "docs/content/first-50/sources/36-english-ea99265ca984.html",
+    "sha256": "ea99265ca98428614623e40c8aeac28966a99eda424fae82c722c3bab89c56f5",
+    "use": "Ingredient and process facts only; no third-party photo or expressive prose published."
+  },
+  {
+    "number": 37,
+    "recipeId": "classic-37-sweet-and-sour-pork-tenderloin",
+    "url": "https://raw.githubusercontent.com/Anduin2017/HowToCook/308cc8b7dab1da84b20e7fafdf836a715437f582/dishes/meat_dish/%E7%B3%96%E9%86%8B%E9%87%8C%E8%84%8A.md",
+    "archive": "docs/content/first-50/sources/37-788feaed.md",
+    "sha256": "bd9f201630fd9394f6620cabadd621b73be163125c03e8c1bb3dced901f873b5",
+    "use": "Ingredient and process facts only; no third-party photo or expressive prose published."
+  },
+  {
+    "number": 38,
+    "recipeId": "classic-38-anhui-fermented-mandarin-fish",
+    "url": "https://m.xiachufang.com/recipe/100404095/",
+    "archive": "docs/content/first-50/sources/prepared-fish-discovery.json",
+    "sha256": "494ee75435bac303597fe216b7981c9df9b1bac8108461f9cad9fea217e8e5f2",
+    "use": "Ingredient and process facts only; no third-party photo or expressive prose published."
+  },
+  {
+    "number": 39,
+    "recipeId": "classic-39-lotus-root-and-pork-rib-soup",
+    "url": "https://weeklydelight.com/recipes/lotus-root-rib-soup/",
+    "archive": "docs/content/first-50/sources/39-english-1230c159314f.html",
+    "sha256": "1230c159314f628342edeab394295fb585e8bde58c13c0ab7cd0ebcc9839107f",
+    "use": "Ingredient and process facts only; no third-party photo or expressive prose published."
+  },
+  {
+    "number": 40,
+    "recipeId": "classic-40-guo-bao-rou",
+    "url": "https://www.sbs.com.au/food/the-cook-up-with-adam-liaw/recipe/guo-bao-rou-dongbei-style-sweet-and-sour-pork/w4xtw7nx9",
+    "archive": "docs/content/first-50/sources/40-english-2f43c69c8677.html",
+    "sha256": "2f43c69c8677bebb69f41b14282d1202e17fbbf7649f825317029ef1108843c7",
+    "use": "Ingredient and process facts only; no third-party photo or expressive prose published."
+  },
+  {
+    "number": 41,
+    "recipeId": "classic-41-yunnan-steam-pot-chicken",
+    "url": "https://goldendennis.com/en/recipe-yunnan-steam-pot-chicken.html",
+    "archive": "docs/content/first-50/sources/41-english-c210f26ed740.html",
+    "sha256": "c210f26ed740bdf31eba315775612dce92240f58b8a4a2c0a6dc4ac592ef8d4b",
+    "use": "Ingredient and process facts only; no third-party photo or expressive prose published."
+  },
+  {
+    "number": 42,
+    "recipeId": "classic-42-xinjiang-big-plate-chicken",
+    "url": "https://blog.themalamarket.com/xinjiang-big-plate-chicken-da-pan-ji-sarah-ting-ting-hou/",
+    "archive": "docs/content/first-50/sources/42-english-2760cb846a3e.html",
+    "sha256": "2760cb846a3e170d0c018075ec5c5a1365e4cc0565d5834212e10a11351055d7",
+    "use": "Ingredient and process facts only; no third-party photo or expressive prose published."
+  },
+  {
+    "number": 43,
+    "recipeId": "classic-43-three-cup-chicken",
+    "url": "https://www.americastestkitchen.com/recipes/10614-three-cup-chicken",
+    "archive": "docs/content/first-50/sources/43-english-4de1da78e1cc.html",
+    "sha256": "4de1da78e1ccc5597d66ae3c985bb047006b23f794b26f33cd0ace121c2b42f6",
+    "use": "Ingredient and process facts only; no third-party photo or expressive prose published."
+  },
+  {
+    "number": 44,
+    "recipeId": "classic-44-guangxi-lemon-duck",
+    "url": "https://www.renrendoc.com/paper/407379443.html",
+    "archive": "docs/content/first-50/sources/targeted-discovery.json",
+    "sha256": "9e17f09e4f532ed3a793a02d236665f8c8d55aaa3c238a2e50c46ef5444f7e19",
+    "use": "Ingredient and process facts only; no third-party photo or expressive prose published."
+  },
+  {
+    "number": 45,
+    "recipeId": "classic-45-pork-and-napa-cabbage-dumplings",
+    "url": "https://silkandsteamrecipes.com/recipes/pork-and-cabbage-dumplings",
+    "archive": "docs/content/first-50/sources/45-english-ff660af8eb10.html",
+    "sha256": "ff660af8eb1010ca0f623b3f2de365045fa6772b711f4e693fd7f1d4dcf0d738",
+    "use": "Ingredient and process facts only; no third-party photo or expressive prose published."
+  },
+  {
+    "number": 46,
+    "recipeId": "classic-46-yangzhou-fried-rice",
+    "url": "https://www.epicurious.com/recipes/food/views/yangzhou-fried-rice-243064",
+    "archive": "docs/content/first-50/sources/46-english-06b81b398ceb.html",
+    "sha256": "06b81b398cebded86411e23850ae815cf194655725e8b24094d68d039ad096c2",
+    "use": "Ingredient and process facts only; no third-party photo or expressive prose published."
+  },
+  {
+    "number": 47,
+    "recipeId": "noodles",
+    "url": "https://thewoksoflife.com/soy-scallion-noodles-cong-ban-mian/",
+    "archive": "docs/content/first-50/sources/47-english-e0147d758f0e.html",
+    "sha256": "e0147d758f0efb540b3e6448ebb29d3997a8b041add7f196f04944b426049f91",
+    "use": "Ingredient and process facts only; no third-party photo or expressive prose published."
+  },
+  {
+    "number": 48,
+    "recipeId": "classic-48-tomato-and-egg-noodle-soup",
+    "url": "https://redhousespice.com/tomato-egg-noodle-soup/",
+    "archive": "docs/content/first-50/sources/48-english-8531d84b5412.html",
+    "sha256": "8531d84b541228d01773986db2f211bd4cdff366e99e1c0e32500bf58ea34491",
+    "use": "Ingredient and process facts only; no third-party photo or expressive prose published."
+  },
+  {
+    "number": 49,
+    "recipeId": "classic-49-century-egg-and-pork-congee",
+    "url": "https://twoplaidaprons.com/century-egg-and-pork-congee/",
+    "archive": "docs/content/first-50/sources/49-english-c63e6c67d8b9.html",
+    "sha256": "c63e6c67d8b99ec292a7faf5cd85496be0b59e400c30555493ffb959304726fe",
+    "use": "Ingredient and process facts only; no third-party photo or expressive prose published."
+  },
+  {
+    "number": 50,
+    "recipeId": "classic-50-scallion-pancakes",
+    "url": "https://omnivorescookbook.com/chinese-scallion-pancakes/",
+    "archive": "docs/content/first-50/sources/50-english-fd5cadc58fb6.html",
+    "sha256": "fd5cadc58fb6e2818f8ab2764e44c2a7d33d683cfba6cd1ade1d4198ad777b29",
+    "use": "Ingredient and process facts only; no third-party photo or expressive prose published."
+  }
+]

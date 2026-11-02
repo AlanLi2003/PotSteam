@@ -1,0 +1,18 @@
+{
+  "n": 11,
+  "recipeId": "classic-11-wood-ear-mushroom-salad",
+  "prompt": "Generate ONE photorealistic professional Chinese food presentation image for Wood Ear Mushroom Salad (凉拌木耳). Exact dish appearance: Glossy black ruffled wood ear mushrooms, small red chili rings, finely chopped garlic and scallions in a light soy-vinegar dressing. No button mushrooms.. Match this recipe's actual visible ingredients; do not invent extra main ingredients. Cohesive app photography series: warm natural side lighting, pale neutral stone tabletop, off-white ceramic tableware except the specified traditional steam pot or casserole, subtle linen at an edge, 45-degree overhead camera. Landscape approximately 4:3, centered dish, generous safe margins so the food is not cropped in a wide card. Realistic home-style portion and edible cooked textures, appetizing and believable. One dish only; no people, hands, writing, text, numbers, logos, labels, branding, watermark, collage, menus or title-card design. No visible raw meat.",
+  "source": "/Users/alanli/.codex/generated_images/01a1971b-3514-7f63-b387-02bfb52056f2/exec-a4eef335-ea33-416e-9264-4cd9ce1d4779.png",
+  "localSource": "assets/recipe-photos/dish-11.png",
+  "image": "ios/CNrecipe/Web/assets/classic-11-photo-v2.jpg",
+  "generator": "image_gen",
+  "kind": "AI-generated food presentation image; not an actual cooking photograph",
+  "sha256": "18d5ffe5a67f46f451ae8c078eff4ca0be19550926bcad71af476ffd357eb109",
+  "stagingJPEG": "assets/recipe-photos/dish-11.jpg",
+  "visualReview": {
+    "reviewer": "Codex visual review",
+    "result": "passed",
+    "scope": "Dish identity, visible main ingredients, food presentation and absence of text/watermarks",
+    "evidence": "artifacts/recipe-media-fix/photos-01-25.jpg"
+  }
+}

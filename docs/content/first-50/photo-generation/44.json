@@ -1,0 +1,18 @@
+{
+  "n": 44,
+  "recipeId": "classic-44-guangxi-lemon-duck",
+  "prompt": "Generate ONE photorealistic professional Chinese food presentation image for Guangxi Lemon Duck (柠檬鸭). Exact dish appearance: Guangxi lemon duck: bone-in duck pieces braised in a glossy savory brown sauce with visible preserved salted lemon rind pieces, pickled chilies, ginger, garlic and a little perilla. No fresh lemon slices piled everywhere and no whole roast duck.. Match this recipe's actual visible ingredients; do not invent extra main ingredients. Cohesive app photography series: warm natural side lighting, pale neutral stone tabletop, off-white ceramic tableware except the specified traditional steam pot or casserole, subtle linen at an edge, 45-degree overhead camera. Landscape approximately 4:3, centered dish, generous safe margins so the food is not cropped in a wide card. Realistic home-style portion and edible cooked textures, appetizing and believable. One dish only; no people, hands, writing, text, numbers, logos, labels, branding, watermark, collage, menus or title-card design. No visible raw meat.",
+  "source": "/Users/alanli/.codex/generated_images/01a1971b-3514-7f63-b387-02bfb52056f2/exec-5dd9f95b-3953-4f1d-8e8e-9a070ecc8126.png",
+  "localSource": "assets/recipe-photos/dish-44.png",
+  "image": "ios/CNrecipe/Web/assets/classic-44-photo-v2.jpg",
+  "generator": "image_gen",
+  "kind": "AI-generated food presentation image; not an actual cooking photograph",
+  "sha256": "3499e6841fe273af247ce9933449a5453374d754cdce6268955da1726b31ad19",
+  "stagingJPEG": "assets/recipe-photos/dish-44.jpg",
+  "visualReview": {
+    "reviewer": "Codex visual review",
+    "result": "passed",
+    "scope": "Dish identity, visible main ingredients, food presentation and absence of text/watermarks",
+    "evidence": "artifacts/recipe-media-fix/photos-26-50.jpg"
+  }
+}

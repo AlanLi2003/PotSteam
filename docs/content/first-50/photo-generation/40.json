@@ -1,0 +1,18 @@
+{
+  "n": 40,
+  "recipeId": "classic-40-guo-bao-rou",
+  "prompt": "Generate ONE photorealistic professional Chinese food presentation image for Guo Bao Rou (锅包肉). Exact dish appearance: Dongbei guo bao rou: thin, flat, irregular pork slices in a very light crisp golden starch crust, lightly glazed with translucent sweet-sour sauce, fine ginger and scallion threads. No thick nuggets and no bright red ketchup.. Match this recipe's actual visible ingredients; do not invent extra main ingredients. Cohesive app photography series: warm natural side lighting, pale neutral stone tabletop, off-white ceramic tableware except the specified traditional steam pot or casserole, subtle linen at an edge, 45-degree overhead camera. Landscape approximately 4:3, centered dish, generous safe margins so the food is not cropped in a wide card. Realistic home-style portion and edible cooked textures, appetizing and believable. One dish only; no people, hands, writing, text, numbers, logos, labels, branding, watermark, collage, menus or title-card design. No visible raw meat.",
+  "source": "/Users/alanli/.codex/generated_images/01a1971b-3514-7f63-b387-02bfb52056f2/exec-03888ea8-d8e5-48a2-91f3-f1f7e8d794dd.png",
+  "localSource": "assets/recipe-photos/dish-40.png",
+  "image": "ios/CNrecipe/Web/assets/classic-40-photo-v2.jpg",
+  "generator": "image_gen",
+  "kind": "AI-generated food presentation image; not an actual cooking photograph",
+  "sha256": "b796a69f9c81d44e9f8e395a9ee6233b932f1c86491ea18fcb39e0f460aff551",
+  "stagingJPEG": "assets/recipe-photos/dish-40.jpg",
+  "visualReview": {
+    "reviewer": "Codex visual review",
+    "result": "passed",
+    "scope": "Dish identity, visible main ingredients, food presentation and absence of text/watermarks",
+    "evidence": "artifacts/recipe-media-fix/photos-26-50.jpg"
+  }
+}
