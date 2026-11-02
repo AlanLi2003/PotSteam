@@ -29,3 +29,7 @@ The app does not currently require sign-in. Recipe searches use the online API; 
 ## License
 
 No license has been granted yet. Contact the owner before reuse or redistribution, including recipe images and other content.
+
+## Page previews
+
+[Browse the historical page preview gallery](docs/page-previews/README.md). The images predate the PotSteam rebrand and the current native implementation.
